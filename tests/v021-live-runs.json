@@ -1,0 +1,86 @@
+[
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "hp": 2.5,
+    "seconds": 486.3999999998863,
+    "kills": 277,
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "volleys": 114
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "hp": 3,
+    "seconds": 590.4166666664584,
+    "kills": 277,
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "volleys": 135
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 386.649999999977,
+    "kills": 277,
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "volleys": 66
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "hp": 4.5,
+    "seconds": 252.78333333342664,
+    "kills": 235,
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "volleys": 24
+  }
+]

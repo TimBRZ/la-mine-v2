@@ -1,0 +1,110 @@
+[
+  {
+    "zoneId": "galleries",
+    "half": false,
+    "before": false,
+    "dualSeconds": 51.97,
+    "tripleSeconds": 20.48,
+    "activeDualSeconds": 24.28,
+    "longestCalm": 0,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 0,
+    "begins": {
+      "haveuse": 20,
+      "crachefer": 25,
+      "effondreur": 17
+    }
+  },
+  {
+    "zoneId": "galleries",
+    "half": true,
+    "before": false,
+    "dualSeconds": 55.58,
+    "tripleSeconds": 28.22,
+    "activeDualSeconds": 27.48,
+    "longestCalm": 0,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 0,
+    "begins": {
+      "haveuse": 26,
+      "crachefer": 25,
+      "effondreur": 19
+    }
+  },
+  {
+    "zoneId": "tracks",
+    "half": false,
+    "before": false,
+    "dualSeconds": 37,
+    "tripleSeconds": 6.4,
+    "activeDualSeconds": 8.75,
+    "longestCalm": 0.72,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 1,
+    "begins": {
+      "stationmaster": 15,
+      "locomotive": 13,
+      "switchman": 14
+    }
+  },
+  {
+    "zoneId": "tracks",
+    "half": true,
+    "before": false,
+    "dualSeconds": 47.33,
+    "tripleSeconds": 7.93,
+    "activeDualSeconds": 10.85,
+    "longestCalm": 0.2,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 1,
+    "begins": {
+      "stationmaster": 19,
+      "locomotive": 16,
+      "switchman": 16
+    }
+  },
+  {
+    "zoneId": "shaft59",
+    "half": false,
+    "before": false,
+    "dualSeconds": 33.55,
+    "tripleSeconds": 1.63,
+    "activeDualSeconds": 7.88,
+    "longestCalm": 0.63,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 2,
+    "maxWagons": 0,
+    "begins": {
+      "cager": 12,
+      "compressor": 12,
+      "firedamp": 12
+    }
+  },
+  {
+    "zoneId": "shaft59",
+    "half": true,
+    "before": false,
+    "dualSeconds": 43.37,
+    "tripleSeconds": 11.43,
+    "activeDualSeconds": 12.15,
+    "longestCalm": 0.8,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 2,
+    "maxWagons": 0,
+    "begins": {
+      "cager": 15,
+      "compressor": 16,
+      "firedamp": 15
+    }
+  }
+]

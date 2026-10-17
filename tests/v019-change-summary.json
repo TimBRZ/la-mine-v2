@@ -1,0 +1,25 @@
+{
+  "version": "0.19.0",
+  "baselineTests": 373,
+  "currentTests": 385,
+  "steps": [
+    "terrain",
+    "telegraphs",
+    "enemies",
+    "bosses",
+    "feedback",
+    "ui"
+  ],
+  "protected": "All existing nonvisual src files byte-identical to V0.18, except the visible menu version string.",
+  "renderBudget": {
+    "effectPool": 48,
+    "maxSparksPerBurst": 8,
+    "arenaTextures": 2,
+    "arenaSize": [
+      450,
+      800
+    ],
+    "maxSpriteSide": 88
+  },
+  "noCommits": true
+}

@@ -1,0 +1,60 @@
+/* DA sprint, V0.9 gameplay. Local artwork owns the silhouettes and materials. */
+.kit-icon { width:100%; height:100%; display:block; object-fit:contain; }
+.main-menu { background:#192b3a; }
+.menu-brand { background:linear-gradient(#304455,#1c2c3a); padding-bottom:2cqw; }
+.menu-wallet { position:relative; z-index:2; padding-top:1cqw; }
+.home-view { position:relative; background:radial-gradient(ellipse at 50% 28%,#54636c,#263f50 48%,#192b3a 78%); gap:1.3cqw; padding-top:1cqw; }
+.home-view h2 { font-size:5.2cqw; letter-spacing:.015em; }
+.home-view .menu-eyebrow { font-size:2cqw; color:#afc1c9; }
+.hero-stage { min-height:45cqw; margin:0 -4cqw; background:url('../assets/kit-da/carreau-depth.svg') center bottom/100% 100% no-repeat; }
+.hero-stage::before { display:none; }
+.hero-stage::after { inset:auto 13% -1%; width:74%; height:24%; border:0; box-shadow:none; border-radius:0; transform:none; background:url('../assets/kit-da/podium.svg') center/100% 100% no-repeat; z-index:0; }
+.hero-miner { inset:-3% 0 6%; z-index:1; }
+.hero-presentation { width:100%; height:100%; position:relative; }
+.kit-miner { display:block; position:absolute; left:25%; bottom:0; width:50%; height:100%; object-fit:contain; object-position:bottom; }
+.stage-location { position:absolute; left:5%; top:14%; color:#d4b57a; font-size:2.1cqw; line-height:1.6; letter-spacing:.09em; transform:rotate(-3deg); }
+.stage-location b { color:#a4b9c3; font-size:1.9cqw; }
+.hero-loadout { position:absolute; right:4%; bottom:15%; width:24%; padding:3cqw 1cqw 2cqw; background:url('../assets/kit-da/nav-idle.svg') center/100% 100% no-repeat; transform:rotate(-3deg); isolation:isolate; }
+.hero-loadout::before { content:''; position:absolute; z-index:-1; top:-12%; bottom:-48%; left:12%; right:12%; border-left:5px solid #718087; border-right:5px solid #3b5361; border-top:4px solid #a0a49a; box-shadow:inset 2px 0 #233844; }
+.hero-loadout::after { content:''; position:absolute; z-index:-2; height:2cqw; width:110%; left:-5%; bottom:-48%; background:#122630; border-top:2px solid #65777b; transform:skewX(-18deg); }
+.rack-weapon { display:block; width:100%; height:9cqw; object-fit:contain; transform:rotate(-22deg); }
+.hero-loadout span { display:block; text-align:center; font-size:1.8cqw; letter-spacing:.13em; color:#ffd879; }
+.hero-tag { z-index:2; bottom:0; right:4%; font-size:1.9cqw; background:#152b39; border:0; border-left:2px solid #e8ba59; transform:none; }
+.home-ravens { min-height:7cqw; border:0; font-size:2.7cqw; }
+.ravens-badge { width:7cqw; height:7cqw; }
+.weapon-caption { padding:0 1cqw; }
+.home-weapon-buttons { gap:2cqw; }
+.home-weapon-buttons button,.home-weapon-buttons button[aria-pressed="true"] { min-height:21cqw; border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/nav-idle.svg') center/100% 100% no-repeat; padding:0 2cqw 2cqw; }
+.home-weapon-buttons button[aria-pressed="true"] { background-image:url('../assets/kit-da/nav-active.svg'); color:#342c24; }
+.home-weapon-buttons button::before { content:''; display:block; position:absolute; inset:12% 8% 39%; border-radius:2px; transform:skewX(-7deg); background:repeating-linear-gradient(0deg,#102c3922 0 2px,transparent 2px 8px); border-top:1px solid #f1e5b544; border-bottom:2px solid #182b3b55; }
+.kit-weapon { position:relative; width:32cqw; height:12cqw; object-fit:contain; transform:rotate(-5deg); margin-top:-1cqw; }
+.home-weapon-buttons span { font-size:2.7cqw; }
+.equipment-status { font-size:2cqw; margin-top:.3cqw; }
+[aria-pressed="true"] .equipment-status { color:#51412a; font-weight:800; }
+.equipped-marker { right:1cqw; top:-1cqw; width:4.8cqw; height:4.8cqw; font-size:3cqw; border-width:1px; }
+.main-menu .menu-primary { border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/cta-sign.svg') center/100% 100% no-repeat; min-height:max(44px,14cqw); font-size:3.7cqw; }
+.main-menu .menu-primary::before,.main-menu .menu-primary::after { display:none; }
+.home-play { margin-top:0; }
+.menu-footer { border-radius:0; border-top:1px solid #5a7180; box-shadow:0 -4px #11232d; background:#142633; padding-top:1.7cqw; }
+.future-nav button:disabled { border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/locked-sign.svg') center/100% 100% no-repeat; padding:1.6cqw; }
+.main-nav button,.main-nav button[aria-current] { border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/nav-idle.svg') center/100% 100% no-repeat; }
+.main-nav button[aria-current] { background-image:url('../assets/kit-da/nav-active.svg'); color:#382d23; }
+.main-nav button[aria-current]::after { display:none; }
+.main-nav button[aria-current] .nav-medallion { transform:translateY(-.4cqw); }
+.polished-resources .resource { border-color:#4e6777; box-shadow:0 2px #0c1e2c; border-radius:4px 12px 4px 12px; background:#172a38; }
+.polished-resources .resource i { width:9cqw; height:9cqw; margin:-2cqw 0 -1cqw -1cqw; }
+.zones-view { background:linear-gradient(#263f50,#102333); }
+.zone-art { object-fit:contain; }
+.zone-panel,.available .zone-panel,.locked .zone-panel { border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/nav-idle.svg') center/100% 100% no-repeat; padding:3cqw 4cqw 4cqw; }
+.available .zone-panel { background-image:url('../assets/kit-da/upgrade-panel.svg'); }
+.zone-panel::before,.zone-panel::after { display:none; }
+.workshop { background:linear-gradient(150deg,#344b5a,#132734); }
+.workshop article { border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/upgrade-panel.svg') center/100% 100% no-repeat; padding:4cqw 3cqw; }
+.station-emblem { border:0; border-radius:0; box-shadow:none; background:none; }
+.workshop button { border:0; border-radius:0; box-shadow:none; background:url('../assets/kit-da/cta-sign.svg') center/100% 100% no-repeat; }
+.workshop button:disabled,.workshop .workshop-close { border:0; box-shadow:none; background:url('../assets/kit-da/nav-idle.svg') center/100% 100% no-repeat; }
+
+/* Three compact equipment cards retain the existing mobile height. */
+.home-weapon-buttons { grid-template-columns:repeat(3,minmax(0,1fr)); gap:1cqw; }
+.home-weapon-buttons .kit-weapon { width:24cqw; }
+.home-weapon-buttons span { font-size:max(8px,2.3cqw); }

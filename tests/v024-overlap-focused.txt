@@ -1,0 +1,43 @@
+✔ triple galleries regularly overlaps two threats, sometimes three, with two major owners maximum (215.938ms)
+✔ triple tracks regularly overlaps two threats, sometimes three, with two major owners maximum (229.1586ms)
+✖ triple shaft59 regularly overlaps two threats, sometimes three, with two major owners maximum (160.4875ms)
+✔ major reservation and lingering circle count even after the owner dies (0.6073ms)
+✔ full major budget delays a third charge without consuming the attack or shortening its warning (0.8631ms)
+✔ a circle can overlap one ground owner; a third major owner waits (0.7527ms)
+✔ second half is based on initial global health including bosses already killed (0.3659ms)
+✔ a projectile budget conflict extends the visible warning instead of dropping a final attack (0.5995ms)
+✔ solo bosses and normal waves remain identical in galleries (62.0938ms)
+✔ solo bosses and normal waves remain identical in tracks (49.285ms)
+✔ solo bosses and normal waves remain identical in shaft59 (48.2456ms)
+✔ triple patch leaves every unrelated source file byte-identical (93.9491ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 11
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1114.1627
+
+✖ failing tests:
+
+test at tests\triple-overlap.test.js:5:52
+✖ triple shaft59 regularly overlaps two threats, sometimes three, with two major owners maximum (160.4875ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(r.longestCalm<1)
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/triple-overlap.test.js:8:38)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

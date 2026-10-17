@@ -1,0 +1,362 @@
+{
+  "shotgun": {
+    "mode": "V0.11 shotgun",
+    "shots": 87,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 15,
+    "frames": 1268,
+    "workMs": 1096.4000036716461,
+    "magnetDurations": [
+      0.617,
+      0.65,
+      0.6,
+      0.633,
+      0.417
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared"
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 5,
+    "arenaUnchanged": true,
+    "elapsed": 84.45,
+    "hp": 3,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.865
+  },
+  "bossIntro": {
+    "mode": "V0.11 shotgun",
+    "shots": 78,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 45,
+    "maxDrops": 15,
+    "frames": 1099,
+    "workMs": 946.5000002384186,
+    "magnetDurations": [
+      0.617,
+      0.65,
+      0.6,
+      0.633
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing"
+    ],
+    "status": "playing",
+    "phase": "preparing",
+    "wave": 5,
+    "arenaUnchanged": true,
+    "elapsed": 73.22,
+    "hp": 3,
+    "kills": 44,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 64,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.861
+  },
+  "smg": {
+    "mode": "V0.11 smg",
+    "shots": 594,
+    "movingShots": 0,
+    "enemyShots": 16,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 15,
+    "frames": 1955,
+    "workMs": 1653.3999917507172,
+    "magnetDurations": [
+      0.683,
+      0.667,
+      0.65,
+      0.7,
+      0.5
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared"
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 5,
+    "arenaUnchanged": true,
+    "elapsed": 130.32,
+    "hp": 3.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 188,
+      "iron": 16,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.846
+  },
+  "choice4": {
+    "mode": "V0.11 shotgun",
+    "shots": 78,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 45,
+    "maxDrops": 15,
+    "frames": 1098,
+    "workMs": 764.000002861023,
+    "magnetDurations": [
+      0.617,
+      0.65,
+      0.6,
+      0.633
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared"
+    ],
+    "status": "playing",
+    "phase": "cleared",
+    "wave": 4,
+    "arenaUnchanged": true,
+    "elapsed": 73.2,
+    "hp": 2.5,
+    "kills": 44,
+    "choices": 2,
+    "drops": 0,
+    "collected": {
+      "coal": 64,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 188,
+      "iron": 16,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.696
+  },
+  "defeat": {
+    "mode": "défaite",
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 1,
+    "workMs": 4.099999904632568,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "status": "lost",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 0.01,
+    "hp": 0,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 188,
+      "iron": 16,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 4.1
+  },
+  "console": [],
+  "choice2": {
+    "mode": "V0.11 shotgun",
+    "shots": 24,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "rat",
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 16,
+    "maxDrops": 9,
+    "frames": 409,
+    "workMs": 275.3000011444092,
+    "magnetDurations": [
+      0.617,
+      0.65
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared"
+    ],
+    "status": "playing",
+    "phase": "cleared",
+    "wave": 2,
+    "arenaUnchanged": true,
+    "elapsed": 27.27,
+    "hp": 5,
+    "kills": 16,
+    "choices": 1,
+    "drops": 0,
+    "collected": {
+      "coal": 24,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 188,
+      "iron": 16,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.673
+  },
+  "productionConsole": []
+}

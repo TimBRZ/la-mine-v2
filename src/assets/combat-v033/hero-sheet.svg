@@ -1,0 +1,980 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="512" viewBox="0 0 640 512"><title>La Mine V2 — mineur industriel — 20 poses V0.33</title><svg x="0" y="0" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_idle_01</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 0)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="128" y="0" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_idle_02</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -0.6)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="256" y="0" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_idle_03</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -1)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="384" y="0" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_idle_04</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -0.5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="512" y="0" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_run_01</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L67 98 L64 107 L48 107 L37 96Z" fill="#203139" />
+    <path d="M46 98 L63 98 L72 105 L73 112 L44 112Z" fill="#433C33" />
+    <path d="M45 108 L73 108 L73 113 L44 113Z" fill="#10191D" stroke-width="1"/>
+    <path d="M51 101 L60 101" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L62 97 L52 98Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L79 105 L76 114 L60 114 L67 96Z" fill="#30434A" />
+    <path d="M58 105 L75 105 L84 112 L85 119 L56 119Z" fill="#433C33" />
+    <path d="M57 115 L85 115 L85 120 L56 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M63 108 L72 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L74 104 L64 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -1)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(-12 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="0" y="128" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_run_02</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L61 95 L58 104 L42 104 L37 96Z" fill="#203139" />
+    <path d="M40 95 L57 95 L66 102 L67 109 L38 109Z" fill="#433C33" />
+    <path d="M39 105 L67 105 L67 110 L38 110Z" fill="#10191D" stroke-width="1"/>
+    <path d="M45 98 L54 98" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L56 94 L46 95Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L84 105 L81 114 L65 114 L67 96Z" fill="#30434A" />
+    <path d="M63 105 L80 105 L89 112 L90 119 L61 119Z" fill="#433C33" />
+    <path d="M62 115 L90 115 L90 120 L61 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M68 108 L77 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L79 104 L69 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -2)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(-6 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="128" y="128" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_run_03</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L50 105 L47 114 L31 114 L37 96Z" fill="#203139" />
+    <path d="M29 105 L46 105 L55 112 L56 119 L27 119Z" fill="#433C33" />
+    <path d="M28 115 L56 115 L56 120 L27 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M34 108 L43 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L45 104 L35 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L95 100 L92 109 L76 109 L67 96Z" fill="#30434A" />
+    <path d="M74 100 L91 100 L100 107 L101 114 L72 114Z" fill="#433C33" />
+    <path d="M73 110 L101 110 L101 115 L72 115Z" fill="#10191D" stroke-width="1"/>
+    <path d="M79 103 L88 103" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L90 99 L80 100Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -1)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(7 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="256" y="128" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_run_04</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L47 105 L44 114 L28 114 L37 96Z" fill="#203139" />
+    <path d="M26 105 L43 105 L52 112 L53 119 L24 119Z" fill="#433C33" />
+    <path d="M25 115 L53 115 L53 120 L24 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M31 108 L40 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L42 104 L32 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L97 98 L94 107 L78 107 L67 96Z" fill="#30434A" />
+    <path d="M76 98 L93 98 L102 105 L103 112 L74 112Z" fill="#433C33" />
+    <path d="M75 108 L103 108 L103 113 L74 113Z" fill="#10191D" stroke-width="1"/>
+    <path d="M81 101 L90 101" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L92 97 L82 98Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 0)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(12 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="384" y="128" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_run_05</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L54 105 L51 114 L35 114 L37 96Z" fill="#203139" />
+    <path d="M33 105 L50 105 L59 112 L60 119 L31 119Z" fill="#433C33" />
+    <path d="M32 115 L60 115 L60 120 L31 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M38 108 L47 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L49 104 L39 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L90 95 L87 104 L71 104 L67 96Z" fill="#30434A" />
+    <path d="M69 95 L86 95 L95 102 L96 109 L67 109Z" fill="#433C33" />
+    <path d="M68 105 L96 105 L96 110 L67 110Z" fill="#10191D" stroke-width="1"/>
+    <path d="M74 98 L83 98" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L85 94 L75 95Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -2)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(6 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="512" y="128" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_run_06</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L65 100 L62 109 L46 109 L37 96Z" fill="#203139" />
+    <path d="M44 100 L61 100 L70 107 L71 114 L42 114Z" fill="#433C33" />
+    <path d="M43 110 L71 110 L71 115 L42 115Z" fill="#10191D" stroke-width="1"/>
+    <path d="M49 103 L58 103" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L60 99 L50 100Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L80 105 L77 114 L61 114 L67 96Z" fill="#30434A" />
+    <path d="M59 105 L76 105 L85 112 L86 119 L57 119Z" fill="#433C33" />
+    <path d="M58 115 L86 115 L86 120 L57 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M64 108 L73 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L75 104 L65 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 -1)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(-7 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="0" y="256" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_shoot_01</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(-3 1)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(4 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="128" y="256" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_shoot_02</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(-1.4 0.5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(2 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="256" y="256" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_shoot_03</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 0)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="384" y="256" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_hit_01</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(-2 1)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(9 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(-7 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="512" y="256" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_hit_02</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(-0.5 0.5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(3 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(-7 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="0" y="384" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_death_01</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 3)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M61 36 L69 40 M69 36 L61 40 M76 37 L83 41 M83 37 L76 41" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="128" y="384" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_death_02</title><g transform="translate(7 -2) rotate(-12 64 78)"><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M61 36 L69 40 M69 36 L61 40 M76 37 L83 41 M83 37 L76 41" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="256" y="384" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_death_03</title><g transform="translate(7 -2) rotate(-30 64 78)"><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M61 36 L69 40 M69 36 L61 40 M76 37 L83 41 M83 37 L76 41" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#718783" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="384" y="384" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_death_04</title><g transform="translate(7 -2) rotate(-48 64 78)"><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M61 36 L69 40 M69 36 L61 40 M76 37 L83 41 M83 37 L76 41" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#718783" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg>
+<svg x="512" y="384" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_death_05</title><g transform="translate(7 -2) rotate(-58 64 78)"><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 5)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M61 36 L69 40 M69 36 L61 40 M76 37 L83 41 M83 37 L76 41" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#718783" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg></svg>

@@ -1,0 +1,3 @@
+{"weaponId":"shotgun","status":"won","wave":20,"seconds":706.2999999996863,"damage":0}
+{"weaponId":"smg","status":"lost","wave":17,"seconds":751.7833333329783,"damage":6.25}
+{"weaponId":"grisoux","status":"won","wave":20,"seconds":788.8166666662779,"damage":3.5}

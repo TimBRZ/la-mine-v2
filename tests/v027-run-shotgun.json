@@ -1,0 +1,56 @@
+{
+  "weaponId": "shotgun",
+  "zoneId": "rift",
+  "seed": 1,
+  "rank": 2,
+  "talents": [],
+  "status": "won",
+  "wave": 20,
+  "hp": 3.5,
+  "seconds": 974.85,
+  "kills": 278,
+  "perks": {
+    "plates": 2,
+    "trigger": 1,
+    "boots": 1,
+    "double": 1,
+    "double-cannon": 1
+  },
+  "choices": 6,
+  "rewards": {
+    "coal": 118,
+    "iron": 11,
+    "diamond": 0,
+    "token": 0
+  },
+  "maxBolts": 22,
+  "movingShots": 0,
+  "fans": 14,
+  "circles": 0,
+  "maxZones": 4,
+  "groundWarnings": 72,
+  "maxSummons": 0,
+  "maxEntities": 12,
+  "bosses": [
+    {
+      "wave": 5,
+      "seconds": 29.57,
+      "hp": 5
+    },
+    {
+      "wave": 10,
+      "seconds": 41.18,
+      "hp": 4.5
+    },
+    {
+      "wave": 15,
+      "seconds": 43.05,
+      "hp": 3.5
+    },
+    {
+      "wave": 20,
+      "seconds": 54.27,
+      "hp": 3.5
+    }
+  ]
+}

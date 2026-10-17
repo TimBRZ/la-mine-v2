@@ -1,0 +1,45 @@
+✔ Zone 5 unlocks only after Rift victory; no Zone 6 gameplay (1.8848ms)
+✔ Zone 5 has 20 waves, six normal choices including opening and epic before triple (0.2436ms)
+✔ Zone 5 first victory credits exactly two diamonds once across reload without changing meta (2.0473ms)
+✔ Legacy profiles keep fields and unlock derivation; loss/incomplete victory never unlocks (0.4363ms)
+✔ Zone 5 normal reward budget remains bounded: 123 coal, 12 iron, unchanged token rules (1.2951ms)
+✔ Local ranking includes Zone 5 in correct order and persists through reload (1.1833ms)
+✔ lampist spawns away, takes all weapons, dies, drops loot and triggers Grisou (8.0015ms)
+✔ blaster spawns away, takes all weapons, dies, drops loot and triggers Grisou (3.7406ms)
+✔ blackmaw spawns away, takes all weapons, dies, drops loot and triggers Grisou (2.7904ms)
+✔ Lampiste retreats at short range, strafes at midrange and locks its luminous fan (2.2404ms)
+✔ Boutefeu plants, retreats while charge warns, then explosion damages and expires (2.4535ms)
+✔ Gueule-Noire leap locks before movement and allows a lateral dodge (1.3039ms)
+✔ lampmajor warns and executes beam (1.5813ms)
+✔ lampmajor warns and executes fan (0.8246ms)
+✔ lampmajor warns and executes blackout (1.3507ms)
+✔ dynamiter warns and executes charges (1.7346ms)
+✔ dynamiter warns and executes chain (1.011ms)
+✔ dynamiter warns and executes ring (0.9575ms)
+✔ dynamiter warns and executes lob (1.2593ms)
+✔ blackmass warns and executes rush (1.172ms)
+✔ blackmass warns and executes slam (1.009ms)
+✔ blackmass warns and executes cracks (0.948ms)
+✔ blackmass warns and executes blackout (1.2572ms)
+✔ Extinctions have finite duration, cool down, pause correctly and reset between waves (3.6863ms)
+✔ Lighting touches only background: player/enemy/projectile/telegraph layers remain intact (0.83ms)
+✔ Every ground pattern has safe positions; warning collision does not damage; chains are ordered (6.4813ms)
+✔ Atomic reservations enforce 24 projectiles, five hazards and three charges without partial attacks (0.4458ms)
+✔ Death cancels owned ground/reservations, remaining projectiles expire and wave cleans up (0.7066ms)
+✔ Triple overlaps two and three bosses, never exceeds caps, has no long silence (110.3127ms)
+✔ Actual galleries combat is unchanged at every boss and a normal wave (67.3661ms)
+✔ Actual tracks combat is unchanged at every boss and a normal wave (40.1484ms)
+✔ Actual shaft59 combat is unchanged at every boss and a normal wave (47.4763ms)
+✔ Actual rift combat is unchanged at every boss and a normal wave (56.3442ms)
+✔ All unrelated source bytes are unchanged, including remote leaderboard and auth client (38.1896ms)
+✔ Full Zone 5 is winnable with shotgun using ordinary input and legal upgrades (4711.8562ms)
+✔ Full Zone 5 is winnable with smg using ordinary input and legal upgrades (11583.1182ms)
+✔ Full Zone 5 is winnable with grisoux using ordinary input and legal upgrades (7785.5067ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 24669.0574

@@ -1,0 +1,247 @@
+{
+  "shotgun": {
+    "weaponId": "shotgun",
+    "rank": 2,
+    "maxBolts": 13,
+    "maxGround": 5,
+    "maxHeat": 3,
+    "maxMajors": 2,
+    "steps": 55623,
+    "updateMs": 33460.09998512268,
+    "maxBatchMs": 36.799999713897705,
+    "mode": "result",
+    "status": "won",
+    "wave": 20,
+    "seconds": 927.05,
+    "hp": 1,
+    "damage": 4.5,
+    "ground": [],
+    "escape": {
+      "ok": true,
+      "largestColdFraction": 1,
+      "spans": true,
+      "escape": true
+    },
+    "phases": [],
+    "progress": {
+      "forgeUnlocked": true,
+      "forgeCompleted": true,
+      "forgeFirstVictoryClaimed": true,
+      "depthsUnlocked": true,
+      "depthsCompleted": true,
+      "depthsFirstVictoryClaimed": true,
+      "riftUnlocked": true,
+      "riftCompleted": true,
+      "riftFirstVictoryClaimed": true,
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "wallet": {
+      "coal": 123,
+      "iron": 12,
+      "diamond": 2,
+      "token": 0
+    }
+  },
+  "layout320": {
+    "height": 568,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "smg": {
+    "weaponId": "smg",
+    "rank": 5,
+    "maxBolts": 12,
+    "maxGround": 4,
+    "maxHeat": 3,
+    "maxMajors": 1,
+    "steps": 45107,
+    "updateMs": 31667.899980068207,
+    "maxBatchMs": 35.09999990463257,
+    "mode": "result",
+    "status": "lost",
+    "wave": 17,
+    "seconds": 751.78,
+    "hp": 0,
+    "damage": 6.25,
+    "ground": [
+      {
+        "shape": "plate",
+        "active": true,
+        "warning": -2.8449465006019636e-16,
+        "cooling": 0,
+        "heat": true
+      },
+      {
+        "shape": "plate",
+        "active": false,
+        "warning": 0.016666666666665938,
+        "cooling": 0,
+        "heat": true
+      },
+      {
+        "shape": "plate",
+        "active": false,
+        "warning": 0.7166666666666665,
+        "cooling": 0,
+        "heat": true
+      }
+    ],
+    "escape": {
+      "ok": true,
+      "largestColdFraction": 0.7424242424242424,
+      "spans": true,
+      "escape": true
+    },
+    "phases": [
+      {
+        "type": "stoker",
+        "phase": "positioning",
+        "pattern": "heat"
+      },
+      {
+        "type": "stoker",
+        "phase": "warning",
+        "pattern": "heat"
+      },
+      {
+        "type": "riveter",
+        "phase": "warning",
+        "pattern": "rivets"
+      },
+      {
+        "type": "riveter",
+        "phase": "positioning",
+        "pattern": "rivets"
+      },
+      {
+        "type": "stoker",
+        "phase": "warning",
+        "pattern": "heat"
+      },
+      {
+        "type": "riveter",
+        "phase": "warning",
+        "pattern": "rivets"
+      }
+    ],
+    "progress": {
+      "forgeUnlocked": true,
+      "forgeCompleted": true,
+      "forgeFirstVictoryClaimed": true,
+      "depthsUnlocked": true,
+      "depthsCompleted": true,
+      "depthsFirstVictoryClaimed": true,
+      "riftUnlocked": true,
+      "riftCompleted": true,
+      "riftFirstVictoryClaimed": true,
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "wallet": {
+      "coal": 206,
+      "iron": 19,
+      "diamond": 2,
+      "token": 0
+    }
+  },
+  "layout390": {
+    "height": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "grisoux": {
+    "weaponId": "grisoux",
+    "rank": 5,
+    "maxBolts": 13,
+    "maxGround": 5,
+    "maxHeat": 3,
+    "maxMajors": 2,
+    "steps": 47329,
+    "updateMs": 42410.900019168854,
+    "maxBatchMs": 54.200000286102295,
+    "mode": "result",
+    "status": "won",
+    "wave": 20,
+    "seconds": 788.82,
+    "hp": 2.75,
+    "damage": 3.5,
+    "ground": [],
+    "escape": {
+      "ok": true,
+      "largestColdFraction": 1,
+      "spans": true,
+      "escape": true
+    },
+    "phases": [],
+    "progress": {
+      "forgeUnlocked": true,
+      "forgeCompleted": true,
+      "forgeFirstVictoryClaimed": true,
+      "depthsUnlocked": true,
+      "depthsCompleted": true,
+      "depthsFirstVictoryClaimed": true,
+      "riftUnlocked": true,
+      "riftCompleted": true,
+      "riftFirstVictoryClaimed": true,
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "wallet": {
+      "coal": 329,
+      "iron": 31,
+      "diamond": 2,
+      "token": 0
+    }
+  },
+  "reloaded": {
+    "mode": "menu",
+    "status": "playing",
+    "wave": 1,
+    "seconds": 0,
+    "hp": 5,
+    "damage": 0,
+    "escape": null,
+    "phases": [],
+    "progress": {
+      "forgeUnlocked": true,
+      "forgeCompleted": true,
+      "forgeFirstVictoryClaimed": true,
+      "depthsUnlocked": true,
+      "depthsCompleted": true,
+      "depthsFirstVictoryClaimed": true,
+      "riftUnlocked": true,
+      "riftCompleted": true,
+      "riftFirstVictoryClaimed": true,
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "wallet": {
+      "coal": 329,
+      "iron": 31,
+      "diamond": 2,
+      "token": 0
+    }
+  },
+  "console": []
+}

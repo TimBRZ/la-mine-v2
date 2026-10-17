@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="data:,">
+  <title>La Mine V2 · DEBUG LOCAL</title>
+  <style>
+    body{margin:0;padding:20px;background:#132226;color:#f3eee2;font:16px/1.5 system-ui,sans-serif}
+    main{max-width:460px;margin:auto}h1{font-size:24px;color:#ffc76a}
+    button,a{display:block;box-sizing:border-box;width:100%;padding:14px;margin:16px 0;font:700 15px system-ui;border:2px solid #ffc76a;border-radius:6px;background:#263b40;color:#fff;text-align:center;text-decoration:none}
+    [hidden]{display:none!important}small{display:block}#debug-status{border-left:3px solid #ffc76a;padding-left:12px}
+  </style>
+</head>
+<body><main>
+  <h1>DEBUG LOCAL · TEMPORAIRE</h1>
+  <p>Outil de test développeur, séparé du jeu. Il agit sur la sauvegarde de cette adresse uniquement.</p>
+  <p id="debug-unavailable">Debug inactif. Utilise une adresse locale avec <code>?debug=1</code>.</p>
+  <section id="debug-tools" hidden aria-label="Outils de progression debug">
+    <p>Marque les Zones 1 à 5 terminées et ouvre la Zone 6 sans la terminer. Aucun gain de ressource, aucune récompense de victoire.</p>
+    <button id="debug-unlock" type="button">DÉBLOQUER LES ZONES DE TEST</button>
+    <button id="debug-reset" type="button">RESET PROGRESSION DEBUG</button>
+    <small>Le reset restaure uniquement la progression des zones d’avant le premier déblocage debug. Les ressources, Atelier, Talents, Relève et Caisses restent tels quels.</small>
+    <p id="debug-status" role="status" aria-live="polite">Aucune modification effectuée.</p>
+  </section>
+  <section id="debug-leaderboard" hidden aria-label="Tests du classement local">
+    <h2>CLASSEMENT · TEST LOCAL</h2>
+    <p>Ajoute des performances fictives à tes records locaux uniquement. Le reset restaure les records d’avant le premier test. Aucun effet sur les ressources ni les zones débloquées.</p>
+    <label>Pseudo local <input id="debug-player-name" maxlength="24" value="JOUEUR TEST"></label>
+    <button type="button" data-leaderboard-debug="name">APPLIQUER LE PSEUDO DEBUG</button>
+    <button type="button" data-leaderboard-debug="depth">SIMULER PUITS 59 · VAGUE 14</button>
+    <button type="button" data-leaderboard-debug="time">SIMULER VICTOIRE VOIES · 8:20</button>
+    <button type="button" data-leaderboard-debug="faster">SIMULER VICTOIRE VOIES · 7:30</button>
+    <button type="button" data-leaderboard-debug="week">SIMULER SEMAINE SUIVANTE</button>
+    <button type="button" data-leaderboard-debug="reset">RESET CLASSEMENT DEBUG</button>
+    <p id="debug-leaderboard-status" role="status" aria-live="polite">Aucune modification du classement.</p>
+  </section>
+  <a href="/">RETOUR AU JEU</a>
+</main>
+<script type="module">
+  import {mountDebugZones} from './debug-zones.js';
+  import {mountDebugLeaderboard} from './debug-leaderboard.js';
+  mountDebugZones(document,location.href,()=>localStorage);
+  mountDebugLeaderboard(document,location.href,()=>localStorage);
+</script>
+</body>
+</html>

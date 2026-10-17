@@ -1,0 +1,59 @@
+{
+  "table": [
+    {
+      "resource": "coal",
+      "amount": 100,
+      "weight": 35
+    },
+    {
+      "resource": "coal",
+      "amount": 200,
+      "weight": 25
+    },
+    {
+      "resource": "iron",
+      "amount": 10,
+      "weight": 15
+    },
+    {
+      "resource": "iron",
+      "amount": 20,
+      "weight": 10
+    },
+    {
+      "resource": "diamond",
+      "amount": 1,
+      "weight": 8
+    },
+    {
+      "resource": "diamond",
+      "amount": 2,
+      "weight": 5
+    },
+    {
+      "resource": "token",
+      "amount": 1,
+      "weight": 2
+    }
+  ],
+  "expectedPerCrate": {
+    "coal": 85,
+    "iron": 3.5,
+    "diamond": 0.18,
+    "token": 0.02
+  },
+  "expectedAdditionalPerVictory": {
+    "coal": 8.5,
+    "iron": 0.35000000000000003,
+    "diamond": 0.018,
+    "token": 0.002
+  },
+  "expectedFirstVictoryOfDay": {
+    "coal": 93.50000000000001,
+    "iron": 3.8500000000000005,
+    "diamond": 0.198,
+    "token": 0.022000000000000002
+  },
+  "tokenExchangeCost": 3,
+  "expectedTokenReturnRatio": 0.006666666666666667
+}

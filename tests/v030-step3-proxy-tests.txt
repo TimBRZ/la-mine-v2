@@ -1,0 +1,20 @@
+✔ real POST wrapper preserves exact body and player session only (25.2136ms)
+✔ GET wrappers relay all three boards with whitelisted zone query (3.1295ms)
+✔ no fabricated cookie or trusted origin; cross-site evidence is preserved (1.5797ms)
+✔ backend validation, auth, rate and unavailable errors keep status and no-store (2.5506ms)
+✔ network, non-JSON and body-read failures expose no internal details (1.1725ms)
+✔ unknown category, invalid zone, duplicate zone and wrong methods never fetch (0.7829ms)
+✔ body is bounded by actual bytes even without Content-Length (0.6682ms)
+✔ identity relays GET with the existing cookie, no body, no token header and no cache (26.1602ms)
+✔ anonymous identity needs no fabricated session (0.8812ms)
+✔ identity rejects every exported non-GET method before forwarding (1.9278ms)
+✔ backend unavailable status is preserved without caching (0.8147ms)
+✔ network or response-body failures are uncached 502 without internal disclosure (0.9234ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 146.6889

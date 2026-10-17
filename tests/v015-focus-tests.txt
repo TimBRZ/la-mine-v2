@@ -1,0 +1,19 @@
+✔ V0.15 preserves every V0.14 wave, enemy, boss, reward, perk, shop and storage rule (13.0799ms)
+✔ focus ramps on consecutive primary boss hits, never exceeds 25 percent (1.2137ms)
+✔ target switch or primary normal enemy resets focus; piercing followers cannot steal it (0.1688ms)
+✔ brief dodge retains focus, prolonged movement invalidates even already flying bullets (0.188ms)
+✔ wave/stance reset and a new weapon cannot inherit focus; heat still resets immediately (1.1152ms)
+✔ ordinary enemy damage and the base shotgun volley have no boss-wide nerf (2.4541ms)
+✔ Double Canon keeps both volleys but its extra boss volley has the localized weight (0.6581ms)
+✔ Point blank alone stays at +100 percent; only stacked boss proximity reaches the cap (0.7024ms)
+✔ focus enhances only the primary boss and preserves ordinary piercing damage exactly (0.3369ms)
+✔ shotgun: every normal wave is identical to the frozen V0.14 simulation (1119.0631ms)
+✔ smg: every normal wave is identical to the frozen V0.14 simulation (624.9246ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1898.1126

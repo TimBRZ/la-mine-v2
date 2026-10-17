@@ -1,0 +1,10 @@
+{
+  "fixture": "120 simulated seconds, 12 enemies retained; weapon disabled and damage ignored for saturation only",
+  "frames": 7200,
+  "enemies": 12,
+  "maxBolts": 8,
+  "pool": 8,
+  "meanUpdateMs": 0.009536138888888929,
+  "p95UpdateMs": 0.023099999999999454,
+  "mobileHardware": false
+}

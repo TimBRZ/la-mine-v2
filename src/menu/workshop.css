@@ -1,0 +1,25 @@
+/* V0.9 — workshop presentation. Purchase rules remain in Workshop/Wallet. */
+.workshop { position:absolute; inset:0; z-index:5; padding:4cqw; overflow-y:auto; overscroll-behavior:contain; background:repeating-linear-gradient(90deg,transparent 0 40px,#bfd4d608 40px 41px),linear-gradient(145deg,#375062,#162c40 75%); }
+.workshop header { position:relative; min-height:22cqw; padding:2cqw 30cqw 3cqw 0; }
+.workshop header h2 { font-size:9cqw; line-height:1.1; margin:0; letter-spacing:-.035em; color:#ffe2a0; text-shadow:0 3px #122b3c; }
+.workshop header p { font-size:max(11px,3cqw); margin:1cqw 0 0; color:#c8d8d8; }
+.workshop header .eyebrow { font-size:2.2cqw; color:#edbd77; margin:0 0 1cqw; }
+.bench-art { position:absolute; right:-2cqw; bottom:0; width:40cqw; height:26cqw; }
+.workshop .polished-resources { margin:2cqw 0 5cqw; }
+.workshop-upgrades { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:4cqw 3cqw; }
+.workshop article { --station:#e7b957; position:relative; display:flex; flex-direction:column; align-items:center; padding:3cqw 2cqw; background:linear-gradient(145deg,#486579,#283f53); border:2px solid #688696; border-top-color:#91a5b0; border-radius:12px; box-shadow:0 5px #10283b,inset 0 2px #bacad622; text-align:center; }
+.workshop article[data-station="health"] { --station:#88c4a6; }
+.workshop article[data-station="mechanics"] { --station:#9fc9e2; }
+.workshop article[data-station="mobility"] { --station:#ddb68e; }
+.station-emblem { width:14cqw; height:14cqw; padding:2cqw; background:linear-gradient(#1c3548,#263e50); border:1px solid #78929b; border-radius:50%; box-shadow:0 3px #1b3041,inset 0 2px #102737; margin-bottom:2cqw; }
+.workshop h3 { font-size:max(11px,3.2cqw); line-height:1.2; margin:0; text-transform:uppercase; color:#f4e9d1; }
+.station-ranks { display:flex; gap:1cqw; margin:2cqw 0 1cqw; }
+.station-ranks i { width:4cqw; height:1.5cqw; background:#162e40; border:1px solid #5d7789; border-radius:2px; }
+.station-ranks .filled { background:var(--station); border-color:#e9d6a1; }
+.workshop article p { font-size:max(10px,2.8cqw); line-height:1.35; color:#d1dfdc; margin:1cqw 0 3cqw; min-height:7.5cqw; }
+.workshop button { min-height:44px; font-size:max(11px,3cqw); letter-spacing:.02em; border:1px solid #ffe2a0; border-radius:8px; background:linear-gradient(#ffdd81,#dfaa49); box-shadow:0 3px #946127; color:#3d2e20; }
+.workshop article button { margin-top:auto; }
+.workshop button:disabled { opacity:1; cursor:default; color:#99b0bc; border-color:#5d7789; box-shadow:0 3px #152b3e; background:linear-gradient(#344e61,#243c50); }
+.workshop-status { font-size:max(11px,3cqw); line-height:1.4; color:#e7c992; padding:3cqw; border-left:2px solid #bd9256; background:#1b3344; margin:5cqw 0 2cqw; border-radius:0 8px 8px 0; }
+.workshop .meta-save { font-size:max(9px,2.6cqw); color:#a8c1c9; margin:2cqw 0 3cqw; }
+.workshop .workshop-close { width:100%; margin:1cqw 0 3cqw; background:linear-gradient(#4c6879,#2c485b); color:#edf1df; border-color:#91acb4; box-shadow:0 3px #12283b; }

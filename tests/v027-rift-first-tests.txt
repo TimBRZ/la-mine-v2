@@ -1,0 +1,109 @@
+✔ V027 Zone 4 requires a completed Puits, legacy wins migrate and Zone 5 remains closed (1.5974ms)
+✔ V027 20 waves introduce each new mob progressively, keep choices and boss schedule (0.2338ms)
+✔ V027 first win adds one diamond once across reload, retaining every old meta field (1.8772ms)
+✔ V027 rewards are 118 coal / 11 guaranteed iron with unchanged tokens and a small diamond chance (0.6695ms)
+✖ V027 crawler spawns safely, takes weapon damage, dies and credits physical drops/Grisou (8.2117ms)
+✖ V027 spitter spawns safely, takes weapon damage, dies and credits physical drops/Grisou (2.1459ms)
+✖ V027 burster spawns safely, takes weapon damage, dies and credits physical drops/Grisou (1.4033ms)
+✔ V027 crawler advances in zigzags without attack pauses (0.9752ms)
+✔ V027 spitter flees a close player, locks a warned pocket and repositions after it (1.5419ms)
+✔ V027 burster accelerates near the player and warns its explosion at low HP (1.0555ms)
+✔ V027 death shards warn before six slow radial projectiles and cannot recurse (1.9743ms)
+✔ V027 environment gas/explosion pockets warn, damage, expire and never fill the arena (1.336ms)
+✔ V027 splitter executes charge with a full locked warning (1.1525ms)
+✔ V027 splitter executes fan8 with a full locked warning (1.1371ms)
+✔ V027 splitter executes fissures with a full locked warning (0.7444ms)
+✔ V027 blower executes circle8 with a full locked warning (1.0053ms)
+✔ V027 blower executes pockets with a full locked warning (0.6349ms)
+✔ V027 blower executes cone with a full locked warning (0.519ms)
+✔ V027 core executes double with a full locked warning (1.0927ms)
+✔ V027 core executes rain with a full locked warning (0.9208ms)
+✔ V027 core executes orb with a full locked warning (0.4268ms)
+✔ V027 fan8 is symmetrical, circle8 is evenly spaced and safe gaps remain (0.1338ms)
+✔ V027 four pockets and fissures leave safe positions and collide only after activation (0.6483ms)
+✔ V027 orb expires into a separately warned six-shot burst, without homing (2.0765ms)
+✔ V027 splitter resumes within 0.5 s and has faster low-HP cycles (0.7434ms)
+✔ V027 blower resumes within 0.5 s and has faster low-HP cycles (0.6159ms)
+✔ V027 core resumes within 0.5 s and has faster low-HP cycles (0.2953ms)
+✔ V027 atomic budgets delay whole patterns instead of silently dropping them (0.7505ms)
+✔ V027 ground budget delays a fifth danger and rejects four fissures (0.117ms)
+✔ V027 preserves actual normal/solo/triple combat of galleries (50.0299ms)
+✔ V027 preserves actual normal/solo/triple combat of tracks (43.6926ms)
+✔ V027 preserves actual normal/solo/triple combat of shaft59 (51.137ms)
+✔ V027 retains all unrelated source bytes, including weapons, perks and debug tool (52.0479ms)
+✔ V027 complete Rift is winnable with shotgun and stays within safety limits (7375.7408ms)
+✔ V027 complete Rift is winnable with smg and stays within safety limits (11708.5039ms)
+✔ V027 complete Rift is winnable with grisoux and stays within safety limits (7836.3616ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 33
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27728.8691
+
+✖ failing tests:
+
+test at tests\rift-v027.test.js:33:51
+✖ V027 crawler spawns safely, takes weapon damage, dies and credits physical drops/Grisou (8.2117ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(events.some(v=>v.type==='kill'&&v.id===e.id))
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rift-v027.test.js:34:79)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\rift-v027.test.js:33:51
+✖ V027 spitter spawns safely, takes weapon damage, dies and credits physical drops/Grisou (2.1459ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(events.some(v=>v.type==='kill'&&v.id===e.id))
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rift-v027.test.js:34:79)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\rift-v027.test.js:33:51
+✖ V027 burster spawns safely, takes weapon damage, dies and credits physical drops/Grisou (1.4033ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(events.some(v=>v.type==='kill'&&v.id===e.id))
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rift-v027.test.js:34:79)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

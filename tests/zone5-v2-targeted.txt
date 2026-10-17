@@ -1,0 +1,44 @@
+✔ Balance patch preserves all actor HP, damage, hitboxes, patterns and wind-up timings (3.1976ms)
+✔ Extinction melee motion gains exactly 12 percent and reverts on next update (1.3631ms)
+✔ Gueule-Noire recovers sooner, but locked leap and pre-leap warning remain identical (0.8356ms)
+✔ Lampiste rests less and resumes lateral reposition earlier without shortening its warning (0.6715ms)
+✔ Boutefeu has shorter pose downtime but the same charge fuse and damage (0.6739ms)
+✔ Prelude warns before gameplay pressure and light restores cleanly without a black screen (10.5624ms)
+✔ Rocks have a 35 percent one-shot roll, never retry under saturated caps (4.2296ms)
+✔ Two local rocks lock their positions, warn, damage, expire and leave broad safe space (4.1561ms)
+✔ An extinction cannot leave a rock behind a cleared wave or start threats in an intermission (0.958ms)
+✔ Rocks fit inside the five-danger cap and cannot bypass the three-charge cap (0.862ms)
+✔ Triple keeps two major slots including environmental pressure; third boss uses a light fan (2.498ms)
+✔ Normal waves are progressively denser and late waves mix melee with ranged support (0.45ms)
+✔ Late waves and triple get more frequent but still finite and separated extinctions (4.1662ms)
+✔ Darkness never attenuates the danger drawing or the player/enemy/projectile layers (1.5534ms)
+✔ Sustained wave 16 respects all caps, including rocks and triple pressure slots (357.1169ms)
+✔ Sustained wave 17 respects all caps, including rocks and triple pressure slots (182.9682ms)
+✔ Sustained wave 18 respects all caps, including rocks and triple pressure slots (142.3474ms)
+✔ Sustained wave 19 respects all caps, including rocks and triple pressure slots (135.4345ms)
+✔ Sustained wave 20 respects all caps, including rocks and triple pressure slots (77.728ms)
+✔ Balance patch leaves galleries simulation and rewards unchanged (96.8984ms)
+✔ Balance patch leaves tracks simulation and rewards unchanged (72.3397ms)
+✔ Balance patch leaves shaft59 simulation and rewards unchanged (114.7256ms)
+✔ Balance patch leaves rift simulation and rewards unchanged (114.2236ms)
+✔ All source outside Zone 5 and its alert label is byte-identical, including weapons and economy (55.9458ms)
+✔ V2 retains every source byte outside its four Zone 5 behavior modules (84.0493ms)
+✔ V2 stages early support, a middle step and differentiated late compositions without boss HP inflation (1.8902ms)
+✔ At most two Gueule-Noire may wind up or leap together; waiting melee can reposition (3.4997ms)
+✔ Advanced Lampiste rest clock is faster, with an independent 12 percent extinction multiplier (2.2537ms)
+✔ Rocks use 50 percent in waves 11–19 and low-health triple, 35 percent otherwise (3.3945ms)
+✔ Three late rocks lock, warn, leave safe space and degrade to two within five hazards (2.0443ms)
+✔ Extinction cadence steps up in advanced waves and after global half-health (1.2162ms)
+✔ lampmajor gains 17.9 percent rest cadence below half health without faster warnings (0.564ms)
+✔ dynamiter gains 17.9 percent rest cadence below half health without faster warnings (0.3266ms)
+✔ blackmass gains 17.9 percent rest cadence below half health without faster warnings (0.4245ms)
+✔ Low-health triple spends almost all frames engaged or repositioning and obeys every cap (111.2265ms)
+✔ Economy and other zones replay identically against the immediately preceding patch (139.5796ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1674.4243

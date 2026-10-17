@@ -1,0 +1,45 @@
+✔ player accelerates promptly, brakes, and never exceeds speed diagonally (1.2843ms)
+✔ all four closed room boundaries contain the complete player body (1.8143ms)
+✔ joystick has a deadzone, proportional movement and a bounded diagonal magnitude (0.8704ms)
+✔ WASD, ZQSD and arrow key states all control the actual input module (0.6061ms)
+✔ touch joystick owns one pointer, handles release outside and touch cancellation (0.4025ms)
+✔ HUD touches do not move the player and focus loss can clear every held input (0.2525ms)
+✔ auto targeting selects the nearest alive, active enemy within short range (0.2992ms)
+✔ one automatic shotgun discharge produces seven separate symmetric pellet angles (0.6662ms)
+✔ shotgun cooldown stays slow and never fires at a nonexistent target (0.4119ms)
+✔ swept collision hits crossed circles at low frame rates, not only end positions (0.473ms)
+✔ one pellet stops at the first target even if the enemy list is reversed (0.2175ms)
+✔ close shots cause more damage, react with knockback, and can kill in one discharge (1.2334ms)
+✔ pellets expire at short range, cannot hit remote targets, and reuse a bounded pool (2.8346ms)
+✔ enemies telegraph before pursuing and remain inside the same fixed room (0.2973ms)
+✔ contact damages the player once per invulnerability interval, never once per pellet or enemy (1.6345ms)
+✔ spawn anchors are safely distant and simultaneous enemies are capped (15.2829ms)
+✔ warm-up wave clears before automatic progression (19.5606ms)
+✔ a finished run is inert and replay starts clean with no persistent progression (0.6541ms)
+✔ a long frame is bounded rather than simulating a whole second of contact damage (0.2751ms)
+✔ world configuration contains twenty bounded encounters and four boss milestones (1.5934ms)
+✔ twenty-wave rewards preserve every original full-run budget and probability (1.0666ms)
+✔ boss factory preserves Haveuse and applies final health scaling explicitly (0.3766ms)
+✔ Crachefer locks aim before its slow ranged shot and never fires while dead (0.5594ms)
+✔ Effondreur locks two ground warnings then activates and expires its zone (0.603ms)
+✔ all twenty waves collect once, pause for six correct choices, and win only at twenty (9.2866ms)
+✔ epics never enter normal offers, are weapon-specific and cannot be double-selected (4.0084ms)
+✔ spawn groups overlap living enemies, stay distant, telegraph and respect every cap (9.8275ms)
+✔ triple boss intro contains three distinct machines with reduced HP and safe entry positions (2.16ms)
+✔ ground danger hits only after warning, can be escaped, freezes on pause and ends with its owner (3.2362ms)
+✔ Double Canon emits exactly two nonrecursive volleys while moving still blocks shots (0.7842ms)
+✔ unstable Grisou explodes once per death and a three-boss chain remains finite (0.4978ms)
+✔ Point blank adds exactly 100 percent base close damage, without boosting far damage (0.4954ms)
+✔ total piercing hits at most three distinct targets with 100, 80, 64 percent damage (0.3321ms)
+✔ critical heat grants its final damage only at maximum and motion clears heat (0.5878ms)
+✔ iron rain increases cadence by 50 percent with 15 percent less damage per bullet (0.206ms)
+✔ V0.13 protected systems remain intact outside the authorized V0.14 enemy changes (12.0373ms)
+✔ Crachefer fires a real bounded slow bolt; lateral motion can dodge its locked aim (2.5378ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.3233

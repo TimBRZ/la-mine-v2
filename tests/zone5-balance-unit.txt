@@ -1,0 +1,32 @@
+✔ Balance patch preserves all actor HP, damage, hitboxes, patterns and wind-up timings (1.5841ms)
+✔ Extinction melee motion gains exactly 12 percent and reverts on next update (1.0444ms)
+✔ Gueule-Noire recovers sooner, but locked leap and pre-leap warning remain identical (0.4794ms)
+✔ Lampiste rests less and resumes lateral reposition earlier without shortening its warning (0.256ms)
+✔ Boutefeu has shorter pose downtime but the same charge fuse and damage (0.3231ms)
+✔ Prelude warns before gameplay pressure and light restores cleanly without a black screen (5.516ms)
+✔ Rocks have a 35 percent one-shot roll, never retry under saturated caps (2.3592ms)
+✔ Two local rocks lock their positions, warn, damage, expire and leave broad safe space (1.8729ms)
+✔ An extinction cannot leave a rock behind a cleared wave or start threats in an intermission (0.6651ms)
+✔ Rocks fit inside the five-danger cap and cannot bypass the three-charge cap (0.4315ms)
+✔ Triple keeps two major slots including environmental pressure; third boss uses a light fan (1.2142ms)
+✔ Only normal waves 16–19 are denser and introduce paired melee with ranged support (0.3728ms)
+✔ Late waves and triple get more frequent but still finite and separated extinctions (2.3265ms)
+✔ Darkness never attenuates the danger drawing or the player/enemy/projectile layers (0.872ms)
+✔ Sustained wave 16 respects all caps, including rocks and triple pressure slots (199.8416ms)
+✔ Sustained wave 17 respects all caps, including rocks and triple pressure slots (171.5402ms)
+✔ Sustained wave 18 respects all caps, including rocks and triple pressure slots (136.2761ms)
+✔ Sustained wave 19 respects all caps, including rocks and triple pressure slots (132.0269ms)
+✔ Sustained wave 20 respects all caps, including rocks and triple pressure slots (69.8036ms)
+✔ Balance patch leaves galleries simulation and rewards unchanged (92.9271ms)
+✔ Balance patch leaves tracks simulation and rewards unchanged (70.8437ms)
+✔ Balance patch leaves shaft59 simulation and rewards unchanged (95.9292ms)
+✔ Balance patch leaves rift simulation and rewards unchanged (99.8099ms)
+✔ All source outside Zone 5 and its alert label is byte-identical, including weapons and economy (43.9073ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1309.678

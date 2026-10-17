@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><svg x="0" y="0" width="128" height="128" viewBox="0 0 128 128" overflow="hidden"><title>hero_idle_01</title><g transform=""><g stroke="#10191D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g><path d="M38 84 L58 84 L57 105 L54 114 L38 114 L37 96Z" fill="#203139" />
+    <path d="M36 105 L53 105 L62 112 L63 119 L34 119Z" fill="#433C33" />
+    <path d="M35 115 L63 115 L63 120 L34 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M41 108 L50 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M42 91 L53 90 L52 104 L42 105Z" fill="#30434A" stroke-width="2"/></g><g><path d="M68 84 L88 84 L87 105 L84 114 L68 114 L67 96Z" fill="#30434A" />
+    <path d="M66 105 L83 105 L92 112 L93 119 L64 119Z" fill="#433C33" />
+    <path d="M65 115 L93 115 L93 120 L64 120Z" fill="#10191D" stroke-width="1"/>
+    <path d="M71 108 L80 108" fill="none" stroke="#718783" stroke-width="3"/>
+    <path d="M72 91 L83 90 L82 104 L72 105Z" fill="#718783" stroke-width="2"/></g><g transform="translate(0 0)">
+   <path d="M26 50 L38 48 L43 58 L40 83 L23 84 L20 60Z" fill="#203139" />
+   <path d="M23 56 L36 54 L37 74 L23 77Z" fill="#30434A" stroke-width="2"/>
+   <path d="M26 61 L32 60 M26 67 L32 66" fill="none" stroke="#B3944F" stroke-width="3"/>
+   <path d="M40 48 Q56 43 76 48 L88 61 L90 84 Q69 96 37 85 L31 64Z" fill="#30434A" />
+   <path d="M43 53 L49 51 L51 72 L73 72 L74 50 L80 53 L82 86 L45 87Z" fill="#203139" stroke-width="2"/>
+   <path d="M51 71 L73 71 L76 82 L51 83Z" fill="#30434A" stroke-width="2"/>
+   <path d="M55 74 L61 74 M56 78 L62 78" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M36 81 Q61 89 89 79 L89 88 Q64 98 36 90Z" fill="#433C33" />
+   <path d="M61 85 L72 84 L72 92 L61 92Z" fill="#718783" stroke-width="2"/>
+   <path d="M34 82 L46 84 L45 96 L31 93Z" fill="#8D5039" stroke-width="2"/>
+   <path d="M80 82 L91 78 L94 89 L82 94Z" fill="#203139" stroke-width="2"/>
+   <path d="M84 85 L89 83" fill="none" stroke="#B3944F" stroke-width="2"/>
+   <g transform="rotate(0 37 58)">
+     <path d="M32 54 Q23 57 25 72 L28 82 L43 80 L47 62Z" fill="#30434A" />
+     <path d="M28 78 L42 77 L45 88 L37 94 L26 88Z" fill="#433C33" />
+     <path d="M30 82 L38 82" fill="none" stroke="#718783" stroke-width="2"/>
+     <path d="M26 51 L40 46 L50 55 L47 67 L27 64 L23 58Z" fill="#B3944F" />
+     <path d="M27 52 L40 49 L46 54 L28 58Z" fill="#D6A84B" stroke="none"/>
+     <path d="M28 61 L36 62" fill="none" stroke="#203139" stroke-width="3"/>
+   </g>
+   <path d="M82 56 L92 60 L101 71 L97 80 L83 77 L77 64Z" fill="#30434A" />
+   <path d="M92 69 L103 70 L108 77 L104 86 L95 86 L88 79Z" fill="#433C33" />
+   <path d="M98 74 L101 79" fill="none" stroke="#718783" stroke-width="2"/>
+   <path d="M50 43 L73 43 L77 55 L67 62 L47 55Z" fill="#203139" />
+   <g transform="rotate(0 66 44)">
+     <path d="M44 25 Q65 18 87 28 L91 40 L100 45 L97 51 L90 52 L86 59 L60 60 L46 51 L40 38Z" fill="#D7AE84" />
+     <path d="M50 45 L59 48 L71 47 L82 50 L93 49 L86 58 L62 60 L51 53Z" fill="#79634D" stroke-width="2"/>
+     <path d="M58 32 L84 33 L89 39 L83 46 L58 43 L51 38Z" fill="#203139" stroke-width="2"/>
+     <path d="M60 36 L67 36 M77 37 L82 38" fill="none" stroke="#F0ECDF" stroke-width="2"/>
+     <path d="M87 41 L96 44 L98 47 L90 49Z" fill="#EDD0A6" stroke-width="2"/>
+     <path d="M35 28 Q34 9 57 7 Q80 3 93 21 L97 29 L102 32 L99 37 Q64 43 32 35 L31 31Z" fill="#B3944F" />
+     <path d="M40 23 Q44 12 61 11 L65 11 L64 15 Q49 15 45 24Z" fill="#D6A84B" stroke="none"/>
+     <path d="M66 8 L75 10 L80 28 L69 30Z" fill="#8A713C" stroke-width="2"/>
+     <path d="M36 32 Q65 37 97 31" fill="none" stroke="#203139" stroke-width="3"/>
+     <path d="M78 14 L90 16 L94 27 L88 34 L76 30 L73 22Z" fill="#203139"/>
+     <ellipse cx="84" cy="24" rx="6" ry="7" fill="#F0ECDF" stroke-width="2"/>
+     <path d="M49 26 L56 25" fill="none" stroke="#203139" stroke-width="2"/>
+   </g>
+   <g stroke="none" fill="#718783" aria-label="C2G"><path d="M55 61h4v1h-3v3h3v1h-4z M60 61h4v3h-3v1h3v1h-4v-3h3v-1h-3z M65 61h4v1h-3v3h2v-1h-1v-1h2v3h-4z"/></g>
+ </g></g></g></svg></svg>

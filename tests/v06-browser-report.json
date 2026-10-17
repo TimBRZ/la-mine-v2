@@ -1,0 +1,46 @@
+{
+  "mode": "V0.6",
+  "shots": 89,
+  "movingShots": 0,
+  "enemyShots": 9,
+  "maxBolts": 1,
+  "seen": [
+    "rat",
+    "miner",
+    "drill",
+    "boss"
+  ],
+  "room4Kills": 16,
+  "room4Mixed": true,
+  "pickups": 47,
+  "maxDrops": 11,
+  "frames": 1468,
+  "workMs": 1093.5000038146973,
+  "magnetDurations": [
+    0.583,
+    0.6,
+    0.667,
+    0.633,
+    0.433
+  ],
+  "status": "won",
+  "phase": "cleared",
+  "room": 5,
+  "hp": 4.5,
+  "kills": 45,
+  "choices": 3,
+  "drops": 0,
+  "collected": {
+    "coal": 94,
+    "iron": 8,
+    "diamond": 0,
+    "token": 0
+  },
+  "wallet": {
+    "coal": 94,
+    "iron": 8,
+    "diamond": 0,
+    "token": 0
+  },
+  "meanUpdateRenderMs": 0.745
+}

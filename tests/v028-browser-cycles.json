@@ -1,0 +1,112 @@
+{
+  "day": {
+    "daily": {
+      "key": "2026-10-09",
+      "rows": [
+        {
+          "id": "d-boss",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-w10",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-coal",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    },
+    "weekly": {
+      "key": "2026-10-05",
+      "rows": [
+        {
+          "id": "w-k500",
+          "value": 500,
+          "claimed": true,
+          "weapons": []
+        },
+        {
+          "id": "w-arms2",
+          "value": 2,
+          "claimed": true,
+          "weapons": [
+            "shotgun",
+            "smg",
+            "grisoux"
+          ]
+        },
+        {
+          "id": "w-iron",
+          "value": 50,
+          "claimed": true,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": true
+    }
+  },
+  "week": {
+    "daily": {
+      "key": "2026-10-16",
+      "rows": [
+        {
+          "id": "d-k75",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-w15",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-coal",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    },
+    "weekly": {
+      "key": "2026-10-12",
+      "rows": [
+        {
+          "id": "w-k1000",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "w-arms3",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "w-crates",
+          "value": 0,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    }
+  },
+  "wallet": {
+    "coal": 210,
+    "iron": 17,
+    "diamond": 1,
+    "token": 1
+  }
+}

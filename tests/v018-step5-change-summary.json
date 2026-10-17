@@ -1,0 +1,20 @@
+{
+  "step": "V0.18 étape 5",
+  "files": [
+    "src/zone-progress.js",
+    "src/menu/state.js",
+    "src/menu/zones.js",
+    "src/menu/main-menu.js",
+    "src/run.js",
+    "src/room-scene.js",
+    "src/ui.js",
+    "src/arena-view.js",
+    "style.css",
+    "index.html",
+    "server.mjs",
+    "package.json"
+  ],
+  "baselineTests": 361,
+  "tests": 373,
+  "scope": "Menu, progression persistée, première victoire, lancement/rejeu Zone 2, présentation minimale; boss et économie globale inchangés."
+}

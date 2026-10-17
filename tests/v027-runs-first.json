@@ -1,0 +1,170 @@
+[
+  {
+    "weaponId": "shotgun",
+    "zoneId": "rift",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5,
+    "seconds": 932.47,
+    "kills": 278,
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 118,
+      "iron": 11,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 21,
+    "movingShots": 0,
+    "fans": 12,
+    "circles": 0,
+    "maxZones": 4,
+    "groundWarnings": 69,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 24.57,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 35.22,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 36.95,
+        "hp": 5
+      },
+      {
+        "wave": 20,
+        "seconds": 38.03,
+        "hp": 5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "rift",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5,
+    "seconds": 955.02,
+    "kills": 278,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 118,
+      "iron": 11,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 22,
+    "movingShots": 0,
+    "fans": 13,
+    "circles": 0,
+    "maxZones": 4,
+    "groundWarnings": 94,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 46.72,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 29.82,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 43.73,
+        "hp": 5
+      },
+      {
+        "wave": 20,
+        "seconds": 77.12,
+        "hp": 5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "rift",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 3.5,
+    "seconds": 745.75,
+    "kills": 278,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 118,
+      "iron": 11,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 22,
+    "movingShots": 0,
+    "fans": 9,
+    "circles": 0,
+    "maxZones": 4,
+    "groundWarnings": 63,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 45.5,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 51.22,
+        "hp": 4
+      },
+      {
+        "wave": 15,
+        "seconds": 69.33,
+        "hp": 3.5
+      },
+      {
+        "wave": 20,
+        "seconds": 49.65,
+        "hp": 3.5
+      }
+    ]
+  }
+]

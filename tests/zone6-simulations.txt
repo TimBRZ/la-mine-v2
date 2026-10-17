@@ -1,0 +1,9 @@
+{"weaponId":"shotgun","seed":1,"status":"lost","wave":19,"seconds":823.14999999958,"damage":5.5,"caps":{"bolts":12,"ground":4,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.41515151515151516}
+{"weaponId":"shotgun","seed":2,"status":"won","wave":20,"seconds":879.9999999995283,"damage":1.5,"caps":{"bolts":13,"ground":5,"heat":3,"majors":2},"noColdRoute":0,"minColdFraction":0.45454545454545453}
+{"weaponId":"shotgun","seed":3,"status":"won","wave":20,"seconds":887.6999999995213,"damage":2.5,"caps":{"bolts":13,"ground":5,"heat":3,"majors":2},"noColdRoute":0,"minColdFraction":0.4818181818181818}
+{"weaponId":"smg","seed":1,"status":"lost","wave":12,"seconds":518.0333333331909,"damage":5.5,"caps":{"bolts":12,"ground":3,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.4696969696969697}
+{"weaponId":"smg","seed":2,"status":"lost","wave":12,"seconds":518.0333333331909,"damage":5.5,"caps":{"bolts":12,"ground":3,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.4696969696969697}
+{"weaponId":"smg","seed":3,"status":"lost","wave":11,"seconds":422.09999999994477,"damage":5.5,"caps":{"bolts":12,"ground":3,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.36666666666666664}
+{"weaponId":"grisoux","seed":1,"status":"lost","wave":13,"seconds":535.4999999998416,"damage":5.5,"caps":{"bolts":12,"ground":3,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.43333333333333335}
+{"weaponId":"grisoux","seed":2,"status":"lost","wave":16,"seconds":656.8833333330646,"damage":5.5,"caps":{"bolts":12,"ground":4,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.4}
+{"weaponId":"grisoux","seed":3,"status":"lost","wave":16,"seconds":750.983333332979,"damage":5.5,"caps":{"bolts":12,"ground":4,"heat":3,"majors":1},"noColdRoute":0,"minColdFraction":0.43333333333333335}

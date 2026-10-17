@@ -1,0 +1,1741 @@
+{
+  "diagnostic": [
+    {
+      "weaponId": "shotgun",
+      "seed": 1,
+      "status": "lost",
+      "wave": 17,
+      "hp": 0,
+      "seconds": 180.16666666670218,
+      "perks": [
+        "trigger",
+        "trigger",
+        "boots",
+        "double"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 2,
+      "status": "won",
+      "wave": 20,
+      "hp": 1,
+      "seconds": 285.500000000069,
+      "perks": [
+        "boots",
+        "plates",
+        "buckshot",
+        "trigger",
+        "double",
+        "double-cannon"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 9,
+      "status": "lost",
+      "wave": 17,
+      "hp": 0,
+      "seconds": 207.0500000000569,
+      "perks": [
+        "trigger",
+        "plates",
+        "boots",
+        "buckshot"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 16,
+      "status": "lost",
+      "wave": 14,
+      "hp": 0,
+      "seconds": 149.4333333333444,
+      "perks": [
+        "trigger",
+        "trigger",
+        "buckshot"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 42,
+      "status": "lost",
+      "wave": 19,
+      "hp": 0,
+      "seconds": 224.06666666673712,
+      "perks": [
+        "trigger",
+        "trigger",
+        "plates",
+        "double",
+        "boots"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 77,
+      "status": "lost",
+      "wave": 18,
+      "hp": 0,
+      "seconds": 212.93333333339493,
+      "perks": [
+        "trigger",
+        "boots",
+        "buckshot",
+        "trigger"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 123,
+      "status": "lost",
+      "wave": 16,
+      "hp": 0,
+      "seconds": 206.316666666723,
+      "perks": [
+        "boots",
+        "double",
+        "plates",
+        "trigger"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 300,
+      "status": "lost",
+      "wave": 8,
+      "hp": 0,
+      "seconds": 88.73333333332958,
+      "perks": [
+        "double",
+        "buckshot"
+      ]
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 999,
+      "status": "lost",
+      "wave": 12,
+      "hp": 0,
+      "seconds": 124.28333333332756,
+      "perks": [
+        "trigger",
+        "buckshot",
+        "plates"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 1,
+      "status": "lost",
+      "wave": 11,
+      "hp": 0,
+      "seconds": 147.88333333334316,
+      "perks": [
+        "piercing",
+        "boots",
+        "trigger"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 2,
+      "status": "lost",
+      "wave": 14,
+      "hp": 0,
+      "seconds": 182.0666666667037,
+      "perks": [
+        "trigger",
+        "piercing",
+        "boots"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 9,
+      "status": "lost",
+      "wave": 9,
+      "hp": 0,
+      "seconds": 119.36666666666117,
+      "perks": [
+        "boots",
+        "trigger"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 16,
+      "status": "lost",
+      "wave": 17,
+      "hp": 0,
+      "seconds": 202.150000000053,
+      "perks": [
+        "trigger",
+        "boots",
+        "trigger",
+        "piercing"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 42,
+      "status": "lost",
+      "wave": 18,
+      "hp": 0,
+      "seconds": 221.3333333334016,
+      "perks": [
+        "piercing",
+        "trigger",
+        "trigger",
+        "boots"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 77,
+      "status": "lost",
+      "wave": 17,
+      "hp": 0,
+      "seconds": 238.76666666674882,
+      "perks": [
+        "plates",
+        "trigger",
+        "boots",
+        "trigger"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 123,
+      "status": "won",
+      "wave": 20,
+      "hp": 1.5,
+      "seconds": 305.2666666667177,
+      "perks": [
+        "trigger",
+        "plates",
+        "trigger",
+        "piercing",
+        "boots",
+        "total-piercing"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 300,
+      "status": "lost",
+      "wave": 14,
+      "hp": 0,
+      "seconds": 206.60000000005655,
+      "perks": [
+        "trigger",
+        "plates",
+        "plates"
+      ]
+    },
+    {
+      "weaponId": "smg",
+      "seed": 999,
+      "status": "lost",
+      "wave": 17,
+      "hp": 0,
+      "seconds": 218.16666666673243,
+      "perks": [
+        "trigger",
+        "boots",
+        "plates",
+        "plates"
+      ]
+    }
+  ],
+  "epicShotgun": {
+    "mode": "V0.13 shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 22,
+    "shieldHits": 9,
+    "shots": 216,
+    "movingShots": 0,
+    "enemyShots": 79,
+    "maxBolts": 4,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 10,
+    "room4Mixed": true,
+    "pickups": 77,
+    "maxDrops": 7,
+    "frames": 4145,
+    "workMs": 2130.7000114917755,
+    "magnetDurations": [
+      0.383,
+      0.45,
+      0.3,
+      0.433,
+      0.467,
+      0.617,
+      0.45,
+      0.6,
+      0.45,
+      0.4,
+      0.383,
+      0.433,
+      0.633,
+      0.767,
+      0.417,
+      0.467,
+      0.6,
+      0.633,
+      0.75
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared",
+      "6:preparing",
+      "6:combat",
+      "6:collecting",
+      "6:cleared",
+      "7:preparing",
+      "7:combat",
+      "7:collecting",
+      "7:cleared",
+      "8:preparing",
+      "8:combat",
+      "8:collecting",
+      "8:cleared",
+      "9:preparing",
+      "9:combat",
+      "9:collecting",
+      "9:cleared",
+      "10:preparing",
+      "10:combat",
+      "10:collecting",
+      "10:cleared",
+      "11:preparing",
+      "11:combat",
+      "11:collecting",
+      "11:cleared",
+      "12:preparing",
+      "12:combat",
+      "12:collecting",
+      "12:cleared",
+      "13:preparing",
+      "13:combat",
+      "13:collecting",
+      "13:cleared",
+      "14:preparing",
+      "14:combat",
+      "14:collecting",
+      "14:cleared",
+      "15:preparing",
+      "15:combat",
+      "15:collecting",
+      "15:cleared",
+      "16:preparing",
+      "16:combat",
+      "16:collecting",
+      "16:cleared",
+      "17:preparing",
+      "17:combat",
+      "17:collecting",
+      "17:cleared",
+      "18:preparing",
+      "18:combat",
+      "18:collecting",
+      "18:cleared",
+      "19:preparing",
+      "19:combat",
+      "19:collecting",
+      "19:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 414
+      },
+      {
+        "wave": 2,
+        "hp": 5,
+        "time": 6.249999999999983,
+        "x": 177.46009882441317,
+        "y": 432.642598101528
+      },
+      {
+        "wave": 3,
+        "hp": 5,
+        "time": 15.200000000000335,
+        "x": 222.12837585242465,
+        "y": 374.38287790189855
+      },
+      {
+        "wave": 4,
+        "hp": 5,
+        "time": 25.39999999999984,
+        "x": 357.8338054612567,
+        "y": 595.3917610677936
+      },
+      {
+        "wave": 5,
+        "hp": 5,
+        "time": 37.149999999999174,
+        "x": 106.58945806508905,
+        "y": 434.7091045510399
+      },
+      {
+        "wave": 6,
+        "hp": 5,
+        "time": 52.04999999999833,
+        "x": 274.2014758265717,
+        "y": 525.636847395456
+      },
+      {
+        "wave": 7,
+        "hp": 5,
+        "time": 63.86666666666432,
+        "x": 358.09420273363645,
+        "y": 569.8344632203122
+      },
+      {
+        "wave": 8,
+        "hp": 5,
+        "time": 77.8333333333302,
+        "x": 183.48738780374185,
+        "y": 324.7210350971791
+      },
+      {
+        "wave": 9,
+        "hp": 5,
+        "time": 91.84999999999607,
+        "x": 93.85449633470307,
+        "y": 476.6211048395945
+      },
+      {
+        "wave": 10,
+        "hp": 5,
+        "time": 106.59999999999523,
+        "x": 225,
+        "y": 500
+      },
+      {
+        "wave": 11,
+        "hp": 5,
+        "time": 118.2333333333279,
+        "x": 195.33141408174805,
+        "y": 150.48576445867616
+      },
+      {
+        "wave": 12,
+        "hp": 5,
+        "time": 132.5666666666643,
+        "x": 263.50526295922197,
+        "y": 376.85039126180016
+      },
+      {
+        "wave": 13,
+        "hp": 5,
+        "time": 149.23333333334423,
+        "x": 371.5385600796645,
+        "y": 498.156484810475
+      },
+      {
+        "wave": 14,
+        "hp": 3.5,
+        "time": 169.38333333336027,
+        "x": 200.3364960459796,
+        "y": 435.3104659429658
+      },
+      {
+        "wave": 15,
+        "hp": 3,
+        "time": 189.26666666670943,
+        "x": 225,
+        "y": 500
+      },
+      {
+        "wave": 16,
+        "hp": 3,
+        "time": 199.05000000005055,
+        "x": 306.9020462481282,
+        "y": 164.63463200564195
+      },
+      {
+        "wave": 17,
+        "hp": 2,
+        "time": 217.21666666673167,
+        "x": 338.9765259244079,
+        "y": 259.6080610646089
+      },
+      {
+        "wave": 18,
+        "hp": 1.5,
+        "time": 235.51666666674623,
+        "x": 297.3082404305422,
+        "y": 384.8488325555462
+      },
+      {
+        "wave": 19,
+        "hp": 1.5,
+        "time": 254.76666666676155,
+        "x": 139.19376912341664,
+        "y": 317.41798806564026
+      }
+    ],
+    "status": "playing",
+    "phase": "cleared",
+    "wave": 19,
+    "arenaUnchanged": true,
+    "elapsed": 276.3,
+    "heat": 0,
+    "perks": {
+      "boots": 1,
+      "plates": 1,
+      "buckshot": 1,
+      "trigger": 1,
+      "double": 1
+    },
+    "hp": 1,
+    "kills": 232,
+    "choices": 5,
+    "drops": 0,
+    "collected": {
+      "coal": 86,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 64,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.514
+  },
+  "shotgun": {
+    "mode": "V0.13 shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 22,
+    "shieldHits": 9,
+    "shots": 228,
+    "movingShots": 0,
+    "enemyShots": 80,
+    "maxBolts": 4,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 10,
+    "room4Mixed": true,
+    "pickups": 81,
+    "maxDrops": 7,
+    "frames": 4283,
+    "workMs": 2204.500013113022,
+    "magnetDurations": [
+      0.383,
+      0.45,
+      0.3,
+      0.433,
+      0.467,
+      0.617,
+      0.45,
+      0.6,
+      0.45,
+      0.4,
+      0.383,
+      0.433,
+      0.633,
+      0.767,
+      0.417,
+      0.467,
+      0.6,
+      0.633,
+      0.75,
+      0.533
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared",
+      "6:preparing",
+      "6:combat",
+      "6:collecting",
+      "6:cleared",
+      "7:preparing",
+      "7:combat",
+      "7:collecting",
+      "7:cleared",
+      "8:preparing",
+      "8:combat",
+      "8:collecting",
+      "8:cleared",
+      "9:preparing",
+      "9:combat",
+      "9:collecting",
+      "9:cleared",
+      "10:preparing",
+      "10:combat",
+      "10:collecting",
+      "10:cleared",
+      "11:preparing",
+      "11:combat",
+      "11:collecting",
+      "11:cleared",
+      "12:preparing",
+      "12:combat",
+      "12:collecting",
+      "12:cleared",
+      "13:preparing",
+      "13:combat",
+      "13:collecting",
+      "13:cleared",
+      "14:preparing",
+      "14:combat",
+      "14:collecting",
+      "14:cleared",
+      "15:preparing",
+      "15:combat",
+      "15:collecting",
+      "15:cleared",
+      "16:preparing",
+      "16:combat",
+      "16:collecting",
+      "16:cleared",
+      "17:preparing",
+      "17:combat",
+      "17:collecting",
+      "17:cleared",
+      "18:preparing",
+      "18:combat",
+      "18:collecting",
+      "18:cleared",
+      "19:preparing",
+      "19:combat",
+      "19:collecting",
+      "19:cleared",
+      "20:preparing",
+      "20:combat",
+      "20:collecting",
+      "20:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 414
+      },
+      {
+        "wave": 2,
+        "hp": 5,
+        "time": 6.249999999999983,
+        "x": 177.46009882441317,
+        "y": 432.642598101528
+      },
+      {
+        "wave": 3,
+        "hp": 5,
+        "time": 15.200000000000335,
+        "x": 222.12837585242465,
+        "y": 374.38287790189855
+      },
+      {
+        "wave": 4,
+        "hp": 5,
+        "time": 25.39999999999984,
+        "x": 357.8338054612567,
+        "y": 595.3917610677936
+      },
+      {
+        "wave": 5,
+        "hp": 5,
+        "time": 37.149999999999174,
+        "x": 106.58945806508905,
+        "y": 434.7091045510399
+      },
+      {
+        "wave": 6,
+        "hp": 5,
+        "time": 52.04999999999833,
+        "x": 274.2014758265717,
+        "y": 525.636847395456
+      },
+      {
+        "wave": 7,
+        "hp": 5,
+        "time": 63.86666666666432,
+        "x": 358.09420273363645,
+        "y": 569.8344632203122
+      },
+      {
+        "wave": 8,
+        "hp": 5,
+        "time": 77.8333333333302,
+        "x": 183.48738780374185,
+        "y": 324.7210350971791
+      },
+      {
+        "wave": 9,
+        "hp": 5,
+        "time": 91.84999999999607,
+        "x": 93.85449633470307,
+        "y": 476.6211048395945
+      },
+      {
+        "wave": 10,
+        "hp": 5,
+        "time": 106.59999999999523,
+        "x": 225,
+        "y": 500
+      },
+      {
+        "wave": 11,
+        "hp": 5,
+        "time": 118.2333333333279,
+        "x": 195.33141408174805,
+        "y": 150.48576445867616
+      },
+      {
+        "wave": 12,
+        "hp": 5,
+        "time": 132.5666666666643,
+        "x": 263.50526295922197,
+        "y": 376.85039126180016
+      },
+      {
+        "wave": 13,
+        "hp": 5,
+        "time": 149.23333333334423,
+        "x": 371.5385600796645,
+        "y": 498.156484810475
+      },
+      {
+        "wave": 14,
+        "hp": 3.5,
+        "time": 169.38333333336027,
+        "x": 200.3364960459796,
+        "y": 435.3104659429658
+      },
+      {
+        "wave": 15,
+        "hp": 3,
+        "time": 189.26666666670943,
+        "x": 225,
+        "y": 500
+      },
+      {
+        "wave": 16,
+        "hp": 3,
+        "time": 199.05000000005055,
+        "x": 306.9020462481282,
+        "y": 164.63463200564195
+      },
+      {
+        "wave": 17,
+        "hp": 2,
+        "time": 217.21666666673167,
+        "x": 338.9765259244079,
+        "y": 259.6080610646089
+      },
+      {
+        "wave": 18,
+        "hp": 1.5,
+        "time": 235.51666666674623,
+        "x": 297.3082404305422,
+        "y": 384.8488325555462
+      },
+      {
+        "wave": 19,
+        "hp": 1.5,
+        "time": 254.76666666676155,
+        "x": 139.19376912341664,
+        "y": 317.41798806564026
+      },
+      {
+        "wave": 20,
+        "hp": 1,
+        "time": 276.316666666744,
+        "x": 225,
+        "y": 500
+      }
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 20,
+    "arenaUnchanged": true,
+    "elapsed": 285.5,
+    "heat": 0,
+    "perks": {
+      "boots": 1,
+      "plates": 1,
+      "buckshot": 1,
+      "trigger": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "hp": 1,
+    "kills": 235,
+    "choices": 6,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 158,
+      "iron": 11,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.515
+  },
+  "epicSmg": {
+    "mode": "V0.13 smg",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 4,
+    "shieldHits": 4,
+    "shots": 1600,
+    "movingShots": 0,
+    "enemyShots": 59,
+    "maxBolts": 3,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 10,
+    "room4Mixed": true,
+    "pickups": 77,
+    "maxDrops": 7,
+    "frames": 4062,
+    "workMs": 2276.999997854233,
+    "magnetDurations": [
+      0.583,
+      0.583,
+      0.6,
+      0.6,
+      0.55,
+      0.617,
+      0.533,
+      0.55,
+      0.617,
+      0.6,
+      0.6,
+      0.617,
+      0.6,
+      0.6,
+      0.583,
+      0.617,
+      0.65,
+      0.617,
+      0.717
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared",
+      "6:preparing",
+      "6:combat",
+      "6:collecting",
+      "6:cleared",
+      "7:preparing",
+      "7:combat",
+      "7:collecting",
+      "7:cleared",
+      "8:preparing",
+      "8:combat",
+      "8:collecting",
+      "8:cleared",
+      "9:preparing",
+      "9:combat",
+      "9:collecting",
+      "9:cleared",
+      "10:preparing",
+      "10:combat",
+      "10:collecting",
+      "10:cleared",
+      "11:preparing",
+      "11:combat",
+      "11:collecting",
+      "11:cleared",
+      "12:preparing",
+      "12:combat",
+      "12:collecting",
+      "12:cleared",
+      "13:preparing",
+      "13:combat",
+      "13:collecting",
+      "13:cleared",
+      "14:preparing",
+      "14:combat",
+      "14:collecting",
+      "14:cleared",
+      "15:preparing",
+      "15:combat",
+      "15:collecting",
+      "15:cleared",
+      "16:preparing",
+      "16:combat",
+      "16:collecting",
+      "16:cleared",
+      "17:preparing",
+      "17:combat",
+      "17:collecting",
+      "17:cleared",
+      "18:preparing",
+      "18:combat",
+      "18:collecting",
+      "18:cleared",
+      "19:preparing",
+      "19:combat",
+      "19:collecting",
+      "19:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225.52777777777777,
+        "y": 414
+      },
+      {
+        "wave": 2,
+        "hp": 5,
+        "time": 10.816666666666784,
+        "x": 272.3906429874647,
+        "y": 467.8803796578773
+      },
+      {
+        "wave": 3,
+        "hp": 5,
+        "time": 17.91666666666693,
+        "x": 263.024955511718,
+        "y": 498.55233758187126
+      },
+      {
+        "wave": 4,
+        "hp": 5,
+        "time": 26.79999999999976,
+        "x": 292.2647105262065,
+        "y": 452.7062462945377
+      },
+      {
+        "wave": 5,
+        "hp": 5,
+        "time": 35.399999999999274,
+        "x": 346.6749129083081,
+        "y": 536.982582132446
+      },
+      {
+        "wave": 6,
+        "hp": 5,
+        "time": 56.36666666666475,
+        "x": 346.9498775046957,
+        "y": 226.55633643550337
+      },
+      {
+        "wave": 7,
+        "hp": 5,
+        "time": 65.68333333333089,
+        "x": 378.5353389784804,
+        "y": 495.6593941509703
+      },
+      {
+        "wave": 8,
+        "hp": 5,
+        "time": 76.2333333333303,
+        "x": 312.2630423112277,
+        "y": 568.0373997321368
+      },
+      {
+        "wave": 9,
+        "hp": 4.5,
+        "time": 97.2833333333291,
+        "x": 69.43737476195005,
+        "y": 314.0120185306892
+      },
+      {
+        "wave": 10,
+        "hp": 4,
+        "time": 116.583333333328,
+        "x": 221.89193312876384,
+        "y": 617.664897002418
+      },
+      {
+        "wave": 11,
+        "hp": 4,
+        "time": 131.01666666666307,
+        "x": 169.33595428942255,
+        "y": 539.7463262755717
+      },
+      {
+        "wave": 12,
+        "hp": 4,
+        "time": 141.91666666667174,
+        "x": 301.0025913096641,
+        "y": 550.7438079962078
+      },
+      {
+        "wave": 13,
+        "hp": 4,
+        "time": 154.10000000001477,
+        "x": 242.95086104413866,
+        "y": 591.813146438525
+      },
+      {
+        "wave": 14,
+        "hp": 4,
+        "time": 166.4500000000246,
+        "x": 300.57285740405354,
+        "y": 548.7853010063832
+      },
+      {
+        "wave": 15,
+        "hp": 4,
+        "time": 178.86666666670115,
+        "x": 292.2983929191927,
+        "y": 565.8944337717588
+      },
+      {
+        "wave": 16,
+        "hp": 4,
+        "time": 194.1000000000466,
+        "x": 304.6090019350139,
+        "y": 598.0978101076412
+      },
+      {
+        "wave": 17,
+        "hp": 4,
+        "time": 205.88333333338932,
+        "x": 221.44871353889542,
+        "y": 618.1116471991793
+      },
+      {
+        "wave": 18,
+        "hp": 4,
+        "time": 227.6500000000733,
+        "x": 84.52663004216936,
+        "y": 542.8112061998463
+      },
+      {
+        "wave": 19,
+        "hp": 2.5,
+        "time": 254.86666666676163,
+        "x": 67.00163578741692,
+        "y": 529.724453141964
+      }
+    ],
+    "maxAlive": 11,
+    "bosses": [
+      "haveuse",
+      "crachefer",
+      "effondreur"
+    ],
+    "status": "playing",
+    "phase": "cleared",
+    "wave": 19,
+    "arenaUnchanged": true,
+    "elapsed": 270.75,
+    "heat": 0,
+    "perks": {
+      "trigger": 2,
+      "plates": 1,
+      "piercing": 1,
+      "boots": 1
+    },
+    "hp": 2.5,
+    "kills": 232,
+    "choices": 5,
+    "drops": 0,
+    "collected": {
+      "coal": 86,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 158,
+      "iron": 11,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.561
+  },
+  "smg": {
+    "mode": "V0.13 smg",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 4,
+    "shieldHits": 4,
+    "shots": 1766,
+    "movingShots": 0,
+    "enemyShots": 66,
+    "maxBolts": 3,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 10,
+    "room4Mixed": true,
+    "pickups": 81,
+    "maxDrops": 7,
+    "frames": 4580,
+    "workMs": 2687.699994325638,
+    "magnetDurations": [
+      0.583,
+      0.583,
+      0.6,
+      0.6,
+      0.55,
+      0.617,
+      0.533,
+      0.55,
+      0.617,
+      0.6,
+      0.6,
+      0.617,
+      0.6,
+      0.6,
+      0.583,
+      0.617,
+      0.65,
+      0.617,
+      0.717,
+      0.567
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared",
+      "6:preparing",
+      "6:combat",
+      "6:collecting",
+      "6:cleared",
+      "7:preparing",
+      "7:combat",
+      "7:collecting",
+      "7:cleared",
+      "8:preparing",
+      "8:combat",
+      "8:collecting",
+      "8:cleared",
+      "9:preparing",
+      "9:combat",
+      "9:collecting",
+      "9:cleared",
+      "10:preparing",
+      "10:combat",
+      "10:collecting",
+      "10:cleared",
+      "11:preparing",
+      "11:combat",
+      "11:collecting",
+      "11:cleared",
+      "12:preparing",
+      "12:combat",
+      "12:collecting",
+      "12:cleared",
+      "13:preparing",
+      "13:combat",
+      "13:collecting",
+      "13:cleared",
+      "14:preparing",
+      "14:combat",
+      "14:collecting",
+      "14:cleared",
+      "15:preparing",
+      "15:combat",
+      "15:collecting",
+      "15:cleared",
+      "16:preparing",
+      "16:combat",
+      "16:collecting",
+      "16:cleared",
+      "17:preparing",
+      "17:combat",
+      "17:collecting",
+      "17:cleared",
+      "18:preparing",
+      "18:combat",
+      "18:collecting",
+      "18:cleared",
+      "19:preparing",
+      "19:combat",
+      "19:collecting",
+      "19:cleared",
+      "20:preparing",
+      "20:combat",
+      "20:collecting",
+      "20:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225.52777777777777,
+        "y": 414
+      },
+      {
+        "wave": 2,
+        "hp": 5,
+        "time": 10.816666666666784,
+        "x": 272.3906429874647,
+        "y": 467.8803796578773
+      },
+      {
+        "wave": 3,
+        "hp": 5,
+        "time": 17.91666666666693,
+        "x": 263.024955511718,
+        "y": 498.55233758187126
+      },
+      {
+        "wave": 4,
+        "hp": 5,
+        "time": 26.79999999999976,
+        "x": 292.2647105262065,
+        "y": 452.7062462945377
+      },
+      {
+        "wave": 5,
+        "hp": 5,
+        "time": 35.399999999999274,
+        "x": 346.6749129083081,
+        "y": 536.982582132446
+      },
+      {
+        "wave": 6,
+        "hp": 5,
+        "time": 56.36666666666475,
+        "x": 346.9498775046957,
+        "y": 226.55633643550337
+      },
+      {
+        "wave": 7,
+        "hp": 5,
+        "time": 65.68333333333089,
+        "x": 378.5353389784804,
+        "y": 495.6593941509703
+      },
+      {
+        "wave": 8,
+        "hp": 5,
+        "time": 76.2333333333303,
+        "x": 312.2630423112277,
+        "y": 568.0373997321368
+      },
+      {
+        "wave": 9,
+        "hp": 4.5,
+        "time": 97.2833333333291,
+        "x": 69.43737476195005,
+        "y": 314.0120185306892
+      },
+      {
+        "wave": 10,
+        "hp": 4,
+        "time": 116.583333333328,
+        "x": 221.89193312876384,
+        "y": 617.664897002418
+      },
+      {
+        "wave": 11,
+        "hp": 4,
+        "time": 131.01666666666307,
+        "x": 169.33595428942255,
+        "y": 539.7463262755717
+      },
+      {
+        "wave": 12,
+        "hp": 4,
+        "time": 141.91666666667174,
+        "x": 301.0025913096641,
+        "y": 550.7438079962078
+      },
+      {
+        "wave": 13,
+        "hp": 4,
+        "time": 154.10000000001477,
+        "x": 242.95086104413866,
+        "y": 591.813146438525
+      },
+      {
+        "wave": 14,
+        "hp": 4,
+        "time": 166.4500000000246,
+        "x": 300.57285740405354,
+        "y": 548.7853010063832
+      },
+      {
+        "wave": 15,
+        "hp": 4,
+        "time": 178.86666666670115,
+        "x": 292.2983929191927,
+        "y": 565.8944337717588
+      },
+      {
+        "wave": 16,
+        "hp": 4,
+        "time": 194.1000000000466,
+        "x": 304.6090019350139,
+        "y": 598.0978101076412
+      },
+      {
+        "wave": 17,
+        "hp": 4,
+        "time": 205.88333333338932,
+        "x": 221.44871353889542,
+        "y": 618.1116471991793
+      },
+      {
+        "wave": 18,
+        "hp": 4,
+        "time": 227.6500000000733,
+        "x": 84.52663004216936,
+        "y": 542.8112061998463
+      },
+      {
+        "wave": 19,
+        "hp": 2.5,
+        "time": 254.86666666676163,
+        "x": 67.00163578741692,
+        "y": 529.724453141964
+      },
+      {
+        "wave": 20,
+        "hp": 2.5,
+        "time": 270.7666666667491,
+        "x": 225,
+        "y": 500
+      }
+    ],
+    "maxAlive": 11,
+    "bosses": [
+      "haveuse",
+      "crachefer",
+      "effondreur"
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 20,
+    "arenaUnchanged": true,
+    "elapsed": 305.27,
+    "heat": 0,
+    "perks": {
+      "trigger": 2,
+      "plates": 1,
+      "piercing": 1,
+      "boots": 1,
+      "total-piercing": 1
+    },
+    "hp": 1.5,
+    "kills": 235,
+    "choices": 6,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 252,
+      "iron": 19,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.587
+  },
+  "wave19": {
+    "mode": "V0.13 shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 11,
+    "shieldHits": 7,
+    "shots": 201,
+    "movingShots": 0,
+    "enemyShots": 67,
+    "maxBolts": 4,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 10,
+    "room4Mixed": true,
+    "pickups": 70,
+    "maxDrops": 7,
+    "frames": 3850,
+    "workMs": 2206.1000027656555,
+    "magnetDurations": [
+      0.383,
+      0.45,
+      0.3,
+      0.433,
+      0.467,
+      0.617,
+      0.45,
+      0.6,
+      0.45,
+      0.4,
+      0.383,
+      0.433,
+      0.633,
+      0.767,
+      0.417,
+      0.467,
+      0.6,
+      0.633
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared",
+      "6:preparing",
+      "6:combat",
+      "6:collecting",
+      "6:cleared",
+      "7:preparing",
+      "7:combat",
+      "7:collecting",
+      "7:cleared",
+      "8:preparing",
+      "8:combat",
+      "8:collecting",
+      "8:cleared",
+      "9:preparing",
+      "9:combat",
+      "9:collecting",
+      "9:cleared",
+      "10:preparing",
+      "10:combat",
+      "10:collecting",
+      "10:cleared",
+      "11:preparing",
+      "11:combat",
+      "11:collecting",
+      "11:cleared",
+      "12:preparing",
+      "12:combat",
+      "12:collecting",
+      "12:cleared",
+      "13:preparing",
+      "13:combat",
+      "13:collecting",
+      "13:cleared",
+      "14:preparing",
+      "14:combat",
+      "14:collecting",
+      "14:cleared",
+      "15:preparing",
+      "15:combat",
+      "15:collecting",
+      "15:cleared",
+      "16:preparing",
+      "16:combat",
+      "16:collecting",
+      "16:cleared",
+      "17:preparing",
+      "17:combat",
+      "17:collecting",
+      "17:cleared",
+      "18:preparing",
+      "18:combat",
+      "18:collecting",
+      "18:cleared",
+      "19:preparing",
+      "19:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 414
+      },
+      {
+        "wave": 2,
+        "hp": 5,
+        "time": 6.249999999999983,
+        "x": 177.46009882441317,
+        "y": 432.642598101528
+      },
+      {
+        "wave": 3,
+        "hp": 5,
+        "time": 15.200000000000335,
+        "x": 222.12837585242465,
+        "y": 374.38287790189855
+      },
+      {
+        "wave": 4,
+        "hp": 5,
+        "time": 25.39999999999984,
+        "x": 357.8338054612567,
+        "y": 595.3917610677936
+      },
+      {
+        "wave": 5,
+        "hp": 5,
+        "time": 37.149999999999174,
+        "x": 106.58945806508905,
+        "y": 434.7091045510399
+      },
+      {
+        "wave": 6,
+        "hp": 5,
+        "time": 52.04999999999833,
+        "x": 274.2014758265717,
+        "y": 525.636847395456
+      },
+      {
+        "wave": 7,
+        "hp": 5,
+        "time": 63.86666666666432,
+        "x": 358.09420273363645,
+        "y": 569.8344632203122
+      },
+      {
+        "wave": 8,
+        "hp": 5,
+        "time": 77.8333333333302,
+        "x": 183.48738780374185,
+        "y": 324.7210350971791
+      },
+      {
+        "wave": 9,
+        "hp": 5,
+        "time": 91.84999999999607,
+        "x": 93.85449633470307,
+        "y": 476.6211048395945
+      },
+      {
+        "wave": 10,
+        "hp": 5,
+        "time": 106.59999999999523,
+        "x": 225,
+        "y": 500
+      },
+      {
+        "wave": 11,
+        "hp": 5,
+        "time": 118.2333333333279,
+        "x": 195.33141408174805,
+        "y": 150.48576445867616
+      },
+      {
+        "wave": 12,
+        "hp": 5,
+        "time": 132.5666666666643,
+        "x": 263.50526295922197,
+        "y": 376.85039126180016
+      },
+      {
+        "wave": 13,
+        "hp": 5,
+        "time": 149.23333333334423,
+        "x": 371.5385600796645,
+        "y": 498.156484810475
+      },
+      {
+        "wave": 14,
+        "hp": 3.5,
+        "time": 169.38333333336027,
+        "x": 200.3364960459796,
+        "y": 435.3104659429658
+      },
+      {
+        "wave": 15,
+        "hp": 3,
+        "time": 189.26666666670943,
+        "x": 225,
+        "y": 500
+      },
+      {
+        "wave": 16,
+        "hp": 3,
+        "time": 199.05000000005055,
+        "x": 306.9020462481282,
+        "y": 164.63463200564195
+      },
+      {
+        "wave": 17,
+        "hp": 2,
+        "time": 217.21666666673167,
+        "x": 338.9765259244079,
+        "y": 259.6080610646089
+      },
+      {
+        "wave": 18,
+        "hp": 1.5,
+        "time": 235.51666666674623,
+        "x": 297.3082404305422,
+        "y": 384.8488325555462
+      },
+      {
+        "wave": 19,
+        "hp": 1.5,
+        "time": 254.76666666676155,
+        "x": 139.19376912341664,
+        "y": 317.41798806564026
+      }
+    ],
+    "maxAlive": 10,
+    "bosses": [
+      "haveuse",
+      "crachefer",
+      "effondreur"
+    ],
+    "status": "playing",
+    "phase": "combat",
+    "wave": 19,
+    "arenaUnchanged": true,
+    "elapsed": 256.65,
+    "heat": 0,
+    "perks": {
+      "boots": 1,
+      "plates": 1,
+      "buckshot": 1,
+      "trigger": 1,
+      "double": 1
+    },
+    "hp": 1.5,
+    "kills": 210,
+    "choices": 5,
+    "drops": 0,
+    "collected": {
+      "coal": 79,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 252,
+      "iron": 19,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.573
+  },
+  "console": [],
+  "validation": {
+    "sizes": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "perksBottom320": 527.69,
+    "instructionsTop320": 531.06,
+    "normalServer": "http://127.0.0.1:5177",
+    "note": "Runs complètes sans soin ni bonus QA. Aperçus de boss distincts. Temps CPU local, pas un benchmark Android.",
+    "wifi": "http://192.168.1.197:5177",
+    "wifiStatus": 200
+  },
+  "normalConsole": []
+}

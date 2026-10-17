@@ -1,0 +1,43 @@
+✔ V022 base energy volley: three shots, 0.85 seconds, 350 range, first target only even after kill (2.4374ms)
+✔ V022 conduit I/II/III reaches 2/3/4 targets with 100/70/50/35 damage and no fifth hit (1.8402ms)
+✔ V022 capacitor trades damage for a wider 4/5 impulse volley; coil remains slower than SMG (0.4537ms)
+✔ V022 overload halves only penetration penalty following a direct kill (0.483ms)
+✔ V022 arc hits one nearest secondary target, grants its kill, and never recurses (0.4778ms)
+✔ V022 arc moderate damage and range; no arc from nonlethal hit (0.4677ms)
+✔ V022 boots activate only on actual shot, refresh without stacking, expire and preserve permanent speed (0.7196ms)
+✔ V022 plates block whole first hit, no expiration, next hit hurts, recharge each wave (4.7165ms)
+✔ V022 perk draws enforce prerequisites, 3 roles, caps, uniqueness and avoid consecutive identical trios (12.6835ms)
+✔ V022 penetration is visible in HUD only after purchase; no unknown labels (0.555ms)
+✔ V022 haveuse health +25–35%, activity increased, warnings/damage unchanged, stronger below half (12.0048ms)
+✔ V022 crachefer health +25–35%, activity increased, warnings/damage unchanged, stronger below half (21.6756ms)
+✔ V022 effondreur health +25–35%, activity increased, warnings/damage unchanged, stronger below half (24.3244ms)
+✔ V022 stationmaster health +25–35%, activity increased, warnings/damage unchanged, stronger below half (24.2596ms)
+✔ V022 locomotive health +25–35%, activity increased, warnings/damage unchanged, stronger below half (22.5447ms)
+✔ V022 switchman health +25–35%, activity increased, warnings/damage unchanged, stronger below half (39.013ms)
+✔ V022 final preserves staggered opening, fixed telegraphs and eight-shot cap; low HP fans retain simple patterns (0.8601ms)
+✔ V022 leaves normal enemies, waves, meta systems, persistence and validated art byte-identical (63.8432ms)
+✔ Grisou X is selectable, launches either unlocked zone and offers existing compatible perks/epics (3.3544ms)
+✔ shotgun and SMG definitions remain identical to V0.20 (0.2969ms)
+✔ Grisou X emits exactly three symmetric energy projectiles only while stopped (0.8362ms)
+✔ energy penetration deals exactly 100/70/50/35 after conduit perks percent and vanishes before a fifth target (0.6606ms)
+✔ a kill never consumes the remaining penetration and the next target is hit in the same frame (0.4407ms)
+✔ energy projectiles expire at range/borders, reuse the pool and never duplicate a hit (0.213ms)
+✔ drill telegraphs then fires three symmetric directions aimed at the player at release (1.0727ms)
+✔ draisine telegraphs then fires three symmetric directions aimed at the player at release (0.4916ms)
+✔ fan allocation is atomic, capped at eight bolts, and prohibits simultaneous boss fans (1.3819ms)
+✔ slow fans can be dodged after release and overlapping hits respect player invulnerability (1.6061ms)
+✔ Crachefer alternates simple/fan shots; Aiguilleur preserves rails between simple and fan patterns (1.0411ms)
+✔ V0.21 keeps all unrequested production files and validated Rat/Wagon visuals byte-identical (50.0457ms)
+✔ Grisou X art is lightweight local SVG and the three-card menu uses the existing selection mechanism (4.287ms)
+✔ historical V0.21 full Zone 2 with shotgun has real fans, legal choices and unchanged reward budget (2093.1103ms)
+✔ historical V0.21 full Zone 2 with smg has real fans, legal choices and unchanged reward budget (4552.393ms)
+✔ historical V0.21 full Zone 2 with grisoux has real fans, legal choices and unchanged reward budget (2917.422ms)
+✔ historical V0.21 Grisou X completes all twenty Galeries waves with real enemy fans (2132.6097ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11950.3142

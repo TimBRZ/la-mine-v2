@@ -1,0 +1,15 @@
+{
+  "name": "la-mine-v2-v01",
+  "version": "0.33.0",
+  "private": true,
+  "type": "module",
+  "description": "Prototype indépendant : une arène et vingt vagues, trois armes, trois boss et un choix épique, aucun lien avec CGWeb.",
+  "scripts": {
+    "start": "node server.mjs",
+    "start:mobile": "node server.mjs --host=0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  }
+}

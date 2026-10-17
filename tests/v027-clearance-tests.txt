@@ -1,0 +1,32 @@
+✔ V027 complete Rift is winnable with shotgun and stays within safety limits (8651.2332ms)
+✔ V027 complete Rift is winnable with smg and stays within safety limits (14339.017ms)
+✔ V027 complete Rift is winnable with grisoux and stays within safety limits (8799.4847ms)
+✖ V027 last enemy death finishes warned shards before collection; no fresh gas after clearance (17.0447ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 32001.2912
+
+✖ failing tests:
+
+test at tests\rift-v027.test.js:90:1
+✖ V027 last enemy death finishes warned shards before collection; no fresh gas after clearance (17.0447ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(['collecting','cleared'].includes(r.wavePhase))
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rift-v027.test.js:94:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,90 @@
+{
+  "run": {
+    "mode": "V0.9 navigation",
+    "shots": 607,
+    "movingShots": 0,
+    "enemyShots": 18,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 12,
+    "frames": 1972,
+    "workMs": 1523.599996805191,
+    "magnetDurations": [
+      0.683,
+      0.667,
+      0.617,
+      0.683,
+      0.517
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 1.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.773
+  },
+  "layout320": {
+    "content": [
+      379,
+      379
+    ],
+    "minButton": 44,
+    "overflow": false,
+    "selected": "MITRAILLETTE",
+    "viewport": [
+      320,
+      568
+    ]
+  },
+  "layout390": {
+    "content": [
+      465,
+      465
+    ],
+    "minButton": 50.69791793823242,
+    "overflow": false,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "checks": {
+    "weaponsSelectable": true,
+    "equippedLabel": true,
+    "futureSectionsDisabled": true,
+    "lockedZones": 4,
+    "victoryReturnHome": true,
+    "defeatReplayZones": true,
+    "workshopPurchase": {
+      "coalBefore": 94,
+      "coalAfter": 64,
+      "powerLevel": 1,
+      "filledLevelIndicators": 1,
+      "nextCost": 60
+    },
+    "consoleErrors": []
+  },
+  "note": "QA memory wallet; no purchase in real profile. Responsive browser validation, not a physical-phone benchmark."
+}

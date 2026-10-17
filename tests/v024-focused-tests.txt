@@ -1,0 +1,119 @@
+✔ V024 legacy tracks victories unlock shaft; missing or forged unlock flags do not (1.5628ms)
+✔ V024 tracks victory unlocks shaft persistently; loss and partial victory do not (2.8069ms)
+✔ V024 first shaft victory adds exactly one diamond, persists completion and cannot be reclaimed after reload (0.6287ms)
+✔ V024 old profile resource balances, upgrades, talents and crate extension survive sanitizing progress (1.4252ms)
+✔ V024 preserves original zone definitions and every reward RNG branch (4.491ms)
+✔ V024 twenty waves introduce enemies progressively, retain choice schedule and end with the three bosses (1.4751ms)
+✔ V024 normal spawn opportunity frequency is about 20 percent higher than tracks, without increasing entity cap (0.2863ms)
+✔ V024 reward budget is 113 coal, 10 guaranteed iron, modest diamond bonus and unchanged tokens (0.4618ms)
+✖ V024 deepdriller has a safe spawn, takes weapon damage and participates in kill/drop/Grisou flow (8.216ms)
+✖ V024 surveyor has a safe spawn, takes weapon damage and participates in kill/drop/Grisou flow (3.3425ms)
+✖ V024 gasminer has a safe spawn, takes weapon damage and participates in kill/drop/Grisou flow (1.8535ms)
+✔ V024 deep driller warns and locks its short charge; cannot home after commitment (0.6576ms)
+✔ V024 surveyor approaches at range and retreats if too close (0.2169ms)
+✖ V024 gas explosion warns, locks its location and has no recursive enemy explosions (0.5623ms)
+✔ V024 ground budget is shared, atomic, locked and removes dead owners (0.4452ms)
+✔ V024 instability damages only after warning, can be dodged, expires and leaves safe space (0.6699ms)
+✔ V024 cable hazard is vertical, bounded and avoidable on either side (0.2242ms)
+✔ V024 cager executes its three distinct warned attacks and can die (0.8124ms)
+✔ V024 compressor executes its three distinct warned attacks and can die (0.4943ms)
+✔ V024 firedamp executes its three distinct warned attacks and can die (0.3497ms)
+✔ V024 triple ground attacks serialize and never overlap a reserved circle (0.8201ms)
+✔ V024 gameplay modules outside the zone extension, all prior art, weapons and meta systems remain byte-identical (90.8582ms)
+✔ V024 full shaft run with shotgun wins through four boss encounters within all budgets (4174.7581ms)
+✔ V024 full shaft run with smg wins through four boss encounters within all budgets (4403.5027ms)
+✔ V024 full shaft run with grisoux wins through four boss encounters within all budgets (4213.9304ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 21
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13147.6704
+
+✖ failing tests:
+
+test at tests\shaft-v024.test.js:42:57
+✖ V024 deepdriller has a safe spawn, takes weapon damage and participates in kill/drop/Grisou flow (8.216ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/shaft-v024.test.js:46:90)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\shaft-v024.test.js:42:57
+✖ V024 surveyor has a safe spawn, takes weapon damage and participates in kill/drop/Grisou flow (3.3425ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/shaft-v024.test.js:46:90)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\shaft-v024.test.js:42:57
+✖ V024 gasminer has a safe spawn, takes weapon damage and participates in kill/drop/Grisou flow (1.8535ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/shaft-v024.test.js:46:90)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\shaft-v024.test.js:54:1
+✖ V024 gas explosion warns, locks its location and has no recursive enemy explosions (0.5623ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  200.68 !== 200
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/shaft-v024.test.js:55:340)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 200.68,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

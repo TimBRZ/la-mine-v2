@@ -1,0 +1,92 @@
+{
+  "shotgun": {
+    "before": {
+      "wins": 3,
+      "meanWinningSeconds": 605.8277777775555,
+      "meanDamage": 0.5,
+      "dangerFraction": 0.5844641909809473,
+      "dangerEpisodesPerMinute": 2.1603877758562757,
+      "meanBossSeconds": {
+        "5": 29.83333333333292,
+        "10": 31.10555555555507,
+        "15": 29.63333333333293,
+        "20": 41.62777777777669
+      },
+      "lateMovement": 0.36264852660339003
+    },
+    "after": {
+      "wins": 3,
+      "meanWinningSeconds": 754.061111110754,
+      "meanDamage": 0.16666666666666666,
+      "dangerFraction": 0.6303160708722513,
+      "dangerEpisodesPerMinute": 1.662357924501439,
+      "meanBossSeconds": {
+        "5": 37.52222222222138,
+        "10": 35.744444444443694,
+        "15": 29.36666666666628,
+        "20": 45.76666666666535
+      },
+      "lateMovement": 0.37398728355310284
+    }
+  },
+  "smg": {
+    "before": {
+      "wins": 3,
+      "meanWinningSeconds": 859.4944444439915,
+      "meanDamage": 0.6666666666666666,
+      "dangerFraction": 0.6152015422925635,
+      "dangerEpisodesPerMinute": 1.6031534705995831,
+      "meanBossSeconds": {
+        "5": 32.73888888888831,
+        "10": 37.383333333332494,
+        "15": 49.10555555555405,
+        "20": 76.33888888888585
+      },
+      "lateMovement": 0.31340314393305685
+    },
+    "after": {
+      "wins": 3,
+      "meanWinningSeconds": 1037.1166666660522,
+      "meanDamage": 3.5,
+      "dangerFraction": 0.7011617701973142,
+      "dangerEpisodesPerMinute": 1.2924777587839678,
+      "meanBossSeconds": {
+        "5": 29.0166666666663,
+        "10": 33.47777777777716,
+        "15": 50.48333333333175,
+        "20": 71.22222222221946
+      },
+      "lateMovement": 0.34338625365057834
+    }
+  },
+  "grisoux": {
+    "before": {
+      "wins": 3,
+      "meanWinningSeconds": 699.455555555248,
+      "meanDamage": 1.6666666666666667,
+      "dangerFraction": 0.5175474367192779,
+      "dangerEpisodesPerMinute": 2.036258092215539,
+      "meanBossSeconds": {
+        "5": 43.455555555554376,
+        "10": 47.89999999999856,
+        "15": 47.31111111110971,
+        "20": 43.511111111109926
+      },
+      "lateMovement": 0.3293869489594958
+    },
+    "after": {
+      "wins": 2,
+      "meanWinningSeconds": 799.358333332935,
+      "meanDamage": 4,
+      "dangerFraction": 0.5546855737508337,
+      "dangerEpisodesPerMinute": 1.8210827296648395,
+      "meanBossSeconds": {
+        "5": 39.49999999999904,
+        "10": 40.21666666666567,
+        "15": 41.466666666665596,
+        "20": 45.33333333333204
+      },
+      "lateMovement": 0.3458928639365364
+    }
+  }
+}

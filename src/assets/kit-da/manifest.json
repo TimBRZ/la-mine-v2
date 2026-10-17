@@ -1,0 +1,74 @@
+{
+  "name": "La Mine V2 — Kit DA 01",
+  "gameVersion": "0.9.0",
+  "assets": [
+    {
+      "file": "carreau.svg",
+      "bytes": 1783
+    },
+    {
+      "file": "coal.svg",
+      "bytes": 1084
+    },
+    {
+      "file": "cta-sign.svg",
+      "bytes": 1406
+    },
+    {
+      "file": "diamond.svg",
+      "bytes": 1073
+    },
+    {
+      "file": "galeries-locked.svg",
+      "bytes": 1943
+    },
+    {
+      "file": "galeries.svg",
+      "bytes": 1605
+    },
+    {
+      "file": "iron.svg",
+      "bytes": 1057
+    },
+    {
+      "file": "locked-sign.svg",
+      "bytes": 1402
+    },
+    {
+      "file": "miner.webp",
+      "bytes": 41796
+    },
+    {
+      "file": "nav-active.svg",
+      "bytes": 1321
+    },
+    {
+      "file": "nav-idle.svg",
+      "bytes": 1320
+    },
+    {
+      "file": "podium.svg",
+      "bytes": 1257
+    },
+    {
+      "file": "shotgun.svg",
+      "bytes": 1444
+    },
+    {
+      "file": "smg.svg",
+      "bytes": 1463
+    },
+    {
+      "file": "token.svg",
+      "bytes": 1110
+    },
+    {
+      "file": "upgrade-panel.svg",
+      "bytes": 1423
+    },
+    {
+      "file": "carreau-depth.svg",
+      "bytes": 4777
+    }
+  ]
+}

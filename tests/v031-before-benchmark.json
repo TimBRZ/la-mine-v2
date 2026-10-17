@@ -1,0 +1,587 @@
+{
+  "phase": "before",
+  "definitions": [
+    {
+      "id": "shotgun",
+      "damage": 12,
+      "pellets": 7,
+      "interval": 0.9,
+      "range": 192,
+      "spreadRadians": 0.49,
+      "idealPointBlankDps": 93.33333333333333,
+      "travelSamples": [
+        {
+          "distance": 0,
+          "damage": 12
+        },
+        {
+          "distance": 20,
+          "damage": 11
+        },
+        {
+          "distance": 45,
+          "damage": 10
+        },
+        {
+          "distance": 70,
+          "damage": 9
+        },
+        {
+          "distance": 100,
+          "damage": 8
+        },
+        {
+          "distance": 140,
+          "damage": 7
+        },
+        {
+          "distance": 170,
+          "damage": 5
+        },
+        {
+          "distance": 192,
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "id": "smg",
+      "damage": 5,
+      "pellets": 1,
+      "interval": 0.12,
+      "range": 280,
+      "spreadRadians": 0,
+      "idealPointBlankDps": 41.66666666666667,
+      "travelSamples": [
+        {
+          "distance": 0,
+          "damage": 5
+        },
+        {
+          "distance": 20,
+          "damage": 5
+        },
+        {
+          "distance": 45,
+          "damage": 5
+        },
+        {
+          "distance": 70,
+          "damage": 5
+        },
+        {
+          "distance": 100,
+          "damage": 5
+        },
+        {
+          "distance": 140,
+          "damage": 5
+        },
+        {
+          "distance": 170,
+          "damage": 5
+        },
+        {
+          "distance": 192,
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "id": "grisoux",
+      "damage": 11,
+      "pellets": 3,
+      "interval": 0.85,
+      "range": 350,
+      "spreadRadians": 0.1,
+      "idealPointBlankDps": 38.82352941176471,
+      "travelSamples": [
+        {
+          "distance": 0,
+          "damage": 11
+        },
+        {
+          "distance": 20,
+          "damage": 11
+        },
+        {
+          "distance": 45,
+          "damage": 11
+        },
+        {
+          "distance": 70,
+          "damage": 11
+        },
+        {
+          "distance": 100,
+          "damage": 11
+        },
+        {
+          "distance": 140,
+          "damage": 11
+        },
+        {
+          "distance": 170,
+          "damage": 11
+        },
+        {
+          "distance": 192,
+          "damage": 11
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "weaponId": "shotgun",
+      "scenario": "A-close",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 5.46250000000001,
+      "ttk": 5.46250000000001,
+      "dps": 91.53318077803186,
+      "damage": 500,
+      "shots": 7,
+      "hits": 46,
+      "sustained30": 87.26666666667069
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "B-medium",
+      "distance": 150,
+      "build": "none",
+      "perks": [],
+      "seconds": 20.05416666666585,
+      "ttk": 20.05416666666585,
+      "dps": 24.932474548099915,
+      "damage": 500,
+      "shots": 23,
+      "hits": 69,
+      "sustained30": 24.93333333333448
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "C-three-aligned",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 9.216666666666464,
+      "ttk": 9.216666666666464,
+      "dps": 39.059674502713335,
+      "damage": 360,
+      "shots": 11,
+      "hits": 43,
+      "sustained30": 87.26666666667069
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "D-boss",
+      "distance": 150,
+      "build": "none",
+      "perks": [],
+      "seconds": 39.93750000000482,
+      "ttk": 39.93750000000482,
+      "dps": 45.07042253520583,
+      "damage": 1800,
+      "shots": 45,
+      "hits": 225,
+      "sustained30": 45.333333333335425
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "E-boss-medium-build",
+      "distance": 150,
+      "build": "medium",
+      "perks": [
+        "buckshot",
+        "trigger",
+        "plates"
+      ],
+      "seconds": 33.133333333332736,
+      "ttk": 33.133333333332736,
+      "dps": 54.325955734407415,
+      "damage": 1800,
+      "shots": 40,
+      "hits": 276,
+      "sustained30": 54.981818193199786
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "F-boss-strong-build",
+      "distance": 150,
+      "build": "strong",
+      "perks": [
+        "buckshot",
+        "buckshot",
+        "trigger",
+        "trigger",
+        "double",
+        "double-cannon"
+      ],
+      "seconds": 15.97916666666608,
+      "ttk": 15.97916666666608,
+      "dps": 112.6466753585439,
+      "damage": 1800,
+      "shots": 42,
+      "hits": 361,
+      "sustained30": 113.78888888260254
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "G-close-boss",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 20.816666666665807,
+      "ttk": 20.816666666665807,
+      "dps": 86.4691753402758,
+      "damage": 1800,
+      "shots": 24,
+      "hits": 164,
+      "sustained30": 87.26666666667069
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "H-range230",
+      "distance": 230,
+      "build": "none",
+      "perks": [],
+      "seconds": 119.99999999997303,
+      "ttk": null,
+      "dps": 0,
+      "damage": 0,
+      "shots": 0,
+      "hits": 0,
+      "sustained30": 0
+    },
+    {
+      "weaponId": "shotgun",
+      "scenario": "I-group-strong-build",
+      "distance": 60,
+      "build": "strong",
+      "perks": [
+        "buckshot",
+        "buckshot",
+        "trigger",
+        "trigger",
+        "double",
+        "double-cannon"
+      ],
+      "seconds": 2.5500000000000216,
+      "ttk": 2.5500000000000216,
+      "dps": 141.1764705882341,
+      "damage": 360,
+      "shots": 8,
+      "hits": 43,
+      "sustained30": 418.00000000001927
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "A-close",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 11.991666666666307,
+      "ttk": 11.991666666666307,
+      "dps": 41.69562195969549,
+      "damage": 500,
+      "shots": 100,
+      "hits": 100,
+      "sustained30": 41.50000000000191
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "B-medium",
+      "distance": 150,
+      "build": "none",
+      "perks": [],
+      "seconds": 12.099999999999634,
+      "ttk": 12.099999999999634,
+      "dps": 41.32231404958803,
+      "damage": 500,
+      "shots": 101,
+      "hits": 100,
+      "sustained30": 41.33333333333524
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "C-three-aligned",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 8.729166666666492,
+      "ttk": 8.729166666666492,
+      "dps": 41.24105011933257,
+      "damage": 360,
+      "shots": 73,
+      "hits": 72,
+      "sustained30": 41.50000000000191
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "D-boss",
+      "distance": 150,
+      "build": "none",
+      "perks": [],
+      "seconds": 34.92500000000083,
+      "ttk": 34.92500000000083,
+      "dps": 51.5390121689322,
+      "damage": 1800,
+      "shots": 290,
+      "hits": 289,
+      "sustained30": 51.47166666686772
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "E-boss-medium-build",
+      "distance": 150,
+      "build": "medium",
+      "perks": [
+        "heat",
+        "trigger",
+        "plates"
+      ],
+      "seconds": 19.558333333332545,
+      "ttk": 19.558333333332545,
+      "dps": 92.03238176395769,
+      "damage": 1800,
+      "shots": 214,
+      "hits": 213,
+      "sustained30": 93.02760208398533
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "F-boss-strong-build",
+      "distance": 150,
+      "build": "strong",
+      "perks": [
+        "heat",
+        "trigger",
+        "trigger",
+        "magazine",
+        "plates",
+        "critical-heat"
+      ],
+      "seconds": 10.345833333333067,
+      "ttk": 10.345833333333067,
+      "dps": 173.98308497785385,
+      "damage": 1800,
+      "shots": 155,
+      "hits": 154,
+      "sustained30": 198.61959305555544
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "G-close-boss",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 34.81666666666741,
+      "ttk": 34.81666666666741,
+      "dps": 51.69937769267482,
+      "damage": 1800,
+      "shots": 289,
+      "hits": 289,
+      "sustained30": 51.68000000020106
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "H-range230",
+      "distance": 230,
+      "build": "none",
+      "perks": [],
+      "seconds": 12.191666666666295,
+      "ttk": 12.191666666666295,
+      "dps": 41.01161995898963,
+      "damage": 500,
+      "shots": 101,
+      "hits": 100,
+      "sustained30": 41.16666666666856
+    },
+    {
+      "weaponId": "smg",
+      "scenario": "I-group-strong-build",
+      "distance": 60,
+      "build": "strong",
+      "perks": [
+        "heat",
+        "trigger",
+        "trigger",
+        "magazine",
+        "plates",
+        "critical-heat"
+      ],
+      "seconds": 3.92500000000009,
+      "ttk": 3.92500000000009,
+      "dps": 91.71974522292783,
+      "damage": 360,
+      "shots": 65,
+      "hits": 63,
+      "sustained30": 159.45381944577633
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "A-close",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 12.854166666666258,
+      "ttk": 12.854166666666258,
+      "dps": 38.8978930307954,
+      "damage": 500,
+      "shots": 16,
+      "hits": 46,
+      "sustained30": 39.60000000000183
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "B-medium",
+      "distance": 150,
+      "build": "none",
+      "perks": [],
+      "seconds": 12.999999999999583,
+      "ttk": 12.999999999999583,
+      "dps": 38.461538461539696,
+      "damage": 500,
+      "shots": 16,
+      "hits": 46,
+      "sustained30": 38.500000000001776
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "C-three-aligned",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 8.745833333333158,
+      "ttk": 8.745833333333158,
+      "dps": 41.162458313483434,
+      "damage": 360,
+      "shots": 11,
+      "hits": 33,
+      "sustained30": 39.60000000000183
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "D-boss",
+      "distance": 150,
+      "build": "none",
+      "perks": [],
+      "seconds": 46.29583333334321,
+      "ttk": 46.29583333334321,
+      "dps": 38.88038880387975,
+      "damage": 1800,
+      "shots": 55,
+      "hits": 164,
+      "sustained30": 38.500000000001776
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "E-boss-medium-build",
+      "distance": 150,
+      "build": "medium",
+      "perks": [
+        "conduit",
+        "rapid-coil",
+        "plates"
+      ],
+      "seconds": 37.07083333333587,
+      "ttk": 37.07083333333587,
+      "dps": 48.55569293019787,
+      "damage": 1800,
+      "shots": 55,
+      "hits": 164,
+      "sustained30": 48.40000000000223
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "F-boss-strong-build",
+      "distance": 150,
+      "build": "strong",
+      "perks": [
+        "conduit",
+        "reinforced-conduit",
+        "rapid-coil",
+        "trigger",
+        "plates",
+        "double-cannon"
+      ],
+      "seconds": 14.008333333332859,
+      "ttk": 14.008333333332859,
+      "dps": 128.49494348602457,
+      "damage": 1800,
+      "shots": 56,
+      "hits": 164,
+      "sustained30": 129.80000000000598
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "G-close-boss",
+      "distance": 60,
+      "build": "none",
+      "perks": [],
+      "seconds": 46.15000000000976,
+      "ttk": 46.15000000000976,
+      "dps": 39.00325027084765,
+      "damage": 1800,
+      "shots": 55,
+      "hits": 164,
+      "sustained30": 39.60000000000183
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "H-range230",
+      "distance": 230,
+      "build": "none",
+      "perks": [],
+      "seconds": 13.129166666666242,
+      "ttk": 13.129166666666242,
+      "dps": 38.083148206919674,
+      "damage": 500,
+      "shots": 16,
+      "hits": 46,
+      "sustained30": 38.500000000001776
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "I-group-strong-build",
+      "distance": 60,
+      "build": "strong",
+      "perks": [
+        "conduit",
+        "reinforced-conduit",
+        "rapid-coil",
+        "trigger",
+        "plates",
+        "double-cannon"
+      ],
+      "seconds": 1.2291666666666636,
+      "ttk": 1.2291666666666636,
+      "dps": 292.8813559322041,
+      "damage": 360,
+      "shots": 6,
+      "hits": 44,
+      "sustained30": 285.5600000341865
+    },
+    {
+      "weaponId": "grisoux",
+      "scenario": "J-group-arc-overload",
+      "perks": [
+        "conduit",
+        "reinforced-conduit",
+        "capacitor",
+        "energy-overload",
+        "energy-arc",
+        "double-cannon"
+      ],
+      "seconds": 1.9124999999999945,
+      "ttk": 1.9124999999999945,
+      "dps": 188.23529411764758,
+      "damage": 360,
+      "shots": 6,
+      "hits": 51,
+      "sustained30": 201.34400003752046
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+✔ three distinct rail bosses populate 5/10/15/20, menu still refuses tracks (6.7799ms)
+✔ stationmaster locks a visible warning before charge and recovers without teleportation (1.4043ms)
+✔ locomotive locks a visible warning before charge and recovers without teleportation (0.4848ms)
+✔ stationmaster wagon passage is periodic, safe, bounded and uses the ordinary telegraph (5.6156ms)
+✔ summons neither mint drops nor survive their owner, even on the death frame (3.0022ms)
+✔ locomotive steam is warned, bounded, damages only when active and expires (0.9791ms)
+✔ switchman has two locked avoidable solo rails and only one in the final (2.1395ms)
+✔ mechanical burst is exactly two slow shots, with lateral dodge available (4.7475ms)
+✔ boss charge and rail/steam damage use live Run collisions and ordinary invulnerability (1.0817ms)
+✔ stationmaster hits a stationary target but a warning-time lateral dodge avoids the charge (7.2035ms)
+✔ shooting an invoked wagon credits no additional wave death or resource (1.7704ms)
+✔ triple openings are staggered and hazards/bolts/summons remain bounded (29.7528ms)
+✔ shotgun defeats boss 5 with legal perk prefix, no damage/HP overrides (138.3543ms)
+✔ shotgun defeats boss 10 with legal perk prefix, no damage/HP overrides (108.9867ms)
+✔ shotgun defeats boss 15 with legal perk prefix, no damage/HP overrides (140.3344ms)
+✔ shotgun defeats boss 20 with legal perk prefix, no damage/HP overrides (197.0513ms)
+✔ smg defeats boss 5 with legal perk prefix, no damage/HP overrides (52.4517ms)
+✔ smg defeats boss 10 with legal perk prefix, no damage/HP overrides (29.3148ms)
+✔ smg defeats boss 15 with legal perk prefix, no damage/HP overrides (35.3903ms)
+✔ smg defeats boss 20 with legal perk prefix, no damage/HP overrides (105.3651ms)
+✖ full tracks run completes with shotgun and activated Zone 2 reward budget (1381.3786ms)
+✔ full tracks run completes with smg and activated Zone 2 reward budget (869.1001ms)
+✔ old boss behavior body, normal tracks waves and all economy stay unchanged (33.6392ms)
+✔ 20 central tracks slots; bosses enabled at 5/10/15/20, future reservations never auto-won (4.9901ms)
+✔ tier 1 has four readable compositions with safe caps and progressive timing (0.5308ms)
+✔ tier 2 has four readable compositions with safe caps and progressive timing (0.2998ms)
+✔ tier 3 has four readable compositions with safe caps and progressive timing (0.211ms)
+✔ tier 4 has four readable compositions with safe caps and progressive timing (0.2599ms)
+✔ early teaching sequence and railway majority, with rats and drills secondary (0.536ms)
+✔ normal entrant pressure rises 15–25% over galleries, without health inflation (0.6327ms)
+✔ per-kind caps defer spawns without consuming an entry; free slot resumes (1.1331ms)
+✔ all 16 normal waves survive with shotgun, legal perks/Atelier2, safe spawns and exact collected budget (1707.7885ms)
+✔ all 16 normal waves survive with smg, legal perks/Atelier2, safe spawns and exact collected budget (685.295ms)
+✔ step 3 leaves the staged reward function unchanged (18.604ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 33
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3369.709
+
+✖ failing tests:
+
+test at tests\rail-bosses-v018.test.js:76:41
+✖ full tracks run completes with shotgun and activated Zone 2 reward budget (1381.3786ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:77:51)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

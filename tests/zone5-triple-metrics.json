@@ -1,0 +1,74 @@
+[
+  {
+    "late": false,
+    "dual": 38.38333333333244,
+    "triple": 2.0999999999999974,
+    "tripleEngaged": 37.39999999999916,
+    "major": 2,
+    "bolts": 6,
+    "ground": 5,
+    "longestCalm": 0.966666666666668,
+    "darkSeconds": 14.76666666666698,
+    "forbiddenCombos": 0,
+    "distance": {
+      "lampmajor": 1807.6949861030528,
+      "dynamiter": 1349.9130242065864,
+      "blackmass": 2175.7035703881384
+    },
+    "patterns": {
+      "lampmajor:major-sweep": 2,
+      "dynamiter:demo-plan": 3,
+      "blackmass:mass-charge": 2,
+      "lampmajor:combo-light": 1,
+      "dynamiter:combo-light": 3,
+      "blackmass:mass-slam": 6,
+      "dynamiter:demo-quadrants": 4,
+      "lampmajor:major-dark": 2,
+      "blackmass:mass-triple": 4,
+      "lampmajor:major-cross": 2,
+      "dynamiter:demo-lob": 2,
+      "blackmass:mass-fissures": 2,
+      "lampmajor:combo-corridor": 1,
+      "blackmass:combo-corridor": 1,
+      "lampmajor:major-aim": 1,
+      "dynamiter:combo-heavy": 1,
+      "blackmass:combo-heavy": 1
+    }
+  },
+  {
+    "late": true,
+    "dual": 38.583333333332426,
+    "triple": 0.6166666666666669,
+    "tripleEngaged": 39.49999999999904,
+    "major": 2,
+    "bolts": 6,
+    "ground": 5,
+    "longestCalm": 0.8666666666666677,
+    "darkSeconds": 16.01666666666704,
+    "forbiddenCombos": 0,
+    "distance": {
+      "lampmajor": 2119.602386772115,
+      "dynamiter": 1736.3516452833246,
+      "blackmass": 2542.231753323586
+    },
+    "patterns": {
+      "lampmajor:major-sweep": 2,
+      "dynamiter:demo-chain": 3,
+      "blackmass:mass-charge": 3,
+      "lampmajor:combo-light": 2,
+      "dynamiter:combo-light": 6,
+      "blackmass:mass-slam": 4,
+      "lampmajor:major-aim": 2,
+      "dynamiter:demo-lob": 2,
+      "blackmass:mass-fissures": 1,
+      "lampmajor:major-cross": 1,
+      "lampmajor:combo-corridor": 1,
+      "blackmass:combo-corridor": 1,
+      "dynamiter:demo-quadrants": 2,
+      "blackmass:mass-triple": 7,
+      "lampmajor:major-dark": 1,
+      "dynamiter:combo-heavy": 1,
+      "blackmass:combo-heavy": 1
+    }
+  }
+]

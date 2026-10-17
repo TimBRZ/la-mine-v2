@@ -1,0 +1,74 @@
+{
+  "mobileFix": {
+    "cause": "Stale 0.0.0.0 server served SVG and WebP as application/octet-stream; localhost process used correct MIME",
+    "resolution": "Restarted Wi-Fi server; verified both addresses return correct MIME and matching bytes",
+    "physicalAndroidChrome": "User confirmed: Tous les assets s’affichent"
+  },
+  "viewport320": {
+    "brokenImages": 0,
+    "content": [
+      376,
+      376
+    ],
+    "height": 568,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "viewport390": {
+    "brokenImages": 0,
+    "content": [
+      461,
+      461
+    ],
+    "height": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "run": {
+    "mode": "V0.9 navigation",
+    "shots": 89,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 1,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 11,
+    "frames": 1468,
+    "workMs": 732.8000018596649,
+    "magnetDurations": [
+      0.583,
+      0.6,
+      0.667,
+      0.633,
+      0.433
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 4.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.499
+  },
+  "console": []
+}

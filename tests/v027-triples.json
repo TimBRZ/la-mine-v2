@@ -1,0 +1,54 @@
+[
+  {
+    "late": false,
+    "dual": 54.09999999999821,
+    "triple": 15.583333333333687,
+    "major": 2,
+    "bolts": 21,
+    "ground": 4,
+    "longestCalm": 0.11666666666666665,
+    "meanBolts": 5.183055555555556,
+    "distance": {
+      "splitter": 2429.616774515134,
+      "blower": 3050.0316840622913,
+      "core": 3976.8970546647997
+    },
+    "patterns": {
+      "splitter:charge": 5,
+      "blower:circle8": 5,
+      "core:double": 4,
+      "splitter:fan8": 5,
+      "core:rain": 3,
+      "blower:pockets": 5,
+      "core:orb": 3,
+      "splitter:fissures": 5,
+      "blower:cone": 5
+    }
+  },
+  {
+    "late": true,
+    "dual": 59.266666666664584,
+    "triple": 18.633333333333557,
+    "major": 2,
+    "bolts": 24,
+    "ground": 4,
+    "longestCalm": 0,
+    "meanBolts": 6.108055555555556,
+    "distance": {
+      "splitter": 2396.6356263531584,
+      "blower": 3167.0018493669218,
+      "core": 4113.895063704661
+    },
+    "patterns": {
+      "splitter:charge": 7,
+      "blower:circle8": 5,
+      "core:double": 6,
+      "splitter:fan8": 6,
+      "blower:pockets": 5,
+      "core:orb": 3,
+      "blower:cone": 5,
+      "splitter:fissures": 3,
+      "core:rain": 2
+    }
+  }
+]

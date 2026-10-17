@@ -1,0 +1,14 @@
+import {Run} from '../src/run.js';import {UpgradeFlow} from '../src/upgrades.js';import {energyPilot} from './forge-pilot.js';import {buildPriority} from './zone5-simulation.mjs';import {forgeEscapeReport} from '../src/forge/geometry.js';import {writeFile} from 'node:fs/promises';
+export function simulateForge({weaponId='grisoux',seed=1,zoneId='forge',rank=2}={}){
+ const initialSeed=seed,random=()=>((seed=(Math.imul(seed,1664525)+1013904223)>>>0)/4294967296),r=new Run(random,{power:rank,health:rank,mechanics:rank,mobility:rank},{zoneId,weaponId,rewardRandom:()=>.99,talentRandom:()=>.99}),f=new UpgradeFlow(r,random),priority=buildPriority(weaponId);const choose=()=>f.choose(priority.find(id=>f.offered.some(p=>p.id===id))||f.offered[0].id);f.open();choose();
+ const waves={},caps={bolts:0,ground:0,heat:0,majors:0},bosses={};let noColdRoute=0,minColdFraction=1,rejections=0,movingShots=0;
+ for(let i=0;i<1800*60&&r.status==='playing';i++){
+  const n=r.waveNumber,combat=r.wavePhase==='combat',input=energyPilot(r),events=r.update(1/60,input),g=r.shaftHazards?.items||[],controller=r.forge||r.depths,bolts=r.hostileProjectiles.pool.filter(b=>b.active).length,w=waves[n]||={seconds:0,combatSeconds:0,movingSeconds:0,hazardSeconds:0,heatSeconds:0,hp:0,damage:0};w.seconds+=1/60;w.hp=r.player.hp;w.damage=r.damageTaken;
+  if(combat){w.combatSeconds+=1/60;w.movingSeconds+=(input.x||input.y)?1/60:0;w.hazardSeconds+=g.filter(h=>!h.cooling).length/60;w.heatSeconds+=g.filter(h=>h.heat&&h.active).length/60;if(r.wave.boss)bosses[n]=(bosses[n]||0)+1/60;}
+  caps.bolts=Math.max(caps.bolts,bolts);caps.ground=Math.max(caps.ground,g.length);caps.heat=Math.max(caps.heat,g.filter(h=>h.heat&&!h.cooling).length);caps.majors=Math.max(caps.majors,controller.majorOwners().size);movingShots+=events.filter(e=>e.type==='shot'&&(input.x||input.y)).length;
+  if(r.forge&&i%60===0&&combat){const escape=forgeEscapeReport(g.filter(h=>!h.cooling),r.player);if(!escape.spans)noColdRoute++;minColdFraction=Math.min(minColdFraction,escape.largestColdFraction);rejections+=r.forge.ground.rejected;r.forge.ground.rejected=0;}
+  if(f.afterCombat())choose();
+ }
+ return {weaponId,seed:initialSeed,zoneId,rank,status:r.status,wave:r.waveNumber,seconds:r.elapsed,hp:r.player.hp,damageTaken:r.damageTaken,kills:r.kills,choices:f.count,rewards:r.collectedRewards,perks:r.upgradeRanks,caps,noColdRoute,minColdFraction,safetyRejections:rejections,movingShots,bosses,waves};
+}
+if(process.argv[1]?.endsWith('zone6-simulation.mjs')){const runs=[];for(const weaponId of ['shotgun','smg','grisoux'])for(const seed of [1,2,3]){const r=simulateForge({weaponId,seed});runs.push(r);console.log(JSON.stringify({weaponId,seed,status:r.status,wave:r.wave,seconds:r.seconds,damage:r.damageTaken,caps:r.caps,noColdRoute:r.noColdRoute,minColdFraction:r.minColdFraction}));}await writeFile(new URL('./zone6-simulations.json',import.meta.url),JSON.stringify(runs,null,2));}

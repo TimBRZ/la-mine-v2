@@ -1,0 +1,214 @@
+{
+  "note": "Seeded test pilot, not a human difficulty benchmark. Pilot braking adapted to avoid endless circling around nearby rats. No healing or hidden bonuses.",
+  "results": [
+    {
+      "weaponId": "shotgun",
+      "seed": 1,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 2,
+      "elapsed": 79,
+      "perks": {
+        "trigger": 2,
+        "boots": 1
+      },
+      "damageByWave": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 9,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 4,
+      "elapsed": 85,
+      "perks": {
+        "trigger": 1,
+        "plates": 1,
+        "boots": 1
+      },
+      "damageByWave": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 16,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 2,
+      "elapsed": 79,
+      "perks": {
+        "trigger": 2,
+        "buckshot": 1
+      },
+      "damageByWave": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "shotgun",
+      "seed": 42,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 2,
+      "elapsed": 80,
+      "perks": {
+        "trigger": 2,
+        "plates": 1
+      },
+      "damageByWave": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "smg",
+      "seed": 1,
+      "status": "lost",
+      "wave": 4,
+      "kills": 42,
+      "hp": 0,
+      "elapsed": 112,
+      "perks": {
+        "piercing": 1,
+        "boots": 1
+      },
+      "damageByWave": [
+        0,
+        0.5,
+        2.5,
+        2,
+        0
+      ],
+      "rewards": {
+        "coal": 42,
+        "iron": 0,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "smg",
+      "seed": 9,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 2.5,
+      "elapsed": 157,
+      "perks": {
+        "boots": 1,
+        "trigger": 2
+      },
+      "damageByWave": [
+        0,
+        0,
+        1.5,
+        1,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "smg",
+      "seed": 16,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 4,
+      "elapsed": 141,
+      "perks": {
+        "trigger": 2,
+        "boots": 1
+      },
+      "damageByWave": [
+        0,
+        0.5,
+        0,
+        0.5,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    },
+    {
+      "weaponId": "smg",
+      "seed": 42,
+      "status": "won",
+      "wave": 5,
+      "kills": 50,
+      "hp": 4,
+      "elapsed": 126,
+      "perks": {
+        "piercing": 1,
+        "trigger": 2
+      },
+      "damageByWave": [
+        0,
+        0.5,
+        0,
+        0.5,
+        0
+      ],
+      "rewards": {
+        "coal": 94,
+        "iron": 8,
+        "diamond": 0,
+        "token": 0
+      }
+    }
+  ]
+}

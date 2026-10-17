@@ -1,0 +1,218 @@
+[
+  {
+    "zoneId": "galleries",
+    "half": false,
+    "before": true,
+    "dualSeconds": 46.15,
+    "tripleSeconds": 12.62,
+    "activeDualSeconds": 17.57,
+    "longestCalm": 0.6,
+    "maxMajor": 3,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 0,
+    "begins": {
+      "haveuse": 17,
+      "crachefer": 22,
+      "effondreur": 15
+    }
+  },
+  {
+    "zoneId": "galleries",
+    "half": false,
+    "before": false,
+    "dualSeconds": 52.62,
+    "tripleSeconds": 19.18,
+    "activeDualSeconds": 24.38,
+    "longestCalm": 0,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 0,
+    "begins": {
+      "haveuse": 21,
+      "crachefer": 25,
+      "effondreur": 17
+    }
+  },
+  {
+    "zoneId": "galleries",
+    "half": true,
+    "before": true,
+    "dualSeconds": 48.67,
+    "tripleSeconds": 17.87,
+    "activeDualSeconds": 22.2,
+    "longestCalm": 0.22,
+    "maxMajor": 3,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 0,
+    "begins": {
+      "haveuse": 20,
+      "crachefer": 26,
+      "effondreur": 16
+    }
+  },
+  {
+    "zoneId": "galleries",
+    "half": true,
+    "before": false,
+    "dualSeconds": 55.85,
+    "tripleSeconds": 27.48,
+    "activeDualSeconds": 28.02,
+    "longestCalm": 0,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 0,
+    "begins": {
+      "haveuse": 27,
+      "crachefer": 26,
+      "effondreur": 19
+    }
+  },
+  {
+    "zoneId": "tracks",
+    "half": false,
+    "before": true,
+    "dualSeconds": 29.95,
+    "tripleSeconds": 9.38,
+    "activeDualSeconds": 8.87,
+    "longestCalm": 2.23,
+    "maxMajor": 3,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 1,
+    "begins": {
+      "stationmaster": 13,
+      "locomotive": 10,
+      "switchman": 12
+    }
+  },
+  {
+    "zoneId": "tracks",
+    "half": false,
+    "before": false,
+    "dualSeconds": 36.72,
+    "tripleSeconds": 5.8,
+    "activeDualSeconds": 8.27,
+    "longestCalm": 0.72,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 1,
+    "begins": {
+      "stationmaster": 15,
+      "locomotive": 13,
+      "switchman": 14
+    }
+  },
+  {
+    "zoneId": "tracks",
+    "half": true,
+    "before": true,
+    "dualSeconds": 34.72,
+    "tripleSeconds": 8.85,
+    "activeDualSeconds": 8.75,
+    "longestCalm": 1.98,
+    "maxMajor": 3,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 1,
+    "begins": {
+      "stationmaster": 14,
+      "locomotive": 12,
+      "switchman": 13
+    }
+  },
+  {
+    "zoneId": "tracks",
+    "half": true,
+    "before": false,
+    "dualSeconds": 46.02,
+    "tripleSeconds": 9.2,
+    "activeDualSeconds": 11.83,
+    "longestCalm": 0,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 0,
+    "maxWagons": 1,
+    "begins": {
+      "stationmaster": 20,
+      "locomotive": 15,
+      "switchman": 17
+    }
+  },
+  {
+    "zoneId": "shaft59",
+    "half": false,
+    "before": true,
+    "dualSeconds": 14.47,
+    "tripleSeconds": 0,
+    "activeDualSeconds": 1.97,
+    "longestCalm": 2.18,
+    "maxMajor": 1,
+    "maxBolts": 6,
+    "maxZones": 1,
+    "maxWagons": 0,
+    "begins": {
+      "cager": 7,
+      "compressor": 8,
+      "firedamp": 8
+    }
+  },
+  {
+    "zoneId": "shaft59",
+    "half": false,
+    "before": false,
+    "dualSeconds": 33.47,
+    "tripleSeconds": 2.22,
+    "activeDualSeconds": 8.67,
+    "longestCalm": 0.63,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 2,
+    "maxWagons": 0,
+    "begins": {
+      "cager": 12,
+      "compressor": 12,
+      "firedamp": 12
+    }
+  },
+  {
+    "zoneId": "shaft59",
+    "half": true,
+    "before": true,
+    "dualSeconds": 18,
+    "tripleSeconds": 0,
+    "activeDualSeconds": 3.02,
+    "longestCalm": 2.07,
+    "maxMajor": 1,
+    "maxBolts": 6,
+    "maxZones": 1,
+    "maxWagons": 0,
+    "begins": {
+      "cager": 8,
+      "compressor": 9,
+      "firedamp": 9
+    }
+  },
+  {
+    "zoneId": "shaft59",
+    "half": true,
+    "before": false,
+    "dualSeconds": 42.8,
+    "tripleSeconds": 13.98,
+    "activeDualSeconds": 12.6,
+    "longestCalm": 1.12,
+    "maxMajor": 2,
+    "maxBolts": 6,
+    "maxZones": 2,
+    "maxWagons": 0,
+    "begins": {
+      "cager": 15,
+      "compressor": 16,
+      "firedamp": 16
+    }
+  }
+]

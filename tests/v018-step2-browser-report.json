@@ -1,0 +1,227 @@
+{
+  "shotgun": {
+    "mode": "V0.18 étape 2 combat shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 7,
+    "shieldHits": 0,
+    "shots": 7,
+    "movingShots": 0,
+    "enemyShots": 2,
+    "maxBolts": 2,
+    "seen": [
+      "wagon",
+      "draisine"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 2,
+    "maxDrops": 2,
+    "frames": 471,
+    "workMs": 194.60000348091125,
+    "magnetDurations": [
+      0.517
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 505
+      }
+    ],
+    "maxAlive": 2,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 340,
+    "maxFocus": 0,
+    "status": "won",
+    "phase": "cleared",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 7.85,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 2,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 10,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 125,
+      "iron": 38,
+      "diamond": 5,
+      "token": 2
+    },
+    "meanUpdateRenderMs": 0.413
+  },
+  "smg": {
+    "mode": "V0.18 étape 2 combat smg",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 3,
+    "shieldHits": 0,
+    "shots": 29,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "wagon",
+      "draisine"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 2,
+    "maxDrops": 2,
+    "frames": 336,
+    "workMs": 109.39999842643738,
+    "magnetDurations": [
+      0.633
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 505
+      }
+    ],
+    "maxAlive": 2,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 29,
+    "maxFocus": 0,
+    "status": "won",
+    "phase": "cleared",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 5.6,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 2,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 10,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 135,
+      "iron": 38,
+      "diamond": 5,
+      "token": 2
+    },
+    "meanUpdateRenderMs": 0.326
+  },
+  "stress": {
+    "mode": "V0.18 étape 2 stress smg",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 3,
+    "shieldHits": 0,
+    "shots": 138,
+    "movingShots": 0,
+    "enemyShots": 35,
+    "maxBolts": 8,
+    "seen": [
+      "wagon",
+      "draisine"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 10,
+    "maxDrops": 9,
+    "frames": 1758,
+    "workMs": 586.9000089168549,
+    "magnetDurations": [
+      0.65
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 505
+      }
+    ],
+    "maxAlive": 12,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 559,
+    "maxFocus": 0,
+    "status": "won",
+    "phase": "cleared",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 29.3,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 3.5,
+    "kills": 12,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 10,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 145,
+      "iron": 38,
+      "diamond": 5,
+      "token": 2
+    },
+    "meanUpdateRenderMs": 0.334
+  },
+  "console": [],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "screenshot": "v018-step2-320.jpg",
+      "view": "telegraphs"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "screenshot": "v018-step2-390.jpg",
+      "view": "burst"
+    }
+  ],
+  "limitations": "Browser tests on PC at mobile viewport sizes, not physical Android; automated movement only, no combat stat overrides in browser combat fixtures."
+}

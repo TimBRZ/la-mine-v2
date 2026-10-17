@@ -1,0 +1,56 @@
+{
+  "weaponId": "grisoux",
+  "zoneId": "rift",
+  "seed": 1,
+  "rank": 2,
+  "talents": [],
+  "status": "won",
+  "wave": 20,
+  "hp": 3,
+  "seconds": 769.23,
+  "kills": 278,
+  "perks": {
+    "plates": 2,
+    "conduit": 1,
+    "energy-overload": 1,
+    "rapid-coil": 1,
+    "double-cannon": 1
+  },
+  "choices": 6,
+  "rewards": {
+    "coal": 118,
+    "iron": 11,
+    "diamond": 0,
+    "token": 0
+  },
+  "maxBolts": 19,
+  "movingShots": 0,
+  "fans": 10,
+  "circles": 0,
+  "maxZones": 4,
+  "groundWarnings": 65,
+  "maxSummons": 0,
+  "maxEntities": 12,
+  "bosses": [
+    {
+      "wave": 5,
+      "seconds": 44.92,
+      "hp": 5
+    },
+    {
+      "wave": 10,
+      "seconds": 57.98,
+      "hp": 4.5
+    },
+    {
+      "wave": 15,
+      "seconds": 74.47,
+      "hp": 3.5
+    },
+    {
+      "wave": 20,
+      "seconds": 49.8,
+      "hp": 3
+    }
+  ]
+}

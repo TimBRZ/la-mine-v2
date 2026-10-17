@@ -1,0 +1,3293 @@
+[
+  {
+    "mode": "V0.26 mobilité haveuse",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "haveuse"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.58141674752147,
+        "y": 270.8136059031875,
+        "phase": "chase"
+      },
+      {
+        "time": 0.5,
+        "x": 207.49740878855204,
+        "y": 295.586890793577,
+        "phase": "chase"
+      },
+      {
+        "time": 1,
+        "x": 223.28102768473966,
+        "y": 321.0958031729394,
+        "phase": "chase"
+      },
+      {
+        "time": 1.5,
+        "x": 232.6003460842944,
+        "y": 337.65222664073104,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 232.6003460842944,
+        "y": 337.65222664073104,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 247.7253660597748,
+        "y": 432.79078287243163,
+        "phase": "charge"
+      },
+      {
+        "time": 3,
+        "x": 267.2989213221612,
+        "y": 555.9112674075735,
+        "phase": "recovery"
+      },
+      {
+        "time": 3.5,
+        "x": 263.42621770169336,
+        "y": 572.4565091418442,
+        "phase": "chase"
+      },
+      {
+        "time": 4,
+        "x": 236.10643158485908,
+        "y": 571.0838304307209,
+        "phase": "chase"
+      },
+      {
+        "time": 4.5,
+        "x": 211.45493476353553,
+        "y": 554.4467500823797,
+        "phase": "chase"
+      },
+      {
+        "time": 5,
+        "x": 202.57562843529755,
+        "y": 542.3971989853615,
+        "phase": "warning"
+      },
+      {
+        "time": 5.5,
+        "x": 202.57562843529755,
+        "y": 542.3971989853615,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 306.2190045285273,
+        "y": 483.92455074708386,
+        "phase": "charge"
+      },
+      {
+        "time": 6.5,
+        "x": 392,
+        "y": 433.80513797141685,
+        "phase": "recovery"
+      },
+      {
+        "time": 7,
+        "x": 377.9449660464185,
+        "y": 449.4054244450357,
+        "phase": "chase"
+      },
+      {
+        "time": 7.5,
+        "x": 360.6206685279221,
+        "y": 454.92311683380035,
+        "phase": "chase"
+      }
+    ],
+    "repositionDistance": 252.00000000000017,
+    "mobility": [
+      {
+        "id": "haveuse",
+        "x": 349.1204711928583,
+        "y": 455.04372437232195,
+        "phase": "chase",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "haveuse",
+        "phase": "chase",
+        "phaseTime": 0.19266666666666638
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1215
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité crachefer",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 2,
+    "maxBolts": 3,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "crachefer"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "fans": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 191.024,
+        "y": 269.7013333333333,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 222.24762982308826,
+        "y": 262.7955711215178,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 244.5075261900979,
+        "y": 260.3619666403094,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 244.5075261900979,
+        "y": 260.3619666403094,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 244.5075261900979,
+        "y": 260.3619666403094,
+        "phase": "recovery"
+      },
+      {
+        "time": 2.5,
+        "x": 260.49655461306287,
+        "y": 259.8480770718973,
+        "phase": "positioning"
+      },
+      {
+        "time": 3,
+        "x": 292.40969270732944,
+        "y": 261.8871702973402,
+        "phase": "positioning"
+      },
+      {
+        "time": 3.5,
+        "x": 315.51093429299135,
+        "y": 265.96325741914427,
+        "phase": "warning"
+      },
+      {
+        "time": 4,
+        "x": 315.51093429299135,
+        "y": 265.96325741914427,
+        "phase": "warning"
+      },
+      {
+        "time": 4.5,
+        "x": 315.51093429299135,
+        "y": 265.96325741914427,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 300.8655731732476,
+        "y": 263.05601976629094,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 269.0542309790851,
+        "y": 259.79312823354496,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 244.5320920229571,
+        "y": 260.05526512950803,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 244.5320920229571,
+        "y": 260.05526512950803,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 244.5320920229571,
+        "y": 260.05526512950803,
+        "phase": "recovery"
+      },
+      {
+        "time": 7.5,
+        "x": 258.3878888274699,
+        "y": 259.5527622924435,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 243.2,
+    "mobility": [
+      {
+        "id": "crachefer",
+        "x": 289.2578837961524,
+        "y": 261.19608208650675,
+        "phase": "positioning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "crachefer",
+        "projectilePattern": null,
+        "phase": "positioning",
+        "phaseTime": 0.4139999999999989
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1716
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité effondreur",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "effondreur"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.53056712039503,
+        "y": 270.45661639343734,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 206.1090376265071,
+        "y": 284.5359686586163,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 220.9727744812484,
+        "y": 299.36744161683947,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 224.32781620583947,
+        "y": 302.9386297250642,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 224.32781620583947,
+        "y": 302.9386297250642,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 224.32781620583947,
+        "y": 302.9386297250642,
+        "phase": "recovery"
+      },
+      {
+        "time": 3,
+        "x": 228.10615253960648,
+        "y": 307.0718632578417,
+        "phase": "recovery"
+      },
+      {
+        "time": 3.5,
+        "x": 241.70509228403603,
+        "y": 323.07012448907204,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 258.9070525294539,
+        "y": 330.3696867320953,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 279.8684451560151,
+        "y": 331.4273568936683,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 300.5634967285111,
+        "y": 334.9221695586361,
+        "phase": "warning"
+      },
+      {
+        "time": 5.5,
+        "x": 300.5634967285111,
+        "y": 334.9221695586361,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 300.5634967285111,
+        "y": 334.9221695586361,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 300.5634967285111,
+        "y": 334.9221695586361,
+        "phase": "recovery"
+      },
+      {
+        "time": 7,
+        "x": 290.2751044415367,
+        "y": 332.83224889965743,
+        "phase": "recovery"
+      },
+      {
+        "time": 7.5,
+        "x": 269.42037063546513,
+        "y": 330.4701958002811,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 189.00000000000014,
+    "mobility": [
+      {
+        "id": "effondreur",
+        "x": 249.13118257090514,
+        "y": 330.5124717798143,
+        "phase": "positioning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "effondreur",
+        "projectilePattern": null,
+        "phase": "positioning",
+        "phaseTime": 0.8916666666666667
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1950
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité stationmaster",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "stationmaster"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.90900335635854,
+        "y": 271.06475954944244,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 216.94870062886667,
+        "y": 304.0056778232264,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 240.1878909727324,
+        "y": 338.9734195222451,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 266.17381543353997,
+        "y": 365.97163934393666,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 277.3380169306929,
+        "y": 366.8310164903324,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 277.3380169306929,
+        "y": 366.8310164903324,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 261.9093473105395,
+        "y": 494.2335305871771,
+        "phase": "charge"
+      },
+      {
+        "time": 3.5,
+        "x": 249.98719351314796,
+        "y": 592.6809278438297,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 218.0764461736122,
+        "y": 585.2089701144547,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 187.4776092950175,
+        "y": 557.0454715944563,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 173.5710489194521,
+        "y": 517.8492016299226,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 179.5003363651373,
+        "y": 476.68067068824956,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 192.17224575112178,
+        "y": 454.99955177760194,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 192.17224575112178,
+        "y": 454.99955177760194,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 246.54319843422266,
+        "y": 499.08809342202494,
+        "phase": "charge"
+      },
+      {
+        "time": 7.5,
+        "x": 368.87784197120027,
+        "y": 598.2873121219767,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 344.4000000000004,
+    "mobility": [
+      {
+        "id": "stationmaster",
+        "x": 376.9803315019788,
+        "y": 582.4920123526405,
+        "phase": "recovery",
+        "recoveryElapsed": 0.5333333333333333
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "stationmaster",
+        "pattern": "charge",
+        "projectilePattern": null,
+        "phase": "recovery",
+        "phaseTime": 0.3246666666666657,
+        "hazards": []
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1495
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité locomotive",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "locomotive"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.24684484209394,
+        "y": 270.4727706297731,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 197.55787878992933,
+        "y": 284.7046077305358,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 204.67709167119384,
+        "y": 299.0333444399731,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 211.58923588535268,
+        "y": 313.4630884817653,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 217.6185654137734,
+        "y": 326.5399220795726,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 217.6185654137734,
+        "y": 326.5399220795726,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 217.6185654137734,
+        "y": 326.5399220795726,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 228.31004847494611,
+        "y": 372.82104339218364,
+        "phase": "charge"
+      },
+      {
+        "time": 4,
+        "x": 239.71429707353033,
+        "y": 422.1875727923021,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 250.2196059197855,
+        "y": 420.37542247880424,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 266.1944491901381,
+        "y": 420.0089830217413,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 281.98332530338547,
+        "y": 422.467028614988,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 297.091259557474,
+        "y": 427.67102898336947,
+        "phase": "positioning"
+      },
+      {
+        "time": 6.5,
+        "x": 311.04537814507313,
+        "y": 435.45656495990454,
+        "phase": "positioning"
+      },
+      {
+        "time": 7,
+        "x": 319.48985523945163,
+        "y": 441.9632426549559,
+        "phase": "warning"
+      },
+      {
+        "time": 7.5,
+        "x": 319.48985523945163,
+        "y": 441.9632426549559,
+        "phase": "warning"
+      }
+    ],
+    "repositionDistance": 148.26666666666674,
+    "mobility": [
+      {
+        "id": "locomotive",
+        "x": 319.48985523945163,
+        "y": 441.9632426549559,
+        "phase": "warning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "locomotive",
+        "pattern": "steam",
+        "projectilePattern": null,
+        "phase": "warning",
+        "phaseTime": 0.1499999999999997,
+        "hazards": [
+          {
+            "x": 266.8307002970078,
+            "y": 502.1879336109724,
+            "radius": 54,
+            "active": false,
+            "time": 1.6
+          }
+        ]
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2063
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité switchman",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 2,
+    "maxBolts": 2,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "switchman"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.73651546106666,
+        "y": 270.51724749937506,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 212.61674492272056,
+        "y": 285.29958473335387,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 239.29414412852284,
+        "y": 281.2402635616325,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 266.2635212409171,
+        "y": 280.33760041228714,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 277.94719099848874,
+        "y": 280.9312814503354,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 277.94719099848874,
+        "y": 280.9312814503354,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 277.94719099848874,
+        "y": 280.9312814503354,
+        "phase": "recovery"
+      },
+      {
+        "time": 3.5,
+        "x": 290.47800916971994,
+        "y": 282.23474707547655,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 316.9778713557777,
+        "y": 287.3259295326775,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 342.6984326190599,
+        "y": 295.48778886722454,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 367.285482887658,
+        "y": 306.6071666840649,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 363.90541457378475,
+        "y": 319.3227077365737,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 353.52887373922795,
+        "y": 327.94849569510774,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 353.52887373922795,
+        "y": 327.94849569510774,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 353.52887373922795,
+        "y": 327.94849569510774,
+        "phase": "warning"
+      },
+      {
+        "time": 7.5,
+        "x": 353.52887373922795,
+        "y": 327.94849569510774,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 245.7000000000014,
+    "mobility": [
+      {
+        "id": "switchman",
+        "x": 342.16322440627414,
+        "y": 322.5141472063375,
+        "phase": "recovery",
+        "recoveryElapsed": 0.5333333333333333
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "switchman",
+        "pattern": "burst",
+        "projectilePattern": null,
+        "railOrientation": "horizontal",
+        "phase": "recovery",
+        "phaseTime": 0.4416666666666653,
+        "hazards": []
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2470
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité cager",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "cager"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.74774113167592,
+        "y": 270.8067733262819,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 212.3939287353096,
+        "y": 295.70822295752413,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 232.31197938111202,
+        "y": 322.010301365594,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 250.1190963781781,
+        "y": 349.78190401053536,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 276.8875466445022,
+        "y": 361.16974045152506,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 276.8875466445022,
+        "y": 361.16974045152506,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 276.8875466445022,
+        "y": 361.16974045152506,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 270.6865704466686,
+        "y": 415.8190578689812,
+        "phase": "charge"
+      },
+      {
+        "time": 4,
+        "x": 259.3181140839737,
+        "y": 516.0094731343174,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 241.37129397545837,
+        "y": 527.9869610614928,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 208.72641804456936,
+        "y": 531.2522145604505,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 176.3229991404825,
+        "y": 525.3408631789181,
+        "phase": "recovery"
+      },
+      {
+        "time": 6,
+        "x": 169.77409971960807,
+        "y": 497.1064595263434,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 179.99910410300728,
+        "y": 465.91924316630224,
+        "phase": "recovery"
+      },
+      {
+        "time": 7,
+        "x": 200.58860831324273,
+        "y": 440.35918578020664,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 228.8715304135528,
+        "y": 423.70472290699394,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 378.3999999999997,
+    "mobility": [
+      {
+        "id": "cager",
+        "x": 253.51444249135537,
+        "y": 418.33962682186416,
+        "phase": "warning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 259.5137371221621,
+        "y": 503.1276475791196,
+        "radius": 36,
+        "warning": 1.3833333333333337,
+        "remaining": 0.7,
+        "active": false,
+        "damage": 0.5,
+        "label": "IMPACT !",
+        "vertical": false
+      }
+    ],
+    "bossPatterns": [
+      {
+        "id": "cager",
+        "pattern": "front",
+        "projectilePattern": null,
+        "phase": "warning",
+        "phaseTime": 1.4000000000000004
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1600
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité compressor",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 1,
+    "maxBolts": 3,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "compressor"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "fans": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.4939422326116,
+        "y": 270.39639901860846,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 205.3120136608986,
+        "y": 281.48991846843325,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 223.9438115514604,
+        "y": 277.79401855403086,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 242.60414486628378,
+        "y": 276.1512765816805,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 261.5872600141665,
+        "y": 275.4848508961699,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 261.5872600141665,
+        "y": 275.4848508961699,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 261.5872600141665,
+        "y": 275.4848508961699,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 261.5872600141665,
+        "y": 275.4848508961699,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 272.9811065984099,
+        "y": 275.8236019044086,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 291.8911124473071,
+        "y": 277.61651342285387,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 310.5940443834018,
+        "y": 280.9336255729768,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 328.96729527835674,
+        "y": 285.75302290659056,
+        "phase": "recovery"
+      },
+      {
+        "time": 6,
+        "x": 346.890459303948,
+        "y": 292.04294925644996,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 364.2461198516144,
+        "y": 299.762021232857,
+        "phase": "positioning"
+      },
+      {
+        "time": 7,
+        "x": 365.57409974157827,
+        "y": 308.91703553040986,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 355.1825803800557,
+        "y": 314.9847728739526,
+        "phase": "warning"
+      }
+    ],
+    "repositionDistance": 214.0666666666671,
+    "mobility": [
+      {
+        "id": "compressor",
+        "x": 355.1825803800557,
+        "y": 314.9847728739526,
+        "phase": "warning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "compressor",
+        "pattern": "radial",
+        "projectilePattern": "circle",
+        "circleShots": 6,
+        "phase": "warning",
+        "phaseTime": 0.8333333333333346
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2100
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité firedamp",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "firedamp"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 2,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 191.11062905098368,
+        "y": 270.60905464086204,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 225.99033260349128,
+        "y": 277.62594334923944,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 263.86345711837976,
+        "y": 275.07965879221985,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 301.1995504574555,
+        "y": 279.49565468737956,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 337.92765742800003,
+        "y": 289.0813052115919,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 337.92765742800003,
+        "y": 289.0813052115919,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 337.92765742800003,
+        "y": 289.0813052115919,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 337.92765742800003,
+        "y": 289.0813052115919,
+        "phase": "warning"
+      },
+      {
+        "time": 4,
+        "x": 354.4295371645559,
+        "y": 295.5627965292881,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 363.796336775704,
+        "y": 313.13413215749404,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 346.4669519899809,
+        "y": 331.0406213822377,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 372.2310076281124,
+        "y": 349.42728463283305,
+        "phase": "recovery"
+      },
+      {
+        "time": 6,
+        "x": 335.6609079986103,
+        "y": 359.753359060622,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 365.367985767621,
+        "y": 379.7830476013738,
+        "phase": "positioning"
+      },
+      {
+        "time": 7,
+        "x": 351.7930129648388,
+        "y": 389.27540080361325,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 351.4143446674954,
+        "y": 385.7837731950667,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 439.5333333333341,
+    "mobility": [
+      {
+        "id": "firedamp",
+        "x": 353.9199445321164,
+        "y": 385.41001711333854,
+        "phase": "warning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 345,
+        "y": 385.41001711333854,
+        "radius": 62,
+        "warning": 1.033333333333335,
+        "remaining": 0.7,
+        "active": false,
+        "damage": 0.5,
+        "label": "EXPLOSION !",
+        "vertical": false
+      }
+    ],
+    "bossPatterns": [
+      {
+        "id": "firedamp",
+        "pattern": "blast",
+        "projectilePattern": null,
+        "phase": "warning",
+        "phaseTime": 1.0500000000000016
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2400
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité deepdriller",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "deepdriller"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.35483946051002,
+        "y": 270.67960778029885,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 200.80291849988666,
+        "y": 291.16916139953656,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 210.84055290401454,
+        "y": 311.86279725419195,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 220.41755199875132,
+        "y": 332.77348746883854,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 229.47082479190942,
+        "y": 353.91603470789727,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 229.47082479190942,
+        "y": 353.91603470789727,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 229.47082479190942,
+        "y": 353.91603470789727,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 241.75608254810413,
+        "y": 416.72584637664767,
+        "phase": "charge"
+      },
+      {
+        "time": 4,
+        "x": 272.46922693859136,
+        "y": 573.750375548523,
+        "phase": "charge"
+      },
+      {
+        "time": 4.5,
+        "x": 286.80202765415225,
+        "y": 646,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 278.90976654259424,
+        "y": 626.0378249071103,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 268.14290068888374,
+        "y": 609.2124561294129,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 249.76942654960772,
+        "y": 609.090162561187,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 249.76942654960772,
+        "y": 609.090162561187,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 249.76942654960772,
+        "y": 609.090162561187,
+        "phase": "warning"
+      },
+      {
+        "time": 7.5,
+        "x": 259.62854825593354,
+        "y": 513.5977664284068,
+        "phase": "charge"
+      }
+    ],
+    "repositionDistance": 155.63333333333367,
+    "mobility": [
+      {
+        "id": "deepdriller",
+        "x": 275.51268878279126,
+        "y": 359.7489059922609,
+        "phase": "charge",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 105
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité surveyor",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "surveyor"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.7315818693511,
+        "y": 270.72977102313985,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 219.5608077072016,
+        "y": 268.7406298940921,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 250.37003710321912,
+        "y": 265.49906117739897,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 281.3419344932265,
+        "y": 266.17629230128824,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 311.9802016194894,
+        "y": 270.76043266886103,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 311.9802016194894,
+        "y": 270.76043266886103,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 311.9802016194894,
+        "y": 270.76043266886103,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 311.9802016194894,
+        "y": 270.76043266886103,
+        "phase": "warning"
+      },
+      {
+        "time": 4,
+        "x": 326.0254285035986,
+        "y": 274.2181015917498,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 355.29053769993055,
+        "y": 284.3803918444286,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 383.03869594657317,
+        "y": 298.1557015340854,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 366.62663746842895,
+        "y": 313.25927192533226,
+        "phase": "recovery"
+      },
+      {
+        "time": 6,
+        "x": 375.53447926249936,
+        "y": 328.42950066585684,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 373.6004536371376,
+        "y": 342.0342547567061,
+        "phase": "positioning"
+      },
+      {
+        "time": 7,
+        "x": 364.5259383856634,
+        "y": 350.7163367040779,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 387.2120884801941,
+        "y": 369.1295217486763,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 361.7666666666672,
+    "mobility": [
+      {
+        "id": "surveyor",
+        "x": 384.3711272563087,
+        "y": 369.51255843380864,
+        "phase": "warning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 260,
+        "y": 510,
+        "radius": 36,
+        "warning": 1.033333333333335,
+        "remaining": 0.7,
+        "active": false,
+        "damage": 0.5,
+        "label": "SONDE !",
+        "vertical": false
+      }
+    ],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 65
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité gasminer",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "gasminer"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.39666666666668,
+        "y": 271.36,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 202.29666666666694,
+        "y": 312.1600000000004,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 214.1966666666672,
+        "y": 352.96000000000083,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 227.04866666666723,
+        "y": 397.02400000000046,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 240.37666666666715,
+        "y": 442.71999999999997,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 240.37666666666715,
+        "y": 442.71999999999997,
+        "phase": "warning"
+      },
+      {
+        "time": 3,
+        "x": 240.37666666666715,
+        "y": 442.71999999999997,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 240.37666666666715,
+        "y": 442.71999999999997,
+        "phase": "warning"
+      },
+      {
+        "time": 4,
+        "x": 245.26360000000045,
+        "y": 459.4752000000003,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 258.59160000000026,
+        "y": 505.1712000000009,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 260.36866666666674,
+        "y": 511.26400000000086,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 260.36866666666674,
+        "y": 511.26400000000086,
+        "phase": "recovery"
+      },
+      {
+        "time": 6,
+        "x": 260.36866666666685,
+        "y": 511.2640000000009,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 260.36866666666685,
+        "y": 511.2640000000009,
+        "phase": "positioning"
+      },
+      {
+        "time": 7,
+        "x": 260.36866666666685,
+        "y": 511.2640000000009,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 260.36866666666685,
+        "y": 511.2640000000009,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 533.7433333333316,
+    "mobility": [
+      {
+        "id": "gasminer",
+        "x": 260.36866666666685,
+        "y": 511.2640000000009,
+        "phase": "warning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 260.36866666666685,
+        "y": 511.2640000000009,
+        "radius": 62,
+        "warning": 1.033333333333335,
+        "remaining": 0.7,
+        "active": false,
+        "damage": 0.5,
+        "label": "EXPLOSION !",
+        "vertical": false
+      }
+    ],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 48
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité drill",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 2,
+    "maxBolts": 3,
+    "seen": [
+      "drill"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "fans": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.63718420878965,
+        "y": 270.63560702015405,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 209.21214052691263,
+        "y": 290.2261274847017,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 225.50329274401614,
+        "y": 309.4476987209522,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 225.50329274401614,
+        "y": 309.4476987209522,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 225.50329274401614,
+        "y": 309.4476987209522,
+        "phase": "recovery"
+      },
+      {
+        "time": 2.5,
+        "x": 235.89863862037095,
+        "y": 323.02355247563037,
+        "phase": "recovery"
+      },
+      {
+        "time": 3,
+        "x": 251.05439753830296,
+        "y": 345.361262751409,
+        "phase": "positioning"
+      },
+      {
+        "time": 3.5,
+        "x": 272.3672189918639,
+        "y": 355.8131347977593,
+        "phase": "positioning"
+      },
+      {
+        "time": 4,
+        "x": 298.9694661060674,
+        "y": 360.2261096923273,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 324.4019106228667,
+        "y": 369.1897325667941,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 347.8935759796124,
+        "y": 382.42979655106444,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 364.1426779201749,
+        "y": 395.2290535801789,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 364.1426779201749,
+        "y": 395.2290535801789,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 364.1426779201749,
+        "y": 395.2290535801789,
+        "phase": "recovery"
+      },
+      {
+        "time": 7,
+        "x": 347.110966715669,
+        "y": 382.7022351847972,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 323.6500243934272,
+        "y": 369.40833650674307,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 300.5999999999999,
+    "mobility": [
+      {
+        "id": "drill",
+        "x": 299.1038920765409,
+        "y": 360.62892825733854,
+        "phase": "positioning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 48
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "mode": "V0.26 mobilité draisine",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 2,
+    "maxBolts": 3,
+    "seen": [
+      "draisine"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 260,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "fans": 2,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 190.6063624233086,
+        "y": 270.5218473067855,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 208.3522121154514,
+        "y": 286.6755293130277,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 224.05920113724733,
+        "y": 302.64179444794996,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 224.05920113724733,
+        "y": 302.64179444794996,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 224.05920113724733,
+        "y": 302.64179444794996,
+        "phase": "recovery"
+      },
+      {
+        "time": 2.5,
+        "x": 239.22421073173766,
+        "y": 306.6207998232455,
+        "phase": "recovery"
+      },
+      {
+        "time": 3,
+        "x": 263.18609968971094,
+        "y": 305.5402698499706,
+        "phase": "positioning"
+      },
+      {
+        "time": 3.5,
+        "x": 287.1096715181061,
+        "y": 307.2730945472802,
+        "phase": "positioning"
+      },
+      {
+        "time": 4,
+        "x": 310.6658696800552,
+        "y": 311.79479791433505,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 333.5309142639157,
+        "y": 319.04257769919417,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 355.39074541362254,
+        "y": 328.91621228368047,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 375.94532612983124,
+        "y": 341.2794801071821,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 385.01067120271153,
+        "y": 347.85431066567565,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 385.01067120271153,
+        "y": 347.85431066567565,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 381.18092554944195,
+        "y": 344.9608659522346,
+        "phase": "recovery"
+      },
+      {
+        "time": 7.5,
+        "x": 361.07400646971394,
+        "y": 331.8821241412984,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 272.00000000000034,
+    "mobility": [
+      {
+        "id": "draisine",
+        "x": 340.3117577504989,
+        "y": 321.5576638563383,
+        "phase": "positioning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 0,
+    "shaftHazards": [],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 54
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 2,
+      "token": 0
+    },
+    "zone": "shaft59",
+    "progress": {
+      "shaftUnlocked": true,
+      "shaftCompleted": true,
+      "shaftFirstVictoryClaimed": true,
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-07"
+    },
+    "meanUpdateRenderMs": 0
+  }
+]

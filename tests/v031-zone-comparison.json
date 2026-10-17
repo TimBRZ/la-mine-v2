@@ -1,0 +1,299 @@
+[
+  {
+    "zoneId": "rift",
+    "weaponId": "shotgun",
+    "before": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 855.0666666662177,
+      "winningSeconds": 855.0666666662177,
+      "damage": 2.25,
+      "bosses": {
+        "5": 26.299999999999788,
+        "10": 45.25833333333205,
+        "15": 48.633333333331855,
+        "20": 39.0333333333324
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 877.1666666661976,
+      "winningSeconds": 877.1666666661976,
+      "damage": 1.25,
+      "bosses": {
+        "5": 25.58333333333316,
+        "10": 48.87499999999851,
+        "15": 49.29166666666515,
+        "20": 43.46666666666548
+      }
+    },
+    "identicalReplays": false
+  },
+  {
+    "zoneId": "rift",
+    "weaponId": "smg",
+    "before": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 956.5666666661253,
+      "winningSeconds": 956.5666666661253,
+      "damage": 1.5,
+      "bosses": {
+        "5": 43.883333333332125,
+        "10": 30.33333333333289,
+        "15": 41.63333333333225,
+        "20": 78.61666666666349
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 956.5666666661253,
+      "winningSeconds": 956.5666666661253,
+      "damage": 1.5,
+      "bosses": {
+        "5": 43.883333333332125,
+        "10": 30.33333333333289,
+        "15": 41.63333333333225,
+        "20": 78.61666666666349
+      }
+    },
+    "identicalReplays": true
+  },
+  {
+    "zoneId": "rift",
+    "weaponId": "grisoux",
+    "before": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 729.2666666663321,
+      "winningSeconds": 729.2666666663321,
+      "damage": 1.75,
+      "bosses": {
+        "5": 43.98333333333212,
+        "10": 56.79999999999806,
+        "15": 63.058333333331035,
+        "20": 45.716666666665354
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 729.2666666663321,
+      "winningSeconds": 729.2666666663321,
+      "damage": 1.75,
+      "bosses": {
+        "5": 43.98333333333212,
+        "10": 56.79999999999806,
+        "15": 63.058333333331035,
+        "20": 45.716666666665354
+      }
+    },
+    "identicalReplays": true
+  },
+  {
+    "zoneId": "depths",
+    "weaponId": "shotgun",
+    "before": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 792.7166666662744,
+      "winningSeconds": 792.7166666662744,
+      "damage": 0.25,
+      "bosses": {
+        "5": 37.34999999999916,
+        "10": 38.99999999999907,
+        "15": 31.04999999999952,
+        "20": 50.85833333333173
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 833.0166666662377,
+      "winningSeconds": 833.0166666662377,
+      "damage": 1.75,
+      "bosses": {
+        "5": 40.358333333332325,
+        "10": 39.74999999999903,
+        "15": 34.69166666666598,
+        "20": 54.77499999999817
+      }
+    },
+    "identicalReplays": false
+  },
+  {
+    "zoneId": "depths",
+    "weaponId": "smg",
+    "before": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 1045.7249999993778,
+      "winningSeconds": 1045.7249999993778,
+      "damage": 3.5,
+      "bosses": {
+        "5": 29.033333333332966,
+        "10": 33.833333333332696,
+        "15": 50.64999999999841,
+        "20": 72.4583333333305
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 2,
+      "meanWave": 20,
+      "meanSeconds": 1045.7249999993778,
+      "winningSeconds": 1045.7249999993778,
+      "damage": 3.5,
+      "bosses": {
+        "5": 29.033333333332966,
+        "10": 33.833333333332696,
+        "15": 50.64999999999841,
+        "20": 72.4583333333305
+      }
+    },
+    "identicalReplays": true
+  },
+  {
+    "zoneId": "depths",
+    "weaponId": "grisoux",
+    "before": {
+      "attempts": 2,
+      "wins": 1,
+      "meanWave": 18.5,
+      "meanSeconds": 752.8749999996439,
+      "winningSeconds": 833.0166666662377,
+      "damage": 4.25,
+      "bosses": {
+        "5": 44.374999999998764,
+        "10": 52.483333333331636,
+        "15": 51.79999999999834,
+        "20": 48.84999999999851
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 1,
+      "meanWave": 18.5,
+      "meanSeconds": 752.8749999996439,
+      "winningSeconds": 833.0166666662377,
+      "damage": 4.25,
+      "bosses": {
+        "5": 44.374999999998764,
+        "10": 52.483333333331636,
+        "15": 51.79999999999834,
+        "20": 48.84999999999851
+      }
+    },
+    "identicalReplays": true
+  },
+  {
+    "zoneId": "forge",
+    "weaponId": "shotgun",
+    "before": {
+      "attempts": 2,
+      "wins": 1,
+      "meanWave": 19.5,
+      "meanSeconds": 851.5749999995542,
+      "winningSeconds": 879.9999999995283,
+      "damage": 3.5,
+      "bosses": {
+        "5": 40.11666666666567,
+        "10": 29.68333333333293,
+        "15": 45.399999999998705,
+        "20": 42.31666666666555
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 1,
+      "meanWave": 19,
+      "meanSeconds": 847.5583333328912,
+      "winningSeconds": 927.0499999994855,
+      "damage": 5,
+      "bosses": {
+        "5": 43.90833333333212,
+        "10": 25.974999999999806,
+        "15": 51.55833333333169,
+        "20": 47.04999999999861
+      }
+    },
+    "identicalReplays": false
+  },
+  {
+    "zoneId": "forge",
+    "weaponId": "smg",
+    "before": {
+      "attempts": 2,
+      "wins": 0,
+      "meanWave": 12,
+      "meanSeconds": 518.0333333331909,
+      "winningSeconds": null,
+      "damage": 5.5,
+      "bosses": {
+        "5": 37.9166666666658,
+        "10": 56.93333333333138,
+        "15": null,
+        "20": null
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 0,
+      "meanWave": 12,
+      "meanSeconds": 518.0333333331909,
+      "winningSeconds": null,
+      "damage": 5.5,
+      "bosses": {
+        "5": 37.9166666666658,
+        "10": 56.93333333333138,
+        "15": null,
+        "20": null
+      }
+    },
+    "identicalReplays": true
+  },
+  {
+    "zoneId": "forge",
+    "weaponId": "grisoux",
+    "before": {
+      "attempts": 2,
+      "wins": 0,
+      "meanWave": 14.5,
+      "meanSeconds": 596.1916666664531,
+      "winningSeconds": null,
+      "damage": 5.5,
+      "bosses": {
+        "5": 50.8249999999984,
+        "10": 49.333333333331815,
+        "15": 56.6833333333314,
+        "20": null
+      }
+    },
+    "after": {
+      "attempts": 2,
+      "wins": 0,
+      "meanWave": 14.5,
+      "meanSeconds": 596.1916666664531,
+      "winningSeconds": null,
+      "damage": 5.5,
+      "bosses": {
+        "5": 50.8249999999984,
+        "10": 49.333333333331815,
+        "15": 56.6833333333314,
+        "20": null
+      }
+    },
+    "identicalReplays": true
+  }
+]

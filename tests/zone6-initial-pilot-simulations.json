@@ -1,0 +1,1474 @@
+[
+  {
+    "weaponId": "shotgun",
+    "seed": 1,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "seconds": 887.1666666661885,
+    "hp": 3,
+    "damageTaken": 2.5,
+    "kills": 346,
+    "choices": 6,
+    "rewards": {
+      "coal": 123,
+      "iron": 12,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "caps": {
+      "bolts": 13,
+      "ground": 5,
+      "heat": 3,
+      "majors": 2
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.3575757575757576,
+    "safetyRejections": 83,
+    "movingShots": 0,
+    "bosses": {
+      "5": 49.34999999999848,
+      "10": 23.549999999999944,
+      "15": 39.0333333333324,
+      "20": 42.68333333333219
+    },
+    "waves": {
+      "1": {
+        "seconds": 18.03333333333359,
+        "combatSeconds": 17.366666666666962,
+        "movingSeconds": 4.433333333333323,
+        "hazardSeconds": 18.849999999999923,
+        "heatSeconds": 9.383333333333379,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 20.56666666666678,
+        "combatSeconds": 19.31666666666685,
+        "movingSeconds": 3.7166666666666583,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 21.283333333333406,
+        "combatSeconds": 19.95000000000015,
+        "movingSeconds": 10.416666666666764,
+        "hazardSeconds": 36.050000000000225,
+        "heatSeconds": 13.833333333333515,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 28.766666666666314,
+        "combatSeconds": 27.449999999999722,
+        "movingSeconds": 9.250000000000039,
+        "hazardSeconds": 62.53333333333208,
+        "heatSeconds": 36.41666666666667,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 52.133333333331656,
+        "combatSeconds": 49.34999999999848,
+        "movingSeconds": 11.533333333333486,
+        "hazardSeconds": 40.24999999999992,
+        "heatSeconds": 21.75000000000006,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 39.38333333333238,
+        "combatSeconds": 38.18333333333245,
+        "movingSeconds": 11.250000000000139,
+        "hazardSeconds": 68.16666666666504,
+        "heatSeconds": 35.84999999999961,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "7": {
+        "seconds": 38.96666666666574,
+        "combatSeconds": 37.66666666666581,
+        "movingSeconds": 14.450000000000298,
+        "hazardSeconds": 73.41666666666474,
+        "heatSeconds": 39.399999999999686,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "8": {
+        "seconds": 53.04999999999827,
+        "combatSeconds": 51.749999999998344,
+        "movingSeconds": 16.850000000000325,
+        "hazardSeconds": 97.83333333332983,
+        "heatSeconds": 55.733333333332375,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "9": {
+        "seconds": 55.133333333331485,
+        "combatSeconds": 53.98333333333155,
+        "movingSeconds": 17.68333333333361,
+        "hazardSeconds": 113.96666666666245,
+        "heatSeconds": 65.39999999999823,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "10": {
+        "seconds": 26.21666666666646,
+        "combatSeconds": 23.549999999999944,
+        "movingSeconds": 9.016666666666694,
+        "hazardSeconds": 15.933333333333524,
+        "heatSeconds": 4.633333333333322,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "11": {
+        "seconds": 41.79999999999891,
+        "combatSeconds": 40.649999999998975,
+        "movingSeconds": 16.43333333333368,
+        "hazardSeconds": 96.36666666666332,
+        "heatSeconds": 56.96666666666543,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "12": {
+        "seconds": 54.899999999998165,
+        "combatSeconds": 53.733333333331565,
+        "movingSeconds": 23.533333333333278,
+        "hazardSeconds": 128.29999999999512,
+        "heatSeconds": 76.5999999999977,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "13": {
+        "seconds": 50.699999999998404,
+        "combatSeconds": 49.51666666666514,
+        "movingSeconds": 20.65000000000011,
+        "hazardSeconds": 117.44999999999546,
+        "heatSeconds": 65.19999999999838,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "14": {
+        "seconds": 54.11666666666488,
+        "combatSeconds": 52.93333333333161,
+        "movingSeconds": 23.21666666666663,
+        "hazardSeconds": 127.71666666666155,
+        "heatSeconds": 75.03333333333119,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "15": {
+        "seconds": 41.816666666665576,
+        "combatSeconds": 39.0333333333324,
+        "movingSeconds": 4.9166666666666545,
+        "hazardSeconds": 19.550000000000157,
+        "heatSeconds": 6.649999999999984,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "16": {
+        "seconds": 60.433333333331184,
+        "combatSeconds": 59.13333333333126,
+        "movingSeconds": 21.983333333333366,
+        "hazardSeconds": 142.66666666666472,
+        "heatSeconds": 80.89999999999726,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "17": {
+        "seconds": 59.849999999997884,
+        "combatSeconds": 58.64999999999795,
+        "movingSeconds": 21.58333333333339,
+        "hazardSeconds": 120.76666666666183,
+        "heatSeconds": 61.58333333333175,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "18": {
+        "seconds": 64.19999999999764,
+        "combatSeconds": 63.01666666666437,
+        "movingSeconds": 24.833333333333204,
+        "hazardSeconds": 134.8833333333291,
+        "heatSeconds": 75.34999999999766,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "19": {
+        "seconds": 60.41666666666452,
+        "combatSeconds": 59.08333333333126,
+        "movingSeconds": 23.899999999999924,
+        "hazardSeconds": 135.21666666666178,
+        "heatSeconds": 74.6333333333313,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "20": {
+        "seconds": 45.399999999998705,
+        "combatSeconds": 42.68333333333219,
+        "movingSeconds": 11.183333333333469,
+        "hazardSeconds": 63.54999999999967,
+        "heatSeconds": 21.650000000000233,
+        "hp": 3,
+        "damage": 2.5
+      }
+    }
+  },
+  {
+    "weaponId": "shotgun",
+    "seed": 2,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "seconds": 882.8166666661924,
+    "hp": 1,
+    "damageTaken": 4.5,
+    "kills": 346,
+    "choices": 6,
+    "rewards": {
+      "coal": 123,
+      "iron": 12,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1,
+      "trigger": 1,
+      "double-cannon": 1
+    },
+    "caps": {
+      "bolts": 13,
+      "ground": 5,
+      "heat": 3,
+      "majors": 2
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.4575757575757576,
+    "safetyRejections": 72,
+    "movingShots": 0,
+    "bosses": {
+      "5": 32.749999999999424,
+      "10": 28.649999999999654,
+      "15": 47.79999999999857,
+      "20": 43.26666666666549
+    },
+    "waves": {
+      "1": {
+        "seconds": 16.83333333333366,
+        "combatSeconds": 16.383333333333685,
+        "movingSeconds": 3.399999999999993,
+        "hazardSeconds": 18.11666666666666,
+        "heatSeconds": 9.366666666666712,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 20.116666666666806,
+        "combatSeconds": 18.81666666666688,
+        "movingSeconds": 2.666666666666662,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 15.016666666666993,
+        "combatSeconds": 13.750000000000263,
+        "movingSeconds": 5.416666666666653,
+        "hazardSeconds": 20.86666666666672,
+        "heatSeconds": 7.733333333333316,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 25.416666666666504,
+        "combatSeconds": 24.316666666666567,
+        "movingSeconds": 6.9999999999999805,
+        "hazardSeconds": 44.516666666666545,
+        "heatSeconds": 23.516666666666797,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 35.4833333333326,
+        "combatSeconds": 32.749999999999424,
+        "movingSeconds": 4.9166666666666545,
+        "hazardSeconds": 19.683333333333152,
+        "heatSeconds": 9.666666666666643,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 40.39999999999899,
+        "combatSeconds": 39.14999999999906,
+        "movingSeconds": 11.716666666666828,
+        "hazardSeconds": 71.86666666666471,
+        "heatSeconds": 37.78333333333333,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "7": {
+        "seconds": 43.73333333333213,
+        "combatSeconds": 42.599999999998865,
+        "movingSeconds": 13.583333333333588,
+        "hazardSeconds": 96.79999999999679,
+        "heatSeconds": 55.26666666666539,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "8": {
+        "seconds": 49.6333333333318,
+        "combatSeconds": 48.29999999999854,
+        "movingSeconds": 20.266666666666797,
+        "hazardSeconds": 93.43333333332966,
+        "heatSeconds": 47.53333333333312,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "9": {
+        "seconds": 45.93333333333201,
+        "combatSeconds": 44.68333333333208,
+        "movingSeconds": 14.716666666666978,
+        "hazardSeconds": 82.0999999999975,
+        "heatSeconds": 42.81666666666617,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "10": {
+        "seconds": 31.249999999999506,
+        "combatSeconds": 28.649999999999654,
+        "movingSeconds": 7.383333333333312,
+        "hazardSeconds": 12.233333333333341,
+        "heatSeconds": 2.3166666666666633,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "11": {
+        "seconds": 44.583333333332085,
+        "combatSeconds": 43.38333333333215,
+        "movingSeconds": 14.683333333333643,
+        "hazardSeconds": 97.26666666666328,
+        "heatSeconds": 56.89999999999908,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "12": {
+        "seconds": 52.26666666666498,
+        "combatSeconds": 51.03333333333172,
+        "movingSeconds": 19.28333333333352,
+        "hazardSeconds": 118.38333333332895,
+        "heatSeconds": 66.26666666666499,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "13": {
+        "seconds": 53.91666666666489,
+        "combatSeconds": 52.716666666664956,
+        "movingSeconds": 18.083333333333588,
+        "hazardSeconds": 129.19999999999592,
+        "heatSeconds": 72.86666666666467,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "14": {
+        "seconds": 48.53333333333186,
+        "combatSeconds": 47.349999999998595,
+        "movingSeconds": 16.966666666666985,
+        "hazardSeconds": 115.06666666666227,
+        "heatSeconds": 65.19999999999844,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "15": {
+        "seconds": 50.48333333333175,
+        "combatSeconds": 47.79999999999857,
+        "movingSeconds": 6.933333333333314,
+        "hazardSeconds": 28.60000000000017,
+        "heatSeconds": 6.649999999999984,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "16": {
+        "seconds": 62.94999999999771,
+        "combatSeconds": 61.749999999997776,
+        "movingSeconds": 21.883333333333372,
+        "hazardSeconds": 151.01666666666665,
+        "heatSeconds": 86.08333333333061,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "17": {
+        "seconds": 69.86666666666399,
+        "combatSeconds": 68.63333333333073,
+        "movingSeconds": 25.249999999999847,
+        "hazardSeconds": 172.1333333333362,
+        "heatSeconds": 102.11666666666312,
+        "hp": 2,
+        "damage": 3.5
+      },
+      "18": {
+        "seconds": 70.89999999999726,
+        "combatSeconds": 69.53333333333067,
+        "movingSeconds": 25.89999999999981,
+        "hazardSeconds": 166.1000000000014,
+        "heatSeconds": 94.33333333333023,
+        "hp": 1,
+        "damage": 4.5
+      },
+      "19": {
+        "seconds": 59.31666666666458,
+        "combatSeconds": 58.016666666664655,
+        "movingSeconds": 20.933333333333426,
+        "hazardSeconds": 125.29999999999491,
+        "heatSeconds": 67.4833333333316,
+        "hp": 1,
+        "damage": 4.5
+      },
+      "20": {
+        "seconds": 46.183333333331994,
+        "combatSeconds": 43.26666666666549,
+        "movingSeconds": 10.966666666666791,
+        "hazardSeconds": 63.433333333333195,
+        "heatSeconds": 21.650000000000233,
+        "hp": 1,
+        "damage": 4.5
+      }
+    }
+  },
+  {
+    "weaponId": "shotgun",
+    "seed": 3,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 14,
+    "seconds": 535.5166666665083,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 184,
+    "choices": 3,
+    "rewards": {
+      "coal": 61,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "plates": 2,
+      "buckshot": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.3575757575757576,
+    "safetyRejections": 47,
+    "movingShots": 0,
+    "bosses": {
+      "5": 49.34999999999848,
+      "10": 31.449999999999495
+    },
+    "waves": {
+      "1": {
+        "seconds": 18.03333333333359,
+        "combatSeconds": 17.366666666666962,
+        "movingSeconds": 4.433333333333323,
+        "hazardSeconds": 18.849999999999923,
+        "heatSeconds": 9.383333333333379,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 20.56666666666678,
+        "combatSeconds": 19.31666666666685,
+        "movingSeconds": 3.7166666666666583,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 21.283333333333406,
+        "combatSeconds": 19.95000000000015,
+        "movingSeconds": 10.416666666666764,
+        "hazardSeconds": 36.050000000000225,
+        "heatSeconds": 13.833333333333515,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 28.766666666666314,
+        "combatSeconds": 27.449999999999722,
+        "movingSeconds": 9.250000000000039,
+        "hazardSeconds": 62.53333333333208,
+        "heatSeconds": 36.41666666666667,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 52.133333333331656,
+        "combatSeconds": 49.34999999999848,
+        "movingSeconds": 11.533333333333486,
+        "hazardSeconds": 40.24999999999992,
+        "heatSeconds": 21.75000000000006,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 39.38333333333238,
+        "combatSeconds": 38.18333333333245,
+        "movingSeconds": 11.250000000000139,
+        "hazardSeconds": 68.16666666666504,
+        "heatSeconds": 35.84999999999961,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "7": {
+        "seconds": 38.96666666666574,
+        "combatSeconds": 37.66666666666581,
+        "movingSeconds": 14.450000000000298,
+        "hazardSeconds": 73.41666666666474,
+        "heatSeconds": 39.399999999999686,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "8": {
+        "seconds": 53.04999999999827,
+        "combatSeconds": 51.749999999998344,
+        "movingSeconds": 16.850000000000325,
+        "hazardSeconds": 97.83333333332983,
+        "heatSeconds": 55.733333333332375,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "9": {
+        "seconds": 55.133333333331485,
+        "combatSeconds": 53.98333333333155,
+        "movingSeconds": 17.68333333333361,
+        "hazardSeconds": 113.96666666666245,
+        "heatSeconds": 65.39999999999823,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "10": {
+        "seconds": 34.066666666666016,
+        "combatSeconds": 31.449999999999495,
+        "movingSeconds": 12.533333333333536,
+        "hazardSeconds": 15.933333333333525,
+        "heatSeconds": 4.633333333333322,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "11": {
+        "seconds": 50.76666666666507,
+        "combatSeconds": 49.43333333333181,
+        "movingSeconds": 20.966666666666757,
+        "hazardSeconds": 111.94999999999592,
+        "heatSeconds": 62.56666666666527,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "12": {
+        "seconds": 53.04999999999827,
+        "combatSeconds": 51.899999999998336,
+        "movingSeconds": 21.11666666666675,
+        "hazardSeconds": 106.7833333333294,
+        "heatSeconds": 61.149999999998656,
+        "hp": 1.5,
+        "damage": 4
+      },
+      "13": {
+        "seconds": 51.01666666666505,
+        "combatSeconds": 49.74999999999846,
+        "movingSeconds": 21.600000000000055,
+        "hazardSeconds": 104.9999999999963,
+        "heatSeconds": 55.06666666666523,
+        "hp": 1.5,
+        "damage": 4
+      },
+      "14": {
+        "seconds": 19.300000000000185,
+        "combatSeconds": 18.70000000000022,
+        "movingSeconds": 9.183333333333369,
+        "hazardSeconds": 42.19999999999989,
+        "heatSeconds": 23.28333333333355,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  },
+  {
+    "weaponId": "smg",
+    "seed": 1,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 12,
+    "seconds": 489.64999999988333,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 131,
+    "choices": 3,
+    "rewards": {
+      "coal": 48,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "plates": 1,
+      "boots": 1,
+      "heat": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.4090909090909091,
+    "safetyRejections": 83,
+    "movingShots": 0,
+    "bosses": {
+      "5": 40.09999999999901,
+      "10": 56.44999999999808
+    },
+    "waves": {
+      "1": {
+        "seconds": 15.76666666666703,
+        "combatSeconds": 15.200000000000335,
+        "movingSeconds": 2.1833333333333305,
+        "hazardSeconds": 17.28333333333343,
+        "heatSeconds": 9.000000000000027,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 17.21666666666697,
+        "combatSeconds": 16.000000000000373,
+        "movingSeconds": 1.4999999999999996,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 26.149999999999796,
+        "combatSeconds": 24.81666666666654,
+        "movingSeconds": 10.266666666666756,
+        "hazardSeconds": 48.21666666666625,
+        "heatSeconds": 19.49999999999997,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 29.74999999999959,
+        "combatSeconds": 28.566666666666325,
+        "movingSeconds": 9.683333333333394,
+        "hazardSeconds": 63.74999999999856,
+        "heatSeconds": 35.20000000000012,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 42.91666666666551,
+        "combatSeconds": 40.09999999999901,
+        "movingSeconds": 5.966666666666651,
+        "hazardSeconds": 21.999999999999687,
+        "heatSeconds": 9.666666666666643,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 46.83333333333196,
+        "combatSeconds": 45.66666666666536,
+        "movingSeconds": 17.050000000000313,
+        "hazardSeconds": 105.74999999999622,
+        "heatSeconds": 58.33333333333202,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "7": {
+        "seconds": 48.26666666666521,
+        "combatSeconds": 46.98333333333195,
+        "movingSeconds": 13.10000000000023,
+        "hazardSeconds": 97.18333333333003,
+        "heatSeconds": 54.149999999998926,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "8": {
+        "seconds": 47.233333333331935,
+        "combatSeconds": 46.04999999999867,
+        "movingSeconds": 11.650000000000158,
+        "hazardSeconds": 84.23333333333076,
+        "heatSeconds": 46.21666666666602,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "9": {
+        "seconds": 60.61666666666451,
+        "combatSeconds": 59.36666666666458,
+        "movingSeconds": 19.36666666666685,
+        "hazardSeconds": 134.1666666666643,
+        "heatSeconds": 74.41666666666445,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "10": {
+        "seconds": 59.066666666664595,
+        "combatSeconds": 56.44999999999808,
+        "movingSeconds": 14.36666666666696,
+        "hazardSeconds": 29.09999999999981,
+        "heatSeconds": 9.266666666666707,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "11": {
+        "seconds": 73.71666666666377,
+        "combatSeconds": 72.51666666666384,
+        "movingSeconds": 29.83333333333292,
+        "hazardSeconds": 177.20000000000266,
+        "heatSeconds": 101.8333333333297,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "12": {
+        "seconds": 22.116666666666692,
+        "combatSeconds": 21.516666666666726,
+        "movingSeconds": 8.299999999999992,
+        "hazardSeconds": 43.58333333333319,
+        "heatSeconds": 26.966666666666875,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  },
+  {
+    "weaponId": "smg",
+    "seed": 2,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 12,
+    "seconds": 489.64999999988333,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 131,
+    "choices": 3,
+    "rewards": {
+      "coal": 48,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "plates": 1,
+      "boots": 1,
+      "heat": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.4090909090909091,
+    "safetyRejections": 83,
+    "movingShots": 0,
+    "bosses": {
+      "5": 40.09999999999901,
+      "10": 56.44999999999808
+    },
+    "waves": {
+      "1": {
+        "seconds": 15.76666666666703,
+        "combatSeconds": 15.200000000000335,
+        "movingSeconds": 2.1833333333333305,
+        "hazardSeconds": 17.28333333333343,
+        "heatSeconds": 9.000000000000027,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 17.21666666666697,
+        "combatSeconds": 16.000000000000373,
+        "movingSeconds": 1.4999999999999996,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 26.149999999999796,
+        "combatSeconds": 24.81666666666654,
+        "movingSeconds": 10.266666666666756,
+        "hazardSeconds": 48.21666666666625,
+        "heatSeconds": 19.49999999999997,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 29.74999999999959,
+        "combatSeconds": 28.566666666666325,
+        "movingSeconds": 9.683333333333394,
+        "hazardSeconds": 63.74999999999856,
+        "heatSeconds": 35.20000000000012,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 42.91666666666551,
+        "combatSeconds": 40.09999999999901,
+        "movingSeconds": 5.966666666666651,
+        "hazardSeconds": 21.999999999999687,
+        "heatSeconds": 9.666666666666643,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 46.83333333333196,
+        "combatSeconds": 45.66666666666536,
+        "movingSeconds": 17.050000000000313,
+        "hazardSeconds": 105.74999999999622,
+        "heatSeconds": 58.33333333333202,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "7": {
+        "seconds": 48.26666666666521,
+        "combatSeconds": 46.98333333333195,
+        "movingSeconds": 13.10000000000023,
+        "hazardSeconds": 97.18333333333003,
+        "heatSeconds": 54.149999999998926,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "8": {
+        "seconds": 47.233333333331935,
+        "combatSeconds": 46.04999999999867,
+        "movingSeconds": 11.650000000000158,
+        "hazardSeconds": 84.23333333333076,
+        "heatSeconds": 46.21666666666602,
+        "hp": 4.5,
+        "damage": 1
+      },
+      "9": {
+        "seconds": 60.61666666666451,
+        "combatSeconds": 59.36666666666458,
+        "movingSeconds": 19.36666666666685,
+        "hazardSeconds": 134.1666666666643,
+        "heatSeconds": 74.41666666666445,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "10": {
+        "seconds": 59.066666666664595,
+        "combatSeconds": 56.44999999999808,
+        "movingSeconds": 14.36666666666696,
+        "hazardSeconds": 29.09999999999981,
+        "heatSeconds": 9.266666666666707,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "11": {
+        "seconds": 73.71666666666377,
+        "combatSeconds": 72.51666666666384,
+        "movingSeconds": 29.83333333333292,
+        "hazardSeconds": 177.20000000000266,
+        "heatSeconds": 101.8333333333297,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "12": {
+        "seconds": 22.116666666666692,
+        "combatSeconds": 21.516666666666726,
+        "movingSeconds": 8.299999999999992,
+        "hazardSeconds": 43.58333333333319,
+        "heatSeconds": 26.966666666666875,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  },
+  {
+    "weaponId": "smg",
+    "seed": 3,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 12,
+    "seconds": 470.91666666656704,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 130,
+    "choices": 3,
+    "rewards": {
+      "coal": 48,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "heat": 1,
+      "boots": 1,
+      "plates": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.4696969696969697,
+    "safetyRejections": 63,
+    "movingShots": 0,
+    "bosses": {
+      "5": 35.24999999999928,
+      "10": 56.44999999999808
+    },
+    "waves": {
+      "1": {
+        "seconds": 14.350000000000293,
+        "combatSeconds": 13.683333333333593,
+        "movingSeconds": 2.2333333333333303,
+        "hazardSeconds": 14.650000000000142,
+        "heatSeconds": 6.366666666666649,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 16.783333333333662,
+        "combatSeconds": 15.550000000000352,
+        "movingSeconds": 1.4166666666666665,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 20.01666666666681,
+        "combatSeconds": 18.73333333333355,
+        "movingSeconds": 6.333333333333316,
+        "hazardSeconds": 32.933333333333785,
+        "heatSeconds": 11.20000000000007,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "4": {
+        "seconds": 36.38333333333255,
+        "combatSeconds": 35.199999999999285,
+        "movingSeconds": 12.90000000000022,
+        "hazardSeconds": 77.89999999999782,
+        "heatSeconds": 41.1499999999996,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "5": {
+        "seconds": 38.09999999999912,
+        "combatSeconds": 35.24999999999928,
+        "movingSeconds": 5.983333333333317,
+        "hazardSeconds": 23.716666666666256,
+        "heatSeconds": 9.666666666666643,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "6": {
+        "seconds": 43.183333333332165,
+        "combatSeconds": 41.79999999999891,
+        "movingSeconds": 12.750000000000213,
+        "hazardSeconds": 87.6999999999972,
+        "heatSeconds": 47.13333333333247,
+        "hp": 4,
+        "damage": 1.5
+      },
+      "7": {
+        "seconds": 49.183333333331824,
+        "combatSeconds": 47.91666666666523,
+        "movingSeconds": 12.250000000000188,
+        "hazardSeconds": 104.76666666666297,
+        "heatSeconds": 58.74999999999868,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "8": {
+        "seconds": 56.51666666666474,
+        "combatSeconds": 55.216666666664814,
+        "movingSeconds": 20.000000000000146,
+        "hazardSeconds": 107.4833333333294,
+        "heatSeconds": 57.96666666666521,
+        "hp": 2.5,
+        "damage": 3
+      },
+      "9": {
+        "seconds": 51.29999999999837,
+        "combatSeconds": 50.06666666666511,
+        "movingSeconds": 12.816666666666883,
+        "hazardSeconds": 107.84999999999611,
+        "heatSeconds": 58.19999999999872,
+        "hp": 2,
+        "damage": 3.5
+      },
+      "10": {
+        "seconds": 59.066666666664595,
+        "combatSeconds": 56.44999999999808,
+        "movingSeconds": 14.36666666666696,
+        "hazardSeconds": 29.09999999999981,
+        "heatSeconds": 9.266666666666707,
+        "hp": 2,
+        "damage": 3.5
+      },
+      "11": {
+        "seconds": 73.71666666666377,
+        "combatSeconds": 72.51666666666384,
+        "movingSeconds": 29.83333333333292,
+        "hazardSeconds": 177.20000000000266,
+        "heatSeconds": 101.8333333333297,
+        "hp": 1,
+        "damage": 4.5
+      },
+      "12": {
+        "seconds": 12.316666666666858,
+        "combatSeconds": 11.716666666666828,
+        "movingSeconds": 3.866666666666658,
+        "hazardSeconds": 22.600000000000207,
+        "heatSeconds": 13.200000000000076,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  },
+  {
+    "weaponId": "grisoux",
+    "seed": 1,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 11,
+    "seconds": 411.03333333328817,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 108,
+    "choices": 3,
+    "rewards": {
+      "coal": 43,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "plates": 2,
+      "conduit": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.6909090909090909,
+    "safetyRejections": 29,
+    "movingShots": 0,
+    "bosses": {
+      "5": 50.7499999999984,
+      "10": 50.1666666666651
+    },
+    "waves": {
+      "1": {
+        "seconds": 17.466666666666956,
+        "combatSeconds": 16.86666666666699,
+        "movingSeconds": 2.116666666666664,
+        "hazardSeconds": 19.266666666666662,
+        "heatSeconds": 10.583333333333442,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 16.0833333333337,
+        "combatSeconds": 14.850000000000318,
+        "movingSeconds": 1.7499999999999987,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 21.35000000000007,
+        "combatSeconds": 20.01666666666681,
+        "movingSeconds": 9.1166666666667,
+        "hazardSeconds": 34.81666666666714,
+        "heatSeconds": 12.400000000000027,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 28.266666666666342,
+        "combatSeconds": 26.816666666666425,
+        "movingSeconds": 7.583333333333312,
+        "hazardSeconds": 44.01666666666645,
+        "heatSeconds": 23.55000000000034,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 53.56666666666491,
+        "combatSeconds": 50.7499999999984,
+        "movingSeconds": 6.1499999999999835,
+        "hazardSeconds": 40.24999999999992,
+        "heatSeconds": 21.75000000000006,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 43.58333333333214,
+        "combatSeconds": 42.366666666665544,
+        "movingSeconds": 13.96666666666694,
+        "hazardSeconds": 81.2166666666643,
+        "heatSeconds": 42.69999999999942,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "7": {
+        "seconds": 49.216666666665155,
+        "combatSeconds": 48.083333333331886,
+        "movingSeconds": 15.466666666667015,
+        "hazardSeconds": 106.09999999999619,
+        "heatSeconds": 60.39999999999856,
+        "hp": 2.5,
+        "damage": 3
+      },
+      "8": {
+        "seconds": 51.399999999998364,
+        "combatSeconds": 50.1666666666651,
+        "movingSeconds": 15.733333333333695,
+        "hazardSeconds": 105.71666666666287,
+        "heatSeconds": 59.83333333333202,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "9": {
+        "seconds": 54.91666666666483,
+        "combatSeconds": 53.48333333333158,
+        "movingSeconds": 18.400000000000237,
+        "hazardSeconds": 93.84999999999685,
+        "heatSeconds": 47.96666666666588,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "10": {
+        "seconds": 52.799999999998285,
+        "combatSeconds": 50.1666666666651,
+        "movingSeconds": 13.983333333333608,
+        "hazardSeconds": 27.733333333333235,
+        "heatSeconds": 9.266666666666707,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "11": {
+        "seconds": 22.383333333333344,
+        "combatSeconds": 21.783333333333378,
+        "movingSeconds": 14.30000000000029,
+        "hazardSeconds": 50.33333333333275,
+        "heatSeconds": 24.183333333333657,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  },
+  {
+    "weaponId": "grisoux",
+    "seed": 2,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 11,
+    "seconds": 396.7333333333012,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 106,
+    "choices": 3,
+    "rewards": {
+      "coal": 43,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "energy-arc": 1,
+      "plates": 1,
+      "conduit": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.6090909090909091,
+    "safetyRejections": 39,
+    "movingShots": 0,
+    "bosses": {
+      "5": 55.58333333333146,
+      "10": 49.74999999999846
+    },
+    "waves": {
+      "1": {
+        "seconds": 17.466666666666956,
+        "combatSeconds": 16.86666666666699,
+        "movingSeconds": 2.116666666666664,
+        "hazardSeconds": 19.266666666666662,
+        "heatSeconds": 10.583333333333442,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 16.0833333333337,
+        "combatSeconds": 14.850000000000318,
+        "movingSeconds": 1.7499999999999987,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 21.35000000000007,
+        "combatSeconds": 20.01666666666681,
+        "movingSeconds": 9.1166666666667,
+        "hazardSeconds": 34.81666666666714,
+        "heatSeconds": 12.400000000000027,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 26.616666666666436,
+        "combatSeconds": 25.299999999999844,
+        "movingSeconds": 7.24999999999998,
+        "hazardSeconds": 42.18333333333322,
+        "heatSeconds": 21.716666666666967,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 58.4333333333313,
+        "combatSeconds": 55.58333333333146,
+        "movingSeconds": 6.983333333333314,
+        "hazardSeconds": 32.999999999999616,
+        "heatSeconds": 14.49999999999996,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 42.44999999999887,
+        "combatSeconds": 41.233333333332276,
+        "movingSeconds": 12.250000000000188,
+        "hazardSeconds": 85.09999999999732,
+        "heatSeconds": 47.86666666666618,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "7": {
+        "seconds": 44.51666666666542,
+        "combatSeconds": 43.14999999999883,
+        "movingSeconds": 14.333333333333625,
+        "hazardSeconds": 88.26666666666388,
+        "heatSeconds": 49.349999999999284,
+        "hp": 3,
+        "damage": 2.5
+      },
+      "8": {
+        "seconds": 49.766666666665124,
+        "combatSeconds": 48.516666666665195,
+        "movingSeconds": 13.050000000000228,
+        "hazardSeconds": 101.01666666666334,
+        "heatSeconds": 57.89999999999877,
+        "hp": 1.5,
+        "damage": 4
+      },
+      "9": {
+        "seconds": 54.866666666664834,
+        "combatSeconds": 53.46666666666491,
+        "movingSeconds": 16.100000000000367,
+        "hazardSeconds": 121.69999999999526,
+        "heatSeconds": 70.03333333333157,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "10": {
+        "seconds": 52.366666666664976,
+        "combatSeconds": 49.74999999999846,
+        "movingSeconds": 12.216666666666853,
+        "hazardSeconds": 27.599999999999895,
+        "heatSeconds": 9.266666666666707,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "11": {
+        "seconds": 12.816666666666883,
+        "combatSeconds": 12.216666666666853,
+        "movingSeconds": 5.649999999999985,
+        "hazardSeconds": 26.93333333333364,
+        "heatSeconds": 13.083333333333412,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  },
+  {
+    "weaponId": "grisoux",
+    "seed": 3,
+    "zoneId": "forge",
+    "rank": 2,
+    "status": "lost",
+    "wave": 11,
+    "seconds": 408.59999999995705,
+    "hp": 0,
+    "damageTaken": 5.5,
+    "kills": 110,
+    "choices": 3,
+    "rewards": {
+      "coal": 43,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "perks": {
+      "plates": 2,
+      "boots": 1
+    },
+    "caps": {
+      "bolts": 12,
+      "ground": 3,
+      "heat": 3,
+      "majors": 1
+    },
+    "noColdRoute": 0,
+    "minColdFraction": 0.6909090909090909,
+    "safetyRejections": 30,
+    "movingShots": 0,
+    "bosses": {
+      "5": 50.7499999999984,
+      "10": 48.26666666666521
+    },
+    "waves": {
+      "1": {
+        "seconds": 17.466666666666956,
+        "combatSeconds": 16.86666666666699,
+        "movingSeconds": 2.116666666666664,
+        "hazardSeconds": 19.266666666666662,
+        "heatSeconds": 10.583333333333442,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "2": {
+        "seconds": 16.0833333333337,
+        "combatSeconds": 14.850000000000318,
+        "movingSeconds": 1.7499999999999987,
+        "hazardSeconds": 0,
+        "heatSeconds": 0,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "3": {
+        "seconds": 21.35000000000007,
+        "combatSeconds": 20.01666666666681,
+        "movingSeconds": 9.1166666666667,
+        "hazardSeconds": 34.81666666666714,
+        "heatSeconds": 12.400000000000027,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "4": {
+        "seconds": 28.266666666666342,
+        "combatSeconds": 26.816666666666425,
+        "movingSeconds": 7.583333333333312,
+        "hazardSeconds": 44.01666666666645,
+        "heatSeconds": 23.55000000000034,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "5": {
+        "seconds": 53.56666666666491,
+        "combatSeconds": 50.7499999999984,
+        "movingSeconds": 6.1499999999999835,
+        "hazardSeconds": 40.24999999999992,
+        "heatSeconds": 21.75000000000006,
+        "hp": 5.5,
+        "damage": 0
+      },
+      "6": {
+        "seconds": 43.58333333333214,
+        "combatSeconds": 42.366666666665544,
+        "movingSeconds": 13.96666666666694,
+        "hazardSeconds": 81.2166666666643,
+        "heatSeconds": 42.69999999999942,
+        "hp": 5,
+        "damage": 0.5
+      },
+      "7": {
+        "seconds": 49.216666666665155,
+        "combatSeconds": 48.083333333331886,
+        "movingSeconds": 15.466666666667015,
+        "hazardSeconds": 106.09999999999619,
+        "heatSeconds": 60.39999999999856,
+        "hp": 2.5,
+        "damage": 3
+      },
+      "8": {
+        "seconds": 51.399999999998364,
+        "combatSeconds": 50.1666666666651,
+        "movingSeconds": 15.733333333333695,
+        "hazardSeconds": 105.71666666666287,
+        "heatSeconds": 59.83333333333202,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "9": {
+        "seconds": 54.91666666666483,
+        "combatSeconds": 53.48333333333158,
+        "movingSeconds": 18.400000000000237,
+        "hazardSeconds": 93.84999999999685,
+        "heatSeconds": 47.96666666666588,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "10": {
+        "seconds": 50.933333333331724,
+        "combatSeconds": 48.26666666666521,
+        "movingSeconds": 10.216666666666754,
+        "hazardSeconds": 24.833333333333023,
+        "heatSeconds": 9.266666666666707,
+        "hp": 0.5,
+        "damage": 5
+      },
+      "11": {
+        "seconds": 21.81666666666671,
+        "combatSeconds": 21.216666666666743,
+        "movingSeconds": 9.766666666666731,
+        "hazardSeconds": 50.91666666666592,
+        "heatSeconds": 28.083333333333854,
+        "hp": 0,
+        "damage": 5.5
+      }
+    }
+  }
+]

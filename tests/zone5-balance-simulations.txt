@@ -1,0 +1,9 @@
+{"weapon":"shotgun","seed":1,"status":"won","wave":20,"seconds":567.33,"hp":5.5}
+{"weapon":"shotgun","seed":2,"status":"won","wave":20,"seconds":683.13,"hp":5}
+{"weapon":"shotgun","seed":3,"status":"won","wave":20,"seconds":567.02,"hp":4.5}
+{"weapon":"smg","seed":1,"status":"won","wave":20,"seconds":873.85,"hp":4}
+{"weapon":"smg","seed":2,"status":"won","wave":20,"seconds":837.15,"hp":5.5}
+{"weapon":"smg","seed":3,"status":"won","wave":20,"seconds":867.48,"hp":5}
+{"weapon":"grisoux","seed":1,"status":"won","wave":20,"seconds":710.47,"hp":5}
+{"weapon":"grisoux","seed":2,"status":"won","wave":20,"seconds":721.73,"hp":2.5}
+{"weapon":"grisoux","seed":3,"status":"won","wave":20,"seconds":666.17,"hp":4}

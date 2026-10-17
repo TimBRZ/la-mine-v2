@@ -1,0 +1,36 @@
+{
+  "mode": "B",
+  "shots": 83,
+  "movingShots": 0,
+  "pickups": 47,
+  "maxDrops": 12,
+  "frames": 1139,
+  "workMs": 722.0999991893768,
+  "magnetDurations": [
+    0.6,
+    0.633,
+    0.567,
+    0.667,
+    0.45
+  ],
+  "status": "won",
+  "phase": "cleared",
+  "room": 5,
+  "hp": 5,
+  "kills": 45,
+  "choices": 3,
+  "drops": 0,
+  "collected": {
+    "coal": 94,
+    "iron": 8,
+    "diamond": 0,
+    "token": 0
+  },
+  "wallet": {
+    "coal": 188,
+    "iron": 16,
+    "diamond": 0,
+    "token": 0
+  },
+  "meanUpdateRenderMs": 0.634
+}

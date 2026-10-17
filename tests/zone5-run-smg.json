@@ -1,0 +1,181 @@
+{
+  "weaponId": "smg",
+  "zoneId": "depths",
+  "seed": 1,
+  "rank": 2,
+  "talents": [],
+  "status": "won",
+  "wave": 20,
+  "hp": 0.5,
+  "seconds": 948.63,
+  "kills": 333,
+  "perks": {
+    "plates": 2,
+    "trigger": 1,
+    "boots": 1,
+    "heat": 1,
+    "critical-heat": 1
+  },
+  "choices": 6,
+  "rewards": {
+    "coal": 123,
+    "iron": 12,
+    "diamond": 0,
+    "token": 0
+  },
+  "maxBolts": 12,
+  "movingShots": 0,
+  "fans": 0,
+  "circles": 0,
+  "maxZones": 5,
+  "groundWarnings": 0,
+  "maxSummons": 0,
+  "maxEntities": 12,
+  "bosses": [
+    {
+      "wave": 5,
+      "seconds": 27.68,
+      "hp": 5.5
+    },
+    {
+      "wave": 10,
+      "seconds": 28.83,
+      "hp": 5
+    },
+    {
+      "wave": 15,
+      "seconds": 35.88,
+      "hp": 3.5
+    },
+    {
+      "wave": 20,
+      "seconds": 65.08,
+      "hp": 0.5
+    }
+  ],
+  "maxMajors": 2,
+  "maxCharges": 3,
+  "extinctions": 276.00000000007765,
+  "waves": {
+    "1": {
+      "seconds": 22.949999999999978,
+      "maxBolts": 9,
+      "maxGround": 2,
+      "hp": 5.5
+    },
+    "2": {
+      "seconds": 21.00000000000009,
+      "maxBolts": 3,
+      "maxGround": 0,
+      "hp": 5.5
+    },
+    "3": {
+      "seconds": 25.616666666666493,
+      "maxBolts": 3,
+      "maxGround": 2,
+      "hp": 5.5
+    },
+    "4": {
+      "seconds": 34.19999999999934,
+      "maxBolts": 6,
+      "maxGround": 0,
+      "hp": 5.5
+    },
+    "5": {
+      "seconds": 30.549999999999546,
+      "maxBolts": 0,
+      "maxGround": 3,
+      "hp": 5.5
+    },
+    "6": {
+      "seconds": 34.23333333333267,
+      "maxBolts": 6,
+      "maxGround": 2,
+      "hp": 5.5
+    },
+    "7": {
+      "seconds": 35.03333333333263,
+      "maxBolts": 6,
+      "maxGround": 3,
+      "hp": 5.5
+    },
+    "8": {
+      "seconds": 46.16666666666533,
+      "maxBolts": 6,
+      "maxGround": 2,
+      "hp": 5
+    },
+    "9": {
+      "seconds": 45.249999999998714,
+      "maxBolts": 6,
+      "maxGround": 2,
+      "hp": 5
+    },
+    "10": {
+      "seconds": 31.649999999999483,
+      "maxBolts": 0,
+      "maxGround": 3,
+      "hp": 5
+    },
+    "11": {
+      "seconds": 44.9666666666654,
+      "maxBolts": 9,
+      "maxGround": 2,
+      "hp": 5
+    },
+    "12": {
+      "seconds": 55.683333333331454,
+      "maxBolts": 9,
+      "maxGround": 3,
+      "hp": 4
+    },
+    "13": {
+      "seconds": 56.28333333333142,
+      "maxBolts": 9,
+      "maxGround": 2,
+      "hp": 4
+    },
+    "14": {
+      "seconds": 63.79999999999766,
+      "maxBolts": 10,
+      "maxGround": 3,
+      "hp": 3.5
+    },
+    "15": {
+      "seconds": 38.666666666665755,
+      "maxBolts": 0,
+      "maxGround": 5,
+      "hp": 3.5
+    },
+    "16": {
+      "seconds": 67.8166666666641,
+      "maxBolts": 9,
+      "maxGround": 3,
+      "hp": 2
+    },
+    "17": {
+      "seconds": 74.59999999999705,
+      "maxBolts": 9,
+      "maxGround": 3,
+      "hp": 1.5
+    },
+    "18": {
+      "seconds": 77.11666666666358,
+      "maxBolts": 9,
+      "maxGround": 4,
+      "hp": 1.5
+    },
+    "19": {
+      "seconds": 75.08333333333036,
+      "maxBolts": 12,
+      "maxGround": 3,
+      "hp": 1.5
+    },
+    "20": {
+      "seconds": 67.9666666666641,
+      "maxBolts": 6,
+      "maxGround": 5,
+      "hp": 0.5
+    }
+  }
+}

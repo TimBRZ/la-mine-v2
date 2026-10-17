@@ -1,0 +1,386 @@
+{
+  "mode": "V0.26 parcours shaft59 grisoux",
+  "explosions": 0,
+  "maxHeat": 0,
+  "maxPellets": 6,
+  "shieldHits": 6,
+  "shots": 1016,
+  "movingShots": 0,
+  "enemyShots": 42,
+  "maxBolts": 8,
+  "seen": [
+    "deepdriller",
+    "miner",
+    "surveyor",
+    "rat",
+    "boss",
+    "gasminer",
+    "drill"
+  ],
+  "room4Kills": 12,
+  "room4Mixed": true,
+  "pickups": 97,
+  "maxDrops": 8,
+  "frames": 6178,
+  "workMs": 47580.59999990463,
+  "magnetDurations": [
+    0.8,
+    0.6,
+    0.533,
+    0.667,
+    0.483,
+    0.783,
+    0.717,
+    0.817,
+    0.767,
+    0.583,
+    0.633,
+    0.7,
+    0.717,
+    0.717,
+    0.6,
+    0.767,
+    0.833,
+    0.683,
+    0.633,
+    0.6
+  ],
+  "waveHistory": [
+    "1:combat",
+    "1:collecting",
+    "1:cleared",
+    "2:preparing",
+    "2:combat",
+    "2:collecting",
+    "2:cleared",
+    "3:preparing",
+    "3:combat",
+    "3:collecting",
+    "3:cleared",
+    "4:preparing",
+    "4:combat",
+    "4:collecting",
+    "4:cleared",
+    "5:preparing",
+    "5:combat",
+    "5:collecting",
+    "5:cleared",
+    "6:preparing",
+    "6:combat",
+    "6:collecting",
+    "6:cleared",
+    "7:preparing",
+    "7:combat",
+    "7:collecting",
+    "7:cleared",
+    "8:preparing",
+    "8:combat",
+    "8:collecting",
+    "8:cleared",
+    "9:preparing",
+    "9:combat",
+    "9:collecting",
+    "9:cleared",
+    "10:preparing",
+    "10:combat",
+    "10:collecting",
+    "10:cleared",
+    "11:preparing",
+    "11:combat",
+    "11:collecting",
+    "11:cleared",
+    "12:preparing",
+    "12:combat",
+    "12:collecting",
+    "12:cleared",
+    "13:preparing",
+    "13:combat",
+    "13:collecting",
+    "13:cleared",
+    "14:preparing",
+    "14:combat",
+    "14:collecting",
+    "14:cleared",
+    "15:preparing",
+    "15:combat",
+    "15:collecting",
+    "15:cleared",
+    "16:preparing",
+    "16:combat",
+    "16:collecting",
+    "16:cleared",
+    "17:preparing",
+    "17:combat",
+    "17:collecting",
+    "17:cleared",
+    "18:preparing",
+    "18:combat",
+    "18:collecting",
+    "18:cleared",
+    "19:preparing",
+    "19:combat",
+    "19:collecting",
+    "19:cleared",
+    "20:preparing",
+    "20:combat",
+    "20:collecting",
+    "20:cleared"
+  ],
+  "checkpoints": [
+    {
+      "wave": 1,
+      "hp": 5.5,
+      "time": 0.016666666666666666,
+      "x": 225,
+      "y": 414
+    },
+    {
+      "wave": 2,
+      "hp": 5.5,
+      "time": 21.666666666666718,
+      "x": 327.50950073032783,
+      "y": 165.59105161352832
+    },
+    {
+      "wave": 3,
+      "hp": 5.5,
+      "time": 45.366666666665374,
+      "x": 95.43636127108944,
+      "y": 316.60741967734924
+    },
+    {
+      "wave": 4,
+      "hp": 5.5,
+      "time": 75.23333333333035,
+      "x": 109.89274751559752,
+      "y": 169.7717939739404
+    },
+    {
+      "wave": 5,
+      "hp": 5.5,
+      "time": 109.6333333333284,
+      "x": 225,
+      "y": 500
+    },
+    {
+      "wave": 6,
+      "hp": 5.5,
+      "time": 147.61666666667628,
+      "x": 168.2050982204003,
+      "y": 633.4944872352879
+    },
+    {
+      "wave": 7,
+      "hp": 5.5,
+      "time": 181.86666666670354,
+      "x": 283.0632312022731,
+      "y": 599.2806129028859
+    },
+    {
+      "wave": 8,
+      "hp": 5.5,
+      "time": 217.0333333333982,
+      "x": 274.44538145744957,
+      "y": 290.9438762601582
+    },
+    {
+      "wave": 9,
+      "hp": 5.5,
+      "time": 257.85000000009416,
+      "x": 123.83823520619964,
+      "y": 148.4640839491554
+    },
+    {
+      "wave": 10,
+      "hp": 5.5,
+      "time": 302.05000000005396,
+      "x": 85.02321923838294,
+      "y": 613.679125998402
+    },
+    {
+      "wave": 11,
+      "hp": 5.5,
+      "time": 350.3166666666767,
+      "x": 137.10975920789602,
+      "y": 567.8822572737804
+    },
+    {
+      "wave": 12,
+      "hp": 5.5,
+      "time": 392.6333333333049,
+      "x": 283.3487746195731,
+      "y": 401.5086083495736
+    },
+    {
+      "wave": 13,
+      "hp": 5.5,
+      "time": 434.2166666666004,
+      "x": 126.17916437719312,
+      "y": 532.473118829249
+    },
+    {
+      "wave": 14,
+      "hp": 5.5,
+      "time": 478.43333333322687,
+      "x": 228.95835111279257,
+      "y": 489.26682835232873
+    },
+    {
+      "wave": 15,
+      "hp": 5.5,
+      "time": 523.2166666665195,
+      "x": 225,
+      "y": 500
+    },
+    {
+      "wave": 16,
+      "hp": 5.5,
+      "time": 588.3833333331269,
+      "x": 360.3066732839018,
+      "y": 630.717985898636
+    },
+    {
+      "wave": 17,
+      "hp": 5.5,
+      "time": 635.483333333084,
+      "x": 94.82128054613395,
+      "y": 205.6937956739536
+    },
+    {
+      "wave": 18,
+      "hp": 5.5,
+      "time": 684.216666666373,
+      "x": 93.29872647493549,
+      "y": 216.5924331745289
+    },
+    {
+      "wave": 19,
+      "hp": 5.5,
+      "time": 732.7333333329956,
+      "x": 58.67015780845037,
+      "y": 264.0710272216181
+    },
+    {
+      "wave": 20,
+      "hp": 5.5,
+      "time": 782.9999999996165,
+      "x": 390.04460209233577,
+      "y": 540.2252908839884
+    }
+  ],
+  "maxAlive": 12,
+  "bosses": [
+    "cager",
+    "compressor",
+    "firedamp"
+  ],
+  "bossTimes": [
+    {
+      "wave": 5,
+      "seconds": 35.26666666668095
+    },
+    {
+      "wave": 10,
+      "seconds": 45.44999999995866
+    },
+    {
+      "wave": 15,
+      "seconds": 62.33333333327664
+    },
+    {
+      "wave": 20,
+      "seconds": 37.79999999996562
+    }
+  ],
+  "movingFrames": 9670,
+  "maxFocus": 0,
+  "maxZones": 3,
+  "maxEffects": 21,
+  "fans": 24,
+  "overlapFrames": 856,
+  "threeFrames": 73,
+  "maxMajors": 2,
+  "mobility": [],
+  "tripleEngaged": 0,
+  "tripleMajors": 0,
+  "shaftHazards": [],
+  "bossPatterns": [],
+  "bossWagons": [],
+  "energyBuild": {
+    "targets": 2,
+    "piercing": true,
+    "boost": 0,
+    "plates": 2,
+    "enemies": []
+  },
+  "wagonTargeting": [],
+  "loadedAppearances": [
+    "hero",
+    "rat",
+    "miner",
+    "drill",
+    "wagon",
+    "draisine",
+    "haveuse",
+    "crachefer",
+    "effondreur",
+    "stationmaster",
+    "locomotive",
+    "switchman",
+    "shotgun",
+    "grisoux",
+    "smg"
+  ],
+  "entitySprites": 2,
+  "status": "won",
+  "phase": "cleared",
+  "wave": 20,
+  "arenaUnchanged": true,
+  "elapsed": 823.62,
+  "talents": [],
+  "revived": false,
+  "heat": 0,
+  "perks": {
+    "plates": 2,
+    "conduit": 1,
+    "energy-overload": 1,
+    "rapid-coil": 1,
+    "double-cannon": 1
+  },
+  "hp": 5.5,
+  "kills": 284,
+  "choices": 6,
+  "drops": 0,
+  "collected": {
+    "coal": 113,
+    "iron": 10,
+    "diamond": 0,
+    "token": 0
+  },
+  "wallet": {
+    "coal": 113,
+    "iron": 10,
+    "diamond": 2,
+    "token": 0
+  },
+  "zone": "shaft59",
+  "progress": {
+    "shaftUnlocked": true,
+    "shaftCompleted": true,
+    "shaftFirstVictoryClaimed": true,
+    "galleriesCompleted": true,
+    "tracksUnlocked": true,
+    "tracksCompleted": true,
+    "tracksFirstVictoryClaimed": true
+  },
+  "firstVictory": 1,
+  "crates": {
+    "count": 1,
+    "lastDaily": "2026-10-07"
+  },
+  "crateAward": {
+    "daily": 0,
+    "bonus": 0
+  },
+  "meanUpdateRenderMs": 7.702
+}

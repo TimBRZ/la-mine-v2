@@ -1,0 +1,58 @@
+✔ V2 retains every source byte outside its four Zone 5 behavior modules (40.1025ms)
+✔ V2 stages early support, a middle step and differentiated late compositions without boss HP inflation (0.9741ms)
+✔ At most two Gueule-Noire may wind up or leap together; waiting melee can reposition (2.0054ms)
+✔ Advanced Lampiste rest clock is faster, with an independent 12 percent extinction multiplier (1.2636ms)
+✔ Rocks use 50 percent in waves 11–19 and low-health triple, 35 percent otherwise (1.5518ms)
+✔ Three late rocks lock, warn, leave safe space and degrade to two within five hazards (1.0881ms)
+✔ Extinction cadence steps up in advanced waves and after global half-health (0.5627ms)
+✔ lampmajor gains 17.9 percent rest cadence below half health without faster warnings (0.1964ms)
+✔ dynamiter gains 17.9 percent rest cadence below half health without faster warnings (0.1201ms)
+✔ blackmass gains 17.9 percent rest cadence below half health without faster warnings (0.1604ms)
+✔ Low-health triple spends almost all frames engaged or repositioning and obeys every cap (56.139ms)
+✖ Economy and other zones replay identically against the immediately preceding patch (19.3044ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 11
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 422.399
+
+✖ failing tests:
+
+test at tests\zone5-v2.test.js:25:1
+✖ Economy and other zones replay identically against the immediately preceding patch (19.3044ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    [
+      {
+        coal: 2,
+        diamond: 0,
+        iron: 0,
+  ...
+        coal: 6,
+  +     diamond: 0,
+  -     diamond: 1,
+        iron: 3,
+        token: 0
+      },
+      {
+        coal: 7,
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone5-v2.test.js:25:370)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ { coal: 2, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 2, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 6, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 6, iron: 3, diamond: 0, token: 0 }, { coal: 7, iron: 0, diamond: 0, token: 0 }, { coal: 8, iron: 0, diamond: 0, token: 0 }, { coal: 7, iron: 0, diamond: 0, token: 0 }, { coal: 8, iron: 5, diamond: 0, token: 0 } ],
+    expected: [ { coal: 2, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 2, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 3, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 4, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 6, iron: 0, diamond: 0, token: 0 }, { coal: 5, iron: 0, diamond: 0, token: 0 }, { coal: 6, iron: 3, diamond: 1, token: 0 }, { coal: 7, iron: 0, diamond: 0, token: 0 }, { coal: 8, iron: 0, diamond: 0, token: 0 }, { coal: 7, iron: 0, diamond: 0, token: 0 }, { coal: 8, iron: 5, diamond: 0, token: 0 } ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

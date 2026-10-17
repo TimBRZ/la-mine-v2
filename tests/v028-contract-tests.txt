@@ -1,0 +1,37 @@
+✔ V028 three daily + three weekly contracts and C2G remains a future view (6.1739ms)
+✔ V028 local dates roll at midnight and Monday, including year/month boundaries (0.3053ms)
+✔ V028 daily/weekly rotation avoids identical consecutive sets and duplicate families for 400 days (8.6993ms)
+✔ V028 locked Faille never selected; existing cycle stays stable after unlocking (2.3097ms)
+✔ V028 all count objectives advance and clamp without automatically claiming (1.5915ms)
+✔ V028 wave objectives take the maximum, not a sum (0.3151ms)
+✔ V028 weapon runs match the actual weapon and winning diversity is unique (0.3807ms)
+✔ V028 rollover clears progress/unclaimed rewards only in the expired cycle (0.3378ms)
+✔ V028 backwards time never reopens old claims or credits future cycles (0.2776ms)
+✔ V028 old profiles stay compatible, unrelated fields survive contract writes (1.6357ms)
+✔ V028 invalid saved contracts are bounded and cannot inject rewards (0.2139ms)
+✔ V028 completed contracts do not credit anything until explicit claim (1.1776ms)
+✔ V028 reload and separate wallet instances prevent repeated claims (0.6888ms)
+✔ V028 reward + claim is atomic on storage failure, retry succeeds once (0.676ms)
+✔ V028 queued progress retries after write failure without duplication (0.4527ms)
+✔ V028 a full wallet does not consume the reward (0.3315ms)
+✔ V028 daily bonus adds exactly one crate manually without changing daily victory crate stamp (0.6062ms)
+✔ V028 weekly bonus gives exactly one token, separate from ordinary rewards (1.0037ms)
+✔ V028 incomplete bonuses and expired UI claim keys are refused (0.4125ms)
+✔ V028 crate opening advances only crates, not run-resource contracts (0.6536ms)
+✔ V028 relief and contract payouts never advance run collection objectives (0.9561ms)
+✔ V028 weekly unique-weapon progress survives reload and double observations (0.6796ms)
+✔ V028 a failed crate opening cannot progress the weekly objective (0.3798ms)
+✔ V028 passive tracker detects individual boss deaths, collection, Grisou and choices once (1.178ms)
+✔ V028 tracker rejects instant weapon runs and distinguishes losses from full victories (0.5715ms)
+✔ V028 observer never mutates run state or changes random consumption (1.1389ms)
+✔ V028 rewards have bounded daily/weekly budgets and no ordinary token reward (0.1171ms)
+✔ V028 all gameplay/meta/debug source outside explicit observer integration remains byte-identical (37.372ms)
+✔ V028 complete Faille run with live contract tracking and normal damage (5064.8024ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5269.1249

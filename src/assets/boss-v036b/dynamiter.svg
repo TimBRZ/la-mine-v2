@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="510" viewBox="90 150 590 510" role="img" aria-labelledby="title desc">
+<title id="title">Dynamiteur — master statique, variante B</title>
+<desc id="desc">Artificier minier humanoïde massif en trois quarts face. Casque ocre à lampe, charges rouges dorsales, ceinture large et détonateur rectangulaire à poignée en T et triangle ocre. Pose unique, aplats sans halo.</desc>
+<g stroke="#0C1619" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+ <g id="charges-dorsales">
+  <path d="M142 298Q124 265 156 258L270 236L304 259L305 481L254 557L180 570L151 554L130 498Z" fill="#655044"/>
+  <path d="M243 222Q233 201 259 196Q286 191 296 213" fill="none" stroke="#29373C" stroke-width="16"/>
+  <path d="M178 237L186 226L217 220L246 359L204 370Z" fill="#CF482B"/>
+  <path d="M186 240L198 235L212 296L201 299Z" fill="#F36E39" stroke="none"/>
+  <path d="M232 224L266 215L276 224L295 351L251 359Z" fill="#CF482B"/>
+  <path d="M238 230L251 226L263 284L250 287Z" fill="#F36E39" stroke="none"/>
+  <path d="M277 221L304 212L318 216L332 341L295 352Z" fill="#CF482B"/>
+  <path d="M119 309L147 298L161 302L196 538L166 549L153 542Z" fill="#CF482B"/>
+  <path d="M126 315L137 311L150 359L139 363Z" fill="#F36E39" stroke="none"/>
+  <path d="M163 292L193 280L211 286L245 530L209 542L195 533Z" fill="#CF482B"/>
+  <path d="M173 298L187 292L199 336L183 341Z" fill="#F36E39" stroke="none"/>
+  <path d="M178 275L288 252L297 278L188 303Z" fill="#655044"/>
+  <path d="M110 382L251 346L261 383L117 424Z" fill="#596568"/>
+  <path d="M173 360L196 355L203 398L179 406Z" fill="#655044" stroke-width="8"/>
+  <path d="M121 468L257 443L264 480L127 511Z" fill="#596568"/>
+  <path d="M166 460L190 454L196 494L173 500Z" fill="#655044" stroke-width="8"/>
+  <path d="M196 225Q193 203 212 206Q225 206 231 227L250 282" fill="none" stroke="#0C1619" stroke-width="22"/>
+  <path d="M196 225Q193 203 212 206Q225 206 231 227L250 282" fill="none" stroke="#596568" stroke-width="10"/>
+  <circle cx="248" cy="285" r="10" fill="#596568" stroke-width="7"/>
+ </g>
+ <g id="jambes-appuis">
+  <path d="M251 553Q285 542 320 559L340 577L334 607L298 625L216 617L211 597Z" fill="#29373C"/>
+  <path d="M233 578Q267 558 298 569L313 583L303 599L270 591L221 604Z" fill="#596568" stroke="none"/>
+  <path d="M440 570L512 554L532 568L537 596L513 615L438 620L419 600Z" fill="#29373C"/>
+  <path d="M452 580L478 575L481 593L448 602L429 600Z" fill="#596568" stroke="none"/>
+  <path d="M500 567L516 570L527 587L499 595L488 580Z" fill="#596568" stroke="none"/>
+  <path d="M224 608Q245 590 271 594L303 599Q327 611 331 642L327 648H198L197 640L207 618Z" fill="#655044"/>
+  <path d="M220 620L241 605L265 605L282 613L268 622Z" fill="#866348" stroke="none"/>
+  <path d="M438 610L482 599Q518 595 543 611L558 629L565 647H425L421 639L428 620Z" fill="#655044"/>
+  <path d="M491 609L514 607L538 621L520 623Z" fill="#866348" stroke="none"/>
+ </g>
+ <g id="torse-ceinture">
+  <path d="M320 364L465 362L503 396L518 475L498 540L441 575L367 570L314 537L292 453Z" fill="#29373C"/>
+  <path d="M373 403L452 400L482 423L480 470L365 477L344 447Z" fill="#424D52"/>
+  <path d="M380 409L435 407L452 416L376 419Z" fill="#596568" stroke="none"/>
+  <path d="M341 375L370 381L390 427L380 437L356 433L348 406Z" fill="#866348"/>
+  <path d="M475 377L490 384L508 426L501 439L480 431L475 403Z" fill="#866348"/>
+  <path d="M369 407V416M490 407L494 419" fill="none" stroke="#0C1619" stroke-width="7"/>
+  <path d="M299 469L368 482L437 480L495 476L510 488L510 520L448 533L368 531L301 513L289 496Z" fill="#866348"/>
+  <path d="M376 480L419 481L427 492L422 528L374 531L365 521L367 491Z" fill="#655044"/>
+  <path d="M381 488H412V521H379Z" fill="#866348" stroke="none"/>
+  <circle cx="396" cy="504" r="9" fill="#F3BD41" stroke-width="5"/>
+  <path d="M445 484L478 482L491 491L487 526L444 530L435 521L437 493Z" fill="#655044"/>
+  <path d="M449 490L476 489L478 519L448 520Z" fill="#866348" stroke="none"/>
+  <path d="M469 498V509" fill="none" stroke="#0C1619" stroke-width="8"/>
+ </g>
+ <g id="cuisses">
+  <path d="M292 514L365 526L380 548L351 568L331 559L304 549L284 550Z" fill="#D89D2D"/>
+  <path d="M306 521L347 534L359 548L343 556L307 542Z" fill="#F3BD41" stroke="none"/>
+  <path d="M474 532L501 522L522 557L490 557L448 576L423 573L446 555Z" fill="#D89D2D"/>
+  <path d="M481 537L498 532L510 550L484 550L452 564Z" fill="#F3BD41" stroke="none"/>
+ </g>
+ <g id="tete-casque">
+  <path d="M309 298L483 298L500 321L494 365L472 391L422 399L368 383L332 362L317 340Z" fill="#596568"/>
+  <path d="M351 307L482 305L488 333L478 360L456 375L411 371L377 359L362 339Z" fill="#0C1619" stroke="none"/>
+  <path d="M331 326L346 354L383 376L424 388L460 388" fill="none" stroke="#29373C" stroke-width="12"/>
+  <ellipse cx="402" cy="331" rx="15" ry="17" fill="#FFE092" stroke="none"/>
+  <ellipse cx="466" cy="332" rx="11" ry="16" fill="#FFE092" stroke="none"/>
+  <path d="M285 282Q298 217 341 202Q373 184 419 200L466 220L493 282Z" fill="#F3BD41"/>
+  <path d="M304 270L312 243L324 229L342 227L328 260L351 266L347 279Z" fill="#D89D2D" stroke="none"/>
+  <path d="M354 230L369 216L389 228L371 239Z" fill="#FFE092" stroke="none"/>
+  <path d="M358 201L363 182Q369 166 387 166H421Q439 168 440 196L414 191L392 192L385 205Z" fill="#F3BD41"/>
+  <path d="M368 190L374 178L387 175L422 177" fill="none" stroke="#FFE092" stroke-width="7"/>
+  <path d="M286 282L493 281L522 301L529 313L270 311L266 304Z" fill="#F3BD41"/>
+  <path d="M289 289L334 289L319 301H278Z" fill="#D89D2D" stroke="none"/>
+ </g>
+ <g id="lampe">
+  <path d="M450 193L484 191L503 204L502 271L483 292L445 286Q418 278 415 244Q415 208 441 198Z" fill="#29373C"/>
+  <path d="M445 203Q425 239 443 276" fill="none" stroke="#596568" stroke-width="12"/>
+  <ellipse cx="492" cy="241" rx="38" ry="49" fill="#D89D2D"/>
+  <ellipse cx="493" cy="241" rx="29" ry="40" fill="#FFE092" stroke="none"/>
+  <ellipse cx="490" cy="239" rx="18" ry="29" fill="#F0ECDF" stroke="none"/>
+ </g>
+ <g id="bras-detonateur">
+  <path d="M494 350Q514 346 525 373L532 400L513 416L492 398L484 371Z" fill="#655044"/>
+  <path d="M511 405L527 399L542 429L540 476L516 486L502 462Z" fill="#F3BD41"/>
+ </g>
+ <g id="bras-avant">
+  <path d="M239 340Q273 312 306 328Q341 340 353 378L349 414L329 439L303 444L272 412L236 379L226 359Z" fill="#655044"/>
+  <path d="M247 340Q280 324 308 346L327 371L333 406L322 418L309 379Q286 342 249 351Z" fill="#866348" stroke="none"/>
+  <path d="M233 362Q258 343 283 362L303 388L294 416L258 432L215 411L207 386Z" fill="#29373C"/>
+  <path d="M218 381L244 370Q265 370 279 382L302 402L287 431L243 432L198 416L193 407Z" fill="#F3BD41"/>
+  <path d="M215 398L241 379L258 379L243 403Z" fill="#FFE092" stroke="none"/>
+  <path d="M203 423Q236 408 267 421L286 440L293 482L262 506L204 513L179 492L170 462L184 438Z" fill="#F3BD41"/>
+  <path d="M187 449L213 428L231 427L226 454L177 479Z" fill="#D89D2D" stroke="none"/>
+  <path d="M217 468Q246 452 275 468L300 492L310 519L301 540L277 562L252 568L224 559L202 540L189 515L190 494Z" fill="#424D52"/>
+  <path d="M208 481L224 472L242 486L224 500Z" fill="#596568" stroke="none"/>
+  <path d="M284 503L294 515" fill="none" stroke="#0C1619" stroke-width="10"/>
+ </g>
+ <g id="cordon">
+  <path d="M515 542Q548 582 570 567Q587 555 592 523" fill="none" stroke="#0C1619" stroke-width="32"/>
+  <path d="M515 542Q548 582 570 567Q587 555 592 523" fill="none" stroke="#596568" stroke-width="15"/>
+ </g>
+ <g id="detonateur">
+  <path d="M590 350L614 354L607 412L584 407Z" fill="#596568" stroke-width="9"/>
+  <path d="M596 361L603 362L599 394L592 392Z" fill="#AAB8B5" stroke="none"/>
+  <path d="M559 324L650 339L655 349L649 370L552 354Z" fill="#CF482B"/>
+  <path d="M566 332L642 344L640 350L564 340Z" fill="#F36E39" stroke="none"/>
+  <path d="M549 401L634 410L646 422L638 519L629 533L540 527L526 514L532 422Z" fill="#424D52"/>
+  <path d="M550 406L634 416L635 438L535 430Z" fill="#596568" stroke-width="8"/>
+  <path d="M554 440L567 440L557 517L543 515Z" fill="#596568" stroke="none"/>
+  <path d="M604 449L612 448L631 492L627 500L583 496L580 489Z" fill="#F3BD41" stroke-width="7"/>
+  <path d="M605 458L611 457L619 479L599 476Z" fill="#FFE092" stroke="none"/>
+ </g>
+ <g id="main-detonateur">
+  <path d="M525 437Q538 429 550 443L551 461L544 478L532 481L520 474L515 458Z" fill="#29373C" stroke-width="9"/>
+  <path d="M530 444L539 441L544 449L540 465L530 470Z" fill="#596568" stroke="none"/>
+  <path d="M645 440L654 441L660 451L658 466L644 470Z" fill="#29373C" stroke-width="8"/>
+  <path d="M643 473L654 473L658 483L653 497L641 498Z" fill="#29373C" stroke-width="8"/>
+  <path d="M641 501L650 501L651 513L641 524L636 521Z" fill="#29373C" stroke-width="8"/>
+ </g>
+</g></svg>

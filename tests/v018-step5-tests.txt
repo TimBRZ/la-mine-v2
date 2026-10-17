@@ -1,0 +1,861 @@
+
+> la-mine-v2-v01@0.18.0 test
+> node --test tests/*.test.js
+
+✔ V0.15 preserves every V0.14 wave, enemy, boss, reward, perk, shop and storage rule (48.6756ms)
+✔ focus ramps on consecutive primary boss hits, never exceeds 25 percent (3.6694ms)
+✔ target switch or primary normal enemy resets focus; piercing followers cannot steal it (0.5946ms)
+✔ brief dodge retains focus, prolonged movement invalidates even already flying bullets (0.4908ms)
+✔ wave/stance reset and a new weapon cannot inherit focus; heat still resets immediately (3.7835ms)
+✔ ordinary enemy damage and the base shotgun volley have no boss-wide nerf (7.5131ms)
+✔ Double Canon keeps both volleys but its extra boss volley has the localized weight (1.637ms)
+✔ Point blank alone stays at +100 percent; only stacked boss proximity reaches the cap (2.083ms)
+✔ focus enhances only the primary boss and preserves ordinary piercing damage exactly (0.7465ms)
+✔ shotgun: every normal wave is identical to the frozen V0.14 simulation (4342.1261ms)
+✔ smg: every normal wave is identical to the frozen V0.14 simulation (1366.01ms)
+✔ V0.15 shotgun beats boss 5 without Atelier (43.9906ms)
+✔ V0.15 shotgun beats boss 10 without Atelier (66.7995ms)
+✔ V0.15 shotgun beats boss 15 without Atelier (63.3003ms)
+✔ V0.15 shotgun beats boss 20 without Atelier (115.0915ms)
+✔ V0.15 smg beats boss 5 without Atelier (29.8339ms)
+✔ V0.15 smg beats boss 10 without Atelier (12.2471ms)
+✔ V0.15 smg beats boss 15 without Atelier (19.5482ms)
+✔ V0.15 smg beats boss 20 without Atelier (64.012ms)
+✔ paired final encounters narrow the strong-build gap without changing boss stats (244.0291ms)
+✔ Crates page is a destination and returning keeps selected weapon (4.9976ms)
+✔ central table totals 100%, contains only existing resource rewards, no crate loop (1.9903ms)
+✔ reward interval coal 100 (0.6226ms)
+✔ reward interval coal 200 (0.2975ms)
+✔ reward interval iron 10 (0.3345ms)
+✔ reward interval iron 20 (0.2778ms)
+✔ reward interval diamond 1 (0.2307ms)
+✔ reward interval diamond 2 (0.2518ms)
+✔ reward interval token 1 (0.2382ms)
+✔ unknown or invalid random values cannot create rewards (1.2398ms)
+✔ local calendar boundary, valid dates and leap years are respected (0.8223ms)
+✔ old profile remains exact; optional crate extension sanitizes corrupt counts and dates (1.32ms)
+✔ empty stock prevents opening without drawing or mutating wallet (2.276ms)
+✔ open atomically consumes one crate and saves coal (2.2358ms)
+✔ open atomically consumes one crate and saves iron (0.6631ms)
+✔ open atomically consumes one crate and saves diamond (0.5686ms)
+✔ open atomically consumes one crate and saves token (0.5456ms)
+✔ failed opening write leaves stock and resources unchanged; retry once works (0.7357ms)
+✔ resource safety ceiling is checked before drawing, no paid rerolls or silent truncation (0.3816ms)
+✔ sequential stale instances cannot open the same last crate twice (0.4852ms)
+✔ multiple successive openings are bounded and credit exactly once each (1.8504ms)
+✔ first daily victory, repeated claim and second victory same day (1.3799ms)
+✔ daily date survives reload and next local day awards again; backwards clock does not (1.1598ms)
+✔ bonus victory chance boundary and daily+random can stack (0.6764ms)
+✔ defeat and incomplete synthetic victory never award or draw crates; resources unchanged (0.7089ms)
+✔ daily grant at stock ceiling cannot overflow count or consume unavailable daily reward (0.8456ms)
+✔ exchange spends exactly three tokens, persists crate and refuses insufficient balance (0.8478ms)
+✔ exchange write failure and stock cap never spend tokens (0.812ms)
+✔ Atelier, talents and Relève transactions preserve crate count/date after reload (2.9512ms)
+✖ V0.17 leaves all V0.16 combat/talent/Atelier/Relève/drop code byte-identical (3499.3903ms)
+✔ protected V0.14 weapons, perks, economy, drops, menus and storage are byte-identical (57.7692ms)
+✔ immobility only influences enemy decisions: no enemy means no damage or hazard (26.8353ms)
+✔ camping shortens drill reposition cooldown without shortening its visible locked warning (7.4316ms)
+✔ rat flanks take opposite approach angles and still close on the player (2.4843ms)
+✔ stage one is unchanged while later groups, live caps and miner presence increase (19.8202ms)
+✔ camping rats use widely separated safe anchors and still telegraph their spawn (15.3398ms)
+✔ all boss warnings stay unchanged below half HP; only downtime intensifies (2.0218ms)
+✔ final machines have staggered openings and moderate recovery without extra damage (4.6181ms)
+✔ Effondreur limits its warnings to two bounded, locked and expiring ground zones (1.0763ms)
+✔ shotgun: wave 16 can be dodged with a legal build but defeats stationary camping (340.665ms)
+✔ shotgun: wave 17 can be dodged with a legal build but defeats stationary camping (288.8224ms)
+✔ shotgun: wave 18 can be dodged with a legal build but defeats stationary camping (228.8608ms)
+✔ shotgun: wave 19 can be dodged with a legal build but defeats stationary camping (337.5473ms)
+✔ smg: wave 16 can be dodged with a legal build but defeats stationary camping (184.3232ms)
+✔ smg: wave 17 can be dodged with a legal build but defeats stationary camping (190.7209ms)
+✔ smg: wave 18 can be dodged with a legal build but defeats stationary camping (161.3923ms)
+✔ smg: wave 19 can be dodged with a legal build but defeats stationary camping (224.5559ms)
+✔ shotgun: boss 5 shows several complete patterns and stays beatable (118.912ms)
+✔ shotgun: boss 10 shows several complete patterns and stays beatable (221.7644ms)
+✔ shotgun: boss 15 shows several complete patterns and stays beatable (179.4797ms)
+✔ shotgun: boss 20 shows several complete patterns and stays beatable (268.17ms)
+✔ smg: boss 5 shows several complete patterns and stays beatable (109.0478ms)
+✔ smg: boss 10 shows several complete patterns and stays beatable (28.2415ms)
+✔ smg: boss 15 shows several complete patterns and stays beatable (47.4493ms)
+✔ smg: boss 20 shows several complete patterns and stays beatable (112.5215ms)
+✔ a late miner survives a real base shotgun volley, then dies to sustained fire (4.0597ms)
+✔ twelve simultaneous enemies remain finite under a minute of density stress (268.8306ms)
+✔ stationary firing is official even with obsolete A option; gameplay exposes no A/B UI (11.6418ms)
+✔ three original enemies remain registered: rat is smaller, faster and weaker than the miner (2.0553ms)
+✔ rat and miner pursue directly at their separate speeds, respecting spawn telegraph (0.721ms)
+✔ drill approaches from far away, retreats nearby and holds its firing distance (0.8308ms)
+✔ drill stops, locks aim for 900 ms then fires once and rests; damage does not hide the warning (1.0702ms)
+✔ dead drill never fires; projectile pool enforces one live bolt per owner and eight total (1.2802ms)
+✔ slow drill bolt hits a stationary player but a mobile lateral dodge avoids it (2.3622ms)
+✔ hostile projectiles collide continuously, expire on walls/range and recycle slots (0.683ms)
+✔ all three types take real shotgun damage, die once and produce the existing room drops (3.4431ms)
+✔ Grisou damages and chains through each enemy type without changing its perk rules (2.2761ms)
+✔ Canon scie uses real player distance for every type, not distance travelled by the pellet (1.8446ms)
+✔ fixed wave distribution introduces rats, then miners, then drills and mixes all three in wave 4 (0.5136ms)
+✔ actual spawning uses each wave ordered roster and honors the live cap (6.0905ms)
+✔ contact damage distinguishes rat and miner and shares invulnerability with drill bolts (3.7344ms)
+✔ pause freezes a live drill warning and hostile projectile; resuming does not burst fire (1.6141ms)
+✔ same-frame shotgun kill cancels the drill attack and final collection clears hostile bolts (1.2342ms)
+✔ death, replay and wave changes cannot retain hostile projectiles (1.5415ms)
+✔ Haveuse retains its exact stats, solitary encounter and contact damage (4.26ms)
+✔ Bottes widens the escape speed gap against rats and Plaques preserves fractional tank damage ratio (2.3714ms)
+✔ complete wave 4 and boss run uses all enemy types, bounded bolts, stationary shots and unchanged rewards (2908.7127ms)
+✔ dense mixed combat remains finite and bounded with three simultaneous drill projectiles (108.4003ms)
+✔ mode A matches the V0.4 weapon events and pellets while moving (11.5111ms)
+✔ mode B blocks movement, braking and tiny input; resumes within 120 ms at base speed (4.8289ms)
+✔ mode B never releases a queued shot on movement onset, wall input or rapid stop/start (5.4894ms)
+✔ mode B preserves cooldown; switching A/B cannot reset cadence or create an extra volley (1.9204ms)
+✔ all seven perks retain their effects in both firing modes, including the double volley (3.4709ms)
+✔ player accelerates promptly, brakes, and never exceeds speed diagonally (3.2161ms)
+✔ all four closed room boundaries contain the complete player body (3.7574ms)
+✔ joystick has a deadzone, proportional movement and a bounded diagonal magnitude (2.0329ms)
+✔ WASD, ZQSD and arrow key states all control the actual input module (5.3788ms)
+✔ touch joystick owns one pointer, handles release outside and touch cancellation (1.3369ms)
+✔ HUD touches do not move the player and focus loss can clear every held input (0.7375ms)
+✔ auto targeting selects the nearest alive, active enemy within short range (1.0002ms)
+✔ one automatic shotgun discharge produces seven separate symmetric pellet angles (2.1395ms)
+✔ shotgun cooldown stays slow and never fires at a nonexistent target (1.4577ms)
+✔ swept collision hits crossed circles at low frame rates, not only end positions (1.3259ms)
+✔ one pellet stops at the first target even if the enemy list is reversed (0.6655ms)
+✔ close shots cause more damage, react with knockback, and can kill in one discharge (3.4942ms)
+✔ pellets expire at short range, cannot hit remote targets, and reuse a bounded pool (11.1449ms)
+✔ enemies telegraph before pursuing and remain inside the same fixed room (0.8475ms)
+✔ contact damages the player once per invulnerability interval, never once per pellet or enemy (4.5834ms)
+✔ spawn anchors are safely distant and simultaneous enemies are capped (61.6217ms)
+✔ warm-up wave clears before automatic progression (68.8603ms)
+✔ a finished run is inert and replay starts clean with no persistent progression (1.5256ms)
+✔ a long frame is bounded rather than simulating a whole second of contact damage (0.6107ms)
+✔ DA kit assets exist, remain local and fit the 100 KB payload budget (171.6894ms)
+✔ hero loadout describes and displays exactly the selected weapon (2.2934ms)
+✔ protected V0.9 resources, base stats and upgrade costs stay unchanged outside authorized reworks (181.4754ms)
+✔ both local servers serve the kit with explicit SVG and WebP MIME types (90.6796ms)
+✔ real enemy death spawns a drop, repeated death cannot mint resources (21.3455ms)
+✔ drops remain still throughout combat and passing over one collects exactly once (7.1234ms)
+✔ end-of-wave breath precedes accelerating magnetism and collection completes even while running away (1.4519ms)
+✔ collection blocks the next wave; completed rewards persist without doubling (2.5426ms)
+✔ pause freezes drops, magnet delay and totals; choices only start after collection (4.0017ms)
+✔ defeat keeps completed waves only; provisional pickups of the unfinished room are discarded (1.5802ms)
+✔ boss collection precedes victory; wallet and result consume the exact collected ledger without RNG or duplicate gains (15.7913ms)
+✔ drop plan preserves V0.4 rare thresholds and combat RNG is independent (4.6265ms)
+✔ 100000 physical boss drop budgets preserve diamond and token rarity (1098.9684ms)
+✔ all room drop pools are bounded and conserve every unit with or without early pickup (4.8224ms)
+✔ mode B complete twenty-wave combat with stop-and-dodge steering uses real shots, drops and six perks (2716.2497ms)
+✔ resource decoration replaces only decorative icons, preserving amounts and resource labels (12.6313ms)
+✔ menu icons and mining-place artwork remain small decorative vectors without external assets or filters (2.2971ms)
+✔ illustrated equipment stays distinct while portraits retain explicit accessible weapon names (0.8672ms)
+✔ menu starts at home with shotgun; only galleries can launch and future sections cannot navigate (2.9091ms)
+✔ both weapons survive navigation and yield the existing five-wave run with unchanged base stats (7.5364ms)
+✔ launch latch prevents double-tap starts and selection cannot mutate an active run (0.9466ms)
+✔ victory or defeat returns to menu without unlocking future zones or losing selected weapon (1.2902ms)
+✔ menu navigation and weapon choices do not write, migrate or spend the existing profile (1.2272ms)
+✔ invalid weapon cannot replace a valid selection and each portrait identifies its equipped weapon (0.9751ms)
+✔ exactly four resources and four permanent upgrades, capped at five (4.1235ms)
+✔ completed waves grant progressive rewards, defeat keeps cleared waves only (1.3736ms)
+✔ boss rewards require victory and completed wave five (0.7721ms)
+✔ seeded 100000 victories preserve rarity hierarchy, token near one percent (813.3374ms)
+✔ wave two iron is uncommon, wave three iron more frequent; exact probability boundaries (0.6822ms)
+✔ wallet credits a terminal run exactly once, does not consume combat RNG (1.9763ms)
+✔ wallet totals accumulate across distinct runs and persist in a single isolated key (1.1589ms)
+✔ costs are exact, first ranks coal only, never tokens (0.6247ms)
+✔ purchases deduct every cost and preserve token; maximum cannot overspend (3.4532ms)
+✔ insufficient resources and unknown upgrades never mutate profile (0.8714ms)
+✔ purchased levels and balances survive a new storage/service instance (0.7955ms)
+✔ profile rejects foreign resources, invalid values, old schemas and clamps caps (0.5909ms)
+✔ corrupt or unavailable storage degrades to memory without breaking rewards/purchases (0.94ms)
+✔ permanent bonuses apply once at next run start, no live mutation (5.4262ms)
+✔ power increases real pellet damage while existing close-range perk still stacks (5.8326ms)
+✔ perks remain stronger and apply normally on the permanent base (1.2449ms)
+✔ all permanent bonuses are modest and bounded at maximum rank (0.8518ms)
+✔ full combat victory feeds wallet, purchase and next run with reset perks (2876.9728ms)
+✔ V0.13 pressure rises across four stages and readable spaced drills (46.3127ms)
+✔ heavy buckshot adds four visible pellets, wider spread and exactly 20 percent lower cadence (3.7215ms)
+✔ sawn-off snapshots shorter projectile range and rejects targets past the new limit (1.4101ms)
+✔ Grisou counts unique deaths, explodes at six and retains progress between waves (4.9053ms)
+✔ Grisou chains through six nearby victims without duplicate deaths or unbounded recursion (1.0871ms)
+✔ shield absorbs damage, grants normal invulnerability, expires and refreshes without healing (6.1609ms)
+✔ shield and SMG timers freeze during a Porion selection (6.4494ms)
+✔ boots and trigger provide the declared speed and interval and their ranked HUD stays accurate (1.1922ms)
+✔ extended magazine accelerates exactly the first two seconds after settling, never resets cooldown (0.9676ms)
+✔ heat grows by ten percent per second to forty, affects real damage and resets even on tiny input (6.3105ms)
+✔ piercing traverses exactly one enemy in geometric order with 60 percent second damage (1.3951ms)
+✔ piercing kills feed the physical drop ledger once per target (2.823ms)
+✔ each weapon has seven compatible perks, three dedicated and four shared (0.6045ms)
+✔ consecutive choices avoid identical triples, use diverse categories and weight owned ranks lower (57.0815ms)
+✔ all ten perks obey caps through selection and every card advertises its next rank and maximum (3.452ms)
+✔ a distinct SMG build with piercing and magazine at Atelier 5 completes real combat without healing (1408.3145ms)
+✔ V0.12 leaves physical drops, economy, storage, Relève, Atelier, terrain and enemies unchanged (792.2825ms)
+✔ three distinct rail bosses populate 5/10/15/20, menu still refuses tracks (10.7673ms)
+✔ stationmaster locks a visible warning before charge and recovers without teleportation (2.2724ms)
+✔ locomotive locks a visible warning before charge and recovers without teleportation (1.0079ms)
+✔ stationmaster wagon passage is periodic, safe, bounded and uses the ordinary telegraph (8.7268ms)
+✔ summons neither mint drops nor survive their owner, even on the death frame (6.4288ms)
+✔ locomotive steam is warned, bounded, damages only when active and expires (1.6795ms)
+✔ switchman has two locked avoidable solo rails and only one in the final (3.2538ms)
+✔ mechanical burst is exactly two slow shots, with lateral dodge available (4.6526ms)
+✔ boss charge and rail/steam damage use live Run collisions and ordinary invulnerability (3.1181ms)
+✔ stationmaster hits a stationary target but a warning-time lateral dodge avoids the charge (33.2436ms)
+✔ shooting an invoked wagon credits no additional wave death or resource (2.4244ms)
+✔ triple openings are staggered and hazards/bolts/summons remain bounded (56.0054ms)
+✔ shotgun defeats boss 5 with legal perk prefix, no damage/HP overrides (221.6044ms)
+✔ shotgun defeats boss 10 with legal perk prefix, no damage/HP overrides (207.5843ms)
+✔ shotgun defeats boss 15 with legal perk prefix, no damage/HP overrides (382.2492ms)
+✔ shotgun defeats boss 20 with legal perk prefix, no damage/HP overrides (573.3028ms)
+✔ smg defeats boss 5 with legal perk prefix, no damage/HP overrides (107.1324ms)
+✔ smg defeats boss 10 with legal perk prefix, no damage/HP overrides (102.9619ms)
+✔ smg defeats boss 15 with legal perk prefix, no damage/HP overrides (59.9493ms)
+✔ smg defeats boss 20 with legal perk prefix, no damage/HP overrides (308.1724ms)
+✔ full tracks run completes with shotgun and activated Zone 2 reward budget (2983.037ms)
+✔ full tracks run completes with smg and activated Zone 2 reward budget (817.8224ms)
+✔ old boss behavior body, normal tracks waves and all economy stay unchanged (32.0558ms)
+✔ rail enemies register distinct stats and textures without changing the original roster (4.0794ms)
+✔ wagon warns 1.1 seconds after spawn, locks a straight rail and resists knockback (1.6025ms)
+✔ wagon spawn uses rail edges, never within 180 pixels of player, and defers blocked spawns (5.7739ms)
+✔ wagon hits a stationary player and a lateral dodge during the warning avoids contact (12.7963ms)
+✔ wagon ends at the opposite rail edge, then is harmless, destructible and finite (3.0541ms)
+✔ draisine retreats nearby, approaches from far away and strafes at medium distance (2.6263ms)
+✔ draisine visibly locks aim, pauses, fires exactly two shots then rests without tracking (1.3911ms)
+✔ draisine burst projectiles hit with bounded damage but can be dodged; pool stays at eight (4.8645ms)
+✔ dead draisine never emits a queued burst (0.9063ms)
+✔ shotgun kills wagon through live combat and collects its exact drops once (25.4094ms)
+✔ shotgun kills draisine through live combat and collects its exact drops once (2.0509ms)
+✔ smg kills wagon through live combat and collects its exact drops once (6.2156ms)
+✔ smg kills draisine through live combat and collects its exact drops once (3.4357ms)
+✔ Coup de Grisou damages both rail enemies and counts their deaths/drops only once (1.6007ms)
+✔ a rail death from the SMG triggers Coup de Grisou through the real run pipeline (2.1099ms)
+✔ a draisine killed on its firing frame cannot release its pending projectile (1.1258ms)
+✔ Zone1 enemies, bosses, waves, weapon balance, rewards remain byte-identical (330.9979ms)
+✔ full Zone1 shotgun run replays V0.17 exactly after rail integration (4381.8116ms)
+✔ full Zone1 smg run replays V0.17 exactly after rail integration (1324.9333ms)
+✔ Relève is a menu destination; Talents and Caisses accessible and weapons persist (4.3743ms)
+✔ Relève after 1h gives 12 coal and 1 iron only (0.8579ms)
+✔ Relève after 8h gives 96 coal and 8 iron only (0.3308ms)
+✔ Relève after 24h gives 288 coal and 24 iron only (0.2817ms)
+✔ Relève after 48h gives 288 coal and 24 iron only (0.3928ms)
+✔ integer gains, badge threshold and displayed 8h32 example (0.6536ms)
+✔ first V0.10 opening extends the existing save without changing balances or levels (12.5775ms)
+✔ pending gains stay outside wallet across reloads until explicit claim (3.3286ms)
+✔ claim saves balance and timestamp together; repeated click and reload cannot double-credit (1.5693ms)
+✔ a second stale wallet sees an already saved claim (1.2601ms)
+✔ failed atomic write keeps stock and wallet, retry succeeds only once (1.9693ms)
+✔ negative elapsed time, invalid dates and nonfinite clocks never mint resources (0.9713ms)
+✔ corrupt or future persisted timestamp restarts safely without losing the old wallet (0.9226ms)
+✔ claims preserve rare resources, upgrade levels and exact workshop costs (0.9564ms)
+✔ resource safety ceiling is respected and a full wallet does not destroy pending stock (0.407ms)
+✔ a run reward write preserves the pending Relève timestamp and does not auto-credit it (1.0315ms)
+✔ a stale run or workshop writer cannot restore an already claimed period (0.7908ms)
+✔ twenty fixed waves, four escalating stages and a triple final (7.7212ms)
+✔ empty room does not clear before all planned enemies have spawned (10.4907ms)
+✔ automatic next wave needs no exit and keeps position during preparation (3.5282ms)
+✔ PV, player object, weapons and perks persist; obsolete combat state is cleared (5.7274ms)
+✔ choices happen initially and after waves 4, 9, 14, 18 and 19, never from a kill threshold (11.4231ms)
+✔ boss is created once on entering wave 5; no normal spawns or exit (1.7905ms)
+✔ boss warning locks a direction, does not move, then charges and recovers (1.0958ms)
+✔ telegraphed charge hurts a stationary player but can be dodged laterally (11.8126ms)
+✔ boss death wins globally and player death loses; terminal states are inert (17.0391ms)
+✔ pause freezes an in-flight transition and boss charge, no delayed room callbacks (4.0346ms)
+✔ real combat can finish a twenty-wave run with six choices and no healing/reset (2927.493ms)
+✔ real server serves every kit asset with the correct MIME and exact bytes, including Android requests (1505.756ms)
+✔ eight stable single-rank talents, centralized positive costs and no Grisou token (11.3506ms)
+✔ old profiles migrate without losing wallet, Atelier or Relève; corrupt talent entries are ignored (1.3702ms)
+✔ atomic purchase and reload: good-start (2.0302ms)
+✔ atomic purchase and reload: porion-eye (0.8724ms)
+✔ atomic purchase and reload: first-aid (0.8395ms)
+✔ atomic purchase and reload: prospector (0.7538ms)
+✔ atomic purchase and reload: magnet (1.3729ms)
+✔ atomic purchase and reload: cold-blood (1.044ms)
+✔ atomic purchase and reload: last-breath (1.4584ms)
+✔ atomic purchase and reload: lucky-hand (3.3898ms)
+✔ insufficient funds, unknown ID and write failure do not debit or unlock (1.206ms)
+✔ stale wallet cannot repurchase a talent or restore its spent resources (1.1486ms)
+✔ new run snapshots unlocks, existing run stays unchanged and charges reset (5.767ms)
+✔ Good Start pauses for a second real choice, grants exactly one extra perk (2.8815ms)
+✔ reroll consumes once, changes the set when alternatives exist, grants no perk (1.3954ms)
+✔ epic choice has all three epics: cannot consume a useless identical reroll (0.9755ms)
+✔ First Aid completion at wave 5 (3.2209ms)
+✔ First Aid completion at wave 10 (0.5657ms)
+✔ First Aid completion at wave 15 (0.5476ms)
+✔ First Aid completion at wave 20 (2.5393ms)
+✔ First Aid completion at wave 4 (0.4978ms)
+✔ healing respects Atelier max HP and never exceeds it (0.5745ms)
+✔ Prospector is a once-per-completed-wave extra; physical budget and rares unchanged (0.7381ms)
+✔ magnet extends pickup and reduces collection time without minting value (2.5109ms)
+✔ Cold Blood changes settling only for shotgun (0.6685ms)
+✔ Cold Blood changes settling only for smg (0.5989ms)
+✔ Last Breath rescues one lethal hit, retains ordinary grace, second death loses (2.106ms)
+✔ Lucky Hand reduces ranked appearance across many seeds, never violates caps (878.9056ms)
+✔ no talents replays complete V0.15 run exactly including boss timings and rewards (3718.1064ms)
+✔ V0.16 preserves combat balance, boss AI, waves, Atelier costs, Relève and resources byte for byte (34.0475ms)
+✔ all eight talents complete real shotgun combat without overrides (999.8059ms)
+✔ all eight talents complete real smg combat without overrides (470.5242ms)
+✔ talent unlocks survive Atelier purchase, Relève claim and result credit (1.0581ms)
+✔ 20 central tracks slots; bosses enabled at 5/10/15/20, future reservations never auto-won (13.1802ms)
+✔ tier 1 has four readable compositions with safe caps and progressive timing (1.9738ms)
+✔ tier 2 has four readable compositions with safe caps and progressive timing (1.8082ms)
+✔ tier 3 has four readable compositions with safe caps and progressive timing (0.4695ms)
+✔ tier 4 has four readable compositions with safe caps and progressive timing (0.4563ms)
+✔ early teaching sequence and railway majority, with rats and drills secondary (1.0414ms)
+✔ normal entrant pressure rises 15–25% over galleries, without health inflation (0.6299ms)
+✔ per-kind caps defer spawns without consuming an entry; free slot resumes (1.9141ms)
+✔ all 16 normal waves survive with shotgun, legal perks/Atelier2, safe spawns and exact collected budget (3574.576ms)
+✔ all 16 normal waves survive with smg, legal perks/Atelier2, safe spawns and exact collected budget (731.9967ms)
+✔ step 3 leaves the staged reward function unchanged (19.745ms)
+✔ choice freezes every combat timer, projectile, spawn and damage, then resumes (38.5781ms)
+✔ all ten perks are offered and selectable through the actual flow (9.6101ms)
+✔ 1000 seeded offers have three distinct cards and three categories when available (197.5734ms)
+✔ unoffered/unknown cards cannot be selected; a double click applies once (1.2716ms)
+✔ original six perks still affect actual projectile count, speed and cooldown (2.1089ms)
+✔ Grisou explodes only on the sixth death and damages nearby active enemies only (0.8561ms)
+✔ chain explosions terminate, process each death once and do not touch player HP (2.1428ms)
+✔ an unselected Grisou never rolls or explodes (0.394ms)
+✔ Canon scie adds exactly 60% only at real player-target distance <=70 at impact (0.9428ms)
+✔ Double detente rolls once and fires two identical nonrecursive spread volleys (1.9464ms)
+✔ Plaques grants protection without changing HP, including fractional or zero health (1.7395ms)
+✔ every perk stops at its cap; capped cards disappear; exhausted pool cannot pause (11.2981ms)
+✔ fallback still offers distinct cards when only shotgun upgrades remain (0.8158ms)
+✔ double stacks display the total chance and reliable Grisou does not stack (1.2242ms)
+✔ wave choice fires once and never interrupts an ended run (1.2203ms)
+✔ replay resets all perks, HP limits and probabilities (3.372ms)
+✔ maximum build remains bounded during a full simulated run (722.0495ms)
+✔ Ravens retains contexts, fallback and no immediate repeated phrase (2.0237ms)
+✔ Ravens appearance frequency remains unchanged (0.793ms)
+✔ one arena persists across all twenty waves and replay uses the same arena definition (28.4976ms)
+✔ tracker marks completed waves only after collection and identifies the final boss (29.7652ms)
+✔ wave 4 collection and choice must finish before a unique protected boss intro (8.5667ms)
+✔ next-wave preparation preserves safe position and delays all hostile engagement (3.6545ms)
+✔ boss spawn recentres only an unsafe player and cannot heal or change equipped stats (2.786ms)
+✔ arena drawing is constructed once: updates never create scenery, doors or a fade (5.9599ms)
+✔ V0.11 protected systems stay unchanged apart from the V0.12 weapon rework (101.2577ms)
+✔ current UI and zone wording use waves and no mandatory exit instruction (32.0255ms)
+✔ two weapon definitions preserve every shotgun V0.6 parameter and reject unknown weapons (11.8716ms)
+✔ SMG produces one finite accurate weak projectile with longer range and lighter effects (2.3101ms)
+✔ SMG cannot fire during movement or braking and resumes promptly when settled (11.2857ms)
+✔ SMG fires rapidly for 20 seconds without nonfinite bullets or pool growth (26.2002ms)
+✔ SMG real bullets kill rat with sustained damage (1.2664ms)
+✔ SMG real bullets kill miner with sustained damage (0.7551ms)
+✔ SMG real bullets kill drill with sustained damage (1.0607ms)
+✔ SMG real bullets kill boss with sustained damage (3.491ms)
+✔ compatible perks appear for both weapons and shotgun-only perks never enter SMG offers (17.4219ms)
+✔ all four permanent stats and generic perks apply to the SMG base (1.6359ms)
+✔ Grisou propagates an SMG kill through the existing explosion resolver (1.3677ms)
+✔ complete shotgun run preserves drops, collection and all twenty waves (2258.2433ms)
+✔ complete smg run preserves drops, collection and all twenty waves (826.4222ms)
+✔ SMG hits beyond shotgun reach, expires at its own range, and snapshots permanent damage (0.9203ms)
+✔ maximum SMG cadence and damage build keeps fixed pools and finite combat state (27.5127ms)
+✔ world configuration contains twenty bounded encounters and four boss milestones (4.7123ms)
+✔ twenty-wave rewards preserve every original full-run budget and probability (4.6271ms)
+✔ boss factory preserves Haveuse and applies final health scaling explicitly (27.2059ms)
+✔ Crachefer locks aim before its slow ranged shot and never fires while dead (2.1254ms)
+✔ Effondreur locks two ground warnings then activates and expires its zone (1.2355ms)
+✔ all twenty waves collect once, pause for six correct choices, and win only at twenty (31.6473ms)
+✔ epics never enter normal offers, are weapon-specific and cannot be double-selected (86.6298ms)
+✔ spawn groups overlap living enemies, stay distant, telegraph and respect every cap (114.8655ms)
+✔ triple boss intro contains three distinct machines with reduced HP and safe entry positions (3.9497ms)
+✔ ground danger hits only after warning, can be escaped, freezes on pause and ends with its owner (11.0032ms)
+✔ Double Canon emits exactly two nonrecursive volleys while moving still blocks shots (2.3004ms)
+✔ unstable Grisou explodes once per death and a three-boss chain remains finite (1.5734ms)
+✔ Point blank adds exactly 100 percent base close damage, without boosting far damage (3.0797ms)
+✔ total piercing hits at most three distinct targets with 100, 80, 64 percent damage (1.8592ms)
+✔ critical heat grants its final damage only at maximum and motion clears heat (4.0858ms)
+✔ iron rain increases cadence by 50 percent with 15 percent less damage per bullet (0.9149ms)
+✔ V0.13 protected systems remain intact outside the authorized V0.14 enemy changes (72.9335ms)
+✔ Crachefer fires a real bounded slow bolt; lateral motion can dodge its locked aim (24.8646ms)
+✔ V0.18 legacy saves stay intact and tracks/zone3 remain locked (18.5286ms)
+✔ full galleries victory permanently unlocks tracks; loss/incomplete win do not (7.8594ms)
+✔ first tracks victory grants one diamond exactly once across instances and reload (1.6337ms)
+✔ tracks has 20 bounded waves, bosses at 5/10/15 and triple20, unchanged choice schedule (5.6572ms)
+✔ tracks reward budget is 108 coal, 9 guaranteed iron, unchanged tokens and small diamond bonus (3.0744ms)
+ℹ tests 361
+ℹ suites 0
+ℹ pass 360
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7536.6371
+
+✖ failing tests:
+
+test at tests\crates-v017.test.js:82:1
+✖ V0.17 leaves all V0.16 combat/talent/Atelier/Relève/drop code byte-identical (3499.3903ms)
+  AssertionError [ERR_ASSERTION]: room-scene.js
+  + actual - expected
+  ... Skipped lines
+  
+  + Buffer(10625) [Uint8Array] [
+  - Buffer(11000) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      32,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   65,
+  -   118,
+  -   97,
+  -   105,
+  -   108,
+  -   97,
+  -   98,
+  -   108,
+  -   101,
+  -   32,
+  -   125,
+  -   32,
+  -   102,
+  -   114,
+  -   111,
+  -   109,
+  -   32,
+  -   39,
+  -   46,
+  -   47,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   45,
+  -   112,
+  -   114,
+  -   111,
+  -   103,
+  -   114,
+  -   101,
+  -   115,
+  -   115,
+  -   46,
+  -   106,
+  -   115,
+  -   39,
+  -   59,
+  -   10,
+  -   105,
+  -   109,
+  -   112,
+  -   111,
+  -   114,
+  -   116,
+  -   32,
+  -   123,
+  -   32,
+      77,
+      97,
+      105,
+      110,
+      77,
+  ...
+      115,
+  -   116,
+  -   97,
+  -   114,
+  -   116,
+  -   40,
+  -   116,
+      104,
+  +   111,
+  -   105,
+  -   115,
+  -   46,
+  -   114,
+  -   117,
+  -   110,
+  -   46,
+      119,
+  +   77,
+      101,
+  +   110,
+  +   117,
+  +   40,
+  +   39,
+  +   122,
+  -   97,
+  -   112,
+      111,
+      110,
+  -   46,
+  -   100,
+      101,
+  -   102,
+  -   105,
+  -   110,
+  -   105,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+  -   46,
+  -   105,
+  -   100,
+  -   44,
+  -   32,
+  -   116,
+  -   104,
+  -   105,
+      115,
+  +   39,
+  -   46,
+  -   114,
+  -   117,
+  -   110,
+  -   46,
+  -   119,
+  -   111,
+  -   114,
+  -   108,
+  -   100,
+  -   46,
+  -   105,
+  -   100,
+      41,
+      44,
+      32,
+      40,
+      41,
+  ...
+      32,
+  -   40,
+      105,
+      100,
+  -   44,
+      32,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+  -   100,
+  -   41,
+  -   32,
+      61,
+      62,
+      32,
+      116,
+      104,
+  ...
+      100,
+  -   44,
+  -   32,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+  -   100,
+      41,
+      44,
+      10,
+      32,
+      32,
+  ...
+      39,
+  -   44,
+  -   32,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+  -   100,
+  -   32,
+  -   61,
+  -   32,
+  -   39,
+  -   103,
+  -   97,
+  -   108,
+  -   108,
+  -   101,
+  -   114,
+  -   105,
+  -   101,
+  -   115,
+  -   39,
+      41,
+      32,
+      123,
+      10,
+      32,
+  ...
+      46,
+  -   119,
+  -   97,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+  -   114,
+  -   101,
+  -   102,
+  -   114,
+  -   101,
+  -   115,
+  -   104,
+  -   83,
+  -   97,
+  -   118,
+  -   101,
+  -   100,
+  -   80,
+  -   114,
+  -   111,
+  -   102,
+  -   105,
+  -   108,
+  -   101,
+  -   40,
+  -   41,
+  -   59,
+  -   10,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   105,
+  -   102,
+  -   40,
+  -   33,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   65,
+  -   118,
+  -   97,
+  -   105,
+  -   108,
+  -   97,
+  -   98,
+  -   108,
+  -   101,
+  -   40,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+  -   100,
+  -   44,
+  -   32,
+  -   116,
+  -   104,
+  -   105,
+  -   115,
+  -   46,
+  -   119,
+  -   97,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+  -   115,
+  -   110,
+  -   97,
+  -   112,
+  -   115,
+  -   104,
+  -   111,
+  -   116,
+  -   46,
+  -   112,
+  -   114,
+  -   111,
+  -   103,
+  -   114,
+  -   101,
+  -   115,
+  -   115,
+  -   41,
+  -   41,
+  -   114,
+  -   101,
+  -   116,
+  -   117,
+  -   114,
+  -   110,
+  -   32,
+  -   102,
+  -   97,
+  -   108,
+  -   115,
+  -   101,
+  -   59,
+  -   10,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   116,
+  -   104,
+  -   105,
+  -   115,
+  -   46,
+      109,
+      101,
+      110,
+      117,
+      46,
+  ...
+      32,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+  -   100,
+  -   44,
+  -   32,
+      116,
+      97,
+      108,
+      101,
+      110,
+  ...
+      46,
+  -   109,
+  -   101,
+  -   110,
+  -   117,
+  -   46,
+  -   115,
+  -   116,
+  -   97,
+  -   116,
+  -   101,
+  -   46,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+      100,
+  -   61,
+  -   122,
+  -   111,
+  -   110,
+  -   101,
+  -   73,
+  -   100,
+  -   59,
+  -   10,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   100,
+  -   111,
+  -   99,
+  -   117,
+  -   109,
+  -   101,
+  -   110,
+  -   116,
+  -   46,
+  -   113,
+  -   117,
+  -   101,
+      114,
+  -   121,
+  -   83,
+  -   101,
+  -   108,
+  -   101,
+  -   99,
+  -   116,
+  -   111,
+  -   114,
+  -   40,
+  -   39,
+  -   46,
+  -   104,
+  -   117,
+  -   100,
+  -   32,
+  -   46,
+  -   101,
+  -   121,
+  -   101,
+  -   98,
+  -   114,
+  -   111,
+  -   119,
+  -   39,
+  -   41,
+  -   46,
+  -   116,
+  -   101,
+  -   120,
+  -   116,
+  -   67,
+  -   111,
+  -   110,
+  -   116,
+  -   101,
+  -   110,
+  -   116,
+  -   61,
+  -   116,
+  -   104,
+  -   105,
+  -   115,
+  -   46,
+  -   114,
+  -   117,
+  -   110,
+  -   46,
+  -   119,
+  -   111,
+  -   114,
+  -   108,
+  -   100,
+  -   46,
+  -   110,
+      97,
+  -   109,
+  -   101,
+  -   43,
+  -   39,
+  -   32,
+  -   47,
+  -   32,
+  -   86,
+  -   48,
+  -   46,
+  -   49,
+  -   56,
+  -   39,
+  -   59,
+  -   10,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   116,
+  -   104,
+  -   105,
+  -   115,
+  -   46,
+  -   100,
+  -   114,
+  -   97,
+      119,
+      87,
+      101,
+      97,
+      112,
+  
+      at visit (file:///C:/LaMineV2/la-mine-v2-v01/tests/crates-v017.test.js:84:224)
+      at async TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/crates-v017.test.js:84:360)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 20 4d 61 69 6e 4d 65 6e 75 20 7d 20 66 72 6f 6d 20 27 2e 2f 6d 65 6e 75 2f 6d 61 69 6e 2d 6d 65 6e 75 2e 6a 73 27 3b 0a 69 6d ... 10575 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 20 7a 6f 6e 65 41 76 61 69 6c 61 62 6c 65 20 7d 20 66 72 6f 6d 20 27 2e 2f 7a 6f 6e 65 2d 70 72 6f 67 72 65 73 73 2e 6a 73 27 ... 10950 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

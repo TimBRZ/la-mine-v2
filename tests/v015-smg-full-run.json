@@ -1,0 +1,216 @@
+[
+  {
+    "weaponId": "smg",
+    "seed": 5,
+    "camp": false,
+    "levels": {},
+    "baseline": false,
+    "isolatedBoss": 0,
+    "isolatedWave": 0,
+    "status": "won",
+    "wave": 20,
+    "kills": 235,
+    "seconds": 416.6333333332831,
+    "hp": 1,
+    "perks": {
+      "trigger": 2,
+      "boots": 1,
+      "heat": 1,
+      "plates": 1,
+      "critical-heat": 1
+    },
+    "bosses": [
+      {
+        "wave": 5,
+        "combatSeconds": 29.56666666666499,
+        "totalSeconds": 31.78333333333153,
+        "hpLost": 0,
+        "patterns": 8
+      },
+      {
+        "wave": 10,
+        "combatSeconds": 25.11666666667506,
+        "totalSeconds": 27.3333333333416,
+        "hpLost": 0,
+        "patterns": 8
+      },
+      {
+        "wave": 15,
+        "combatSeconds": 25.083333333353295,
+        "totalSeconds": 27.300000000021726,
+        "hpLost": 0,
+        "patterns": 6
+      },
+      {
+        "wave": 20,
+        "combatSeconds": 56.03333333328237,
+        "totalSeconds": 58.24999999994702,
+        "hpLost": 1,
+        "patterns": 30
+      }
+    ],
+    "waves": [
+      {
+        "wave": 1,
+        "combatSeconds": 4.316666666666657,
+        "totalSeconds": 4.316666666666657,
+        "hpLost": 0,
+        "patterns": 0
+      },
+      {
+        "wave": 2,
+        "combatSeconds": 5.266666666666797,
+        "totalSeconds": 5.866666666666795,
+        "hpLost": 0,
+        "patterns": 0
+      },
+      {
+        "wave": 3,
+        "combatSeconds": 6.783333333333374,
+        "totalSeconds": 7.383333333333404,
+        "hpLost": 0,
+        "patterns": 1
+      },
+      {
+        "wave": 4,
+        "combatSeconds": 6.599999999999625,
+        "totalSeconds": 7.199999999999591,
+        "hpLost": 0,
+        "patterns": 2
+      },
+      {
+        "wave": 5,
+        "combatSeconds": 29.56666666666499,
+        "totalSeconds": 31.78333333333153,
+        "hpLost": 0,
+        "patterns": 8
+      },
+      {
+        "wave": 6,
+        "combatSeconds": 10.166666666666096,
+        "totalSeconds": 10.766666666666062,
+        "hpLost": 0,
+        "patterns": 3
+      },
+      {
+        "wave": 7,
+        "combatSeconds": 12.18333333333264,
+        "totalSeconds": 12.783333333332607,
+        "hpLost": 0,
+        "patterns": 4
+      },
+      {
+        "wave": 8,
+        "combatSeconds": 12.049999999999315,
+        "totalSeconds": 12.649999999999281,
+        "hpLost": 0,
+        "patterns": 1
+      },
+      {
+        "wave": 9,
+        "combatSeconds": 13.649999999999224,
+        "totalSeconds": 14.24999999999919,
+        "hpLost": 0,
+        "patterns": 5
+      },
+      {
+        "wave": 10,
+        "combatSeconds": 25.11666666667506,
+        "totalSeconds": 27.3333333333416,
+        "hpLost": 0,
+        "patterns": 8
+      },
+      {
+        "wave": 11,
+        "combatSeconds": 17.516666666680607,
+        "totalSeconds": 18.116666666681084,
+        "hpLost": 0.5,
+        "patterns": 9
+      },
+      {
+        "wave": 12,
+        "combatSeconds": 17.183333333347008,
+        "totalSeconds": 17.783333333347485,
+        "hpLost": 0,
+        "patterns": 9
+      },
+      {
+        "wave": 13,
+        "combatSeconds": 15.533333333345695,
+        "totalSeconds": 16.133333333346172,
+        "hpLost": 0,
+        "patterns": 4
+      },
+      {
+        "wave": 14,
+        "combatSeconds": 21.38333333335035,
+        "totalSeconds": 21.983333333350828,
+        "hpLost": 1,
+        "patterns": 10
+      },
+      {
+        "wave": 15,
+        "combatSeconds": 25.083333333353295,
+        "totalSeconds": 27.300000000021726,
+        "hpLost": 0,
+        "patterns": 6
+      },
+      {
+        "wave": 16,
+        "combatSeconds": 21.633333333332274,
+        "totalSeconds": 22.23333333333275,
+        "hpLost": 0.5,
+        "patterns": 18
+      },
+      {
+        "wave": 17,
+        "combatSeconds": 26.716666666642368,
+        "totalSeconds": 27.316666666641822,
+        "hpLost": 0,
+        "patterns": 31
+      },
+      {
+        "wave": 18,
+        "combatSeconds": 35.61666666663427,
+        "totalSeconds": 36.21666666663373,
+        "hpLost": 0,
+        "patterns": 47
+      },
+      {
+        "wave": 19,
+        "combatSeconds": 24.283333333311248,
+        "totalSeconds": 24.883333333310702,
+        "hpLost": 1,
+        "patterns": 24
+      },
+      {
+        "wave": 20,
+        "combatSeconds": 56.03333333328237,
+        "totalSeconds": 58.24999999994702,
+        "hpLost": 1,
+        "patterns": 30
+      }
+    ],
+    "moveRatio": 0.17569405552444195,
+    "shots": 2985,
+    "badShots": 0,
+    "maxAlive": 12,
+    "maxBolts": 5,
+    "maxDrops": 8,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "priority": [
+      "critical-heat",
+      "trigger",
+      "heat",
+      "plates",
+      "boots",
+      "piercing",
+      "magazine"
+    ]
+  }
+]

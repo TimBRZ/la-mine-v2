@@ -1,0 +1,131 @@
+✔ Zone 5 unlocks only after Rift victory; no Zone 6 gameplay (1.7694ms)
+✖ Zone 5 has 20 waves, six normal choices including opening and epic before triple (0.8757ms)
+✔ Zone 5 first victory credits exactly two diamonds once across reload without changing meta (1.9276ms)
+✔ Legacy profiles keep fields and unlock derivation; loss/incomplete victory never unlocks (0.3826ms)
+✔ Zone 5 normal reward budget remains bounded: 123 coal, 12 iron, unchanged token rules (1.2318ms)
+✔ Local ranking includes Zone 5 in correct order and persists through reload (1.2526ms)
+✔ lampist spawns away, takes all weapons, dies, drops loot and triggers Grisou (8.3468ms)
+✔ blaster spawns away, takes all weapons, dies, drops loot and triggers Grisou (3.4432ms)
+✔ blackmaw spawns away, takes all weapons, dies, drops loot and triggers Grisou (4.493ms)
+✔ Lampiste retreats at short range, strafes at midrange and locks its luminous fan (2.8084ms)
+✔ Boutefeu plants, retreats while charge warns, then explosion damages and expires (3.1051ms)
+✔ Gueule-Noire leap locks before movement and allows a lateral dodge (1.3656ms)
+✔ lampmajor warns and executes beam (2.1531ms)
+✔ lampmajor warns and executes fan (1.1022ms)
+✖ lampmajor warns and executes blackout (1.7757ms)
+✔ dynamiter warns and executes charges (1.2961ms)
+✔ dynamiter warns and executes chain (2.4165ms)
+✔ dynamiter warns and executes ring (1.5411ms)
+✔ dynamiter warns and executes lob (4.2526ms)
+✔ blackmass warns and executes rush (2.0989ms)
+✔ blackmass warns and executes slam (1.1014ms)
+✔ blackmass warns and executes cracks (1.9169ms)
+✖ blackmass warns and executes blackout (1.118ms)
+✖ Extinctions have finite duration, cool down, pause correctly and reset between waves (3.5153ms)
+✔ Lighting touches only background: player/enemy/projectile/telegraph layers remain intact (1.751ms)
+✔ Every ground pattern has safe positions; warning collision does not damage; chains are ordered (5.4687ms)
+✔ Atomic reservations enforce 24 projectiles, five hazards and three charges without partial attacks (0.4706ms)
+✔ Death cancels owned ground/reservations, remaining projectiles expire and wave cleans up (0.4484ms)
+✔ Triple overlaps two and three bosses, never exceeds caps, has no long silence (121.7727ms)
+✔ Actual galleries combat is unchanged at every boss and a normal wave (68.8522ms)
+✔ Actual tracks combat is unchanged at every boss and a normal wave (40.7565ms)
+✔ Actual shaft59 combat is unchanged at every boss and a normal wave (48.3581ms)
+✔ Actual rift combat is unchanged at every boss and a normal wave (56.9236ms)
+✔ All unrelated source bytes are unchanged, including remote leaderboard and auth client (40.0738ms)
+✔ Full Zone 5 is winnable with shotgun using ordinary input and legal upgrades (5171.78ms)
+✔ Full Zone 5 is winnable with smg using ordinary input and legal upgrades (11506.5828ms)
+✔ Full Zone 5 is winnable with grisoux using ordinary input and legal upgrades (8453.2225ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 33
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25750.2517
+
+✖ failing tests:
+
+test at tests\zone5.test.js:17:1
+✖ Zone 5 has 20 waves, six normal choices including opening and epic before triple (0.8757ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  28 !== 26
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone5.test.js:20:127)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 28,
+    expected: 26,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone5.test.js:52:200
+✖ lampmajor warns and executes blackout (1.7757ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone5.test.js:57:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone5.test.js:52:200
+✖ blackmass warns and executes blackout (1.118ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone5.test.js:57:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone5.test.js:59:1
+✖ Extinctions have finite duration, cool down, pause correctly and reset between waves (3.5153ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone5.test.js:60:84)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

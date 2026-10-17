@@ -1,0 +1,141 @@
+{
+  "durations": [
+    {
+      "badge": "LA RELÈVE · À RÉCUPÉRER",
+      "claimEnabled": true,
+      "coal": "12",
+      "iron": "1",
+      "time": "01 h 00",
+      "wallet": "0\nCharbon\n0\nFer\n0\nDiamant\n0\nJeton Grisou"
+    },
+    {
+      "badge": "LA RELÈVE · À RÉCUPÉRER",
+      "claimEnabled": true,
+      "coal": "96",
+      "iron": "8",
+      "time": "08 h 00",
+      "wallet": "0\nCharbon\n0\nFer\n0\nDiamant\n0\nJeton Grisou"
+    },
+    {
+      "badge": "LA RELÈVE · À RÉCUPÉRER",
+      "claimEnabled": true,
+      "coal": "288",
+      "iron": "24",
+      "time": "24 h 00",
+      "wallet": "0\nCharbon\n0\nFer\n0\nDiamant\n0\nJeton Grisou"
+    },
+    {
+      "badge": "LA RELÈVE · À RÉCUPÉRER",
+      "claimEnabled": true,
+      "coal": "288",
+      "iron": "24",
+      "time": "24 h 00",
+      "wallet": "0\nCharbon\n0\nFer\n0\nDiamant\n0\nJeton Grisou"
+    }
+  ],
+  "afterClaimReload": {
+    "badge": "LA RELÈVEAU TRAVAIL",
+    "disabled": true,
+    "stock": "À RÉCUPÉRER\n0\nCharbon\n0\nFer",
+    "time": "00 h 00",
+    "wallet": "288\nCharbon\n24\nFer\n0\nDiamant\n0\nJeton Grisou"
+  },
+  "workshop": {
+    "power": "Puissance · 1/5",
+    "wallet": "258\nCharbon\n24\nFer\n0\nDiamant\n0\nJeton Grisou"
+  },
+  "layout320": {
+    "claim": {
+      "bottom": 335.4271049499512,
+      "height": 44.72916793823242,
+      "left": 16.21875,
+      "right": 303.78125,
+      "top": 290.69793701171875,
+      "width": 287.5625,
+      "x": 16.21875,
+      "y": 290.69793701171875
+    },
+    "content": [
+      367,
+      367
+    ],
+    "height": 568,
+    "pageWidth": 320,
+    "width": 320
+  },
+  "layout390": {
+    "brokenImages": 0,
+    "content": [
+      460,
+      460
+    ],
+    "height": 844,
+    "pageWidth": 390,
+    "width": 390
+  },
+  "run": {
+    "mode": "V0.10 navigation",
+    "shots": 607,
+    "movingShots": 0,
+    "enemyShots": 18,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 12,
+    "frames": 1972,
+    "workMs": 1764.7999963760376,
+    "magnetDurations": [
+      0.683,
+      0.667,
+      0.617,
+      0.683,
+      0.517
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 1.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.895
+  },
+  "afterRun": {
+    "locked": [
+      "TALENTS · VERROUILLÉ · BIENTÔT",
+      "CAISSES · VERROUILLÉ · BIENTÔT"
+    ],
+    "wallet": "94\nCharbon\n8\nFer\n0\nDiamant\n0\nJeton Grisou",
+    "weapon": "smg"
+  },
+  "console": [],
+  "scope": "Desktop Chromium with mobile viewport overrides. QA localStorage key only for simulations; no physical Android test in V0.10.",
+  "normalProfileAfterMigration": {
+    "levels": [
+      "Puissance · 4/5",
+      "Robustesse · 0/5",
+      "Mécanique · 2/5",
+      "Mobilité · 0/5"
+    ],
+    "wallet": "40\nCharbon\n27\nFer\n1\nDiamant\n0\nJeton Grisou"
+  }
+}

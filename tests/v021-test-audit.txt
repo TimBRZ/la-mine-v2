@@ -1,0 +1,168 @@
+tests\boss-balance-v015.test.js:20:  for(const [file,hash] of Object.entries(baseline).filter(([file])=>!VISUAL_FILES.includes(file)).filter(([file])=>!TALENT_FILES.includes(file) && !RAIL_INTEGRATION_FILES.includes(file)))assert.equal(createHash('sha256').update(preserveWorkshopHint(file,await readFile(new URL('../src/'+file,import.meta.url)))).digest('hex'),hash,file);
+tests\boss-balance-v015.test.js:70:  assert.equal(events.length,2);assert.equal(r.projectiles.pool.filter(p=>p.active).length,14);
+tests\combat-appearances-v020.test.js:7:test('V0.20 preserves every V0.19 module outside the two entity renderers the version label and authorized wagon targeting',async()=>{
+tests\combat-appearances-v020.test.js:8:  const root=new URL('./v019-final-src-snapshot/',import.meta.url);
+tests\combat-appearances-v020.test.js:14:    if(path==='menu/main-menu.js')current=current.replaceAll('V0.20','V0.19');
+tests\combat-appearances-v020.test.js:20:    assert.equal(current.replaceAll('0.20','0.19'),previous,file);
+tests\combat-appearances-v020.test.js:44:  assert.equal(queue.length,14);
+tests\combat-appearances-v020.test.js:105:  animateCombatAppearance(image,ART.miner,createAppearanceMotion(100,200),{x:100,y:200,angle:Math.PI,active:true},1/60);
+tests\crates-v017.test.js:39:test('empty stock prevents opening without drawing or mutating wallet',()=>{const {wallet}=fixture({count:0,lastDaily:null}),before=wallet.snapshot;assert.deepEqual(wallet.openCrate(()=>{throw Error('draw');}),{ok:false,reason:'empty'});assert.deepEqual(wallet.snapshot,before);});
+tests\crates-v017.test.js:41: const {wallet,storage}=fixture(),before=wallet.snapshot,r=wallet.openCrate(()=>p);assert.deepEqual(r,{ok:true,reward:{resource,amount}});assert.equal(wallet.crateCount,2);assert.equal(wallet.snapshot.wallet[resource],before.wallet[resource]+amount);
+tests\crates-v017.test.js:42: const reloaded=new Wallet(storage);assert.deepEqual(reloaded.snapshot,wallet.snapshot);assert.deepEqual(reloaded.snapshot.talents,before.talents);assert.deepEqual(reloaded.snapshot.levels,before.levels);assert.deepEqual(reloaded.snapshot.relief,before.relief);
+tests\crates-v017.test.js:45: const {wallet,backend}=fixture(),before=wallet.snapshot,write=backend.setItem;backend.setItem=()=>{throw Error('quota');};assert.equal(wallet.openCrate(()=>0).ok,false);assert.deepEqual(wallet.snapshot,before);backend.setItem=write;assert.equal(wallet.openCrate(()=>0).ok,true);assert.equal(wallet.crateCount,2);
+tests\crates-v017.test.js:48: const {wallet,storage}=fixture();const p=wallet.snapshot;p.wallet.coal=MAX_RESOURCE;storage.write(p);assert.deepEqual(wallet.openCrate(()=>{throw Error('draw');}),{ok:false,reason:'capacity'});assert.equal(wallet.crateCount,3);
+tests\crates-v017.test.js:51: const {wallet,storage}=fixture({count:1,lastDaily:null}),other=new Wallet(storage);assert.equal(wallet.openCrate(()=>0).ok,true);assert.equal(other.openCrate(()=>0).ok,false);assert.equal(other.snapshot.wallet.coal,5100);
+tests\crates-v017.test.js:54: const {wallet}=fixture({count:20,lastDaily:null});for(let i=0;i<20;i++)assert.equal(wallet.openCrate(()=>.4).ok,true);assert.equal(wallet.crateCount,0);assert.equal(wallet.snapshot.wallet.coal,9000);assert.equal(wallet.openCrate(()=>.4).ok,false);
+tests\crates-v017.test.js:57: const {wallet}=fixture({count:0,lastDaily:null}),a=win();wallet.claim(a,()=>.99,{now:day1,crateRandom:()=>.99});assert.equal(wallet.crateCount,1);assert.equal(wallet.snapshot.crates.lastDaily,'2026-10-06');
+tests\crates-v017.test.js:68: const {wallet}=fixture({count:0,lastDaily:null});for(const r of [{...win(),status:'lost'},{...win(),completedWaves:19}]){const before=wallet.snapshot.wallet;wallet.claim(r,()=>.99,{now:day1,crateRandom:()=>{throw Error('no draw');}});assert.equal(wallet.crateCount,0);assert.equal(wallet.snapshot.wallet.coal,before.coal+94);assert.equal(wallet.snapshot.wallet.iron,before.iron+8);}
+tests\crates-v017.test.js:71: const {wallet}=fixture({count:CRATE_RULES.maxCount,lastDaily:null});wallet.claim(win(),()=>.99,{now:day1,crateRandom:()=>0});assert.equal(wallet.crateCount,CRATE_RULES.maxCount);assert.equal(wallet.snapshot.crates.lastDaily,null);
+tests\crates-v017.test.js:74: const {wallet,storage}=fixture({count:0,lastDaily:null});assert.equal(wallet.exchangeTokens().ok,true);assert.equal(wallet.snapshot.wallet.token,4);assert.equal(wallet.crateCount,1);assert.equal(wallet.exchangeTokens().ok,true);assert.equal(wallet.snapshot.wallet.token,1);assert.equal(wallet.crateCount,2);assert.equal(wallet.exchangeTokens().ok,false);assert.equal(new Wallet(storage).snapshot.wallet.token,1);
+tests\crates-v017.test.js:77: const {wallet,backend}=fixture(),before=wallet.snapshot;backend.setItem=()=>{throw Error('blocked');};assert.equal(wallet.exchangeTokens().ok,false);assert.deepEqual(wallet.snapshot,before);
+tests\crates-v017.test.js:78: const full=fixture({count:CRATE_RULES.maxCount,lastDaily:null}).wallet;assert.equal(full.exchangeTokens().ok,false);assert.equal(full.snapshot.wallet.token,7);
+tests\crates-v017.test.js:81: const {wallet,storage}=fixture({count:2,lastDaily:'2026-10-06'});wallet.buy('power');wallet.buyTalent('good-start');wallet.claimRelief(day1+3600000);const reloaded=new Wallet(storage);assert.deepEqual(reloaded.snapshot.crates,{count:2,lastDaily:'2026-10-06'});assert.equal(reloaded.snapshot.levels.power,1);assert.ok(reloaded.snapshot.talents.includes('good-start'));assert.equal(reloaded.snapshot.relief.startedAt,day1+3600000);
+tests\crates-v017.test.js:83:test('V0.17 leaves all V0.16 combat/talent/Atelier/Relève/drop code byte-identical',async()=>{
+tests\crates-v017.test.js:84: const root=new URL('./v016-src-snapshot/',import.meta.url),allowed=[...VISUAL_FILES,...RAIL_INTEGRATION_FILES,'wallet.js','local-profile-storage.js','ui.js','menu/main-menu.js','menu/state.js','menu/menu.css'];
+tests\fire-modes.test.js:53:  assert.equal(run.update(.01).filter(e => e.type === 'shot').length, 1);
+tests\menu.test.js:50:  const before = JSON.stringify(wallet.snapshot), beforeWrites = writes;
+tests\menu.test.js:53:  assert.equal(JSON.stringify(wallet.snapshot),before); assert.equal(writes,beforeWrites);
+tests\perks-v012.test.js:46:  assert.equal(pellets.length,11);assert.equal(run.weapon.interval,interval/.8);
+tests\perks-v012.test.js:50:test('sawn-off snapshots shorter projectile range and rejects targets past the new limit',()=>{
+tests\perks-v012.test.js:70:  assert.equal(events.filter(e=>e.type==='explosion').length,1);assert.equal(run.grisou.kills,0);
+tests\perks-v012.test.js:77:  assert.equal(events.filter(e=>e.type==='kill').length,8);
+tests\perks-v012.test.js:210:  for(const [file,hash] of Object.entries(baseline).filter(([file])=>!VISUAL_FILES.includes(file)).filter(([file])=>!TALENT_FILES.includes(file)).filter(([file])=>!['room-loot.js','menu/state.js','arena-view.js','boss.js','enemies/rat.js','enemies/drill.js'].includes(file))) {
+tests\perks-v012.test.js:214:    assert.equal(createHash('sha256').update(bytes).digest('hex'),hash,file);
+tests\combat-art-v019.test.js:21:test('V0.18 modules remain byte-identical outside authorized wagon targeting, including runs, bosses, rewards, upgrades and saved progression',async()=>{
+tests\combat-art-v019.test.js:22:  const root=new URL('./v018-final-src-snapshot/',import.meta.url);
+tests\enemy-direction-v020.test.js:51:test('only rat and wagon artwork changes; all other V0.20 SVGs remain byte-identical',async()=>{
+tests\difficulty-v014.test.js:18:test('protected V0.14 weapons, perks, economy, drops, menus and storage are byte-identical',async()=>{
+tests\difficulty-v014.test.js:21:  for(const [file,hash] of Object.entries(baseline).filter(([file])=>!VISUAL_FILES.includes(file)).filter(([file])=>!TALENT_FILES.includes(file)).filter(([file])=>!['weapon.js','combat.js','ui.js'].includes(file)))assert.equal(createHash('sha256').update(preserveWorkshopHint(file,await readFile(new URL('../src/'+file,import.meta.url)))).digest('hex'),hash,file);
+tests\difficulty-v014.test.js:113:    assert.equal(r.status,'won');assert.equal(r.bosses.length,1);
+tests\difficulty-v014.test.js:129:  assert.equal(events.filter(e=>e.type==='kill').length,1);
+tests\difficulty-v014.test.js:140:    assert.ok(r.enemies.length<=12);assert.equal(r.hostileProjectiles.pool.length,8);
+tests\difficulty-v014.test.js:141:    assert.equal(r.projectiles.pool.length,84);assert.ok(r.loot.activeCount<=20);
+tests\meta.test.js:60:  assert.equal(wallet.snapshot.wallet.coal, 94);
+tests\meta.test.js:66:  assert.equal(wallet.snapshot.wallet.coal, 34);
+tests\meta.test.js:68:  assert.deepEqual(new Wallet(new LocalProfileStorage(backend)).snapshot, wallet.snapshot);
+tests\meta.test.js:80:      const before = wallet.snapshot, cost = upgradeCost(i);
+tests\meta.test.js:82:      for (const resource of RESOURCES) assert.equal(wallet.snapshot.wallet[resource.id], before.wallet[resource.id] - cost[resource.id]);
+tests\meta.test.js:84:    const before = wallet.snapshot;
+tests\meta.test.js:85:    assert.equal(wallet.buy(id), false); assert.deepEqual(wallet.snapshot, before);
+tests\meta.test.js:87:  assert.equal(wallet.snapshot.wallet.token, 7);
+tests\meta.test.js:90:  const wallet = new Wallet(new LocalProfileStorage(memory())), before = wallet.snapshot;
+tests\meta.test.js:92:  assert.deepEqual(wallet.snapshot, before);
+tests\meta.test.js:97:  assert.deepEqual(reloaded.snapshot, wallet.snapshot);
+tests\meta.test.js:98:  assert.equal(reloaded.snapshot.levels.power, 1);
+tests\meta.test.js:112:  assert.equal(wallet.snapshot.wallet.coal, 64);
+tests\meta.test.js:115:  const wallet = funded(), current = new Run(Math.random, wallet.snapshot.levels);
+tests\meta.test.js:118:  const next = new Run(Math.random, wallet.snapshot.levels);
+tests\meta.test.js:158:  const run = new Run(rng, wallet.snapshot.levels), flow = new UpgradeFlow(run, rng);
+tests\meta.test.js:165:  const next = new Run(rng, wallet.snapshot.levels);
+tests\meta.test.js:168:  assert.equal(wallet.snapshot.wallet.coal, 64);
+tests\kit-da.test.js:13:  assert.equal(assets.length, 17);
+tests\kit-da.test.js:42:  for (const [file, hash] of Object.entries(baseline).filter(([file])=>!VISUAL_FILES.includes(file)).filter(([file])=>!TALENT_FILES.includes(file))) {
+tests\kit-da.test.js:49:    assert.equal(actual,hash,file);
+tests\enemies.test.js:49:test('drill stops, locks aim for 900 ms then fires once and rests; damage does not hide the warning', () => {
+tests\enemies.test.js:57:  assert.equal(attacks.length, 1); assert.equal(e.phase, 'recovery');
+tests\enemies.test.js:59:  assert.equal(attacks.length, 1); assert.equal(e.phase, 'positioning');
+tests\enemies.test.js:68:  assert.equal(bolts.fire(active('drill', 9), 0), false); assert.equal(bolts.pool.length, 8);
+tests\enemies.test.js:98:    assert.equal(e.alive, false); assert.equal(events.filter(e => e.type === 'kill').length, 1);
+tests\enemies.test.js:108:    assert.equal(e.alive, false); assert.equal(events.filter(e => e.type === 'explosion').length, 1);
+tests\enemies.test.js:109:    assert.equal(events.filter(e => e.type === 'kill' && e.id === 1).length, 1);
+tests\enemies.test.js:188:  assert.equal(run.enemies.length, 1); assert.ok(run.enemies[0] instanceof Haveuse);
+tests\enemies.test.js:234:    assert.equal(run.hostileProjectiles.pool.length, 8);
+tests\relief.test.js:45:  assert.deepEqual(wallet.snapshot.wallet,old.wallet);assert.deepEqual(wallet.snapshot.levels,old.levels);
+tests\relief.test.js:53:  assert.equal(reload.snapshot.wallet.coal,0);
+tests\relief.test.js:54:  assert.equal(reload.snapshot.relief.startedAt,START);
+tests\relief.test.js:62:  assert.equal(reload.snapshot.wallet.coal,96);assert.equal(reload.snapshot.relief.startedAt,now);
+tests\relief.test.js:64:  assert.equal(reload.snapshot.wallet.coal,96);
+tests\relief.test.js:71:  assert.equal(stale.snapshot.wallet.coal,12);
+tests\relief.test.js:77:  assert.equal(wallet.snapshot.wallet.coal,0);
+tests\relief.test.js:78:  assert.equal(wallet.snapshot.relief.startedAt,START);
+tests\relief.test.js:82:  assert.equal(reload.snapshot.wallet.coal,12);
+tests\relief.test.js:90:    assert.equal(wallet.snapshot.relief.startedAt,START);
+tests\relief.test.js:98:    assert.equal(wallet.snapshot.relief.startedAt,START);
+tests\relief.test.js:99:    assert.equal(wallet.snapshot.wallet.coal,42);assert.equal(wallet.snapshot.wallet.token,2);
+tests\relief.test.js:107:  assert.deepEqual(wallet.snapshot.wallet,{coal:12,iron:1,diamond:2,token:3});
+tests\relief.test.js:108:  assert.equal(wallet.snapshot.levels.power,1);
+tests\relief.test.js:109:  assert.equal(wallet.snapshot.relief.startedAt,START+HOUR_MS);
+tests\relief.test.js:114:  assert.equal(wallet.snapshot.relief.startedAt,START);
+tests\relief.test.js:119:  assert.deepEqual(wallet.snapshot.wallet,{coal:94,iron:8,diamond:0,token:0});
+tests\relief.test.js:121:  assert.equal(reload.snapshot.relief.startedAt,START);
+tests\relief.test.js:128:  assert.equal(other.snapshot.wallet.coal,298);
+tests\relief.test.js:129:  assert.equal(other.snapshot.relief.startedAt,START+24*HOUR_MS);
+tests\loot.test.js:33:  assert.equal(events.length, 1); assert.equal(loot.collected.coal, 1);
+tests\loot.test.js:98:  assert.deepEqual(wallet.snapshot.wallet, expected);
+tests\loot.test.js:100:  assert.equal(wallet.buy('power'), true); assert.equal(wallet.snapshot.wallet.coal, 64);
+tests\loot.test.js:128:      assert.ok(loot.activeCount <= 20); assert.equal(loot.pool.length, LOOT.capacity);
+tests\rooms.test.js:91:  assert.equal(run.enemies.length,1);
+tests\rail-enemies-v018.test.js:5:import { Run as OldRun } from './v017-src-snapshot/run.js';
+tests\rail-enemies-v018.test.js:7:import { UpgradeFlow as OldFlow } from './v017-src-snapshot/upgrades.js';
+tests\rail-enemies-v018.test.js:41:test('draisine visibly locks aim, pauses, fires exactly two shots then rests without tracking',()=>{
+tests\rail-enemies-v018.test.js:51: const pool=new EnemyProjectiles();for(let i=1;i<=20;i++)pool.fire(active('draisine',i),0);assert.equal(pool.pool.filter(p=>p.active).length,8);pool.clear();assert.equal(pool.pool.filter(p=>p.active).length,0);
+tests\rail-enemies-v018.test.js:72: assert.equal(events.filter(e=>e.type==='explosion').length,1);assert.equal(r.kills,2);assert.equal(r.status,'won');assert.equal(r.loot.deaths.size,2);
+tests\rail-enemies-v018.test.js:80:test('Zone1 enemies, bosses, waves, weapon balance, rewards remain byte-identical',async()=>{
+tests\rail-enemies-v018.test.js:81: for(const file of ['boss.js','difficulty.js','world.js','weapon.js','combat.js','explosions.js','enemies/stats.js','enemies/rat.js','enemies/miner.js','enemies/drill.js','room-loot.js','rewards.js'])assert.deepEqual(await readFile(new URL('../src/'+file,import.meta.url)),await readFile(new URL('./v017-src-snapshot/'+file,import.meta.url)),file);
+tests\rail-bosses-v018.test.js:13:import {TRACKS_WAVES as OLD_TRACKS_WAVES} from './v018-step3-src-snapshot/tracks-waves.js';
+tests\rail-bosses-v018.test.js:38: const b=boss('locomotive');b.attackCount=1;b.phaseTime=0;b.update(.01,{x:260,y:280});assert.equal(b.pattern,'steam');assert.equal(b.hazards.length,1);
+tests\rail-bosses-v018.test.js:74: const r=simulateBosses({weaponId,boss:n,seed:weaponId==='shotgun'?1:5});assert.equal(r.bossTimes.length,1);assert.ok(r.hp>0);assert.ok(r.bossTimes[0].seconds>10&&r.bossTimes[0].seconds<75);assert.ok(r.maxAlive<=4);assert.ok(r.maxBolts<=8);assert.ok(r.maxHazards<=2);assert.ok(r.maxSummons<=1);
+tests\rail-bosses-v018.test.js:82: const read=f=>readFile(new URL(f,import.meta.url),'utf8');const old=await read('./v018-step3-src-snapshot/bosses.js'),current=await read('../src/bosses.js');
+tests\rail-bosses-v018.test.js:84: for(const f of ['wallet.js','rewards.js','zones.js','weapon.js','combat.js','upgrades.js','epic-upgrades.js','talents.js','permanent-upgrades.js','relief.js','crates.js'])assert.equal(await read('../src/'+f),await read('./v018-step3-src-snapshot/'+f),f);
+tests\game.test.js:133:  assert.equal(events.length, 1);
+tests\game.test.js:158:  assert.equal(close.events.filter(e => e.type === 'kill').length, 1);
+tests\game.test.js:167:  assert.equal(bullets.pool, storage); assert.equal(storage.length, 84);
+tests\talents-v016.test.js:8:import {Run as OldRun} from './v015-src-snapshot/run.js';
+tests\talents-v016.test.js:10:import {UpgradeFlow as OldFlow} from './v015-src-snapshot/upgrades.js';
+tests\talents-v016.test.js:17: assert.equal(TALENTS.length,8);assert.equal(new Set(ids).size,8);
+tests\talents-v016.test.js:27: const {wallet,backend}=fixture(),before=wallet.snapshot;
+tests\talents-v016.test.js:29: const next=new Wallet(new LocalProfileStorage(backend));assert.deepEqual(next.snapshot.talents,[t.id]);
+tests\talents-v016.test.js:30: for(const k of ['coal','iron','diamond','token'])assert.equal(next.snapshot.wallet[k],before.wallet[k]-(t.cost[k]||0));
+tests\talents-v016.test.js:31: assert.deepEqual(next.snapshot.levels,before.levels);assert.deepEqual(next.snapshot.relief,before.relief);
+tests\talents-v016.test.js:35: const before=wallet.snapshot;backend.setItem=()=>{throw Error('blocked');};assert.equal(wallet.buyTalent('magnet'),false);assert.deepEqual(wallet.snapshot,before);
+tests\talents-v016.test.js:39: const {wallet,backend}=fixture(),stale=new Wallet(new LocalProfileStorage(backend));wallet.buyTalent('magnet');assert.equal(stale.buyTalent('magnet'),false);assert.deepEqual(stale.snapshot,wallet.snapshot);
+tests\talents-v016.test.js:41:test('new run snapshots unlocks, existing run stays unchanged and charges reset',()=>{
+tests\talents-v016.test.js:42: const {wallet}=fixture(),old=new Run(rng(1),{}, {talents:wallet.snapshot.talents});wallet.buyTalent('last-breath');
+tests\talents-v016.test.js:43: const next=new Run(rng(1),{}, {talents:wallet.snapshot.talents});assert.equal(old.talents.has('last-breath'),false);assert.equal(next.talents.has('last-breath'),true);next.talents.revived=true;assert.equal(new Run(rng(1),{}, {talents:wallet.snapshot.talents}).talents.revived,false);
+tests\talents-v016.test.js:87: for(const file of ['boss-weapon-balance.js','combat.js','weapon.js','world.js','difficulty.js','boss.js','enemies/rat.js','enemies/drill.js','enemies/miner.js','permanent-upgrades.js','relief.js','resources.js','epic-upgrades.js'])assert.deepEqual(await readFile(new URL('../src/'+file,import.meta.url)),await readFile(new URL('./v015-src-snapshot/'+file,import.meta.url)),file);
+tests\talents-v016.test.js:100: const reloaded=new Wallet(new LocalProfileStorage(backend));assert.deepEqual(reloaded.snapshot.talents,['magnet']);assert.equal(reloaded.snapshot.levels.power,1);assert.equal(reloaded.snapshot.relief.startedAt,1700003600000);
+tests\tracks-waves-v018.test.js:40: assert.equal(r.done,true);assert.equal(r.status,'playing');assert.equal(r.kills,271);assert.equal(r.waves.length,16);assert.equal(r.spawnUnsafe,0);assert.equal(r.badShots,0);
+tests\upgrades.test.js:37:  assert.equal(UPGRADES.length, 10);
+tests\upgrades.test.js:74:  assert.equal(run.projectiles.pool.filter(p => p.active).length, 11);
+tests\upgrades.test.js:102:  assert.equal(events.filter(e => e.type === 'explosion').length, 1);
+tests\upgrades.test.js:110:  assert.equal(events.length, 1);
+tests\waves.test.js:51:  assert.equal(events.filter(e=>e.type==='wave-enter'&&e.boss).length,1);
+tests\waves.test.js:108:  for(const [file,hash] of Object.entries(baseline).filter(([file])=>!VISUAL_FILES.includes(file)).filter(([file])=>!TALENT_FILES.includes(file)).filter(([file])=>!['weapons.js','weapon.js','boss.js','enemies/rat.js','enemies/drill.js'].includes(file))) assert.equal(createHash('sha256').update(preserveWorkshopHint(file,await readFile(new URL('../src/'+file,import.meta.url)))).digest('hex'),hash,file);
+tests\wagon-targeting-v020.test.js:72:  const hashes=JSON.parse(await readFile(new URL('./v020-before-wagon-targeting.json',import.meta.url),'utf8'));
+tests\wagon-targeting-v020.test.js:74:  for(const [file,hash] of Object.entries(hashes)) {
+tests\wagon-targeting-v020.test.js:77:    else assert.equal(createHash('sha256').update(current).digest('hex'),hash,file);
+tests\weapons.test.js:16: assert.deepEqual(Object.keys(WEAPONS),['shotgun','smg']);
+tests\weapons.test.js:25: const bullets=pool.pool.filter(p=>p.active);assert.equal(bullets.length,1);assert.equal(bullets[0].angle,0);
+tests\weapons.test.js:42: for(let i=0;i<1200;i++){const events=[];w.update(1/60,{x:60,y:300,angle:0},[e],pool,events);pool.update(1/60,[e],events);if(events.some(e=>e.type==='shot')){shots++;times.push(i/60);}assert.equal(pool.pool.length,84);assert.ok(pool.pool.filter(p=>p.active).every(p=>Number.isFinite(p.angle)&&Number.isFinite(p.x)));}
+tests\weapons.test.js:88:  assert.ok(run.loot.activeCount<=20);assert.equal(run.projectiles.pool.length,84);
+tests\weapons.test.js:95:test('SMG hits beyond shotgun reach, expires at its own range, and snapshots permanent damage',()=>{
+tests\weapons.test.js:109: assert.ok(shots>850);assert.ok(max<10);assert.equal(run.projectiles.pool.length,84);assert.ok(Number.isFinite(e.hp));assert.equal(run.player.hp,6.25);
+tests\world-v013.test.js:39:test('Crachefer locks aim before its slow ranged shot and never fires while dead',()=>{
+tests\world-v013.test.js:44:  assert.equal(attacks.length,1);assert.equal(attacks[0].angle,angle);assert.equal(b.phase,'recovery');
+tests\world-v013.test.js:45:  b.hp=0;b.phase='warning';b.phaseTime=0;b.update(.04,p,attacks);assert.equal(attacks.length,1);
+tests\world-v013.test.js:123:  assert.equal(events.length,2);assert.equal(r.projectiles.pool.filter(p=>p.active).length,14);
+tests\world-v013.test.js:157:  for(const [file,hash] of Object.entries(baseline).filter(([file])=>!VISUAL_FILES.includes(file)).filter(([file])=>!TALENT_FILES.includes(file)).filter(([file])=>!['boss.js','enemies/rat.js','enemies/drill.js'].includes(file)))assert.equal(createHash('sha256').update(preserveWorkshopHint(file,await readFile(new URL('../src/'+file,import.meta.url)))).digest('hex'),hash,file);
+tests\world-v013.test.js:163:    const hp=r.player.hp;r.update(.02);assert.equal(r.hostileProjectiles.pool.filter(p=>p.active).length,1);
+tests\world-v013.test.js:165:    assert.equal(r.player.hp,dodge?hp:hp-1);assert.equal(r.hostileProjectiles.pool.length,8);
+tests\zones-v018.test.js:16: assert.equal(zoneAvailable('tracks',wallet.snapshot.progress),false);claim(wallet,win('galleries'));assert.equal(zoneAvailable('tracks',new Wallet(storage).snapshot.progress),true);
+tests\zones-v018.test.js:20: assert.equal(claim(wallet,run).diamond,1);assert.equal(claim(wallet,run).diamond,1);assert.equal(wallet.snapshot.wallet.diamond,1);
+tests\zones-v018.test.js:21: assert.equal(claim(stale,win('tracks')).diamond,0);assert.equal(new Wallet(storage).snapshot.wallet.diamond,1);assert.equal(stale.snapshot.progress.tracksCompleted,true);
+tests\zone-access-v018.test.js:32:  for(const id of ['shaft59','depths','grisou','unknown'])assert.equal(state.launch(id,menu.wallet.snapshot.progress),null);
+tests\zone-access-v018.test.js:47:  assert.deepEqual(f.wallet.snapshot.progress,{galleriesCompleted:true,tracksUnlocked:true,tracksCompleted:true,tracksFirstVictoryClaimed:true});
+tests\zone-access-v018.test.js:49:  const reloaded=new Wallet(f.storage);assert.equal(reloaded.snapshot.wallet.diamond,1);assert.equal(reloaded.snapshot.wallet.coal,324);
+tests\zone-access-v018.test.js:50:  assert.equal(claim(reloaded,terminal('tracks')).diamond,0);assert.equal(reloaded.snapshot.wallet.diamond,1);
+tests\zone-access-v018.test.js:58:  const {wallet}=fixture();claim(wallet,terminal('galleries','lost',19));assert.equal(wallet.snapshot.progress,undefined);
+tests\zone-access-v018.test.js:59:  claim(wallet,terminal('galleries'));const before=wallet.snapshot.progress;
+tests\zone-access-v018.test.js:61:  assert.deepEqual(wallet.snapshot.progress,before);assert.equal(wallet.snapshot.wallet.coal,432);
+tests\zone-access-v018.test.js:72:  assert.deepEqual(wallet.snapshot.levels,old.levels);assert.deepEqual(wallet.snapshot.talents,old.talents);assert.deepEqual(wallet.snapshot.relief,old.relief);
+tests\zone-access-v018.test.js:73:  const progress=wallet.snapshot.progress;assert.equal(wallet.buy('power'),true);assert.equal(wallet.buyTalent('cold-blood'),true);
+tests\zone-access-v018.test.js:75:  const saved=new Wallet(storage).snapshot;assert.deepEqual(saved.progress,progress);assert.equal(saved.levels.power,2);assert.ok(saved.talents.includes('cold-blood'));assert.equal(saved.wallet.token,7);
+tests\zone-access-v018.test.js:80:  assert.equal(claim(wallet,terminal('tracks')).diamond,0);assert.equal(wallet.snapshot.wallet.diamond,1);
+tests\zone-access-v018.test.js:82:test('validated step 4 rules remain byte-identical outside authorized wagon targeting',async()=>{
+tests\zone-access-v018.test.js:84:    assert.deepEqual(withoutWagonTargeting(file,await readFile(new URL('../src/'+file,import.meta.url))),await readFile(new URL('./v018-step4-src-snapshot/'+file,import.meta.url)),file);
+tests\zone-access-v018.test.js:87:test('package, server, document and visible UI identify current V0.20 consistently',async()=>{
+tests\zone-access-v018.test.js:88:  const read=f=>readFile(new URL('../'+f,import.meta.url),'utf8');assert.equal(JSON.parse(await read('package.json')).version,'0.20.0');
+tests\zone-access-v018.test.js:89:  const lock=JSON.parse(await read('package-lock.json'));assert.equal(lock.version,'0.20.0');assert.equal(lock.packages[''].version,'0.20.0');

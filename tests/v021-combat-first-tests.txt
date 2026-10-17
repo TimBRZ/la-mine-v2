@@ -1,0 +1,2640 @@
+
+> la-mine-v2-v01@0.20.0 test
+> node --test tests/*.test.js
+
+✖ V0.15 preserves every V0.14 wave, enemy, boss, reward, perk, shop and storage rule (30.8573ms)
+✔ focus ramps on consecutive primary boss hits, never exceeds 25 percent (4.5357ms)
+✔ target switch or primary normal enemy resets focus; piercing followers cannot steal it (0.7212ms)
+✔ brief dodge retains focus, prolonged movement invalidates even already flying bullets (0.711ms)
+✔ wave/stance reset and a new weapon cannot inherit focus; heat still resets immediately (4.1201ms)
+✔ ordinary enemy damage and the base shotgun volley have no boss-wide nerf (6.3954ms)
+✔ Double Canon keeps both volleys but its extra boss volley has the localized weight (1.7795ms)
+✔ Point blank alone stays at +100 percent; only stacked boss proximity reaches the cap (2.2632ms)
+✔ focus enhances only the primary boss and preserves ordinary piercing damage exactly (0.7902ms)
+✖ shotgun: every normal wave is identical to the frozen V0.14 simulation (448.9506ms)
+✖ smg: every normal wave is identical to the frozen V0.14 simulation (158.6861ms)
+✔ V0.15 shotgun beats boss 5 without Atelier (142.0244ms)
+✔ V0.15 shotgun beats boss 10 without Atelier (238.5482ms)
+✔ V0.15 shotgun beats boss 15 without Atelier (173.9267ms)
+✖ V0.15 shotgun beats boss 20 without Atelier (261.0514ms)
+✔ V0.15 smg beats boss 5 without Atelier (68.3782ms)
+✔ V0.15 smg beats boss 10 without Atelier (138.2883ms)
+✔ V0.15 smg beats boss 15 without Atelier (94.7852ms)
+✖ V0.15 smg beats boss 20 without Atelier (214.1784ms)
+✖ paired final encounters narrow the strong-build gap without changing boss stats (399.4601ms)
+✖ V0.20 preserves every V0.19 module outside the two entity renderers the version label and authorized wagon targeting (17.7414ms)
+✔ the catalogue covers exactly the hero, both weapons, five enemies and six bosses (2.9888ms)
+✔ all entity assets are distinct local SVGs with bounded download and decoded texture budgets (10.7695ms)
+✔ preloading rasterizes each local asset once at a small fixed size (0.7889ms)
+✔ a failed asset keeps the existing fallback intact and loaded assets use catalogue anchors (0.4436ms)
+✔ human silhouettes stay upright and mechanical aiming follows the exact gameplay angle (0.8361ms)
+✔ movement, idle and hit poses stay below one pixel of displacement and never mutate combat or consume its RNG (22.1922ms)
+✔ reduced motion removes bob, squash, hit and spawn scale but preserves aiming (0.6361ms)
+✔ movement settles smoothly, long frames are bounded and each run can reset animation state (0.817ms)
+✔ boss arrival grows only its sprite from a bounded scale without altering warmup or position (0.5305ms)
+✔ animation applies only image transforms and leaves sprite creation to the existing pool lifecycle (0.8007ms)
+✖ V0.18 modules remain byte-identical outside authorized wagon targeting, including runs, bosses, rewards, upgrades and saved progression (20.5624ms)
+✔ the two arenas have distinct deterministic artwork and bounded one-time drawing work (14.6334ms)
+✔ lane borders follow the exact threat radius and direction, including diagonal and reverse lanes (0.9241ms)
+✔ ground warning and active attack share the same radius but visibly change color (0.7817ms)
+✔ wagon warning renderer neither changes its locked trajectory nor draws after its run ends (0.5106ms)
+✔ rail boss warnings render finite geometry without mutating attacks: stationmaster (1.163ms)
+✔ rail boss warnings render finite geometry without mutating attacks: locomotive (0.7127ms)
+✔ rail boss warnings render finite geometry without mutating attacks: switchman (0.9462ms)
+✔ six boss silhouettes generate distinct small sprites (1.5115ms)
+✔ all combat textures fit within 88 pixels with no external image or shader (3.3547ms)
+✔ effects stay inside a 48-sprite pool, reuse objects and expire without touching the global random generator (3.0465ms)
+✔ loot attraction trails are short, pooled, visual-only, and omitted for reduced motion (1.0768ms)
+✔ Crates page is a destination and returning keeps selected weapon (4.313ms)
+✔ central table totals 100%, contains only existing resource rewards, no crate loop (1.3742ms)
+✔ reward interval coal 100 (0.4391ms)
+✔ reward interval coal 200 (0.6412ms)
+✔ reward interval iron 10 (0.3153ms)
+✔ reward interval iron 20 (0.2598ms)
+✔ reward interval diamond 1 (0.2211ms)
+✔ reward interval diamond 2 (0.2491ms)
+✔ reward interval token 1 (0.2895ms)
+✔ unknown or invalid random values cannot create rewards (1.3308ms)
+✔ local calendar boundary, valid dates and leap years are respected (2.3571ms)
+✔ old profile remains exact; optional crate extension sanitizes corrupt counts and dates (1.1297ms)
+✔ empty stock prevents opening without drawing or mutating wallet (1.2607ms)
+✔ open atomically consumes one crate and saves coal (1.2033ms)
+✔ open atomically consumes one crate and saves iron (0.5206ms)
+✔ open atomically consumes one crate and saves diamond (0.7236ms)
+✔ open atomically consumes one crate and saves token (0.6198ms)
+✔ failed opening write leaves stock and resources unchanged; retry once works (0.7939ms)
+✔ resource safety ceiling is checked before drawing, no paid rerolls or silent truncation (0.4978ms)
+✔ sequential stale instances cannot open the same last crate twice (0.6165ms)
+✔ multiple successive openings are bounded and credit exactly once each (2.1038ms)
+✔ first daily victory, repeated claim and second victory same day (1.243ms)
+✔ daily date survives reload and next local day awards again; backwards clock does not (0.7554ms)
+✔ bonus victory chance boundary and daily+random can stack (0.5724ms)
+✔ defeat and incomplete synthetic victory never award or draw crates; resources unchanged (0.6336ms)
+✔ daily grant at stock ceiling cannot overflow count or consume unavailable daily reward (0.5629ms)
+✔ exchange spends exactly three tokens, persists crate and refuses insufficient balance (0.7216ms)
+✔ exchange write failure and stock cap never spend tokens (0.9345ms)
+✔ Atelier, talents and Relève transactions preserve crate count/date after reload (2.6837ms)
+✖ V0.17 leaves all V0.16 combat/talent/Atelier/Relève/drop code byte-identical (63.9539ms)
+✖ protected V0.14 weapons, perks, economy, drops, menus and storage are byte-identical (54.9348ms)
+✔ immobility only influences enemy decisions: no enemy means no damage or hazard (19.8012ms)
+✔ camping shortens drill reposition cooldown without shortening its visible locked warning (7.4795ms)
+✔ rat flanks take opposite approach angles and still close on the player (1.0082ms)
+✔ stage one is unchanged while later groups, live caps and miner presence increase (39.1516ms)
+✔ camping rats use widely separated safe anchors and still telegraph their spawn (2.8866ms)
+✔ all boss warnings stay unchanged below half HP; only downtime intensifies (1.7788ms)
+✔ final machines have staggered openings and moderate recovery without extra damage (3.6011ms)
+✔ Effondreur limits its warnings to two bounded, locked and expiring ground zones (1.1223ms)
+✔ shotgun: wave 16 can be dodged with a legal build but defeats stationary camping (347.5441ms)
+✔ shotgun: wave 17 can be dodged with a legal build but defeats stationary camping (378.9255ms)
+✖ shotgun: wave 18 can be dodged with a legal build but defeats stationary camping (369.0787ms)
+✔ shotgun: wave 19 can be dodged with a legal build but defeats stationary camping (425.464ms)
+✔ smg: wave 16 can be dodged with a legal build but defeats stationary camping (315.0104ms)
+✖ smg: wave 17 can be dodged with a legal build but defeats stationary camping (267.5943ms)
+✖ smg: wave 18 can be dodged with a legal build but defeats stationary camping (274.5615ms)
+✖ smg: wave 19 can be dodged with a legal build but defeats stationary camping (176.4076ms)
+✔ shotgun: boss 5 shows several complete patterns and stays beatable (64.1134ms)
+✔ shotgun: boss 10 shows several complete patterns and stays beatable (82.9068ms)
+✔ shotgun: boss 15 shows several complete patterns and stays beatable (46.6261ms)
+✖ shotgun: boss 20 shows several complete patterns and stays beatable (81.681ms)
+✔ smg: boss 5 shows several complete patterns and stays beatable (27.2036ms)
+✔ smg: boss 10 shows several complete patterns and stays beatable (21.0062ms)
+✔ smg: boss 15 shows several complete patterns and stays beatable (15.0891ms)
+✔ smg: boss 20 shows several complete patterns and stays beatable (51.3678ms)
+✔ a late miner survives a real base shotgun volley, then dies to sustained fire (2.3071ms)
+✔ twelve simultaneous enemies remain finite under a minute of density stress (78.5699ms)
+✔ stationary firing is official even with obsolete A option; gameplay exposes no A/B UI (11.7297ms)
+✔ three original enemies remain registered: rat is smaller, faster and weaker than the miner (1.9181ms)
+✔ rat and miner pursue directly at their separate speeds, respecting spawn telegraph (0.8211ms)
+✔ drill approaches from far away, retreats nearby and holds its firing distance (0.9559ms)
+✖ drill stops, locks aim for 900 ms then fires once and rests; damage does not hide the warning (2.5628ms)
+✔ dead drill never fires; projectile pool enforces one live bolt per owner and eight total (1.2705ms)
+✔ slow drill bolt hits a stationary player but a mobile lateral dodge avoids it (1.9644ms)
+✔ hostile projectiles collide continuously, expire on walls/range and recycle slots (0.6026ms)
+✔ all three types take real shotgun damage, die once and produce the existing room drops (4.4292ms)
+✔ Grisou damages and chains through each enemy type without changing its perk rules (1.486ms)
+✔ Canon scie uses real player distance for every type, not distance travelled by the pellet (2.9705ms)
+✔ fixed wave distribution introduces rats, then miners, then drills and mixes all three in wave 4 (0.6283ms)
+✔ actual spawning uses each wave ordered roster and honors the live cap (6.2722ms)
+✔ contact damage distinguishes rat and miner and shares invulnerability with drill bolts (4.2489ms)
+✔ pause freezes a live drill warning and hostile projectile; resuming does not burst fire (1.5048ms)
+✔ same-frame shotgun kill cancels the drill attack and final collection clears hostile bolts (1.2172ms)
+✔ death, replay and wave changes cannot retain hostile projectiles (1.2002ms)
+✔ Haveuse retains its exact stats, solitary encounter and contact damage (4.7343ms)
+✔ Bottes widens the escape speed gap against rats and Plaques preserves fractional tank damage ratio (0.6152ms)
+✖ complete wave 4 and boss run uses all enemy types, bounded bolts, stationary shots and unchanged rewards (714.4342ms)
+✔ dense mixed combat remains finite and bounded with three simultaneous drill projectiles (114.1593ms)
+✔ rat nose follows actual movement in eight directions, including retreat under knockback (3.3738ms)
+✔ stationary and newly spawned rats retain their intended facing without displacement (0.6324ms)
+✔ both rail directions stay upright from telegraph through charge and stop, without changing collisions (38.0048ms)
+✔ wagon reads its locked charge heading even when a cosmetic angle differs (0.6364ms)
+✔ only rat and wagon artwork changes; all other V0.20 SVGs remain byte-identical (711.7802ms)
+✔ mode A matches the V0.4 weapon events and pellets while moving (13.3088ms)
+✔ mode B blocks movement, braking and tiny input; resumes within 120 ms at base speed (5.0955ms)
+✔ mode B never releases a queued shot on movement onset, wall input or rapid stop/start (11.7377ms)
+✔ mode B preserves cooldown; switching A/B cannot reset cadence or create an extra volley (2.6679ms)
+✔ all seven perks retain their effects in both firing modes, including the double volley (3.4433ms)
+✔ player accelerates promptly, brakes, and never exceeds speed diagonally (12.247ms)
+✔ all four closed room boundaries contain the complete player body (10.7654ms)
+✔ joystick has a deadzone, proportional movement and a bounded diagonal magnitude (6.4491ms)
+✔ WASD, ZQSD and arrow key states all control the actual input module (2.3851ms)
+✔ touch joystick owns one pointer, handles release outside and touch cancellation (2.8121ms)
+✔ HUD touches do not move the player and focus loss can clear every held input (4.7471ms)
+✔ auto targeting selects the nearest alive, active enemy within short range (1.0529ms)
+✔ one automatic shotgun discharge produces seven separate symmetric pellet angles (2.8168ms)
+✔ shotgun cooldown stays slow and never fires at a nonexistent target (1.2016ms)
+✔ swept collision hits crossed circles at low frame rates, not only end positions (1.2608ms)
+✔ one pellet stops at the first target even if the enemy list is reversed (0.6772ms)
+✔ close shots cause more damage, react with knockback, and can kill in one discharge (3.1817ms)
+✔ pellets expire at short range, cannot hit remote targets, and reuse a bounded pool (8.4907ms)
+✔ enemies telegraph before pursuing and remain inside the same fixed room (0.8792ms)
+✔ contact damages the player once per invulnerability interval, never once per pellet or enemy (8.7752ms)
+✔ spawn anchors are safely distant and simultaneous enemies are capped (51.3361ms)
+✔ warm-up wave clears before automatic progression (68.5353ms)
+✔ a finished run is inert and replay starts clean with no persistent progression (2.086ms)
+✔ a long frame is bounded rather than simulating a whole second of contact damage (0.6646ms)
+✔ DA kit assets exist, remain local and fit the 100 KB payload budget (59.0447ms)
+✔ hero loadout describes and displays exactly the selected weapon (15.4345ms)
+✔ protected V0.9 resources, base stats and upgrade costs stay unchanged outside authorized reworks (109.7044ms)
+✔ both local servers serve the kit with explicit SVG and WebP MIME types (46.0319ms)
+✔ real enemy death spawns a drop, repeated death cannot mint resources (11.7627ms)
+✔ drops remain still throughout combat and passing over one collects exactly once (4.8207ms)
+✔ end-of-wave breath precedes accelerating magnetism and collection completes even while running away (1.4347ms)
+✔ collection blocks the next wave; completed rewards persist without doubling (3.7456ms)
+✔ pause freezes drops, magnet delay and totals; choices only start after collection (3.6192ms)
+✔ defeat keeps completed waves only; provisional pickups of the unfinished room are discarded (3.7817ms)
+✔ boss collection precedes victory; wallet and result consume the exact collected ledger without RNG or duplicate gains (15.8179ms)
+✔ drop plan preserves V0.4 rare thresholds and combat RNG is independent (3.4866ms)
+✔ 100000 physical boss drop budgets preserve diamond and token rarity (1004.3119ms)
+✔ all room drop pools are bounded and conserve every unit with or without early pickup (5.5931ms)
+✖ mode B complete twenty-wave combat with stop-and-dodge steering uses real shots, drops and six perks (816.8398ms)
+✔ resource decoration replaces only decorative icons, preserving amounts and resource labels (4.1818ms)
+✔ menu icons and mining-place artwork remain small decorative vectors without external assets or filters (1.661ms)
+✔ illustrated equipment stays distinct while portraits retain explicit accessible weapon names (0.7922ms)
+✔ menu starts at home with shotgun; only galleries can launch and future sections cannot navigate (3.0189ms)
+✔ both weapons survive navigation and yield the existing five-wave run with unchanged base stats (6.212ms)
+✔ launch latch prevents double-tap starts and selection cannot mutate an active run (0.5123ms)
+✔ victory or defeat returns to menu without unlocking future zones or losing selected weapon (1.2581ms)
+✔ menu navigation and weapon choices do not write, migrate or spend the existing profile (1.0857ms)
+✔ invalid weapon cannot replace a valid selection and each portrait identifies its equipped weapon (0.8653ms)
+✔ exactly four resources and four permanent upgrades, capped at five (3.9797ms)
+✔ completed waves grant progressive rewards, defeat keeps cleared waves only (1.2526ms)
+✔ boss rewards require victory and completed wave five (0.6871ms)
+✔ seeded 100000 victories preserve rarity hierarchy, token near one percent (559.1219ms)
+✔ wave two iron is uncommon, wave three iron more frequent; exact probability boundaries (0.5614ms)
+✔ wallet credits a terminal run exactly once, does not consume combat RNG (1.7208ms)
+✔ wallet totals accumulate across distinct runs and persist in a single isolated key (1.1563ms)
+✔ costs are exact, first ranks coal only, never tokens (0.4783ms)
+✔ purchases deduct every cost and preserve token; maximum cannot overspend (3.0252ms)
+✔ insufficient resources and unknown upgrades never mutate profile (0.7111ms)
+✔ purchased levels and balances survive a new storage/service instance (0.586ms)
+✔ profile rejects foreign resources, invalid values, old schemas and clamps caps (0.4636ms)
+✔ corrupt or unavailable storage degrades to memory without breaking rewards/purchases (0.7875ms)
+✔ permanent bonuses apply once at next run start, no live mutation (2.9851ms)
+✔ power increases real pellet damage while existing close-range perk still stacks (2.9313ms)
+✔ perks remain stronger and apply normally on the permanent base (1.0997ms)
+✔ all permanent bonuses are modest and bounded at maximum rank (0.6846ms)
+✖ full combat victory feeds wallet, purchase and next run with reset perks (930.6543ms)
+✔ V0.13 pressure rises across four stages and readable spaced drills (12.5846ms)
+✔ heavy buckshot adds four visible pellets, wider spread and exactly 20 percent lower cadence (2.1265ms)
+✔ sawn-off snapshots shorter projectile range and rejects targets past the new limit (2.7236ms)
+✔ Grisou counts unique deaths, explodes at six and retains progress between waves (2.1192ms)
+✔ Grisou chains through six nearby victims without duplicate deaths or unbounded recursion (1.0736ms)
+✔ shield absorbs damage, grants normal invulnerability, expires and refreshes without healing (6.8026ms)
+✔ shield and SMG timers freeze during a Porion selection (4.6871ms)
+✔ boots and trigger provide the declared speed and interval and their ranked HUD stays accurate (1.1867ms)
+✔ extended magazine accelerates exactly the first two seconds after settling, never resets cooldown (0.8659ms)
+✔ heat grows by ten percent per second to forty, affects real damage and resets even on tiny input (4.4681ms)
+✔ piercing traverses exactly one enemy in geometric order with 60 percent second damage (1.0576ms)
+✔ piercing kills feed the physical drop ledger once per target (1.3453ms)
+✔ each weapon has seven compatible perks, three dedicated and four shared (0.5075ms)
+✔ consecutive choices avoid identical triples, use diverse categories and weight owned ranks lower (53.2656ms)
+✔ all ten perks obey caps through selection and every card advertises its next rank and maximum (2.9833ms)
+✖ a distinct SMG build with piercing and magazine at Atelier 5 completes real combat without healing (991.083ms)
+✔ V0.12 leaves physical drops, economy, storage, Relève, Atelier, terrain and enemies unchanged (649.038ms)
+✔ three distinct rail bosses populate 5/10/15/20, menu still refuses tracks (8.9075ms)
+✔ stationmaster locks a visible warning before charge and recovers without teleportation (2.2825ms)
+✔ locomotive locks a visible warning before charge and recovers without teleportation (0.8903ms)
+✔ stationmaster wagon passage is periodic, safe, bounded and uses the ordinary telegraph (11.4669ms)
+✔ summons neither mint drops nor survive their owner, even on the death frame (3.8507ms)
+✔ locomotive steam is warned, bounded, damages only when active and expires (1.2973ms)
+✔ switchman has two locked avoidable solo rails and only one in the final (2.4129ms)
+✔ mechanical burst is exactly two slow shots, with lateral dodge available (4.6059ms)
+✔ boss charge and rail/steam damage use live Run collisions and ordinary invulnerability (1.8881ms)
+✔ stationmaster hits a stationary target but a warning-time lateral dodge avoids the charge (24.4497ms)
+✔ shooting an invoked wagon credits no additional wave death or resource (1.8631ms)
+✔ triple openings are staggered and hazards/bolts/summons remain bounded (44.7296ms)
+✔ shotgun defeats boss 5 with legal perk prefix, no damage/HP overrides (238.5459ms)
+✔ shotgun defeats boss 10 with legal perk prefix, no damage/HP overrides (185.8095ms)
+✔ shotgun defeats boss 15 with legal perk prefix, no damage/HP overrides (305.6665ms)
+✔ shotgun defeats boss 20 with legal perk prefix, no damage/HP overrides (510.5081ms)
+✔ smg defeats boss 5 with legal perk prefix, no damage/HP overrides (145.2317ms)
+✔ smg defeats boss 10 with legal perk prefix, no damage/HP overrides (126.6726ms)
+✔ smg defeats boss 15 with legal perk prefix, no damage/HP overrides (59.4884ms)
+✔ smg defeats boss 20 with legal perk prefix, no damage/HP overrides (198.1527ms)
+✖ full tracks run completes with shotgun and activated Zone 2 reward budget (848.528ms)
+✖ full tracks run completes with smg and activated Zone 2 reward budget (243.9318ms)
+✖ old boss behavior body, normal tracks waves and all economy stay unchanged (11.8838ms)
+✔ rail enemies register distinct stats and textures without changing the original roster (3.5491ms)
+✔ wagon warns 1.1 seconds after spawn, locks a straight rail and resists knockback (1.3724ms)
+✔ wagon spawn uses rail edges, never within 180 pixels of player, and defers blocked spawns (5.7269ms)
+✔ wagon hits a stationary player and a lateral dodge during the warning avoids contact (13.9269ms)
+✔ wagon ends at the opposite rail edge, then is harmless, destructible and finite (2.2648ms)
+✔ draisine retreats nearby, approaches from far away and strafes at medium distance (1.4658ms)
+✖ draisine visibly locks aim, pauses, fires exactly two shots then rests without tracking (2.7685ms)
+✔ draisine burst projectiles hit with bounded damage but can be dodged; pool stays at eight (3.635ms)
+✔ dead draisine never emits a queued burst (0.8108ms)
+✔ shotgun kills wagon through live combat and collects its exact drops once (6.9804ms)
+✔ shotgun kills draisine through live combat and collects its exact drops once (1.9919ms)
+✔ smg kills wagon through live combat and collects its exact drops once (6.0469ms)
+✔ smg kills draisine through live combat and collects its exact drops once (5.0202ms)
+✔ Coup de Grisou damages both rail enemies and counts their deaths/drops only once (1.4526ms)
+✔ a rail death from the SMG triggers Coup de Grisou through the real run pipeline (1.5396ms)
+✔ a draisine killed on its firing frame cannot release its pending projectile (0.885ms)
+✖ Zone1 enemies, bosses, waves, weapon balance, rewards remain byte-identical (122.506ms)
+✖ full Zone1 shotgun run replays V0.17 exactly after rail integration (778.4005ms)
+✖ full Zone1 smg run replays V0.17 exactly after rail integration (407.6455ms)
+✔ Relève is a menu destination; Talents and Caisses accessible and weapons persist (3.9369ms)
+✔ Relève after 1h gives 12 coal and 1 iron only (0.8011ms)
+✔ Relève after 8h gives 96 coal and 8 iron only (0.3005ms)
+✔ Relève after 24h gives 288 coal and 24 iron only (0.328ms)
+✔ Relève after 48h gives 288 coal and 24 iron only (0.3672ms)
+✔ integer gains, badge threshold and displayed 8h32 example (4.9545ms)
+✔ first V0.10 opening extends the existing save without changing balances or levels (2.0005ms)
+✔ pending gains stay outside wallet across reloads until explicit claim (1.2458ms)
+✔ claim saves balance and timestamp together; repeated click and reload cannot double-credit (1.4523ms)
+✔ a second stale wallet sees an already saved claim (1.1075ms)
+✔ failed atomic write keeps stock and wallet, retry succeeds only once (0.8453ms)
+✔ negative elapsed time, invalid dates and nonfinite clocks never mint resources (1.2886ms)
+✔ corrupt or future persisted timestamp restarts safely without losing the old wallet (0.8169ms)
+✔ claims preserve rare resources, upgrade levels and exact workshop costs (1.0145ms)
+✔ resource safety ceiling is respected and a full wallet does not destroy pending stock (0.559ms)
+✔ a run reward write preserves the pending Relève timestamp and does not auto-credit it (1.0855ms)
+✔ a stale run or workshop writer cannot restore an already claimed period (0.6615ms)
+✔ twenty fixed waves, four escalating stages and a triple final (8.4439ms)
+✔ empty room does not clear before all planned enemies have spawned (5.9869ms)
+✔ automatic next wave needs no exit and keeps position during preparation (2.8755ms)
+✔ PV, player object, weapons and perks persist; obsolete combat state is cleared (1.7022ms)
+✔ choices happen initially and after waves 4, 9, 14, 18 and 19, never from a kill threshold (13.2188ms)
+✔ boss is created once on entering wave 5; no normal spawns or exit (1.9046ms)
+✔ boss warning locks a direction, does not move, then charges and recovers (0.9985ms)
+✔ telegraphed charge hurts a stationary player but can be dodged laterally (9.5873ms)
+✔ boss death wins globally and player death loses; terminal states are inert (9.9675ms)
+✔ pause freezes an in-flight transition and boss charge, no delayed room callbacks (2.7727ms)
+✖ real combat can finish a twenty-wave run with six choices and no healing/reset (711.236ms)
+✔ real server serves every kit asset with the correct MIME and exact bytes, including Android requests (1777.6442ms)
+✔ eight stable single-rank talents, centralized positive costs and no Grisou token (4.6503ms)
+✔ old profiles migrate without losing wallet, Atelier or Relève; corrupt talent entries are ignored (1.299ms)
+✔ atomic purchase and reload: good-start (2.2002ms)
+✔ atomic purchase and reload: porion-eye (0.9183ms)
+✔ atomic purchase and reload: first-aid (1.0779ms)
+✔ atomic purchase and reload: prospector (0.8193ms)
+✔ atomic purchase and reload: magnet (1.0621ms)
+✔ atomic purchase and reload: cold-blood (0.8848ms)
+✔ atomic purchase and reload: last-breath (0.8844ms)
+✔ atomic purchase and reload: lucky-hand (1.1327ms)
+✔ insufficient funds, unknown ID and write failure do not debit or unlock (1.1714ms)
+✔ stale wallet cannot repurchase a talent or restore its spent resources (1.1726ms)
+✔ new run snapshots unlocks, existing run stays unchanged and charges reset (4.2232ms)
+✔ Good Start pauses for a second real choice, grants exactly one extra perk (2.4042ms)
+✔ reroll consumes once, changes the set when alternatives exist, grants no perk (1.5901ms)
+✔ epic choice has all three epics: cannot consume a useless identical reroll (1.1809ms)
+✔ First Aid completion at wave 5 (2.7344ms)
+✔ First Aid completion at wave 10 (0.6707ms)
+✔ First Aid completion at wave 15 (2.9553ms)
+✔ First Aid completion at wave 20 (0.7328ms)
+✔ First Aid completion at wave 4 (0.4997ms)
+✔ healing respects Atelier max HP and never exceeds it (0.628ms)
+✔ Prospector is a once-per-completed-wave extra; physical budget and rares unchanged (1.2979ms)
+✔ magnet extends pickup and reduces collection time without minting value (2.9426ms)
+✔ Cold Blood changes settling only for shotgun (0.9981ms)
+✔ Cold Blood changes settling only for smg (2.3905ms)
+✔ Last Breath rescues one lethal hit, retains ordinary grace, second death loses (9.2592ms)
+✔ Lucky Hand reduces ranked appearance across many seeds, never violates caps (496.7324ms)
+✖ no talents replays complete V0.15 run exactly including boss timings and rewards (1676.9694ms)
+✖ V0.16 preserves combat balance, boss AI, waves, Atelier costs, Relève and resources byte for byte (33.269ms)
+✖ all eight talents complete real shotgun combat without overrides (258.5883ms)
+✖ all eight talents complete real smg combat without overrides (315.3308ms)
+✔ talent unlocks survive Atelier purchase, Relève claim and result credit (1.5638ms)
+✔ 20 central tracks slots; bosses enabled at 5/10/15/20, future reservations never auto-won (7.8633ms)
+✔ tier 1 has four readable compositions with safe caps and progressive timing (0.9563ms)
+✔ tier 2 has four readable compositions with safe caps and progressive timing (0.5969ms)
+✔ tier 3 has four readable compositions with safe caps and progressive timing (0.4244ms)
+✔ tier 4 has four readable compositions with safe caps and progressive timing (0.484ms)
+✔ early teaching sequence and railway majority, with rats and drills secondary (1.0059ms)
+✔ normal entrant pressure rises 15–25% over galleries, without health inflation (0.6938ms)
+✔ per-kind caps defer spawns without consuming an entry; free slot resumes (1.8115ms)
+✖ all 16 normal waves survive with shotgun, legal perks/Atelier2, safe spawns and exact collected budget (1455.945ms)
+✖ all 16 normal waves survive with smg, legal perks/Atelier2, safe spawns and exact collected budget (300.5881ms)
+✔ step 3 leaves the staged reward function unchanged (27.9818ms)
+✔ choice freezes every combat timer, projectile, spawn and damage, then resumes (37.6001ms)
+✔ all ten perks are offered and selectable through the actual flow (9.2518ms)
+✔ 1000 seeded offers have three distinct cards and three categories when available (226.7213ms)
+✔ unoffered/unknown cards cannot be selected; a double click applies once (2.7481ms)
+✔ original six perks still affect actual projectile count, speed and cooldown (2.5436ms)
+✔ Grisou explodes only on the sixth death and damages nearby active enemies only (0.902ms)
+✔ chain explosions terminate, process each death once and do not touch player HP (4.6828ms)
+✔ an unselected Grisou never rolls or explodes (0.4643ms)
+✔ Canon scie adds exactly 60% only at real player-target distance <=70 at impact (1.0089ms)
+✔ Double detente rolls once and fires two identical nonrecursive spread volleys (2.6759ms)
+✔ Plaques grants protection without changing HP, including fractional or zero health (1.273ms)
+✔ every perk stops at its cap; capped cards disappear; exhausted pool cannot pause (9.7187ms)
+✔ fallback still offers distinct cards when only shotgun upgrades remain (0.6235ms)
+✔ double stacks display the total chance and reliable Grisou does not stack (0.7894ms)
+✔ wave choice fires once and never interrupts an ended run (1.7927ms)
+✔ replay resets all perks, HP limits and probabilities (4.5516ms)
+✔ maximum build remains bounded during a full simulated run (441.8889ms)
+✔ Ravens retains contexts, fallback and no immediate repeated phrase (0.6782ms)
+✔ Ravens appearance frequency remains unchanged (0.4723ms)
+✔ wagon selects the nearest authorized rail across the arena, including the exact center (45.8755ms)
+✔ rail ranking keeps stable ties, accepts no unsafe fallback and never mutates its candidates (0.8072ms)
+✔ blocked nearest rail falls back to the nearest free rail; all blocked endpoints defer spawning (1.2131ms)
+✔ selection samples the current player position anew for each wagon, then locks before warning (1.4004ms)
+✔ a charging wagon never steers after the player changes rails and finishes harmlessly (1.3557ms)
+✔ targeted rail hits a stationary player but allows a delayed mobile dodge after the warning (15.569ms)
+✔ boss-invoked wagons use the same threatening safe rail without changing summon limits (1.2564ms)
+✖ validated visuals, hitboxes, other enemies and economy are unchanged; edits are only wagon spawn selection (1083.2415ms)
+✔ one arena persists across all twenty waves and replay uses the same arena definition (17.6074ms)
+✔ tracker marks completed waves only after collection and identifies the final boss (10.2325ms)
+✔ wave 4 collection and choice must finish before a unique protected boss intro (3.3413ms)
+✔ next-wave preparation preserves safe position and delays all hostile engagement (6.3191ms)
+✔ boss spawn recentres only an unsafe player and cannot heal or change equipped stats (2.9159ms)
+✔ arena drawing is constructed once: updates never create scenery, doors or a fade (7.9494ms)
+✔ V0.11 protected systems stay unchanged apart from the V0.12 weapon rework (423.3564ms)
+✔ current UI and zone wording use waves and no mandatory exit instruction (191.3814ms)
+✖ two weapon definitions preserve every shotgun V0.6 parameter and reject unknown weapons (9.3683ms)
+✔ SMG produces one finite accurate weak projectile with longer range and lighter effects (3.0765ms)
+✔ SMG cannot fire during movement or braking and resumes promptly when settled (8.0244ms)
+✔ SMG fires rapidly for 20 seconds without nonfinite bullets or pool growth (23.3588ms)
+✔ SMG real bullets kill rat with sustained damage (0.9913ms)
+✔ SMG real bullets kill miner with sustained damage (0.7422ms)
+✔ SMG real bullets kill drill with sustained damage (0.9389ms)
+✔ SMG real bullets kill boss with sustained damage (6.8562ms)
+✔ compatible perks appear for both weapons and shotgun-only perks never enter SMG offers (27.6466ms)
+✔ all four permanent stats and generic perks apply to the SMG base (1.4901ms)
+✔ Grisou propagates an SMG kill through the existing explosion resolver (1.2795ms)
+✖ complete shotgun run preserves drops, collection and all twenty waves (686.976ms)
+✖ complete smg run preserves drops, collection and all twenty waves (240.8106ms)
+✔ SMG hits beyond shotgun reach, expires at its own range, and snapshots permanent damage (0.9321ms)
+✔ maximum SMG cadence and damage build keeps fixed pools and finite combat state (38.635ms)
+✔ world configuration contains twenty bounded encounters and four boss milestones (5.1712ms)
+✔ twenty-wave rewards preserve every original full-run budget and probability (5.3889ms)
+✔ boss factory preserves Haveuse and applies final health scaling explicitly (1.1477ms)
+✔ Crachefer locks aim before its slow ranged shot and never fires while dead (1.899ms)
+✔ Effondreur locks two ground warnings then activates and expires its zone (0.9965ms)
+✔ all twenty waves collect once, pause for six correct choices, and win only at twenty (25.808ms)
+✔ epics never enter normal offers, are weapon-specific and cannot be double-selected (12.1528ms)
+✔ spawn groups overlap living enemies, stay distant, telegraph and respect every cap (35.9579ms)
+✔ triple boss intro contains three distinct machines with reduced HP and safe entry positions (3.3939ms)
+✔ ground danger hits only after warning, can be escaped, freezes on pause and ends with its owner (9.0527ms)
+✔ Double Canon emits exactly two nonrecursive volleys while moving still blocks shots (5.6391ms)
+✔ unstable Grisou explodes once per death and a three-boss chain remains finite (1.3396ms)
+✔ Point blank adds exactly 100 percent base close damage, without boosting far damage (1.9164ms)
+✔ total piercing hits at most three distinct targets with 100, 80, 64 percent damage (0.832ms)
+✔ critical heat grants its final damage only at maximum and motion clears heat (1.6594ms)
+✔ iron rain increases cadence by 50 percent with 15 percent less damage per bullet (0.7852ms)
+✖ V0.13 protected systems remain intact outside the authorized V0.14 enemy changes (174.2383ms)
+✔ Crachefer fires a real bounded slow bolt; lateral motion can dodge its locked aim (16.4186ms)
+✔ menu unlock comes from a saved full galleries win, preserving selected weapon and launch latch (8.6627ms)
+✔ menu options launch complete tracks content and existing meta stats: shotgun (4.3582ms)
+✔ menu options launch complete tracks content and existing meta stats: smg (1.3502ms)
+✔ completion, unique diamond and normal gains commit together and survive stale wallets and reload (2.1513ms)
+✔ old completed tracks saves migrate without a second first-win diamond (0.5995ms)
+✔ defeat and incomplete victory cannot unlock or claim the unique award (1.5318ms)
+✔ one daily crate shared across zones: galleries then tracks (1.3483ms)
+✔ one daily crate shared across zones: tracks then galleries (0.879ms)
+✔ legacy meta survives zone progression, Atelier, talents, Relève and crate actions (4.2838ms)
+✔ unavailable storage keeps completion and gains together in memory without a repeat award (0.9442ms)
+✖ validated step 4 rules remain byte-identical outside authorized wagon targeting (39.9014ms)
+✔ package, server, document and visible UI identify current V0.20 consistently (21.5351ms)
+✔ V0.18 legacy saves stay intact and tracks/zone3 remain locked (8.3286ms)
+✔ full galleries victory permanently unlocks tracks; loss/incomplete win do not (9.3025ms)
+✔ first tracks victory grants one diamond exactly once across instances and reload (1.8518ms)
+✔ tracks has 20 bounded waves, bosses at 5/10/15 and triple20, unchanged choice schedule (5.0904ms)
+✔ tracks reward budget is 108 coal, 9 guaranteed iron, unchanged tokens and small diamond bonus (2.3285ms)
+ℹ tests 409
+ℹ suites 0
+ℹ pass 369
+ℹ fail 40
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4160.2596
+
+✖ failing tests:
+
+test at tests\boss-balance-v015.test.js:18:1
+✖ V0.15 preserves every V0.14 wave, enemy, boss, reward, perk, shop and storage rule (30.8573ms)
+  AssertionError [ERR_ASSERTION]: enemies/drill.js
+  + actual - expected
+  
+  + '61a7daf8e8e82827f3392ab4a331659f7909cac2a86a77aeb50d5653b2cc1933'
+  - '377ab6f2f45fcefb7a0bd22cb952eefac5edfb13dba30fb870d239bcfc452d71'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:20:196)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '61a7daf8e8e82827f3392ab4a331659f7909cac2a86a77aeb50d5653b2cc1933',
+    expected: '377ab6f2f45fcefb7a0bd22cb952eefac5edfb13dba30fb870d239bcfc452d71',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\boss-balance-v015.test.js:88:41
+✖ shotgun: every normal wave is identical to the frozen V0.14 simulation (448.9506ms)
+  AssertionError [ERR_ASSERTION]: wave 3
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      badShots: 0,
+      bosses: [],
+      camp: false,
+      hp: 5,
+  ...
+      maxAlive: 4,
+  +   maxBolts: 3,
+  +   maxDrops: 1,
+  +   moveRatio: 0.7366771159874608,
+  -   maxBolts: 1,
+  -   maxDrops: 2,
+  -   moveRatio: 0.6662857142857143,
+      perks: {
+        buckshot: 1,
+        trigger: 1
+      },
+      rewards: {
+  ...
+      },
+  +   seconds: 10.650000000000109,
+  -   seconds: 14.600000000000305,
+      seed: 1,
+      shots: 10,
+      status: 'won',
+      wave: 3,
+      waves: [
+        {
+  +       combatSeconds: 10.050000000000109,
+  -       combatSeconds: 14.000000000000306,
+          hpLost: 0,
+  +       patterns: 1,
+  +       totalSeconds: 10.650000000000109,
+  -       patterns: 2,
+  -       totalSeconds: 14.600000000000305,
+          wave: 3
+        }
+      ],
+      weaponId: 'shotgun'
+    }
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:91:57)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: { weaponId: 'shotgun', seed: 1, camp: false, levels: {}, isolatedBoss: 0, isolatedWave: 3, status: 'won', wave: 3, kills: 9, seconds: 10.650000000000109, hp: 5, perks: { trigger: 1, buckshot: 1 }, bosses: [], waves: [ [Object] ], moveRatio: 0.7366771159874608, shots: 10, badShots: 0, maxAlive: 4, maxBolts: 3, maxDrops: 1, rewards: { coal: 0, iron: 0, diamond: 0, token: 0 } },
+    expected: { weaponId: 'shotgun', seed: 1, camp: false, levels: {}, isolatedBoss: 0, isolatedWave: 3, status: 'won', wave: 3, kills: 9, seconds: 14.600000000000305, hp: 5, perks: { trigger: 1, buckshot: 1 }, bosses: [], waves: [ [Object] ], moveRatio: 0.6662857142857143, shots: 10, badShots: 0, maxAlive: 4, maxBolts: 1, maxDrops: 2, rewards: { coal: 0, iron: 0, diamond: 0, token: 0 } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\boss-balance-v015.test.js:88:41
+✖ smg: every normal wave is identical to the frozen V0.14 simulation (158.6861ms)
+  AssertionError [ERR_ASSERTION]: wave 3
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      badShots: 0,
+      bosses: [],
+      camp: false,
+  +   hp: 4,
+  -   hp: 5,
+      isolatedBoss: 0,
+      isolatedWave: 3,
+      kills: 9,
+      levels: {},
+      maxAlive: 4,
+  +   maxBolts: 3,
+  -   maxBolts: 0,
+      maxDrops: 2,
+  +   moveRatio: 0.3367521367521368,
+  -   moveRatio: 0.07692307692307693,
+      perks: {
+        piercing: 1,
+        trigger: 1
+      },
+      rewards: {
+  ...
+      },
+  +   seconds: 9.766666666666731,
+  -   seconds: 7.383333333333312,
+      seed: 1,
+  +   shots: 45,
+  -   shots: 49,
+      status: 'won',
+      wave: 3,
+      waves: [
+        {
+  +       combatSeconds: 9.166666666666732,
+  +       hpLost: 1,
+  +       patterns: 2,
+  +       totalSeconds: 9.766666666666731,
+  -       combatSeconds: 6.783333333333312,
+  -       hpLost: 0,
+  -       patterns: 1,
+  -       totalSeconds: 7.383333333333312,
+          wave: 3
+        }
+      ],
+      weaponId: 'smg'
+    }
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:91:57)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: { weaponId: 'smg', seed: 1, camp: false, levels: {}, isolatedBoss: 0, isolatedWave: 3, status: 'won', wave: 3, kills: 9, seconds: 9.766666666666731, hp: 4, perks: { trigger: 1, piercing: 1 }, bosses: [], waves: [ [Object] ], moveRatio: 0.3367521367521368, shots: 45, badShots: 0, maxAlive: 4, maxBolts: 3, maxDrops: 2, rewards: { coal: 0, iron: 0, diamond: 0, token: 0 } },
+    expected: { weaponId: 'smg', seed: 1, camp: false, levels: {}, isolatedBoss: 0, isolatedWave: 3, status: 'won', wave: 3, kills: 9, seconds: 7.383333333333312, hp: 5, perks: { trigger: 1, piercing: 1 }, bosses: [], waves: [ [Object] ], moveRatio: 0.07692307692307693, shots: 49, badShots: 0, maxAlive: 4, maxBolts: 0, maxDrops: 2, rewards: { coal: 0, iron: 0, diamond: 0, token: 0 } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\boss-balance-v015.test.js:95:72
+✖ V0.15 shotgun beats boss 20 without Atelier (261.0514ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:96:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\boss-balance-v015.test.js:95:72
+✖ V0.15 smg beats boss 20 without Atelier (214.1784ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:96:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\boss-balance-v015.test.js:98:1
+✖ paired final encounters narrow the strong-build gap without changing boss stats (399.4601ms)
+  TypeError: Cannot read properties of undefined (reading 'combatSeconds')
+      at time (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:101:69)
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-balance-v015.test.js:102:27)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at tests\combat-appearances-v020.test.js:7:1
+✖ V0.20 preserves every V0.19 module outside the two entity renderers the version label and authorized wagon targeting (17.7414ms)
+  AssertionError [ERR_ASSERTION]: bosses.js
+  + actual - expected
+  ... Skipped lines
+  
+  + "import {aimFan,enemyShot} from './enemy-volley.js';\n" +
+  +   "import { Enemy } from './enemy.js';\n" +
+  - "import { Enemy } from './enemy.js';\n" +
+      "import { RailBoss, RAIL_BOSS_SPECS } from './rail-bosses.js';\n" +
+      "import { Haveuse } from './boss.js';\n" +
+      "import { BOSS_SPECS, FINAL_BOSS, bossRestScale, aimedPoint } from './difficulty.js';\n" +
+      "import { ROOM } from './config.js';\n" +
+      "import { clampToRoom } from './math.js';\n" +
+  ...
+      '    if(!this.active)return;\n' +
+  +   '    aimFan(this,player);\n' +
+      '    for(const zone of this.zones)zone.time-=dt;\n' +
+      '    this.zones=this.zones.filter(z=>z.time>0);\n' +
+      '    this.phaseTime-=dt;\n' +
+      "    if(this.phase==='positioning') {\n" +
+      '      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n' +
+  ...
+      '        this.attackCount++;\n' +
+  +   "        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n" +
+      "        if(this.bossId==='effondreur') {\n" +
+      '          const speed=Math.hypot(player.vx||0,player.vy||0);\n' +
+      '          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n' +
+      '          const radius=this.spec.zoneRadius;\n' +
+      '          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n' +
+  ...
+      "    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n" +
+  +   "      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n" +
+  -   "      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n" +
+      "      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n" +
+      "    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n" +
+      "      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n" +
+      '    }\n' +
+      '  }\n' +
+  
+      at walk (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-appearances-v020.test.js:15:12)
+      at async TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-appearances-v020.test.js:16:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: "import {aimFan,enemyShot} from './enemy-volley.js';\nimport { Enemy } from './enemy.js';\nimport { RailBoss, RAIL_BOSS_SPECS } from './rail-bosses.js';\nimport { Haveuse } from './boss.js';\nimport { BOSS_SPECS, FINAL_BOSS, bossRestScale, aimedPoint } from './difficulty.js';\nimport { ROOM } from './config.js';\nimport { clampToRoom } from './math.js';\n\n// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    aimFan(this,player);\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\nexport function createBoss(id,bossId,position,healthScale=1,options={}) {\n  const rail=Object.hasOwn(RAIL_BOSS_SPECS,bossId);\n  const boss=rail?new RailBoss(id,bossId,options):bossId==='haveuse'?new Haveuse(id):new GalleryBoss(id,bossId);\n  boss.bossId=bossId; [boss.x,boss.y]=position;\n  boss.previousX=boss.x;boss.previousY=boss.y;\n  boss.hp=boss.maxHealth=Math.round(boss.maxHealth*healthScale);\n  if(options.final&&!rail) {\n    boss.restScale=FINAL_BOSS.restScale;\n    // Use one shared opening base: different per-boss rest times would otherwise\n    // cancel the stagger and launch Haveuse/Crachefer almost simultaneously.\n    boss.phaseTime=FINAL_BOSS.openingRest+(options.slot||0)*FINAL_BOSS.entryStagger;\n  }\n  return boss;\n}\n",
+    expected: "import { Enemy } from './enemy.js';\nimport { RailBoss, RAIL_BOSS_SPECS } from './rail-bosses.js';\nimport { Haveuse } from './boss.js';\nimport { BOSS_SPECS, FINAL_BOSS, bossRestScale, aimedPoint } from './difficulty.js';\nimport { ROOM } from './config.js';\nimport { clampToRoom } from './math.js';\n\n// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\nexport function createBoss(id,bossId,position,healthScale=1,options={}) {\n  const rail=Object.hasOwn(RAIL_BOSS_SPECS,bossId);\n  const boss=rail?new RailBoss(id,bossId,options):bossId==='haveuse'?new Haveuse(id):new GalleryBoss(id,bossId);\n  boss.bossId=bossId; [boss.x,boss.y]=position;\n  boss.previousX=boss.x;boss.previousY=boss.y;\n  boss.hp=boss.maxHealth=Math.round(boss.maxHealth*healthScale);\n  if(options.final&&!rail) {\n    boss.restScale=FINAL_BOSS.restScale;\n    // Use one shared opening base: different per-boss rest times would otherwise\n    // cancel the stagger and launch Haveuse/Crachefer almost simultaneously.\n    boss.phaseTime=FINAL_BOSS.openingRest+(options.slot||0)*FINAL_BOSS.entryStagger;\n  }\n  return boss;\n}\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\combat-art-v019.test.js:21:1
+✖ V0.18 modules remain byte-identical outside authorized wagon targeting, including runs, bosses, rewards, upgrades and saved progression (20.5624ms)
+  AssertionError [ERR_ASSERTION]: bosses.js
+  + actual - expected
+  ... Skipped lines
+  
+  + "import {aimFan,enemyShot} from './enemy-volley.js';\n" +
+  +   "import { Enemy } from './enemy.js';\n" +
+  - "import { Enemy } from './enemy.js';\n" +
+      "import { RailBoss, RAIL_BOSS_SPECS } from './rail-bosses.js';\n" +
+      "import { Haveuse } from './boss.js';\n" +
+      "import { BOSS_SPECS, FINAL_BOSS, bossRestScale, aimedPoint } from './difficulty.js';\n" +
+      "import { ROOM } from './config.js';\n" +
+      "import { clampToRoom } from './math.js';\n" +
+  ...
+      '    if(!this.active)return;\n' +
+  +   '    aimFan(this,player);\n' +
+      '    for(const zone of this.zones)zone.time-=dt;\n' +
+      '    this.zones=this.zones.filter(z=>z.time>0);\n' +
+      '    this.phaseTime-=dt;\n' +
+      "    if(this.phase==='positioning') {\n" +
+      '      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n' +
+  ...
+      '        this.attackCount++;\n' +
+  +   "        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n" +
+      "        if(this.bossId==='effondreur') {\n" +
+      '          const speed=Math.hypot(player.vx||0,player.vy||0);\n' +
+      '          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n' +
+      '          const radius=this.spec.zoneRadius;\n' +
+      '          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n' +
+  ...
+      "    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n" +
+  +   "      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n" +
+  -   "      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n" +
+      "      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n" +
+      "    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n" +
+      "      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n" +
+      '    }\n' +
+      '  }\n' +
+  
+      at walk (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-art-v019.test.js:28:12)
+      at async TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-art-v019.test.js:29:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: "import {aimFan,enemyShot} from './enemy-volley.js';\nimport { Enemy } from './enemy.js';\nimport { RailBoss, RAIL_BOSS_SPECS } from './rail-bosses.js';\nimport { Haveuse } from './boss.js';\nimport { BOSS_SPECS, FINAL_BOSS, bossRestScale, aimedPoint } from './difficulty.js';\nimport { ROOM } from './config.js';\nimport { clampToRoom } from './math.js';\n\n// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    aimFan(this,player);\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\nexport function createBoss(id,bossId,position,healthScale=1,options={}) {\n  const rail=Object.hasOwn(RAIL_BOSS_SPECS,bossId);\n  const boss=rail?new RailBoss(id,bossId,options):bossId==='haveuse'?new Haveuse(id):new GalleryBoss(id,bossId);\n  boss.bossId=bossId; [boss.x,boss.y]=position;\n  boss.previousX=boss.x;boss.previousY=boss.y;\n  boss.hp=boss.maxHealth=Math.round(boss.maxHealth*healthScale);\n  if(options.final&&!rail) {\n    boss.restScale=FINAL_BOSS.restScale;\n    // Use one shared opening base: different per-boss rest times would otherwise\n    // cancel the stagger and launch Haveuse/Crachefer almost simultaneously.\n    boss.phaseTime=FINAL_BOSS.openingRest+(options.slot||0)*FINAL_BOSS.entryStagger;\n  }\n  return boss;\n}\n",
+    expected: "import { Enemy } from './enemy.js';\nimport { RailBoss, RAIL_BOSS_SPECS } from './rail-bosses.js';\nimport { Haveuse } from './boss.js';\nimport { BOSS_SPECS, FINAL_BOSS, bossRestScale, aimedPoint } from './difficulty.js';\nimport { ROOM } from './config.js';\nimport { clampToRoom } from './math.js';\n\n// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\nexport function createBoss(id,bossId,position,healthScale=1,options={}) {\n  const rail=Object.hasOwn(RAIL_BOSS_SPECS,bossId);\n  const boss=rail?new RailBoss(id,bossId,options):bossId==='haveuse'?new Haveuse(id):new GalleryBoss(id,bossId);\n  boss.bossId=bossId; [boss.x,boss.y]=position;\n  boss.previousX=boss.x;boss.previousY=boss.y;\n  boss.hp=boss.maxHealth=Math.round(boss.maxHealth*healthScale);\n  if(options.final&&!rail) {\n    boss.restScale=FINAL_BOSS.restScale;\n    // Use one shared opening base: different per-boss rest times would otherwise\n    // cancel the stagger and launch Haveuse/Crachefer almost simultaneously.\n    boss.phaseTime=FINAL_BOSS.openingRest+(options.slot||0)*FINAL_BOSS.entryStagger;\n  }\n  return boss;\n}\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\crates-v017.test.js:83:1
+✖ V0.17 leaves all V0.16 combat/talent/Atelier/Relève/drop code byte-identical (63.9539ms)
+  AssertionError [ERR_ASSERTION]: combat.js
+  + actual - expected
+  ... Skipped lines
+  
+  + Buffer(3134) [Uint8Array] [
+  - Buffer(3380) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      40,
+  -   100,
+  -   101,
+  -   102,
+  -   105,
+  -   110,
+  -   105,
+  -   116,
+  -   105,
+      111,
+  -   110,
+  -   46,
+      112,
+  -   101,
+  -   110,
+  -   101,
+      116,
+  -   114,
+  -   97,
+  -   116,
+      105,
+      111,
+      110,
+  -   124,
+  -   124,
+  -   111,
+  -   112,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+      115,
+      46,
+      112,
+      105,
+      101,
+  ...
+      32,
+  -   100,
+  -   101,
+  -   102,
+  -   105,
+  -   110,
+  -   105,
+  -   116,
+  -   105,
+      111,
+  -   110,
+  -   46,
+      112,
+  -   101,
+  -   110,
+  -   101,
+      116,
+  -   114,
+  -   97,
+  -   116,
+      105,
+      111,
+      110,
+  -   63,
+  -   46,
+  -   108,
+  -   101,
+  -   110,
+  -   103,
+  -   116,
+  -   104,
+  -   32,
+  -   124,
+  -   124,
+  -   32,
+  -   40,
+  -   111,
+  -   112,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+      115,
+      46,
+      112,
+      105,
+      101,
+  ...
+      49,
+  -   41,
+      44,
+      10,
+      32,
+      32,
+      32,
+  ...
+      32,
+  -   97,
+  -   116,
+  -   116,
+  -   101,
+  -   110,
+  -   117,
+  -   97,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+  -   61,
+      100,
+  -   101,
+  -   102,
+  -   105,
+  -   110,
+  -   105,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+  -   46,
+  -   112,
+  -   101,
+  -   110,
+  -   101,
+  -   116,
+  -   114,
+      97,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+  -   63,
+  -   46,
+  -   91,
+  -   112,
+  -   101,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+  -   104,
+  -   105,
+  -   116,
+  -   73,
+  -   100,
+  -   115,
+  -   46,
+  -   108,
+  -   101,
+  -   110,
+  -   103,
+  -   116,
+  -   104,
+  -   93,
+  -   32,
+  -   63,
+  -   63,
+  -   32,
+  -   40,
+  -   40,
+  -   112,
+  -   101,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+      109,
+      97,
+  -   120,
+  -   84,
+  -   97,
+  -   114,
+      103,
+      101,
+  -   116,
+  -   115,
+      32,
+      61,
+  -   61,
+  -   61,
+      32,
+  -   51,
+  -   32,
+  -   63,
+  -   32,
+  -   46,
+  -   56,
+  -   32,
+  -   58,
+  -   32,
+  -   46,
+  -   54,
+  -   41,
+  -   32,
+  -   42,
+  -   42,
+  -   32,
+      112,
+      101,
+      108,
+      108,
+      101,
+      116,
+  -   46,
+  -   104,
+  -   105,
+  -   116,
+  -   73,
+  -   100,
+  -   115,
+  -   46,
+  -   108,
+  -   101,
+  -   110,
+  -   103,
+  -   116,
+  -   104,
+  -   41,
+  -   59,
+  -   10,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   32,
+  -   99,
+  -   111,
+  -   110,
+  -   115,
+  -   116,
+  -   32,
+  -   100,
+  -   97,
+  -   109,
+  -   97,
+  -   103,
+  -   101,
+  -   32,
+  -   61,
+  -   32,
+  -   112,
+  -   101,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+      68,
+      97,
+      109,
+      97,
+      103,
+  ...
+      32,
+  +   40,
+  +   40,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+  +   116,
+  +   46,
+  +   109,
+      97,
+  +   120,
+  +   84,
+  +   97,
+  +   114,
+  +   103,
+  +   101,
+      116,
+  +   115,
+  +   32,
+  +   61,
+  +   61,
+  +   61,
+  +   32,
+  +   51,
+  +   32,
+  +   63,
+  +   32,
+  +   46,
+  +   56,
+  +   32,
+  +   58,
+  +   32,
+  +   46,
+  +   54,
+  +   41,
+  +   32,
+  +   42,
+  +   42,
+  +   32,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+      116,
+  +   46,
+  +   104,
+  +   105,
+  +   116,
+  +   73,
+  +   100,
+  +   115,
+  +   46,
+  +   108,
+      101,
+      110,
+  +   103,
+  -   117,
+  -   97,
+      116,
+  +   104,
+  +   41,
+  -   105,
+  -   111,
+  -   110,
+      32,
+      42,
+      32,
+      40,
+      98,
+  ...
+      103,
+  -   44,
+      32,
+  -   46,
+  -   46,
+  -   46,
+  -   40,
+  -   100,
+  -   101,
+  -   102,
+  -   105,
+  -   110,
+  -   105,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+  -   46,
+  -   112,
+  -   101,
+  -   110,
+  -   101,
+  -   116,
+  -   114,
+  -   97,
+  -   116,
+  -   105,
+  -   111,
+  -   110,
+  -   63,
+  -   123,
+  -   101,
+  -   110,
+  -   101,
+  -   114,
+  -   103,
+  -   121,
+  -   58,
+  -   116,
+  -   114,
+  -   117,
+  -   101,
+  -   44,
+  -   99,
+  -   111,
+  -   110,
+  -   116,
+  -   105,
+  -   110,
+  -   117,
+  -   105,
+  -   110,
+  -   103,
+  -   58,
+  -   112,
+  -   101,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+  -   104,
+  -   105,
+  -   116,
+  -   73,
+  -   100,
+  -   115,
+  -   46,
+  -   108,
+  -   101,
+  -   110,
+  -   103,
+  -   116,
+  -   104,
+  -   60,
+  -   112,
+  -   101,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+  -   109,
+  -   97,
+  -   120,
+  -   84,
+  -   97,
+  -   114,
+  -   103,
+  -   101,
+  -   116,
+  -   115,
+      125,
+  -   58,
+  -   32,
+  -   123,
+  -   125,
+      41,
+  -   32,
+  -   125,
+  -   41,
+      59,
+      10,
+      32,
+      32,
+      32,
+  
+      at visit (file:///C:/LaMineV2/la-mine-v2-v01/tests/crates-v017.test.js:85:224)
+      at async TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/crates-v017.test.js:85:360)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 20 52 4f 4f 4d 20 7d 20 66 72 6f 6d 20 27 2e 2f 63 6f 6e 66 69 67 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 57 45 41 50 4f ... 3084 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 20 52 4f 4f 4d 20 7d 20 66 72 6f 6d 20 27 2e 2f 63 6f 6e 66 69 67 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 57 45 41 50 4f ... 3330 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\difficulty-v014.test.js:18:1
+✖ protected V0.14 weapons, perks, economy, drops, menus and storage are byte-identical (54.9348ms)
+  AssertionError [ERR_ASSERTION]: weapons.js
+  + actual - expected
+  
+  + '535ab68c3c873ed73c95a28e46d4b2562466dc52b0879eaf016dfd38a206c800'
+  - '9eabff408cfec6338a66cf21512018ff0f2bd00606a5d9ec3ad5afbc754de662'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/difficulty-v014.test.js:21:222)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '535ab68c3c873ed73c95a28e46d4b2562466dc52b0879eaf016dfd38a206c800',
+    expected: '9eabff408cfec6338a66cf21512018ff0f2bd00606a5d9ec3ad5afbc754de662',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\difficulty-v014.test.js:95:3
+✖ shotgun: wave 18 can be dodged with a legal build but defeats stationary camping (369.0787ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/difficulty-v014.test.js:99:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\difficulty-v014.test.js:95:3
+✖ smg: wave 17 can be dodged with a legal build but defeats stationary camping (267.5943ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/difficulty-v014.test.js:99:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\difficulty-v014.test.js:95:3
+✖ smg: wave 18 can be dodged with a legal build but defeats stationary camping (274.5615ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/difficulty-v014.test.js:99:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\difficulty-v014.test.js:95:3
+✖ smg: wave 19 can be dodged with a legal build but defeats stationary camping (176.4076ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/difficulty-v014.test.js:99:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\difficulty-v014.test.js:108:3
+✖ shotgun: boss 20 shows several complete patterns and stays beatable (81.681ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/difficulty-v014.test.js:113:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\enemies.test.js:49:1
+✖ drill stops, locks aim for 900 ms then fires once and rests; damage does not hide the warning (2.5628ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 0.7853981633974483
+  - 0
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/enemies.test.js:55:87)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0.7853981633974483,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\enemies.test.js:200:1
+✖ complete wave 4 and boss run uses all enemy types, bounded bolts, stationary shots and unchanged rewards (714.4342ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/enemies.test.js:219:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\loot.test.js:138:1
+✖ mode B complete twenty-wave combat with stop-and-dodge steering uses real shots, drops and six perks (816.8398ms)
+  AssertionError [ERR_ASSERTION]: room 8, hp 0, kills 60
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/loot.test.js:153:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\meta.test.js:154:1
+✖ full combat victory feeds wallet, purchase and next run with reset perks (930.6543ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/meta.test.js:162:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\perks-v012.test.js:196:1
+✖ a distinct SMG build with piercing and magazine at Atelier 5 completes real combat without healing (991.083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/perks-v012.test.js:201:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-bosses-v018.test.js:76:41
+✖ full tracks run completes with shotgun and activated Zone 2 reward budget (848.528ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:78:74)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-bosses-v018.test.js:76:41
+✖ full tracks run completes with smg and activated Zone 2 reward budget (243.9318ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:78:74)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-bosses-v018.test.js:80:1
+✖ old boss behavior body, normal tracks waves and all economy stay unchanged (11.8838ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  ... Skipped lines
+  
+    '// Both new machines have only three states: positioning, warning, recovery.\n' +
+      'export class GalleryBoss extends Enemy {\n' +
+      '  constructor(id, bossId) {\n' +
+      '    super(id,225,220);\n' +
+      "    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n" +
+  ...
+      '    if(!this.active)return;\n' +
+  +   '    aimFan(this,player);\n' +
+      '    for(const zone of this.zones)zone.time-=dt;\n' +
+      '    this.zones=this.zones.filter(z=>z.time>0);\n' +
+      '    this.phaseTime-=dt;\n' +
+      "    if(this.phase==='positioning') {\n" +
+      '      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n' +
+  ...
+      '        this.attackCount++;\n' +
+  +   "        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n" +
+      "        if(this.bossId==='effondreur') {\n" +
+      '          const speed=Math.hypot(player.vx||0,player.vy||0);\n' +
+      '          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n' +
+      '          const radius=this.spec.zoneRadius;\n' +
+      '          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n' +
+  ...
+      "    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n" +
+  +   "      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n" +
+  -   "      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n" +
+      "      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n" +
+      "    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n" +
+      "      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n" +
+      '    }\n' +
+      '  }\n' +
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:83:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    aimFan(this,player);\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\n",
+    expected: "// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-enemies-v018.test.js:41:1
+✖ draisine visibly locks aim, pauses, fires exactly two shots then rests without tracking (2.7685ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-enemies-v018.test.js:44:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-enemies-v018.test.js:80:1
+✖ Zone1 enemies, bosses, waves, weapon balance, rewards remain byte-identical (122.506ms)
+  AssertionError [ERR_ASSERTION]: weapon.js
+  + actual - expected
+  ... Skipped lines
+  
+  + Buffer(3597) [Uint8Array] [
+  - Buffer(3527) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      32,
+  +   66,
+  +   111,
+  +   111,
+  +   108,
+  +   101,
+  -   102,
+      97,
+  +   110,
+  +   40,
+  +   116,
+  +   104,
+  +   105,
+  -   108,
+      115,
+  +   46,
+  +   100,
+      101,
+  +   102,
+  +   105,
+  +   110,
+  +   105,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   46,
+  +   112,
+  +   101,
+  +   110,
+  +   101,
+  +   116,
+  +   114,
+  +   97,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   41,
+      59,
+      10,
+      32,
+      32,
+      32,
+  ...
+      32,
+  +   116,
+  +   104,
+  +   105,
+  +   115,
+  +   46,
+  +   100,
+  +   101,
+  +   102,
+  +   105,
+  +   110,
+  +   105,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   46,
+  +   112,
+  +   101,
+  +   110,
+  +   101,
+  +   116,
+  +   114,
+  +   97,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   63,
+  +   46,
+  +   108,
+  +   101,
+  +   110,
+  +   103,
+  +   116,
+  +   104,
+  +   32,
+  +   124,
+  +   124,
+  +   32,
+      50,
+      59,
+      32,
+      116,
+      104,
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-enemies-v018.test.js:81:208)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 20 47 41 4d 49 4e 20 7d 20 66 72 6f 6d 20 27 2e 2f 63 6f 6e 66 69 67 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 77 65 61 70 ... 3547 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 20 47 41 4d 49 4e 20 7d 20 66 72 6f 6d 20 27 2e 2f 63 6f 6e 66 69 67 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 77 65 61 70 ... 3477 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-enemies-v018.test.js:83:41
+✖ full Zone1 shotgun run replays V0.17 exactly after rail integration (778.4005ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-enemies-v018.test.js:88:45)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-enemies-v018.test.js:83:41
+✖ full Zone1 smg run replays V0.17 exactly after rail integration (407.6455ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-enemies-v018.test.js:88:45)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rooms.test.js:157:1
+✖ real combat can finish a twenty-wave run with six choices and no healing/reset (711.236ms)
+  AssertionError [ERR_ASSERTION]: room 8 kills 60 hp 0
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rooms.test.js:172:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\talents-v016.test.js:82:1
+✖ no talents replays complete V0.15 run exactly including boss timings and rewards (1676.9694ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/talents-v016.test.js:84:62)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\talents-v016.test.js:86:1
+✖ V0.16 preserves combat balance, boss AI, waves, Atelier costs, Relève and resources byte for byte (33.269ms)
+  AssertionError [ERR_ASSERTION]: combat.js
+  + actual - expected
+  ... Skipped lines
+  
+  + Buffer(3380) [Uint8Array] [
+  - Buffer(3134) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      40,
+  +   100,
+  +   101,
+  +   102,
+  +   105,
+  +   110,
+  +   105,
+  +   116,
+  +   105,
+      111,
+  +   110,
+  +   46,
+      112,
+  +   101,
+  +   110,
+  +   101,
+      116,
+  +   114,
+  +   97,
+  +   116,
+      105,
+      111,
+      110,
+  +   124,
+  +   124,
+  +   111,
+  +   112,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+      115,
+      46,
+      112,
+      105,
+      101,
+  ...
+      32,
+  +   100,
+  +   101,
+  +   102,
+  +   105,
+  +   110,
+  +   105,
+  +   116,
+  +   105,
+      111,
+  +   110,
+  +   46,
+      112,
+  +   101,
+  +   110,
+  +   101,
+      116,
+  +   114,
+  +   97,
+  +   116,
+      105,
+      111,
+      110,
+  +   63,
+  +   46,
+  +   108,
+  +   101,
+  +   110,
+  +   103,
+  +   116,
+  +   104,
+  +   32,
+  +   124,
+  +   124,
+  +   32,
+  +   40,
+  +   111,
+  +   112,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+      115,
+      46,
+      112,
+      105,
+      101,
+  ...
+      49,
+  +   41,
+      44,
+      10,
+      32,
+      32,
+      32,
+  ...
+      32,
+  +   97,
+  +   116,
+  +   116,
+  +   101,
+  +   110,
+  +   117,
+  +   97,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   61,
+      100,
+  +   101,
+  +   102,
+  +   105,
+  +   110,
+  +   105,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   46,
+  +   112,
+  +   101,
+  +   110,
+  +   101,
+  +   116,
+  +   114,
+      97,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   63,
+  +   46,
+  +   91,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+  +   116,
+  +   46,
+  +   104,
+  +   105,
+  +   116,
+  +   73,
+  +   100,
+  +   115,
+  +   46,
+  +   108,
+  +   101,
+  +   110,
+  +   103,
+  +   116,
+  +   104,
+  +   93,
+  +   32,
+  +   63,
+  +   63,
+  +   32,
+  +   40,
+  +   40,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+  +   116,
+  +   46,
+      109,
+      97,
+  +   120,
+  +   84,
+  +   97,
+  +   114,
+      103,
+      101,
+  +   116,
+  +   115,
+      32,
+      61,
+  +   61,
+  +   61,
+      32,
+  +   51,
+  +   32,
+  +   63,
+  +   32,
+  +   46,
+  +   56,
+  +   32,
+  +   58,
+  +   32,
+  +   46,
+  +   54,
+  +   41,
+  +   32,
+  +   42,
+  +   42,
+  +   32,
+      112,
+      101,
+      108,
+      108,
+      101,
+      116,
+  +   46,
+  +   104,
+  +   105,
+  +   116,
+  +   73,
+  +   100,
+  +   115,
+  +   46,
+  +   108,
+  +   101,
+  +   110,
+  +   103,
+  +   116,
+  +   104,
+  +   41,
+  +   59,
+  +   10,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   99,
+  +   111,
+  +   110,
+  +   115,
+  +   116,
+  +   32,
+  +   100,
+  +   97,
+  +   109,
+  +   97,
+  +   103,
+  +   101,
+  +   32,
+  +   61,
+  +   32,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+  +   116,
+      68,
+      97,
+      109,
+      97,
+      103,
+  ...
+      32,
+  -   40,
+  -   40,
+  -   112,
+  -   101,
+  -   108,
+  -   108,
+  -   101,
+  -   116,
+  -   46,
+  -   109,
+      97,
+  -   120,
+  -   84,
+  -   97,
+  -   114,
+  -   103,
+  -   101,
+      116,
+  +   116,
+  -   115,
+  -   32,
+  -   61,
+  -   61,
+  -   61,
+  -   32,
+  -   51,
+  -   32,
+  -   63,
+  -   32,
+  -   46,
+  -   56,
+  -   32,
+  -   58,
+  -   32,
+  -   46,
+  -   54,
+  -   41,
+  -   32,
+  -   42,
+  -   42,
+  -   32,
+  -   112,
+      101,
+  +   110,
+  +   117,
+  +   97,
+  -   108,
+  -   108,
+  -   101,
+      116,
+  -   46,
+  -   104,
+      105,
+  +   111,
+  -   116,
+  -   73,
+  -   100,
+  -   115,
+  -   46,
+  -   108,
+  -   101,
+      110,
+  -   103,
+  -   116,
+  -   104,
+  -   41,
+      32,
+      42,
+      32,
+      40,
+      98,
+  ...
+      103,
+  +   44,
+      32,
+  +   46,
+  +   46,
+  +   46,
+  +   40,
+  +   100,
+  +   101,
+  +   102,
+  +   105,
+  +   110,
+  +   105,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   46,
+  +   112,
+  +   101,
+  +   110,
+  +   101,
+  +   116,
+  +   114,
+  +   97,
+  +   116,
+  +   105,
+  +   111,
+  +   110,
+  +   63,
+  +   123,
+  +   101,
+  +   110,
+  +   101,
+  +   114,
+  +   103,
+  +   121,
+  +   58,
+  +   116,
+  +   114,
+  +   117,
+  +   101,
+  +   44,
+  +   99,
+  +   111,
+  +   110,
+  +   116,
+  +   105,
+  +   110,
+  +   117,
+  +   105,
+  +   110,
+  +   103,
+  +   58,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+  +   116,
+  +   46,
+  +   104,
+  +   105,
+  +   116,
+  +   73,
+  +   100,
+  +   115,
+  +   46,
+  +   108,
+  +   101,
+  +   110,
+  +   103,
+  +   116,
+  +   104,
+  +   60,
+  +   112,
+  +   101,
+  +   108,
+  +   108,
+  +   101,
+  +   116,
+  +   46,
+  +   109,
+  +   97,
+  +   120,
+  +   84,
+  +   97,
+  +   114,
+  +   103,
+  +   101,
+  +   116,
+  +   115,
+      125,
+  +   58,
+  +   32,
+  +   123,
+  +   125,
+      41,
+  +   32,
+  +   125,
+  +   41,
+      59,
+      10,
+      32,
+      32,
+      32,
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/talents-v016.test.js:87:240)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 20 52 4f 4f 4d 20 7d 20 66 72 6f 6d 20 27 2e 2f 63 6f 6e 66 69 67 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 57 45 41 50 4f ... 3330 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 20 52 4f 4f 4d 20 7d 20 66 72 6f 6d 20 27 2e 2f 63 6f 6e 66 69 67 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 57 45 41 50 4f ... 3084 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\talents-v016.test.js:90:41
+✖ all eight talents complete real shotgun combat without overrides (258.5883ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/talents-v016.test.js:94:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\talents-v016.test.js:90:41
+✖ all eight talents complete real smg combat without overrides (315.3308ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/talents-v016.test.js:94:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\tracks-waves-v018.test.js:38:41
+✖ all 16 normal waves survive with shotgun, legal perks/Atelier2, safe spawns and exact collected budget (1455.945ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/tracks-waves-v018.test.js:40:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\tracks-waves-v018.test.js:38:41
+✖ all 16 normal waves survive with smg, legal perks/Atelier2, safe spawns and exact collected budget (300.5881ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/tracks-waves-v018.test.js:40:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\wagon-targeting-v020.test.js:71:1
+✖ validated visuals, hitboxes, other enemies and economy are unchanged; edits are only wagon spawn selection (1083.2415ms)
+  AssertionError [ERR_ASSERTION]: bosses.js
+  + actual - expected
+  
+  + '223462ef3560f5f0ff15945297c30d2a699ad8b65d796bcd5a048eff9d128adc'
+  - 'e3abbfc2d03064675fd839383f951233c699a85ec88aa84cbe05c52d8ede1233'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/wagon-targeting-v020.test.js:77:17)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '223462ef3560f5f0ff15945297c30d2a699ad8b65d796bcd5a048eff9d128adc',
+    expected: 'e3abbfc2d03064675fd839383f951233c699a85ec88aa84cbe05c52d8ede1233',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\weapons.test.js:15:1
+✖ two weapon definitions preserve every shotgun V0.6 parameter and reject unknown weapons (9.3683ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'grisoux',
+      'shotgun',
+      'smg'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/weapons.test.js:16:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'grisoux', 'shotgun', 'smg' ],
+    expected: [ 'shotgun', 'smg' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\weapons.test.js:78:41
+✖ complete shotgun run preserves drops, collection and all twenty waves (686.976ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/weapons.test.js:91:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\weapons.test.js:78:41
+✖ complete smg run preserves drops, collection and all twenty waves (240.8106ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/weapons.test.js:91:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\world-v013.test.js:154:1
+✖ V0.13 protected systems remain intact outside the authorized V0.14 enemy changes (174.2383ms)
+  AssertionError [ERR_ASSERTION]: weapons.js
+  + actual - expected
+  
+  + '535ab68c3c873ed73c95a28e46d4b2562466dc52b0879eaf016dfd38a206c800'
+  - '9eabff408cfec6338a66cf21512018ff0f2bd00606a5d9ec3ad5afbc754de662'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/world-v013.test.js:157:236)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '535ab68c3c873ed73c95a28e46d4b2562466dc52b0879eaf016dfd38a206c800',
+    expected: '9eabff408cfec6338a66cf21512018ff0f2bd00606a5d9ec3ad5afbc754de662',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone-access-v018.test.js:82:1
+✖ validated step 4 rules remain byte-identical outside authorized wagon targeting (39.9014ms)
+  AssertionError [ERR_ASSERTION]: bosses.js
+  + actual - expected
+  ... Skipped lines
+  
+  + Buffer(3924) [Uint8Array] [
+  - Buffer(3807) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      123,
+  +   97,
+  +   105,
+  +   109,
+  +   70,
+  +   97,
+  +   110,
+  +   44,
+  +   101,
+  +   110,
+  +   101,
+  +   109,
+  +   121,
+  +   83,
+  +   104,
+  +   111,
+  +   116,
+  +   125,
+      32,
+  +   102,
+  +   114,
+  +   111,
+  +   109,
+  +   32,
+  +   39,
+  +   46,
+  +   47,
+  +   101,
+  +   110,
+  +   101,
+  +   109,
+  +   121,
+  +   45,
+  +   118,
+  +   111,
+  +   108,
+  +   108,
+  +   101,
+  +   121,
+  +   46,
+  +   106,
+  +   115,
+  +   39,
+  +   59,
+  +   10,
+  +   105,
+  +   109,
+  +   112,
+  +   111,
+  +   114,
+  +   116,
+  +   32,
+  +   123,
+  +   32,
+      69,
+      110,
+      101,
+      109,
+      121,
+  ...
+      32,
+  +   97,
+  +   105,
+  +   109,
+  +   70,
+  +   97,
+  +   110,
+  +   40,
+  +   116,
+  +   104,
+  +   105,
+  +   115,
+  +   44,
+  +   112,
+  +   108,
+  +   97,
+  +   121,
+  +   101,
+  +   114,
+  +   41,
+  +   59,
+  +   10,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+      102,
+      111,
+      114,
+      40,
+      99,
+  ...
+      32,
+  +   116,
+  +   104,
+      105,
+  +   115,
+  +   46,
+      102,
+  +   97,
+  +   110,
+  +   65,
+  +   116,
+  +   116,
+  +   97,
+  +   99,
+  +   107,
+  +   61,
+  +   116,
+  +   104,
+  +   105,
+  +   115,
+  +   46,
+  +   98,
+  +   111,
+  +   115,
+  +   115,
+  +   73,
+  +   100,
+  +   61,
+  +   61,
+  +   61,
+  +   39,
+  +   99,
+  +   114,
+  +   97,
+  +   99,
+  +   104,
+  +   101,
+  +   102,
+  +   101,
+  +   114,
+  +   39,
+  +   38,
+  +   38,
+  +   116,
+  +   104,
+  +   105,
+  +   115,
+  +   46,
+  +   97,
+  +   116,
+  +   116,
+  +   97,
+  +   99,
+  +   107,
+  +   67,
+  +   111,
+  +   117,
+  +   110,
+  +   116,
+  +   37,
+  +   50,
+  +   61,
+  +   61,
+  +   61,
+  +   48,
+  +   59,
+  +   10,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   32,
+  +   105,
+  +   102,
+      40,
+      116,
+      104,
+      105,
+      115,
+  ...
+      40,
+  -   123,
+  -   116,
+  -   121,
+  -   112,
+      101,
+  -   58,
+  -   39,
+  -   101,
+      110,
+      101,
+      109,
+      121,
+  +   83,
+  -   45,
+  -   115,
+      104,
+      111,
+      116,
+  +   40,
+  -   39,
+  -   44,
+  -   111,
+  -   119,
+  -   110,
+  -   101,
+  -   114,
+  -   58,
+      116,
+      104,
+      105,
+      115,
+  -   46,
+  -   105,
+  -   100,
+      44,
+  +   112,
+  -   97,
+  -   110,
+  -   103,
+      108,
+  -   101,
+  -   58,
+  -   116,
+  -   104,
+  -   105,
+  -   115,
+  -   46,
+      97,
+  +   121,
+  -   116,
+  -   116,
+  -   97,
+  -   99,
+  -   107,
+  -   65,
+  -   110,
+  -   103,
+  -   108,
+      101,
+  +   114,
+  -   125,
+      41,
+  +   41,
+      59,
+      10,
+      32,
+      32,
+      32,
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone-access-v018.test.js:84:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 61 69 6d 46 61 6e 2c 65 6e 65 6d 79 53 68 6f 74 7d 20 66 72 6f 6d 20 27 2e 2f 65 6e 65 6d 79 2d 76 6f 6c 6c 65 79 2e 6a 73 27 ... 3874 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 20 45 6e 65 6d 79 20 7d 20 66 72 6f 6d 20 27 2e 2f 65 6e 65 6d 79 2e 6a 73 27 3b 0a 69 6d 70 6f 72 74 20 7b 20 52 61 69 6c 42 ... 3757 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

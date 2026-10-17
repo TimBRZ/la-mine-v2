@@ -1,0 +1,104 @@
+{
+  "shotgun": {
+    "mode": "V0.7 shotgun",
+    "shots": 89,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 1,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 11,
+    "frames": 1468,
+    "workMs": 913.000004529953,
+    "magnetDurations": [
+      0.583,
+      0.6,
+      0.667,
+      0.633,
+      0.433
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 4.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 188,
+      "iron": 16,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.622
+  },
+  "smg": {
+    "mode": "V0.7 smg",
+    "shots": 607,
+    "movingShots": 0,
+    "enemyShots": 18,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 12,
+    "frames": 1972,
+    "workMs": 1702.700007200241,
+    "magnetDurations": [
+      0.683,
+      0.667,
+      0.617,
+      0.683,
+      0.517
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 1.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.863
+  },
+  "checks": {
+    "choiceBoth": true,
+    "replayChoice": true,
+    "smgPerks": true,
+    "viewports": [
+      "320x568",
+      "390x844"
+    ],
+    "consoleErrors": []
+  }
+}

@@ -1,0 +1,180 @@
+✔ three distinct rail bosses populate 5/10/15/20, menu still refuses tracks (3.9933ms)
+✔ stationmaster locks a visible warning before charge and recovers without teleportation (0.7773ms)
+✔ locomotive locks a visible warning before charge and recovers without teleportation (0.2916ms)
+✔ stationmaster wagon passage is periodic, safe, bounded and uses the ordinary telegraph (2.902ms)
+✔ summons neither mint drops nor survive their owner, even on the death frame (1.8524ms)
+✔ locomotive steam is warned, bounded, damages only when active and expires (0.4479ms)
+✔ switchman has two locked avoidable solo rails and only one in the final (0.8358ms)
+✔ mechanical burst is exactly two slow shots, with lateral dodge available (1.8148ms)
+✔ boss charge and rail/steam damage use live Run collisions and ordinary invulnerability (0.6801ms)
+✔ stationmaster hits a stationary target but a warning-time lateral dodge avoids the charge (3.4844ms)
+✔ shooting an invoked wagon credits no additional wave death or resource (1.0134ms)
+✔ triple openings are staggered and hazards/bolts/summons remain bounded (14.8331ms)
+✔ shotgun defeats boss 5 with legal perk prefix, no damage/HP overrides (68.7223ms)
+✔ shotgun defeats boss 10 with legal perk prefix, no damage/HP overrides (84.493ms)
+✔ shotgun defeats boss 15 with legal perk prefix, no damage/HP overrides (106.2838ms)
+✔ shotgun defeats boss 20 with legal perk prefix, no damage/HP overrides (134.9506ms)
+✔ smg defeats boss 5 with legal perk prefix, no damage/HP overrides (44.5721ms)
+✔ smg defeats boss 10 with legal perk prefix, no damage/HP overrides (18.2908ms)
+✔ smg defeats boss 15 with legal perk prefix, no damage/HP overrides (20.1122ms)
+✔ smg defeats boss 20 with legal perk prefix, no damage/HP overrides (69.7543ms)
+✖ full tracks run completes with shotgun and activated Zone 2 reward budget (282.3718ms)
+✖ full tracks run completes with smg and activated Zone 2 reward budget (128.5506ms)
+✖ old boss behavior body, normal tracks waves and all economy stay unchanged (12.0853ms)
+✔ two weapon definitions preserve every shotgun V0.6 parameter and reject unknown weapons (2.7415ms)
+✔ SMG produces one finite accurate weak projectile with longer range and lighter effects (0.7125ms)
+✔ SMG cannot fire during movement or braking and resumes promptly when settled (2.1325ms)
+✔ SMG fires rapidly for 20 seconds without nonfinite bullets or pool growth (6.6253ms)
+✔ SMG real bullets kill rat with sustained damage (0.4169ms)
+✔ SMG real bullets kill miner with sustained damage (0.2577ms)
+✔ SMG real bullets kill drill with sustained damage (0.297ms)
+✔ SMG real bullets kill boss with sustained damage (1.6833ms)
+✔ compatible perks appear for both weapons and shotgun-only perks never enter SMG offers (4.7297ms)
+✔ all four permanent stats and generic perks apply to the SMG base (0.5199ms)
+✔ Grisou propagates an SMG kill through the existing explosion resolver (0.9659ms)
+✖ complete shotgun run preserves drops, collection and all twenty waves (403.7838ms)
+✖ complete smg run preserves drops, collection and all twenty waves (146.8565ms)
+✔ SMG hits beyond shotgun reach, expires at its own range, and snapshots permanent damage (0.5902ms)
+✔ maximum SMG cadence and damage build keeps fixed pools and finite combat state (16.315ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 33
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1120.5137
+
+✖ failing tests:
+
+test at tests\rail-bosses-v018.test.js:77:41
+✖ full tracks run completes with shotgun and activated Zone 2 reward budget (282.3718ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:79:74)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-bosses-v018.test.js:77:41
+✖ full tracks run completes with smg and activated Zone 2 reward budget (128.5506ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:79:74)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-bosses-v018.test.js:81:1
+✖ old boss behavior body, normal tracks waves and all economy stay unchanged (12.0853ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  ... Skipped lines
+  
+    '// Both new machines have only three states: positioning, warning, recovery.\n' +
+      'export class GalleryBoss extends Enemy {\n' +
+      '  constructor(id, bossId) {\n' +
+      '    super(id,225,220);\n' +
+      "    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n" +
+  ...
+      '    if(!this.active)return;\n' +
+  +   '    aimFan(this,player);\n' +
+      '    for(const zone of this.zones)zone.time-=dt;\n' +
+      '    this.zones=this.zones.filter(z=>z.time>0);\n' +
+      '    this.phaseTime-=dt;\n' +
+      "    if(this.phase==='positioning') {\n" +
+      '      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n' +
+  ...
+      '        this.attackCount++;\n' +
+  +   "        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n" +
+      "        if(this.bossId==='effondreur') {\n" +
+      '          const speed=Math.hypot(player.vx||0,player.vy||0);\n' +
+      '          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n' +
+      '          const radius=this.spec.zoneRadius;\n' +
+      '          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n' +
+  ...
+      "    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n" +
+  +   "      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n" +
+  -   "      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n" +
+      "      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n" +
+      "    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n" +
+      "      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n" +
+      '    }\n' +
+      '  }\n' +
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:84:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    aimFan(this,player);\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        this.fanAttack=this.bossId==='crachefer'&&this.attackCount%2===0;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push(enemyShot(this,player));\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\n",
+    expected: "// Both new machines have only three states: positioning, warning, recovery.\nexport class GalleryBoss extends Enemy {\n  constructor(id, bossId) {\n    super(id,225,220);\n    this.kind='boss'; this.bossId=bossId; this.spec=BOSS_SPECS[bossId];\n    this.hp=this.maxHealth=this.spec.health; this.radius=28; this.warmup=1.4;\n    this.phase='positioning'; this.phaseTime=this.spec.rest;\n    this.previousX=this.x; this.previousY=this.y;\n    this.zones=[];\n    this.attackCount=0;\n  }\n  update(dt,player,attacks=[]) {\n    this.previousX=this.x; this.previousY=this.y;\n    this.warmup=Math.max(0,this.warmup-dt); this.flash=Math.max(0,this.flash-dt);\n    if(!this.active)return;\n    for(const zone of this.zones)zone.time-=dt;\n    this.zones=this.zones.filter(z=>z.time>0);\n    this.phaseTime-=dt;\n    if(this.phase==='positioning') {\n      this.angle=Math.atan2(player.y-this.y,player.x-this.x);\n      const d=Math.hypot(player.x-this.x,player.y-this.y);\n      const move=this.bossId==='crachefer'?(d>260?1:d<210?-1:0):(d>180?1:d<110?-1:0);\n      const strafe=this.bossId==='crachefer'&&d>100&&d<300?(this.attackCount%2?-.55:.55):0;\n      this.x+=(Math.cos(this.angle)*move-Math.sin(this.angle)*strafe)*this.spec.speed*dt;\n      this.y+=(Math.sin(this.angle)*move+Math.cos(this.angle)*strafe)*this.spec.speed*dt;\n      clampToRoom(this,ROOM);\n      if(this.phaseTime<=0) {\n        this.phase='warning';this.phaseTime=this.spec.warning;\n        const target=aimedPoint(player,this.spec.lead||0);\n        this.attackAngle=Math.atan2(target.y-this.y,target.x-this.x);\n        this.attackCount++;\n        if(this.bossId==='effondreur') {\n          const speed=Math.hypot(player.vx||0,player.vy||0);\n          const angle=speed>20?Math.atan2(player.vy,player.vx):this.angle+(this.attackCount%2?1:-1)*Math.PI/2;\n          const radius=this.spec.zoneRadius;\n          this.zones=Array.from({length:this.spec.zoneCount},(_,i)=>({\n            x:Math.max(ROOM.left+radius,Math.min(ROOM.right-radius,player.x+Math.cos(angle)*i*110)),\n            y:Math.max(ROOM.top+radius,Math.min(ROOM.bottom-radius,player.y+Math.sin(angle)*i*110)),\n            radius,time:this.spec.warning+this.spec.zoneSeconds,\n          }));\n        }\n      }\n    } else if(this.phase==='warning'&&this.phaseTime<=0) {\n      if(this.bossId==='crachefer')attacks.push({type:'enemy-shot',owner:this.id,angle:this.attackAngle});\n      this.phase='recovery';this.phaseTime=this.bossId==='effondreur'?this.spec.zoneSeconds:this.spec.recovery*bossRestScale(this);\n    } else if(this.phase==='recovery'&&this.phaseTime<=0) {\n      this.phase='positioning';this.phaseTime=this.spec.rest*bossRestScale(this);\n    }\n  }\n  hit(damage,angle,force) { super.hit(damage*this.spec.damageTaken,angle,force);this.pushX=this.pushY=0; }\n}\n\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\weapons.test.js:78:41
+✖ complete shotgun run preserves drops, collection and all twenty waves (403.7838ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/weapons.test.js:91:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\weapons.test.js:78:41
+✖ complete smg run preserves drops, collection and all twenty waves (146.8565ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'lost' !== 'won'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/weapons.test.js:91:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'lost',
+    expected: 'won',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

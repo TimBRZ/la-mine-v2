@@ -1,0 +1,179 @@
+{
+  "real_temp_backend": true,
+  "real_cgweb_proxies": true,
+  "submitted_runs": 5,
+  "invalid_session_status": 401,
+  "boards": {
+    "depth": {
+      "mode": "remote",
+      "mock": false,
+      "category": "depth",
+      "zoneId": "tracks",
+      "weekKey": null,
+      "available": true,
+      "rows": [
+        {
+          "rank": 1,
+          "playerId": "temp-b",
+          "name": "ALICE TEMP",
+          "isLocal": false,
+          "isDemo": false,
+          "performance": {
+            "zone_id": "rift",
+            "max_wave": 20,
+            "completed": false,
+            "duration_ms": 350000,
+            "weapon_id": "grisoux",
+            "depth_reached_ms": null
+          }
+        },
+        {
+          "rank": 2,
+          "playerId": "temp-a",
+          "name": "TIM TEMP",
+          "isLocal": true,
+          "isDemo": false,
+          "performance": {
+            "zone_id": "rift",
+            "max_wave": 18,
+            "completed": false,
+            "duration_ms": 240000,
+            "weapon_id": "grisoux",
+            "depth_reached_ms": null
+          }
+        }
+      ],
+      "local": {
+        "rank": 2,
+        "playerId": "temp-a",
+        "name": "TIM TEMP",
+        "isLocal": true,
+        "isDemo": false,
+        "performance": {
+          "zone_id": "rift",
+          "max_wave": 18,
+          "completed": false,
+          "duration_ms": 240000,
+          "weapon_id": "grisoux",
+          "depth_reached_ms": null
+        }
+      },
+      "localName": "TIM TEMP",
+      "authenticated": true
+    },
+    "time": {
+      "mode": "remote",
+      "mock": false,
+      "category": "time",
+      "zoneId": "tracks",
+      "weekKey": null,
+      "available": true,
+      "rows": [
+        {
+          "rank": 1,
+          "playerId": "temp-b",
+          "name": "ALICE TEMP",
+          "isLocal": false,
+          "isDemo": false,
+          "performance": {
+            "zone_id": "tracks",
+            "max_wave": 20,
+            "completed": true,
+            "duration_ms": 250000,
+            "weapon_id": "smg",
+            "depth_reached_ms": null
+          }
+        },
+        {
+          "rank": 2,
+          "playerId": "temp-a",
+          "name": "TIM TEMP",
+          "isLocal": true,
+          "isDemo": false,
+          "performance": {
+            "zone_id": "tracks",
+            "max_wave": 20,
+            "completed": true,
+            "duration_ms": 300000,
+            "weapon_id": "grisoux",
+            "depth_reached_ms": null
+          }
+        }
+      ],
+      "local": {
+        "rank": 2,
+        "playerId": "temp-a",
+        "name": "TIM TEMP",
+        "isLocal": true,
+        "isDemo": false,
+        "performance": {
+          "zone_id": "tracks",
+          "max_wave": 20,
+          "completed": true,
+          "duration_ms": 300000,
+          "weapon_id": "grisoux",
+          "depth_reached_ms": null
+        }
+      },
+      "localName": "TIM TEMP",
+      "authenticated": true
+    },
+    "weekly": {
+      "mode": "remote",
+      "mock": false,
+      "category": "weekly",
+      "zoneId": "tracks",
+      "weekKey": "2026-10-05",
+      "available": true,
+      "rows": [
+        {
+          "rank": 1,
+          "playerId": "temp-b",
+          "name": "ALICE TEMP",
+          "isLocal": false,
+          "isDemo": false,
+          "performance": {
+            "zone_id": "rift",
+            "max_wave": 20,
+            "completed": false,
+            "duration_ms": 350000,
+            "weapon_id": "grisoux",
+            "depth_reached_ms": null
+          }
+        },
+        {
+          "rank": 2,
+          "playerId": "temp-a",
+          "name": "TIM TEMP",
+          "isLocal": true,
+          "isDemo": false,
+          "performance": {
+            "zone_id": "rift",
+            "max_wave": 18,
+            "completed": false,
+            "duration_ms": 240000,
+            "weapon_id": "grisoux",
+            "depth_reached_ms": null
+          }
+        }
+      ],
+      "local": {
+        "rank": 2,
+        "playerId": "temp-a",
+        "name": "TIM TEMP",
+        "isLocal": true,
+        "isDemo": false,
+        "performance": {
+          "zone_id": "rift",
+          "max_wave": 18,
+          "completed": false,
+          "duration_ms": 240000,
+          "weapon_id": "grisoux",
+          "depth_reached_ms": null
+        }
+      },
+      "localName": "TIM TEMP",
+      "authenticated": true
+    }
+  }
+}

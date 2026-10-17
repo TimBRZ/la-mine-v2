@@ -1,0 +1,31 @@
+{
+  "modifiedSourceFiles": [
+    "arena-view.js",
+    "boss-catalog.js",
+    "bosses.js",
+    "debug-zones.js",
+    "debug.html",
+    "enemies/registry.js",
+    "enemies/view.js",
+    "menu/art.js",
+    "menu/state.js",
+    "menu/zones.js",
+    "run.js",
+    "textures.js",
+    "ui.js",
+    "wallet.js",
+    "zone-progress.js",
+    "zones.js"
+  ],
+  "unexpectedSourceChanges": [],
+  "remoteModulesUnchanged": true,
+  "newZoneModules": [
+    "actors.js",
+    "art.js",
+    "combat.js",
+    "config.js",
+    "waves.js"
+  ],
+  "tests": 715,
+  "existingTests": 678
+}

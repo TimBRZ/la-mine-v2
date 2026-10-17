@@ -1,0 +1,443 @@
+{
+  "mode": "V0.28 parcours rift grisoux",
+  "explosions": 0,
+  "maxHeat": 0,
+  "maxPellets": 6,
+  "shieldHits": 20,
+  "shots": 849,
+  "movingShots": 0,
+  "enemyShots": 9,
+  "maxBolts": 18,
+  "seen": [
+    "crawler",
+    "spitter",
+    "boss",
+    "burster",
+    "gasminer",
+    "surveyor",
+    "drill"
+  ],
+  "room4Kills": 10,
+  "room4Mixed": false,
+  "pickups": 100,
+  "maxDrops": 9,
+  "frames": 5745,
+  "workMs": 26915.79999256134,
+  "magnetDurations": [
+    0.7,
+    0.717,
+    0.633,
+    0.667,
+    0.433,
+    0.683,
+    0.733,
+    0.683,
+    0.767,
+    0.567,
+    0.783,
+    0.817,
+    0.767,
+    0.733,
+    0.6,
+    0.7,
+    0.683,
+    0.8,
+    0.817,
+    0.633
+  ],
+  "waveHistory": [
+    "1:combat",
+    "1:collecting",
+    "1:cleared",
+    "2:preparing",
+    "2:combat",
+    "2:collecting",
+    "2:cleared",
+    "3:preparing",
+    "3:combat",
+    "3:collecting",
+    "3:cleared",
+    "4:preparing",
+    "4:combat",
+    "4:collecting",
+    "4:cleared",
+    "5:preparing",
+    "5:combat",
+    "5:collecting",
+    "5:cleared",
+    "6:preparing",
+    "6:combat",
+    "6:collecting",
+    "6:cleared",
+    "7:preparing",
+    "7:combat",
+    "7:collecting",
+    "7:cleared",
+    "8:preparing",
+    "8:combat",
+    "8:collecting",
+    "8:cleared",
+    "9:preparing",
+    "9:combat",
+    "9:collecting",
+    "9:cleared",
+    "10:preparing",
+    "10:combat",
+    "10:collecting",
+    "10:cleared",
+    "11:preparing",
+    "11:combat",
+    "11:collecting",
+    "11:cleared",
+    "12:preparing",
+    "12:combat",
+    "12:collecting",
+    "12:cleared",
+    "13:preparing",
+    "13:combat",
+    "13:collecting",
+    "13:cleared",
+    "14:preparing",
+    "14:combat",
+    "14:collecting",
+    "14:cleared",
+    "15:preparing",
+    "15:combat",
+    "15:collecting",
+    "15:cleared",
+    "16:preparing",
+    "16:combat",
+    "16:collecting",
+    "16:cleared",
+    "17:preparing",
+    "17:combat",
+    "17:collecting",
+    "17:cleared",
+    "18:preparing",
+    "18:combat",
+    "18:collecting",
+    "18:cleared",
+    "19:preparing",
+    "19:combat",
+    "19:collecting",
+    "19:cleared",
+    "20:preparing",
+    "20:combat",
+    "20:collecting",
+    "20:cleared"
+  ],
+  "checkpoints": [
+    {
+      "wave": 1,
+      "hp": 5.5,
+      "time": 0.016666666666666666,
+      "x": 225,
+      "y": 414
+    },
+    {
+      "wave": 2,
+      "hp": 5.5,
+      "time": 13.733333333333595,
+      "x": 310.9890303691677,
+      "y": 633.66312765109
+    },
+    {
+      "wave": 3,
+      "hp": 5.5,
+      "time": 33.683333333332705,
+      "x": 399.3649585518207,
+      "y": 458.5912868984809
+    },
+    {
+      "wave": 4,
+      "hp": 5,
+      "time": 55.39999999999814,
+      "x": 316.83877676809306,
+      "y": 634.0248258381972
+    },
+    {
+      "wave": 5,
+      "hp": 5,
+      "time": 80.01666666666341,
+      "x": 96.93711637506132,
+      "y": 583.4727736023414
+    },
+    {
+      "wave": 6,
+      "hp": 5,
+      "time": 127.86666666666069,
+      "x": 60.38298552380382,
+      "y": 299.0843010324584
+    },
+    {
+      "wave": 7,
+      "hp": 5,
+      "time": 154.03333333334805,
+      "x": 291.01289885098254,
+      "y": 580.6098658281712
+    },
+    {
+      "wave": 8,
+      "hp": 5,
+      "time": 183.3833333333714,
+      "x": 73.34811474991895,
+      "y": 549.5919241265285
+    },
+    {
+      "wave": 9,
+      "hp": 5,
+      "time": 217.8500000000655,
+      "x": 119.11898677953874,
+      "y": 506.2403915458445
+    },
+    {
+      "wave": 10,
+      "hp": 5,
+      "time": 257.5500000000944,
+      "x": 264.4374987475268,
+      "y": 605.1974428782252
+    },
+    {
+      "wave": 11,
+      "hp": 5,
+      "time": 313.6166666667101,
+      "x": 374.2422064019058,
+      "y": 480.91455654128305
+    },
+    {
+      "wave": 12,
+      "hp": 4.5,
+      "time": 347.7833333333457,
+      "x": 220.7378448171128,
+      "y": 607.2965239473783
+    },
+    {
+      "wave": 13,
+      "hp": 4,
+      "time": 385.2499999999783,
+      "x": 238.4764852090259,
+      "y": 634.0792456675358
+    },
+    {
+      "wave": 14,
+      "hp": 4,
+      "time": 424.51666666660924,
+      "x": 198.1930008051657,
+      "y": 622.0366990000813
+    },
+    {
+      "wave": 15,
+      "hp": 4,
+      "time": 462.59999999990794,
+      "x": 155.90179109134866,
+      "y": 633.9307413790494
+    },
+    {
+      "wave": 16,
+      "hp": 4,
+      "time": 538.5833333331722,
+      "x": 317.50320846633576,
+      "y": 500.37618881098535
+    },
+    {
+      "wave": 17,
+      "hp": 3.5,
+      "time": 578.2999999998027,
+      "x": 174.5014207173342,
+      "y": 521.8859510200745
+    },
+    {
+      "wave": 18,
+      "hp": 3,
+      "time": 622.2333333330961,
+      "x": 116.57983230093592,
+      "y": 460.4173790171638
+    },
+    {
+      "wave": 19,
+      "hp": 3,
+      "time": 668.483333333054,
+      "x": 128.48783298581586,
+      "y": 585.4297361611932
+    },
+    {
+      "wave": 20,
+      "hp": 2.5,
+      "time": 709.4499999996834,
+      "x": 225,
+      "y": 500
+    }
+  ],
+  "maxAlive": 12,
+  "bosses": [
+    "splitter",
+    "blower",
+    "core"
+  ],
+  "bossTimes": [
+    {
+      "wave": 5,
+      "seconds": 45.183333333330765
+    },
+    {
+      "wave": 10,
+      "seconds": 53.26666666661822
+    },
+    {
+      "wave": 15,
+      "seconds": 73.14999999993347
+    },
+    {
+      "wave": 20,
+      "seconds": 53.633333333284554
+    }
+  ],
+  "movingFrames": 13680,
+  "maxFocus": 0,
+  "maxZones": 4,
+  "maxEffects": 21,
+  "fans": 5,
+  "overlapFrames": 1715,
+  "threeFrames": 229,
+  "maxMajors": 2,
+  "mobility": [],
+  "tripleEngaged": 0,
+  "tripleMajors": 0,
+  "riftBursts": [],
+  "hostileCount": 0,
+  "shaftHazards": [],
+  "bossPatterns": [],
+  "bossWagons": [],
+  "energyBuild": {
+    "targets": 2,
+    "piercing": true,
+    "boost": 0,
+    "plates": 2,
+    "enemies": []
+  },
+  "wagonTargeting": [],
+  "loadedAppearances": [
+    "hero",
+    "rat",
+    "miner",
+    "drill",
+    "wagon",
+    "draisine",
+    "haveuse",
+    "crachefer",
+    "effondreur",
+    "stationmaster",
+    "locomotive",
+    "switchman",
+    "shotgun",
+    "grisoux",
+    "smg"
+  ],
+  "entitySprites": 2,
+  "status": "won",
+  "phase": "cleared",
+  "wave": 20,
+  "arenaUnchanged": true,
+  "elapsed": 765.93,
+  "talents": [],
+  "revived": false,
+  "heat": 0,
+  "perks": {
+    "plates": 2,
+    "conduit": 1,
+    "energy-overload": 1,
+    "rapid-coil": 1,
+    "double-cannon": 1
+  },
+  "hp": 2.5,
+  "kills": 278,
+  "choices": 6,
+  "drops": 0,
+  "collected": {
+    "coal": 118,
+    "iron": 11,
+    "diamond": 0,
+    "token": 0
+  },
+  "wallet": {
+    "coal": 328,
+    "iron": 28,
+    "diamond": 3,
+    "token": 1
+  },
+  "contracts": {
+    "daily": {
+      "key": "2026-10-08",
+      "rows": [
+        {
+          "id": "d-k120",
+          "value": 120,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-win",
+          "value": 1,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-grisoux",
+          "value": 1,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    },
+    "weekly": {
+      "key": "2026-10-05",
+      "rows": [
+        {
+          "id": "w-k500",
+          "value": 278,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "w-arms2",
+          "value": 1,
+          "claimed": false,
+          "weapons": [
+            "grisoux"
+          ]
+        },
+        {
+          "id": "w-iron",
+          "value": 11,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    }
+  },
+  "zone": "rift",
+  "progress": {
+    "riftUnlocked": true,
+    "riftCompleted": true,
+    "riftFirstVictoryClaimed": true,
+    "shaftUnlocked": true,
+    "shaftCompleted": true,
+    "shaftFirstVictoryClaimed": true,
+    "galleriesCompleted": true,
+    "tracksUnlocked": true,
+    "tracksCompleted": true,
+    "tracksFirstVictoryClaimed": true
+  },
+  "firstVictory": 1,
+  "crates": {
+    "count": 2,
+    "lastDaily": "2026-10-08"
+  },
+  "crateAward": {
+    "daily": 0,
+    "bonus": 0
+  },
+  "meanUpdateRenderMs": 4.685
+}

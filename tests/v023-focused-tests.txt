@@ -1,0 +1,34 @@
+✔ V023 reproduces old ghost invocation and permits two real boss Wagons with a strict cap (4.7874ms)
+✔ V023 live boss selects charge instead of empty summon when two Wagons exist (2.2944ms)
+✔ V023 live second invocation succeeds during first Wagon presence (1.6541ms)
+✔ V023 unavailable endpoint at release becomes a fresh fully warned charge (0.5452ms)
+✔ V023 summoned Wagons retire only after reaching edge; ordinary Wagons persist and rewards do not grow (0.7643ms)
+✔ V023 boss death cancels summons, reserved shots and hazards without posthumous damage (0.5297ms)
+✔ V023 circle 6 is evenly distributed, bounded, slow, fixed in flight and released atomically (1.8865ms)
+✔ V023 circle 8 is evenly distributed, bounded, slow, fixed in flight and released atomically (0.6687ms)
+✔ V023 reservation prevents competing warnings/volleys consuming a visible circle budget (0.6632ms)
+✔ V023 circles rotate on successive attacks, warn 1.5 seconds, and final never uses eight (0.5813ms)
+✔ V023 circles are preceded by actual warning and fire no earlier; fan/simple patterns remain (0.9536ms)
+✔ V023 horizontal rails warn, lock, damage only after activation and expire (0.6112ms)
+✔ V023 vertical rails warn, lock, damage only after activation and expire (0.2764ms)
+✔ V023 rails alternate; low HP cross occurs once per four rail attacks, never in final (0.2796ms)
+✔ V023 rail/cross geometry leaves broad safe areas even when aimed at room edges (1.1959ms)
+✔ V023 live rail damage respects invulnerability and a warning-time escape avoids both cross lines (2.7373ms)
+✔ V023 eight-shot circle has geometric gaps a player can occupy without damage (0.5127ms)
+✔ V023 preserves V022 weapons/perks/Plaques visuals, boss stats, normal enemies, economy and saves byte-for-byte (55.8192ms)
+✔ V023 simultaneous circle attempts grant one major reservation and keep the other boss on a small pattern (0.6337ms)
+✔ V023 an active circle prevents cross selection without delaying the ordinary rail warning (0.3059ms)
+✔ V023 live full galleries with shotgun remains winnable and strictly bounded (2112.5087ms)
+✔ V023 live full galleries with smg remains winnable and strictly bounded (2227.2966ms)
+✔ V023 live full galleries with grisoux remains winnable and strictly bounded (2160.9198ms)
+✔ V023 live full tracks with shotgun remains winnable and strictly bounded (2651.7283ms)
+✔ V023 live full tracks with smg remains winnable and strictly bounded (3080.5644ms)
+✔ V023 live full tracks with grisoux remains winnable and strictly bounded (2975.2815ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15432.0555

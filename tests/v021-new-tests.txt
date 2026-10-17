@@ -1,0 +1,25 @@
+✔ Grisou X is selectable, launches either unlocked zone and offers existing compatible perks/epics (2.6917ms)
+✔ shotgun and SMG definitions remain identical to V0.20 (0.2236ms)
+✔ Grisou X emits exactly three symmetric energy projectiles only while stopped (0.7016ms)
+✔ energy penetration deals exactly 100/75/55/40 percent and vanishes before a fifth target (0.5023ms)
+✔ a kill never consumes the remaining penetration and the next target is hit in the same frame (1.1998ms)
+✔ energy projectiles expire at range/borders, reuse the pool and never duplicate a hit (0.2497ms)
+✔ drill telegraphs then fires three symmetric directions aimed at the player at release (0.9232ms)
+✔ draisine telegraphs then fires three symmetric directions aimed at the player at release (0.4291ms)
+✔ fan allocation is atomic, capped at eight bolts, and prohibits simultaneous boss fans (0.3229ms)
+✔ slow fans can be dodged after release and overlapping hits respect player invulnerability (1.3214ms)
+✔ Crachefer alternates simple/fan shots; Aiguilleur preserves rails between simple and fan patterns (1.0582ms)
+✔ V0.21 keeps all unrequested production files and validated Rat/Wagon visuals byte-identical (41.26ms)
+✔ Grisou X art is lightweight local SVG and the three-card menu uses the existing selection mechanism (1.816ms)
+✔ live V0.21 full Zone 2 with shotgun has real fans, legal choices and unchanged reward budget (1958.0822ms)
+✔ live V0.21 full Zone 2 with smg has real fans, legal choices and unchanged reward budget (4228.2619ms)
+✔ live V0.21 full Zone 2 with grisoux has real fans, legal choices and unchanged reward budget (2832.4286ms)
+✔ live Grisou X completes all twenty Galeries waves with real enemy fans (2043.7799ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11245.0211

@@ -1,0 +1,62 @@
+[
+  {
+    "late": false,
+    "dual": 53.383333333331585,
+    "triple": 14.783333333333648,
+    "major": 2,
+    "bolts": 13,
+    "ground": 4,
+    "longestCalm": 0.15,
+    "darkSeconds": 8.366666666666662,
+    "forbiddenCombos": 0,
+    "distance": {
+      "lampmajor": 2709.2247736491945,
+      "dynamiter": 2079.4899833033737,
+      "blackmass": 2661.4589003829924
+    },
+    "patterns": {
+      "lampmajor:beam": 5,
+      "dynamiter:charges": 6,
+      "blackmass:rush": 6,
+      "lampmajor:fan": 5,
+      "dynamiter:chain": 5,
+      "lampmajor:blackout": 2,
+      "blackmass:slam": 4,
+      "lampmajor:light": 8,
+      "dynamiter:ring": 5,
+      "dynamiter:lob": 5,
+      "blackmass:cracks": 3,
+      "blackmass:blackout": 1
+    }
+  },
+  {
+    "late": true,
+    "dual": 57.01666666666471,
+    "triple": 19.183333333333525,
+    "major": 2,
+    "bolts": 11,
+    "ground": 4,
+    "longestCalm": 0,
+    "darkSeconds": 10.083333333333414,
+    "forbiddenCombos": 0,
+    "distance": {
+      "lampmajor": 2738.567449834573,
+      "dynamiter": 2354.4246414244376,
+      "blackmass": 2619.453635488511
+    },
+    "patterns": {
+      "lampmajor:beam": 6,
+      "dynamiter:charges": 6,
+      "blackmass:rush": 6,
+      "dynamiter:chain": 5,
+      "lampmajor:fan": 6,
+      "dynamiter:ring": 5,
+      "lampmajor:blackout": 1,
+      "dynamiter:lob": 5,
+      "lampmajor:light": 9,
+      "blackmass:slam": 4,
+      "blackmass:cracks": 4,
+      "blackmass:blackout": 3
+    }
+  }
+]

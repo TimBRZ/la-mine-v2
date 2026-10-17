@@ -1,0 +1,156 @@
+[
+  {
+    "file": "zone6-simulations.json",
+    "arms": [
+      {
+        "weaponId": "shotgun",
+        "rank": 2,
+        "victories": 2,
+        "attempts": 3,
+        "meanAttemptSeconds": 863.6166666662099,
+        "meanVictorySeconds": 883.8499999995248,
+        "meanDamage": 3.1666666666666665,
+        "meanHazards": 1.8582720049085146,
+        "bossesCompleted": {
+          "5": 40.0388888888879,
+          "10": 29.57777777777738,
+          "15": 48.06111111110966,
+          "20": 42.31666666666555
+        },
+        "noColdRoute": 0,
+        "minimumColdFraction": 0.41515151515151516,
+        "maximums": {
+          "bolts": 13,
+          "ground": 5,
+          "heat": 3,
+          "majors": 2
+        }
+      },
+      {
+        "weaponId": "smg",
+        "rank": 2,
+        "victories": 0,
+        "attempts": 3,
+        "meanAttemptSeconds": 486.05555555544214,
+        "meanVictorySeconds": null,
+        "meanDamage": 5.5,
+        "meanHazards": 1.751629210653819,
+        "bossesCompleted": {
+          "5": 36.87222222222141,
+          "10": 55.255555555553705,
+          "15": null,
+          "20": null
+        },
+        "noColdRoute": 0,
+        "minimumColdFraction": 0.36666666666666664,
+        "maximums": {
+          "bolts": 12,
+          "ground": 3,
+          "heat": 3,
+          "majors": 1
+        }
+      },
+      {
+        "weaponId": "grisoux",
+        "rank": 2,
+        "victories": 0,
+        "attempts": 3,
+        "meanAttemptSeconds": 647.7888888886283,
+        "meanVictorySeconds": null,
+        "meanDamage": 5.5,
+        "meanHazards": 1.6973922274893765,
+        "bossesCompleted": {
+          "5": 51.47777777777614,
+          "10": 48.71666666666518,
+          "15": 57.54166666666468,
+          "20": null
+        },
+        "noColdRoute": 0,
+        "minimumColdFraction": 0.4,
+        "maximums": {
+          "bolts": 12,
+          "ground": 4,
+          "heat": 3,
+          "majors": 1
+        }
+      }
+    ]
+  },
+  {
+    "file": "zone6-atelier5-simulations.json",
+    "arms": [
+      {
+        "weaponId": "shotgun",
+        "rank": 5,
+        "victories": 1,
+        "attempts": 1,
+        "meanAttemptSeconds": 706.2999999996863,
+        "meanVictorySeconds": 706.2999999996863,
+        "meanDamage": 0,
+        "meanHazards": 1.9043476117710751,
+        "bossesCompleted": {
+          "5": 34.299999999999336,
+          "10": 18.316666666666908,
+          "15": 28.849999999999643,
+          "20": 33.04999999999941
+        },
+        "noColdRoute": 0,
+        "minimumColdFraction": 0.38484848484848483,
+        "maximums": {
+          "bolts": 12,
+          "ground": 5,
+          "heat": 3,
+          "majors": 2
+        }
+      },
+      {
+        "weaponId": "smg",
+        "rank": 5,
+        "victories": 0,
+        "attempts": 1,
+        "meanAttemptSeconds": 751.7833333329783,
+        "meanVictorySeconds": null,
+        "meanDamage": 6.25,
+        "meanHazards": 1.935927402722443,
+        "bossesCompleted": {
+          "5": 29.816666666666254,
+          "10": 43.916666666665456,
+          "15": 33.63333333333271,
+          "20": null
+        },
+        "noColdRoute": 0,
+        "minimumColdFraction": 0.46060606060606063,
+        "maximums": {
+          "bolts": 12,
+          "ground": 4,
+          "heat": 3,
+          "majors": 1
+        }
+      },
+      {
+        "weaponId": "grisoux",
+        "rank": 5,
+        "victories": 1,
+        "attempts": 1,
+        "meanAttemptSeconds": 788.8166666662779,
+        "meanVictorySeconds": 788.8166666662779,
+        "meanDamage": 3.5,
+        "meanHazards": 1.7493124463708163,
+        "bossesCompleted": {
+          "5": 36.89999999999919,
+          "10": 37.44999999999916,
+          "15": 55.88333333333144,
+          "20": 35.24999999999928
+        },
+        "noColdRoute": 0,
+        "minimumColdFraction": 0.5818181818181818,
+        "maximums": {
+          "bolts": 13,
+          "ground": 5,
+          "heat": 3,
+          "majors": 2
+        }
+      }
+    ]
+  }
+]

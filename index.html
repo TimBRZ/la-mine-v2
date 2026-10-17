@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10191b">
+  <title>La Mine V2 · Trois armes · Prototype V0.33</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/menu/menu.css">
+  <link rel="stylesheet" href="./src/menu/workshop.css">
+  <link rel="stylesheet" href="./src/menu/kit.css">
+  <link rel="stylesheet" href="./src/menu/relief.css">
+  <link rel="stylesheet" href="./src/menu/contracts.css">
+  <link rel="stylesheet" href="./src/leaderboard/view.css">
+</head>
+<body>
+  <main class="shell" aria-label="La Mine V2, prototype jouable">
+    <div id="game" aria-label="Arène de jeu. Déplacement avec WASD, ZQSD, flèches ou joystick tactile."></div>
+    <header class="hud">
+      <div><span class="eyebrow">LA MINE V2 <i> / 0.33</i></span><strong>FUSIL À POMPE</strong></div>
+      <div class="health" role="meter" aria-label="Points de vie" aria-valuemin="0" aria-valuemax="5" aria-valuenow="5"><span>PV</span><div id="hearts"></div></div>
+    </header>
+    <div class="control-hint" id="control-hint">MAINTIENS + GLISSE POUR COURIR<br><span>RELÂCHE POUR TIRER · WASD / ZQSD / FLÈCHES</span></div>
+    <section id="overlay" class="overlay" aria-labelledby="screen-title">
+      <div class="panel">
+        <p class="eyebrow" id="screen-kicker">PROTOTYPE INDÉPENDANT · V0.33</p>
+        <div class="gun-mark" aria-hidden="true"><span></span><i></i><b></b></div>
+        <h1 id="screen-title">20 VAGUES.<br>UNE DESCENTE.</h1>
+        <p id="screen-copy">Choisis ton build. Enchaîne les vagues.<br>Les machines t’attendent tout en bas.</p>
+        <button id="play" type="button" disabled>CHARGEMENT…</button>
+        <p class="fine" id="screen-foot">Tir à l’arrêt · 6 choix du Contremaître · progression locale</p>
+      </div>
+    </section>
+    <p id="fatal" class="fatal" hidden role="alert"></p>
+  </main>
+  <script src="./vendor/phaser.min.js"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

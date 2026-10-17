@@ -1,0 +1,492 @@
+{
+  "shotgunEffects": {
+    "mode": "perks shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 22,
+    "shieldHits": 0,
+    "shots": 2,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 5,
+    "workMs": 6.299999952316284,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 0.07,
+    "heat": 0,
+    "perks": {
+      "buckshot": 1,
+      "double": 1,
+      "sawn": 1
+    },
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 1.26
+  },
+  "smgEffects": {
+    "mode": "perks smg",
+    "explosions": 0,
+    "maxHeat": 0.4,
+    "maxPellets": 1,
+    "shieldHits": 0,
+    "shots": 36,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 285,
+    "workMs": 118.19999933242798,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 4.06,
+    "heat": 0.4,
+    "perks": {
+      "magazine": 1,
+      "heat": 1,
+      "piercing": 1
+    },
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.415
+  },
+  "cooling": {
+    "mode": "perks smg",
+    "explosions": 0,
+    "maxHeat": 0.4,
+    "maxPellets": 1,
+    "shieldHits": 0,
+    "shots": 36,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 285,
+    "workMs": 118.19999933242798,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 4.1,
+    "heat": 0,
+    "perks": {
+      "magazine": 1,
+      "heat": 1,
+      "piercing": 1
+    },
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.415
+  },
+  "shotgunRun": {
+    "mode": "V0.12 shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 11,
+    "shieldHits": 0,
+    "shots": 101,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 18,
+    "room4Mixed": true,
+    "pickups": 52,
+    "maxDrops": 18,
+    "frames": 1180,
+    "workMs": 1158.7000005245209,
+    "magnetDurations": [
+      0.583,
+      0.633,
+      0.667,
+      0.65,
+      0.45
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared"
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 5,
+    "arenaUnchanged": true,
+    "elapsed": 78.63,
+    "heat": 0,
+    "perks": {
+      "trigger": 2,
+      "buckshot": 1
+    },
+    "hp": 2,
+    "kills": 50,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.982
+  },
+  "piercingRun": {
+    "mode": "V0.12 smg",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 4,
+    "shieldHits": 0,
+    "shots": 571,
+    "movingShots": 0,
+    "enemyShots": 11,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 18,
+    "room4Mixed": true,
+    "pickups": 52,
+    "maxDrops": 15,
+    "frames": 1902,
+    "workMs": 1769.0000035762787,
+    "magnetDurations": [
+      0.683,
+      0.683,
+      0.6,
+      0.7,
+      0.433
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared"
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 5,
+    "arenaUnchanged": true,
+    "elapsed": 126.78,
+    "heat": 0,
+    "perks": {
+      "piercing": 1,
+      "trigger": 1,
+      "magazine": 1
+    },
+    "hp": 4,
+    "kills": 50,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 188,
+      "iron": 16,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.93
+  },
+  "smgRun": {
+    "mode": "V0.12 smg",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 4,
+    "shieldHits": 0,
+    "shots": 665,
+    "movingShots": 0,
+    "enemyShots": 18,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 18,
+    "room4Mixed": true,
+    "pickups": 52,
+    "maxDrops": 14,
+    "frames": 2113,
+    "workMs": 1813.700002670288,
+    "magnetDurations": [
+      0.7,
+      0.817,
+      0.733,
+      0.767,
+      0.4
+    ],
+    "waveHistory": [
+      "1:combat",
+      "1:collecting",
+      "1:cleared",
+      "2:preparing",
+      "2:combat",
+      "2:collecting",
+      "2:cleared",
+      "3:preparing",
+      "3:combat",
+      "3:collecting",
+      "3:cleared",
+      "4:preparing",
+      "4:combat",
+      "4:collecting",
+      "4:cleared",
+      "5:preparing",
+      "5:combat",
+      "5:collecting",
+      "5:cleared"
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "wave": 5,
+    "arenaUnchanged": true,
+    "elapsed": 140.83,
+    "heat": 0,
+    "perks": {
+      "trigger": 2,
+      "boots": 1
+    },
+    "hp": 4,
+    "kills": 50,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 282,
+      "iron": 24,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.858
+  },
+  "grisou": {
+    "mode": "perks grisou",
+    "explosions": 1,
+    "maxHeat": 0,
+    "maxPellets": 7,
+    "shieldHits": 0,
+    "shots": 1,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 2,
+    "frames": 8,
+    "workMs": 6.599999904632568,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 0.11,
+    "heat": 0,
+    "perks": {
+      "grisou": 1
+    },
+    "hp": 5,
+    "kills": 2,
+    "choices": 0,
+    "drops": 2,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 282,
+      "iron": 24,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.825
+  },
+  "shield": {
+    "mode": "perks shield",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [],
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 0,
+    "heat": 0,
+    "perks": {
+      "plates": 1,
+      "boots": 1
+    },
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 282,
+      "iron": 24,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0
+  },
+  "console": [],
+  "productionConsole": []
+}

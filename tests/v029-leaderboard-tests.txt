@@ -1,0 +1,40 @@
+✔ V029 stable central zone ordering and page navigation (1.5ms)
+✔ V029 higher zone always beats lower zone and wave (0.4028ms)
+✔ V029 at equal zone higher wave wins regardless of time (0.1636ms)
+✔ V029 exact depth ties use arrival time, not total survival time (0.1316ms)
+✔ V029 ascending completion-time comparison and millisecond display (0.1743ms)
+✔ V029 performance validation bounds zone, wave, weapon, completion, dates and times (0.3742ms)
+✔ V029 loss records depth but cannot enter best times (0.3939ms)
+✔ V029 inferior record cannot replace depth, time or weekly best (0.3941ms)
+✔ V029 new zone advances depth while keeping earlier zone times (0.2653ms)
+✔ V029 faster completion updates only its zone best time (0.316ms)
+✔ V029 week begins Monday at local midnight across years and DST season (0.1664ms)
+✔ V029 new week clears only weekly record and preserves all-time and last run (0.2134ms)
+✔ V029 backward clock cannot restore an older week and late submissions do not fill current week (0.2015ms)
+✔ V029 fresh week accepts a new performance and uses its finishing week (0.113ms)
+✔ V029 data remains bounded after thousands of runs (79.1035ms)
+✔ V029 local store reload keeps records without touching legacy progression (0.5399ms)
+✔ V029 empty old save needs no migration and no demo users are persisted (0.6869ms)
+✔ V029 corrupt/unknown leaderboard saves are preserved rather than overwritten (0.2046ms)
+✔ V029 storage failures do not overwrite saved records and can be retried (0.3207ms)
+✔ V029 failed records retained in memory preserve the best run when a later run is worse (0.6555ms)
+✔ V029 service supports asynchronous stores and all three boards without storage access in UI (8.0979ms)
+✔ V029 perfect ties share a rank and local player remains identifiable (8.1251ms)
+✔ V029 adapter-supplied rows replace demo without changing the screen contract (0.2369ms)
+✔ V029 time boards filter by zone and local failed runs stay excluded (0.2849ms)
+✔ V029 name sanitization stays bounded and UI inserts it as text (1.7766ms)
+✔ V029 passive run observer measures wave arrival, weapon, timestamps and terminal state once (1.3026ms)
+✔ V029 a real run loss is accepted and a full victory is eligible for times (1.4904ms)
+✔ V029 debug gate does not access storage/DOM outside local opt-in (0.6355ms)
+✔ V029 debug performances, improved time, nickname and weekly reset preserve game data (0.8846ms)
+✔ V029 debug reset restores existing records byte-for-byte and repeated actions retain original backup (0.3968ms)
+✔ V029 no network implementation or account integration in leaderboard modules (3.1959ms)
+✔ V029 all gameplay, contracts, economy and profile bytes remain unchanged outside declared integration (48.2168ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 292.4462

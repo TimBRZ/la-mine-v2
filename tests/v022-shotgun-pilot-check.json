@@ -1,0 +1,162 @@
+[
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 0,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 3.5,
+    "seconds": 799.75,
+    "kills": 280,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1,
+      "trigger": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 183,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 43.22,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 47.48,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 65.65,
+        "hp": 3.5
+      },
+      {
+        "wave": 20,
+        "seconds": 59.73,
+        "hp": 3.5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 681.97,
+    "kills": 279,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1,
+      "trigger": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 161,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 40.93,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 39.23,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 57.37,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 51.87,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 6.25,
+    "seconds": 533.33,
+    "kills": 279,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1,
+      "trigger": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 115,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 31.63,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 30.73,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 34.05,
+        "hp": 6.25
+      },
+      {
+        "wave": 20,
+        "seconds": 35.38,
+        "hp": 6.25
+      }
+    ]
+  }
+]

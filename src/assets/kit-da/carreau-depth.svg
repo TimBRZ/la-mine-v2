@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270">
+<defs>
+ <linearGradient id="ground" x2=".4" y2="1"><stop stop-color="#4c5b5d"/><stop offset="1" stop-color="#142734"/></linearGradient>
+ <linearGradient id="steel" x2="1" y2=".4"><stop stop-color="#81949a"/><stop offset=".3" stop-color="#4b6370"/><stop offset="1" stop-color="#253f4e"/></linearGradient>
+ <linearGradient id="copper" x2=".2" y2="1"><stop stop-color="#d6a46a"/><stop offset=".45" stop-color="#98683e"/><stop offset="1" stop-color="#483c30"/></linearGradient>
+ <linearGradient id="light" x2="0" y2="1"><stop stop-color="#ffd274" stop-opacity=".32"/><stop offset="1" stop-color="#ffd274" stop-opacity="0"/></linearGradient>
+</defs>
+<!-- Distant slag heaps and brick engine house. Low contrast preserves the hero. -->
+<path d="M0 120 44 73l47 47 55-35 59 36 65-55 90 66v108H0Z" fill="#243d49"/>
+<path d="M0 153V98l38-18 33 18v56Z" fill="#304751"/>
+<path d="M7 97V52h9v41m37 10V65h10v43" fill="#344a54"/>
+<path d="M8 114h19v25H8m31-29h20v28H39" fill="#172c37"/>
+<path d="M8 123h19m21-13v28" stroke="#52626a" stroke-width="2"/>
+<path d="M0 185 103 152l161 2 96 43v73H0Z" fill="url(#ground)"/>
+<path d="m10 203 97-31 145 1 96 41-77 48H84Z" fill="#455453" opacity=".35"/>
+<!-- Riveted headframe: distinct front and receding side, suspended cage. -->
+<path d="m46 192 24-156 55-7 20 155-20 6-12-131-26 3-21 139Z" fill="#1a303d"/>
+<g fill="none" stroke-linejoin="round">
+ <path d="m38 192 27-159h50l21 154M58 75h64M50 125h79M65 34l59 91M58 75l70 111M50 125l62-49M39 189l86-62" stroke="#496372" stroke-width="7"/>
+ <path d="m38 191 27-157h50M50 123h78M58 73h61" stroke="#91a0a1" stroke-width="2"/>
+ <path d="m115 34 18-9 23 150-20 12m-13-112 15-8m-10 57 17-8" stroke="#324c5b" stroke-width="7"/>
+ <circle cx="90" cy="24" r="22" stroke="#627985" stroke-width="6"/>
+ <circle cx="90" cy="24" r="16" stroke="#263e4b" stroke-width="2"/>
+ <path d="M90 4v40M70 24h40M76 10l28 28M76 38l28-28" stroke="#72878d" stroke-width="2"/>
+ <path d="M90 46v48m8-48v48" stroke="#b2b3a3" stroke-width="1.5"/>
+</g>
+<path d="m66 104 39-5 9 12v52l-39 8-9-10Z" fill="#182e3a" stroke="#59727b" stroke-width="3"/>
+<path d="m66 104 39-5 9 12-39 6Z" fill="#718588"/>
+<path d="M75 118v45m10-47v45m10-47v45m10-47v45" stroke="#69828a" stroke-width="3"/>
+<path d="m75 165 39-8v8l-39 8Z" fill="#c89b47"/>
+<path d="m80 164 5 6m6-8 5 6m6-8 5 6" stroke="#3e453c" stroke-width="4"/>
+<g fill="#adbbb8"><circle cx="60" cy="74" r="2"/><circle cx="51" cy="123" r="2"/><circle cx="116" cy="75" r="2"/><circle cx="126" cy="124" r="2"/></g>
+<!-- The mine entrance faces the approach rails; a warm lamp reveals the landing. -->
+<path d="m224 79 79 14 24 27v70l-103-18Z" fill="#182e3a"/>
+<path d="m226 80 64-5 42 31-30 8Z" fill="#526469"/>
+<path d="m303 94 29 12v81l-22 9Z" fill="#263f4b"/>
+<path d="M226 166V90l73 13 10 77" fill="none" stroke="#3f342d" stroke-width="18"/>
+<path d="M224 165V88l76 14 10 77" fill="none" stroke="url(#copper)" stroke-width="11"/>
+<path d="m226 86 75 14" stroke="#e1b980" stroke-width="2"/>
+<path d="m238 111 49 8 7 50-56-7Z" fill="#0c1f2a"/>
+<path d="m241 122 47 8m-47 6 49 8m-48 6 50 8" stroke="#32454f" stroke-width="3"/>
+<path d="m261 103 1 14" stroke="#141e25" stroke-width="3"/>
+<path d="m255 115 15 2 4 9-23-2Z" fill="#667472"/>
+<path d="m257 124 11 1-2 7-7-1Z" fill="#ffe4a0"/>
+<path d="m259 130-63 73 141 17-70-88Z" fill="url(#light)"/>
+<!-- Sleepers, inset shadows and rails converge at the mine entrance. -->
+<g fill="none" stroke-linecap="square">
+ <path d="m244 165-109 105m52-22 159 9m-136-26 119 8m-98-26 79 10m-61-28 43 9" stroke="#263338" stroke-width="9"/>
+ <path d="m249 164-113 106m144-98 62 98" stroke="#101e28" stroke-width="8"/>
+ <path d="m249 163-113 106m144-98 62 98" stroke="#8a9799" stroke-width="3"/>
+</g>
+<!-- Foreground wagon, supported on its wheels, and a simple pipe run. -->
+<ellipse cx="44" cy="235" rx="38" ry="9" fill="#101f29" opacity=".7"/>
+<path d="m6 198 51-12 27 16-13 28-53 4Z" fill="#26323a" stroke="#152530" stroke-width="3"/>
+<path d="m7 196 48-11 17 11-49 13Z" fill="#b18755"/>
+<path d="m7 198 16 11 49-13-7 28-48 10Z" fill="url(#copper)"/>
+<path d="m22 203 8-17 14-5 14 14 9 1" fill="#203342"/>
+<path d="m30 186 14-5 14 14-15-4Z" fill="#617785"/>
+<path d="m22 211 40-10m-30 12 1 13m18-17-1 12" stroke="#c39760" stroke-width="2"/>
+<g fill="#122631" stroke="#63757a" stroke-width="3"><circle cx="26" cy="235" r="7"/><circle cx="61" cy="228" r="7"/></g>
+<path d="M347 70v98q0 18-14 18h-13" fill="none" stroke="#182d38" stroke-width="12"/>
+<path d="M344 70v98q0 14-12 14h-13" fill="none" stroke="#65787b" stroke-width="5"/>
+<path d="M338 89h12m-12 52h12" stroke="#bc8e50" stroke-width="4"/>
+<path d="m96 229 10-5 8 5-10 4m220 12 10-3 7 7-13 1" fill="#687574" opacity=".5"/>
+</svg>

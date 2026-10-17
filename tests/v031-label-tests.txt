@@ -1,0 +1,31 @@
+✔ V0.20 preserves every V0.19 module outside the two entity renderers the version label and authorized wagon targeting (40.2564ms)
+✔ the catalogue covers exactly the hero, both weapons, five enemies and six bosses (0.9141ms)
+✔ all entity assets are distinct local SVGs with bounded download and decoded texture budgets (7.3918ms)
+✔ preloading rasterizes each local asset once at a small fixed size (0.4674ms)
+✔ a failed asset keeps the existing fallback intact and loaded assets use catalogue anchors (0.2433ms)
+✔ human silhouettes stay upright and mechanical aiming follows the exact gameplay angle (0.5127ms)
+✔ movement, idle and hit poses stay below one pixel of displacement and never mutate combat or consume its RNG (13.5236ms)
+✔ reduced motion removes bob, squash, hit and spawn scale but preserves aiming (0.5276ms)
+✔ movement settles smoothly, long frames are bounded and each run can reset animation state (0.4367ms)
+✔ boss arrival grows only its sprite from a bounded scale without altering warmup or position (0.2703ms)
+✔ animation applies only image transforms and leaves sprite creation to the existing pool lifecycle (0.3114ms)
+✔ menu unlock comes from a saved full galleries win, preserving selected weapon and launch latch (2.5841ms)
+✔ menu options launch complete tracks content and existing meta stats: shotgun (1.3309ms)
+✔ menu options launch complete tracks content and existing meta stats: smg (0.4536ms)
+✔ completion, unique diamond and normal gains commit together and survive stale wallets and reload (0.7227ms)
+✔ old completed tracks saves migrate without a second first-win diamond (0.171ms)
+✔ defeat and incomplete victory cannot unlock or claim the unique award (0.8716ms)
+✔ one daily crate shared across zones: galleries then tracks (0.3549ms)
+✔ one daily crate shared across zones: tracks then galleries (0.1862ms)
+✔ legacy meta survives zone progression, Atelier, talents, Relève and crate actions (1.7756ms)
+✔ unavailable storage keeps completion and gains together in memory without a repeat award (0.2539ms)
+✔ validated step 4 rules remain byte-identical outside authorized wagon targeting (9.9756ms)
+✔ package, server, document and visible UI identify current V0.31 consistently (6.302ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 203.6084

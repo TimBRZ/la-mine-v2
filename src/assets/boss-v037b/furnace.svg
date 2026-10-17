@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="450" viewBox="0 0 450 450" role="img" aria-labelledby="title desc">
+<title id="title">Maître de Four — variante A rouge forge, master statique</title>
+<desc id="desc">Boss humanoïde massif en trois quarts face, petite tête sombre à deux yeux orange, énormes épaules rouges, torse-four à trois ouvertures incandescentes, cheminée haute, poing lourd et module industriel porté à droite de l'image. Appuis écartés. Aplats sans halo ni VFX.</desc>
+<g transform="translate(-18 0) scale(1.08 1)" stroke="#101719" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+ <g id="structure-dorsale">
+  <path d="M111 122L110 92Q124 73 145 91L161 119L184 101L269 99L305 112L316 143L285 221H137Z" fill="#393D3D"/>
+  <path d="M284 99L302 104L308 130H289Z" fill="#74736E" stroke-width="6"/>
+ </g>
+ <g id="cheminee">
+  <path d="M157 51L185 50L189 108L157 117Z" fill="#D64428" stroke-width="7"/>
+  <path d="M165 59H178L180 100H164Z" fill="#FFAD32" stroke="none"/>
+  <path d="M169 63H175V93H168Z" fill="#FFE395" stroke="none"/>
+  <path d="M148 34Q168 25 193 34L196 53L146 57Z" fill="#514E49"/>
+  <path d="M155 37Q173 33 185 37L187 43H153Z" fill="#74736E" stroke="none"/>
+ </g>
+ <g id="jambe-lointaine">
+  <path d="M257 305L298 304L323 325L316 355L293 373L262 354L248 333Z" fill="#D64428"/>
+  <path d="M272 311L295 313L308 326L299 337L278 330Z" fill="#F16B3A" stroke="none"/>
+  <path d="M274 342L312 342L324 363L310 386L270 379L260 360Z" fill="#393D3D"/>
+  <path d="M287 350L311 351L316 360L309 371H282Z" fill="#514E49" stroke="none"/>
+  <path d="M277 372L311 375L327 405H262L258 391Z" fill="#393D3D"/>
+  <path d="M281 384Q313 376 336 401L341 423H256L258 408Z" fill="#8A4E31"/>
+  <path d="M287 389Q311 387 327 405H276Z" fill="#A96038" stroke="none"/>
+  <path d="M261 415H338V424H257Z" fill="#8A4E31" stroke-width="5"/>
+ </g>
+ <g id="jambe-proche">
+  <path d="M145 305L199 307L207 335L182 363L142 360L126 341Z" fill="#D64428"/>
+  <path d="M147 312L179 317L181 332L143 340L136 333Z" fill="#F16B3A" stroke="none"/>
+  <path d="M139 346L181 351L191 368L174 391L130 385L121 367Z" fill="#393D3D"/>
+  <path d="M140 356L171 360L175 370L163 380L133 375Z" fill="#514E49" stroke="none"/>
+  <path d="M134 378L170 383L171 406H113L116 391Z" fill="#393D3D"/>
+  <path d="M120 388Q147 378 166 398L174 424H82L84 410Q97 392 120 388Z" fill="#8A4E31"/>
+  <path d="M114 395Q137 388 155 403L159 410H96Z" fill="#A96038" stroke="none"/>
+  <path d="M85 415H169L174 424H82Z" fill="#8A4E31" stroke-width="5"/>
+ </g>
+ <g id="bassin">
+  <path d="M164 278L273 280L289 316L267 344L213 355L165 335L148 310Z" fill="#393D3D"/>
+  <path d="M193 297L250 301L255 328L227 342L202 333Z" fill="#514E49" stroke="none"/>
+ </g>
+ <g id="torse">
+  <path d="M155 116L193 109L275 114L311 139L311 233L286 293L205 309L153 287L128 239L130 151Z" fill="#393D3D"/>
+  <path d="M164 125L195 119L273 124L292 143L284 166L183 164L144 185L142 148Z" fill="#514E49" stroke="none"/>
+  <path d="M153 120L174 125L183 168L180 269L157 288L145 271L155 225L158 164Z" fill="#8A4E31" stroke-width="7"/>
+  <path d="M274 122L291 130L302 168L296 263L278 286L263 277L278 237L281 168Z" fill="#8A4E31" stroke-width="7"/>
+  <path d="M155 173L179 177L181 202L153 201Z M277 185L299 182L299 207L275 211Z" fill="#A96038" stroke-width="6"/>
+  <path d="M160 181H172V194H160Z M282 190H293V202H282Z" fill="#74736E" stroke-width="4"/>
+ </g>
+ <g id="epaule-lointaine">
+  <path d="M293 123Q321 110 344 134L362 173L344 190L316 183L296 163Z" fill="#D64428"/>
+  <path d="M309 128Q330 124 341 143L345 155L331 151L323 135Z" fill="#F16B3A" stroke="none"/>
+  <path d="M314 178L342 184L360 173L355 190L335 199L314 190Z" fill="#514E49" stroke-width="6"/>
+ </g>
+ <g id="bras-lointain">
+  <path d="M324 195L351 192L369 218L361 246L333 252L314 231Z" fill="#393D3D"/>
+  <path d="M331 204L350 201L359 216L352 228L331 230Z" fill="#514E49" stroke="none"/>
+  <path d="M328 240L364 232L380 255L368 282L340 283L322 265Z" fill="#D64428"/>
+  <path d="M348 269L371 263L387 282L378 303L351 303L336 287Z" fill="#393D3D" stroke-width="7"/>
+ </g>
+ <g id="tete">
+  <path d="M202 108L267 104L282 121L280 147L267 162L230 166L202 151L194 129Z" fill="#101719"/>
+  <path d="M204 144L231 154L266 151L282 142L279 157L263 171L230 172L202 159Z" fill="#514E49" stroke-width="6"/>
+  <path d="M196 108L199 88Q205 64 221 66L232 61L255 67Q273 72 278 105L285 117L257 119L213 115Z" fill="#393D3D"/>
+  <path d="M205 99L211 78L223 75L227 97L219 108Z" fill="#514E49" stroke="none"/>
+  <path d="M232 62L246 69L260 66L266 104L243 106L239 88Z" fill="#D64428" stroke-width="6"/>
+  <path d="M238 69L247 76L256 75L259 85L246 83Z" fill="#F16B3A" stroke="none"/>
+  <path d="M195 103L208 107L209 131L195 138L187 128V113Z" fill="#D64428" stroke-width="6"/>
+  <ellipse cx="236" cy="132" rx="8" ry="10" fill="#FFAD32" stroke="none"/>
+  <ellipse cx="263" cy="135" rx="6" ry="9" fill="#FFAD32" stroke="none"/>
+ </g>
+ <g id="torse-four">
+  <path d="M197 170L254 171L273 186L272 253L256 273L198 272L182 257L181 190Z" fill="#514E49"/>
+  <path d="M196 176L253 177L264 187H198L188 197V189Z" fill="#74736E" stroke="none"/>
+  <path d="M201 189H250L260 199V247L250 259H202L193 249V202Z" fill="#101719" stroke-width="6"/>
+  <path d="M201 201Q206 191 213 201V245Q207 255 201 246Z M221 201Q227 192 233 201V247Q227 256 221 247Z M241 203Q247 194 252 204V246Q247 254 241 247Z" fill="#FFAD32" stroke="none"/>
+  <path d="M205 204H209V244H205Z M225 204H229V246H225Z M245 206H249V244H245Z" fill="#FFE395" stroke="none"/>
+ </g>
+ <g id="ceinture">
+  <path d="M153 277L202 281L280 277L293 289L282 303L204 309L148 296Z" fill="#8A4E31" stroke-width="7"/>
+  <path d="M198 279L251 281L255 304L200 306Z" fill="#A96038" stroke-width="6"/>
+  <path d="M158 295L179 299L175 343L153 343Z M270 303L284 298L292 338L274 342Z" fill="#8A4E31" stroke-width="6"/>
+ </g>
+ <g id="bras-proche">
+  <path d="M74 159L129 162L148 207L128 247L84 240L61 211Z" fill="#393D3D"/>
+  <path d="M79 172L112 178L125 205L114 219L79 208L70 194Z" fill="#8A4E31" stroke="none"/>
+  <path d="M65 223Q91 209 120 230L136 264L115 299L78 311L48 282L44 253Z" fill="#D64428"/>
+  <path d="M59 242Q74 226 92 232L101 242L75 241L61 253Z" fill="#F16B3A" stroke="none"/>
+  <path d="M55 283Q73 264 113 263L130 276L113 306L83 317L61 306Z" fill="#393D3D" stroke-width="7"/>
+  <path d="M69 285L100 275L112 280L95 289L76 305L68 301Z" fill="#514E49" stroke="none"/>
+ </g>
+ <g id="epaule-proche">
+  <path d="M48 150Q72 108 113 105Q143 107 151 138L145 175L124 192L91 184L62 175L42 169Z" fill="#D64428"/>
+  <path d="M64 144Q83 117 111 117L120 126L106 130L87 127L73 145Z" fill="#F16B3A" stroke="none"/>
+  <path d="M43 160Q69 152 92 166L127 180L147 165L145 181L127 197L90 183L63 175L42 176Z" fill="#514E49" stroke-width="6"/>
+ </g>
+ <g id="poing-proche">
+  <path d="M86 302L120 287L139 298L147 326L133 350L111 365L90 362L68 343L67 322Z" fill="#393D3D"/>
+  <path d="M78 320L109 307L123 304L131 315L111 322L96 336L78 337Z" fill="#514E49" stroke="none"/>
+  <path d="M77 319L102 311L114 298L122 286L132 290L129 309L111 321L81 329Z" fill="#D64428" stroke-width="5"/>
+  <path d="M109 345L115 352M128 333L135 339" fill="none" stroke-width="5"/>
+ </g>
+ <g id="module-bras" transform="rotate(-17 369 321)">
+  <path d="M341 260V244L381 243L391 259L387 274H345Z" fill="#514E49" stroke-width="7"/>
+  <path d="M344 250H376L382 259H345Z" fill="#74736E" stroke="none"/>
+  <path d="M334 269L392 267L404 283V366L392 388L341 391L326 373V287Z" fill="#393D3D"/>
+  <path d="M334 267L390 266L404 279V295L329 297L325 284Z" fill="#74736E" stroke-width="7"/>
+  <path d="M340 306H351V357H340Z M362 305H373V358H362Z M384 304H395V356H384Z" fill="#F16B3A" stroke-width="4"/>
+  <path d="M344 311H348V352H344Z M366 310H370V353H366Z M388 309H392V351H388Z" fill="#FFAD32" stroke="none"/>
+  <path d="M328 368L403 364L401 381L386 393L343 395L327 382Z" fill="#74736E" stroke-width="7"/>
+ </g>
+</g></svg>

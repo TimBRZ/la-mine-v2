@@ -1,0 +1,170 @@
+[
+  {
+    "weaponId": "shotgun",
+    "zoneId": "shaft59",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 609.2,
+    "kills": 284,
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 21,
+    "circles": 4,
+    "maxZones": 3,
+    "groundWarnings": 42,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 19.27,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 29.33,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 31.72,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 34.45,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "shaft59",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 4.5,
+    "seconds": 770.93,
+    "kills": 284,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 23,
+    "circles": 3,
+    "maxZones": 3,
+    "groundWarnings": 56,
+    "maxSummons": 0,
+    "maxEntities": 11,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 32.17,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 31.27,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 34.63,
+        "hp": 4.5
+      },
+      {
+        "wave": 20,
+        "seconds": 46.88,
+        "hp": 4.5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "shaft59",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 737.07,
+    "kills": 284,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 14,
+    "circles": 4,
+    "maxZones": 3,
+    "groundWarnings": 48,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 35.23,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 46.65,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 53.92,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 40.63,
+        "hp": 5.5
+      }
+    ]
+  }
+]

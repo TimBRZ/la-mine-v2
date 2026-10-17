@@ -1,0 +1,928 @@
+[
+  {
+    "weaponId": "shotgun",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 0,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 3.5,
+    "seconds": 982.03,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 87,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 27.73,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 39.72,
+        "hp": 4.5
+      },
+      {
+        "wave": 15,
+        "seconds": 45.2,
+        "hp": 4
+      },
+      {
+        "wave": 20,
+        "seconds": 43.87,
+        "hp": 3.5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 0,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 2.5,
+    "seconds": 634.47,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 118,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 48.73,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 38.32,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 46.85,
+        "hp": 2.5
+      },
+      {
+        "wave": 20,
+        "seconds": 83.37,
+        "hp": 2.5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 0,
+    "talents": [],
+    "status": "lost",
+    "wave": 17,
+    "hp": 0,
+    "seconds": 528.6,
+    "kills": 172,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1
+    },
+    "choices": 4,
+    "rewards": {
+      "coal": 64,
+      "iron": 3,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 73,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 39.42,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 50.63,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 62.05,
+        "hp": 0.5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 0,
+    "talents": [],
+    "status": "lost",
+    "wave": 15,
+    "hp": 0,
+    "seconds": 519.58,
+    "kills": 178,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1
+    },
+    "choices": 4,
+    "rewards": {
+      "coal": 60,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 107,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 43.22,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 51.7,
+        "hp": 5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 0,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 4.5,
+    "seconds": 907.73,
+    "kills": 277,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 237,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 54.52,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 51.63,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 57.2,
+        "hp": 4.5
+      },
+      {
+        "wave": 20,
+        "seconds": 107.6,
+        "hp": 4.5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 0,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5,
+    "seconds": 823.6,
+    "kills": 277,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 189,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 48.47,
+        "hp": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 62.12,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 74.78,
+        "hp": 5
+      },
+      {
+        "wave": 20,
+        "seconds": 70.45,
+        "hp": 5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5,
+    "seconds": 475,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 83,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 27.97,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 32.53,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 38.62,
+        "hp": 5
+      },
+      {
+        "wave": 20,
+        "seconds": 33.45,
+        "hp": 5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 474.97,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 94,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 40,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 30.87,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 36.62,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 63.38,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 1.5,
+    "seconds": 482,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 75,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 32.5,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 42.07,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 48.95,
+        "hp": 3.5
+      },
+      {
+        "wave": 20,
+        "seconds": 41.45,
+        "hp": 1.5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 2,
+    "talents": [],
+    "status": "lost",
+    "wave": 15,
+    "hp": 0,
+    "seconds": 468.97,
+    "kills": 178,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1
+    },
+    "choices": 4,
+    "rewards": {
+      "coal": 60,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 107,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 40.93,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 43.1,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 4,
+    "seconds": 713.45,
+    "kills": 277,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 152,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 43.05,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 39.47,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 45.52,
+        "hp": 4
+      },
+      {
+        "wave": 20,
+        "seconds": 83.35,
+        "hp": 4
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 702.48,
+    "kills": 277,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 156,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 38.23,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 50.97,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 60.92,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 55.8,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.75,
+    "seconds": 324.38,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "trigger": 2,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 44,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 16.98,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 23.63,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 24,
+        "hp": 6.25
+      },
+      {
+        "wave": 20,
+        "seconds": 22.93,
+        "hp": 5.75
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 6.25,
+    "seconds": 321.67,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 2,
+      "critical-heat": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 43,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 22.32,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 24.73,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 24.15,
+        "hp": 6.25
+      },
+      {
+        "wave": 20,
+        "seconds": 40.63,
+        "hp": 6.25
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 6.25,
+    "seconds": 355.13,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "energy-arc": 1,
+      "double-cannon": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 41,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 25.4,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 32.6,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 29.73,
+        "hp": 6.25
+      },
+      {
+        "wave": 20,
+        "seconds": 32.88,
+        "hp": 6.25
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 2.875,
+    "seconds": 531.43,
+    "kills": 280,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1,
+      "trigger": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 117,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 31.63,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 34.42,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 38.27,
+        "hp": 3.25
+      },
+      {
+        "wave": 20,
+        "seconds": 39.27,
+        "hp": 2.875
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 6.25,
+    "seconds": 512.33,
+    "kills": 277,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 2,
+      "critical-heat": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 110,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 29.95,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 29.4,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 30.88,
+        "hp": 6.25
+      },
+      {
+        "wave": 20,
+        "seconds": 61.37,
+        "hp": 6.25
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 5,
+    "talents": [
+      "good-start",
+      "first-aid",
+      "cold-blood",
+      "last-breath",
+      "lucky-hand"
+    ],
+    "status": "won",
+    "wave": 20,
+    "hp": 6.25,
+    "seconds": 528.27,
+    "kills": 277,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "energy-arc": 1,
+      "double-cannon": 1
+    },
+    "choices": 7,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 104,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 31.25,
+        "hp": 6.25
+      },
+      {
+        "wave": 10,
+        "seconds": 37.68,
+        "hp": 6.25
+      },
+      {
+        "wave": 15,
+        "seconds": 38.38,
+        "hp": 6.25
+      },
+      {
+        "wave": 20,
+        "seconds": 44.5,
+        "hp": 6.25
+      }
+    ]
+  }
+]

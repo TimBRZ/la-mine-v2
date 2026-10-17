@@ -1,0 +1,7 @@
+{
+  "mode": "Built-in image_gen (no CLI/API)",
+  "generation": "Create a FULL BODY CUTOUT game sprite on genuinely transparent alpha background, no backdrop or colored glow. Original cartoon coal miner: compact stocky proportions THREE HEADS TALL, oversized expressive head and large boots, simple smooth sculpted surfaces, stylized 2.5D mobile game asset. Yellow hard hat with lamp, short brown beard, friendly confident smile, navy blue overalls, copper belt, steel buckles. One hand touching helmet in salute, other on hip, BOTH HANDS EMPTY. Full boots visible. Strong asymmetric stance. Clean broad shapes with soft bevel shading and crisp light edges. No skin pores, no realistic cloth texture, no photographic rendering, no dark background, no floor, no halo. Only one isolated figure, warm yellow and cool blue industrial palette. Transparent pixels everywhere outside figure.",
+  "extraction": "Background extraction edit. Preserve this exact cartoon miner, pose, proportions, clothes, colors and complete boots unchanged. Remove ALL background, all brown blue halos and ALL glow beyond figure. Genuinely transparent alpha background. Edges clean. Do not replace backdrop with black or color. Return isolated original figure with transparent pixels outside. No other changes.",
+  "source": "exec-affbfa1b-3970-404a-b178-54a999841fe9.png",
+  "deployment": "miner.webp — 400 × 600, alpha preserved; WebP quality 82, alpha quality 90; sharp encoding only"
+}

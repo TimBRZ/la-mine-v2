@@ -1,0 +1,1071 @@
+{
+  "note": "Boss slots skipped without healing, rewards or victory. Scripted pilot, no physical phone. Entrants +18.34%, not a measured human difficulty percentage.",
+  "rows": [
+    {
+      "galleries": false,
+      "rank": 0,
+      "seed": 1,
+      "weaponId": "shotgun",
+      "done": false,
+      "status": "lost",
+      "wave": 16,
+      "hp": 0,
+      "kills": 189,
+      "seconds": 332.3833333333597,
+      "damage": 5,
+      "movementFraction": 0.6823948252519682,
+      "enemyShots": 172,
+      "maxAlive": 10,
+      "maxBolts": 6,
+      "maxDrops": 5,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 43,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5,
+          "seconds": 11.500000000000151,
+          "kills": 7
+        },
+        {
+          "wave": 2,
+          "hp": 5,
+          "seconds": 11.949999999999797,
+          "kills": 9
+        },
+        {
+          "wave": 3,
+          "hp": 5,
+          "seconds": 20.899999999998816,
+          "kills": 11
+        },
+        {
+          "wave": 4,
+          "hp": 4,
+          "seconds": 20.483333333332176,
+          "kills": 12
+        },
+        {
+          "wave": 6,
+          "hp": 4,
+          "seconds": 25.399999999998556,
+          "kills": 12
+        },
+        {
+          "wave": 7,
+          "hp": 3.5,
+          "seconds": 25.633333333331876,
+          "kills": 14
+        },
+        {
+          "wave": 8,
+          "hp": 3.5,
+          "seconds": 25.133333333343046,
+          "kills": 15
+        },
+        {
+          "wave": 9,
+          "hp": 3.5,
+          "seconds": 28.75000000002288,
+          "kills": 17
+        },
+        {
+          "wave": 11,
+          "hp": 3.5,
+          "seconds": 33.9666666666937,
+          "kills": 17
+        },
+        {
+          "wave": 12,
+          "hp": 3,
+          "seconds": 30.066666666690594,
+          "kills": 19
+        },
+        {
+          "wave": 13,
+          "hp": 1.5,
+          "seconds": 35.25000000000557,
+          "kills": 20
+        },
+        {
+          "wave": 14,
+          "hp": 1,
+          "seconds": 37.24999999996612,
+          "kills": 21
+        }
+      ],
+      "rewards": {
+        "coal": 45,
+        "iron": 0,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.009371729428872605,
+      "p95Ms": 0.022699999999986176
+    },
+    {
+      "galleries": false,
+      "rank": 2,
+      "seed": 1,
+      "weaponId": "shotgun",
+      "done": true,
+      "status": "playing",
+      "wave": 19,
+      "hp": 1,
+      "kills": 271,
+      "seconds": 421.1999999999456,
+      "damage": 4.5,
+      "movementFraction": 0.6502849002849003,
+      "enemyShots": 206,
+      "maxAlive": 12,
+      "maxBolts": 7,
+      "maxDrops": 6,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 62.583333333333336,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        },
+        {
+          "wave": 18,
+          "epic": false
+        },
+        {
+          "wave": 19,
+          "epic": true
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5.5,
+          "seconds": 10.350000000000094,
+          "kills": 7
+        },
+        {
+          "wave": 2,
+          "hp": 5.5,
+          "seconds": 12.116666666666577,
+          "kills": 9
+        },
+        {
+          "wave": 3,
+          "hp": 5.5,
+          "seconds": 17.783333333332326,
+          "kills": 11
+        },
+        {
+          "wave": 4,
+          "hp": 5.5,
+          "seconds": 24.066666666665306,
+          "kills": 12
+        },
+        {
+          "wave": 6,
+          "hp": 5.5,
+          "seconds": 20.899999999998812,
+          "kills": 12
+        },
+        {
+          "wave": 7,
+          "hp": 5,
+          "seconds": 19.399999999998897,
+          "kills": 14
+        },
+        {
+          "wave": 8,
+          "hp": 5,
+          "seconds": 19.516666666665557,
+          "kills": 15
+        },
+        {
+          "wave": 9,
+          "hp": 5,
+          "seconds": 28.150000000019176,
+          "kills": 17
+        },
+        {
+          "wave": 11,
+          "hp": 4,
+          "seconds": 29.966666666690514,
+          "kills": 17
+        },
+        {
+          "wave": 12,
+          "hp": 3,
+          "seconds": 32.266666666692345,
+          "kills": 19
+        },
+        {
+          "wave": 13,
+          "hp": 3,
+          "seconds": 31.500000000025068,
+          "kills": 20
+        },
+        {
+          "wave": 14,
+          "hp": 2.5,
+          "seconds": 32.78333333332026,
+          "kills": 21
+        },
+        {
+          "wave": 16,
+          "hp": 2.5,
+          "seconds": 31.38333333330479,
+          "kills": 21
+        },
+        {
+          "wave": 17,
+          "hp": 1,
+          "seconds": 36.616666666633364,
+          "kills": 24
+        },
+        {
+          "wave": 18,
+          "hp": 1,
+          "seconds": 37.74999999996567,
+          "kills": 26
+        },
+        {
+          "wave": 19,
+          "hp": 1,
+          "seconds": 36.44999999996685,
+          "kills": 26
+        }
+      ],
+      "rewards": {
+        "coal": 73,
+        "iron": 3,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.007292121715732986,
+      "p95Ms": 0.017800000000079308
+    },
+    {
+      "galleries": true,
+      "rank": 0,
+      "seed": 1,
+      "weaponId": "shotgun",
+      "done": false,
+      "status": "lost",
+      "wave": 16,
+      "hp": 0,
+      "kills": 154,
+      "seconds": 167.76666666669232,
+      "damage": 5,
+      "movementFraction": 0.6285515597059408,
+      "enemyShots": 42,
+      "maxAlive": 10,
+      "maxBolts": 3,
+      "maxDrops": 6,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 3.05,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5,
+          "seconds": 6.06666666666665,
+          "kills": 6
+        },
+        {
+          "wave": 2,
+          "hp": 5,
+          "seconds": 8.766666666667,
+          "kills": 8
+        },
+        {
+          "wave": 3,
+          "hp": 5,
+          "seconds": 9.816666666666228,
+          "kills": 9
+        },
+        {
+          "wave": 4,
+          "hp": 5,
+          "seconds": 10.433333333332744,
+          "kills": 10
+        },
+        {
+          "wave": 6,
+          "hp": 4,
+          "seconds": 11.499999999999346,
+          "kills": 10
+        },
+        {
+          "wave": 7,
+          "hp": 4,
+          "seconds": 12.816666666665938,
+          "kills": 12
+        },
+        {
+          "wave": 8,
+          "hp": 3,
+          "seconds": 14.333333333332526,
+          "kills": 13
+        },
+        {
+          "wave": 9,
+          "hp": 2,
+          "seconds": 14.83333333333249,
+          "kills": 14
+        },
+        {
+          "wave": 11,
+          "hp": 2,
+          "seconds": 17.599999999999,
+          "kills": 14
+        },
+        {
+          "wave": 12,
+          "hp": 2,
+          "seconds": 15.849999999999099,
+          "kills": 16
+        },
+        {
+          "wave": 13,
+          "hp": 1.5,
+          "seconds": 19.250000000010317,
+          "kills": 17
+        },
+        {
+          "wave": 14,
+          "hp": 1.5,
+          "seconds": 17.00000000001353,
+          "kills": 18
+        }
+      ],
+      "rewards": {
+        "coal": 45,
+        "iron": 0,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.007513620107292352,
+      "p95Ms": 0.018500000000130967
+    },
+    {
+      "galleries": true,
+      "rank": 2,
+      "seed": 1,
+      "weaponId": "shotgun",
+      "done": false,
+      "status": "lost",
+      "wave": 18,
+      "hp": 0,
+      "kills": 187,
+      "seconds": 180.41666666670238,
+      "damage": 5.5,
+      "movementFraction": 0.5858660508083141,
+      "enemyShots": 38,
+      "maxAlive": 12,
+      "maxBolts": 4,
+      "maxDrops": 7,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 3.1166666666666667,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5.5,
+          "seconds": 5.533333333333319,
+          "kills": 6
+        },
+        {
+          "wave": 2,
+          "hp": 5.5,
+          "seconds": 8.033333333333601,
+          "kills": 8
+        },
+        {
+          "wave": 3,
+          "hp": 5.5,
+          "seconds": 8.316666666666448,
+          "kills": 9
+        },
+        {
+          "wave": 4,
+          "hp": 4.5,
+          "seconds": 11.183333333332701,
+          "kills": 10
+        },
+        {
+          "wave": 6,
+          "hp": 4.5,
+          "seconds": 12.099999999999312,
+          "kills": 10
+        },
+        {
+          "wave": 7,
+          "hp": 4.5,
+          "seconds": 13.19999999999925,
+          "kills": 12
+        },
+        {
+          "wave": 8,
+          "hp": 4.5,
+          "seconds": 11.499999999999353,
+          "kills": 13
+        },
+        {
+          "wave": 9,
+          "hp": 4.5,
+          "seconds": 13.166666666665918,
+          "kills": 14
+        },
+        {
+          "wave": 11,
+          "hp": 4.5,
+          "seconds": 13.533333333332564,
+          "kills": 14
+        },
+        {
+          "wave": 12,
+          "hp": 4.5,
+          "seconds": 15.06666666666581,
+          "kills": 16
+        },
+        {
+          "wave": 13,
+          "hp": 4.5,
+          "seconds": 15.216666666665802,
+          "kills": 17
+        },
+        {
+          "wave": 14,
+          "hp": 3,
+          "seconds": 17.18333333334614,
+          "kills": 18
+        },
+        {
+          "wave": 16,
+          "hp": 1.5,
+          "seconds": 16.65000000001325,
+          "kills": 18
+        },
+        {
+          "wave": 17,
+          "hp": 0.5,
+          "seconds": 15.150000000012056,
+          "kills": 20
+        }
+      ],
+      "rewards": {
+        "coal": 58,
+        "iron": 3,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.00681878060046448,
+      "p95Ms": 0.01679999999987558
+    },
+    {
+      "galleries": false,
+      "rank": 0,
+      "seed": 5,
+      "weaponId": "smg",
+      "done": false,
+      "status": "lost",
+      "wave": 16,
+      "hp": 0,
+      "kills": 182,
+      "seconds": 300.4500000000554,
+      "damage": 5,
+      "movementFraction": 0.12880678981527707,
+      "enemyShots": 130,
+      "maxAlive": 10,
+      "maxBolts": 7,
+      "maxDrops": 6,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 33.6,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5,
+          "seconds": 8.633333333333342,
+          "kills": 7
+        },
+        {
+          "wave": 2,
+          "hp": 5,
+          "seconds": 9.383333333333582,
+          "kills": 9
+        },
+        {
+          "wave": 3,
+          "hp": 5,
+          "seconds": 11.933333333332655,
+          "kills": 11
+        },
+        {
+          "wave": 4,
+          "hp": 4.5,
+          "seconds": 19.299999999998906,
+          "kills": 12
+        },
+        {
+          "wave": 6,
+          "hp": 4.5,
+          "seconds": 18.79999999999894,
+          "kills": 12
+        },
+        {
+          "wave": 7,
+          "hp": 4.5,
+          "seconds": 22.099999999998744,
+          "kills": 14
+        },
+        {
+          "wave": 8,
+          "hp": 4.5,
+          "seconds": 22.883333333332033,
+          "kills": 15
+        },
+        {
+          "wave": 9,
+          "hp": 4.5,
+          "seconds": 27.100000000008876,
+          "kills": 17
+        },
+        {
+          "wave": 11,
+          "hp": 4.5,
+          "seconds": 27.966666666688923,
+          "kills": 17
+        },
+        {
+          "wave": 12,
+          "hp": 2.5,
+          "seconds": 41.633333333366465,
+          "kills": 19
+        },
+        {
+          "wave": 13,
+          "hp": 1,
+          "seconds": 36.25000000002885,
+          "kills": 20
+        },
+        {
+          "wave": 14,
+          "hp": 0.5,
+          "seconds": 40.24999999998019,
+          "kills": 21
+        }
+      ],
+      "rewards": {
+        "coal": 45,
+        "iron": 0,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.006545781328008153,
+      "p95Ms": 0.014800000000377622
+    },
+    {
+      "galleries": false,
+      "rank": 2,
+      "seed": 5,
+      "weaponId": "smg",
+      "done": true,
+      "status": "playing",
+      "wave": 19,
+      "hp": 3.5,
+      "kills": 271,
+      "seconds": 353.95000000000675,
+      "damage": 2,
+      "movementFraction": 0.13631868908037859,
+      "enemyShots": 184,
+      "maxAlive": 11,
+      "maxBolts": 7,
+      "maxDrops": 6,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 58.9,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        },
+        {
+          "wave": 18,
+          "epic": false
+        },
+        {
+          "wave": 19,
+          "epic": true
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5.5,
+          "seconds": 7.1666666666666465,
+          "kills": 7
+        },
+        {
+          "wave": 2,
+          "hp": 5.5,
+          "seconds": 8.133333333333695,
+          "kills": 9
+        },
+        {
+          "wave": 3,
+          "hp": 5.5,
+          "seconds": 10.283333333332818,
+          "kills": 11
+        },
+        {
+          "wave": 4,
+          "hp": 5,
+          "seconds": 17.116666666665697,
+          "kills": 12
+        },
+        {
+          "wave": 6,
+          "hp": 4.5,
+          "seconds": 15.816666666665768,
+          "kills": 12
+        },
+        {
+          "wave": 7,
+          "hp": 4.5,
+          "seconds": 17.1166666666657,
+          "kills": 14
+        },
+        {
+          "wave": 8,
+          "hp": 4.5,
+          "seconds": 19.43333333333223,
+          "kills": 15
+        },
+        {
+          "wave": 9,
+          "hp": 4.5,
+          "seconds": 21.366666666665452,
+          "kills": 17
+        },
+        {
+          "wave": 11,
+          "hp": 4.5,
+          "seconds": 22.200000000007876,
+          "kills": 17
+        },
+        {
+          "wave": 12,
+          "hp": 3.5,
+          "seconds": 30.100000000023954,
+          "kills": 19
+        },
+        {
+          "wave": 13,
+          "hp": 3.5,
+          "seconds": 26.61666666668785,
+          "kills": 20
+        },
+        {
+          "wave": 14,
+          "hp": 3.5,
+          "seconds": 32.73333333335938,
+          "kills": 21
+        },
+        {
+          "wave": 16,
+          "hp": 3.5,
+          "seconds": 26.700000000021248,
+          "kills": 21
+        },
+        {
+          "wave": 17,
+          "hp": 3.5,
+          "seconds": 34.76666666663681,
+          "kills": 24
+        },
+        {
+          "wave": 18,
+          "hp": 3.5,
+          "seconds": 31.399999999971442,
+          "kills": 26
+        },
+        {
+          "wave": 19,
+          "hp": 3.5,
+          "seconds": 32.79999999997017,
+          "kills": 26
+        }
+      ],
+      "rewards": {
+        "coal": 73,
+        "iron": 3,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.004911169185856027,
+      "p95Ms": 0.010600000000067666
+    },
+    {
+      "galleries": true,
+      "rank": 0,
+      "seed": 5,
+      "weaponId": "smg",
+      "done": false,
+      "status": "lost",
+      "wave": 16,
+      "hp": 0,
+      "kills": 152,
+      "seconds": 173.5000000000302,
+      "damage": 5,
+      "movementFraction": 0.1505283381364073,
+      "enemyShots": 46,
+      "maxAlive": 10,
+      "maxBolts": 3,
+      "maxDrops": 6,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 2.9833333333333334,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5,
+          "seconds": 4.9166666666666545,
+          "kills": 6
+        },
+        {
+          "wave": 2,
+          "hp": 5,
+          "seconds": 6.43333333333349,
+          "kills": 8
+        },
+        {
+          "wave": 3,
+          "hp": 5,
+          "seconds": 7.966666666666704,
+          "kills": 9
+        },
+        {
+          "wave": 4,
+          "hp": 5,
+          "seconds": 7.783333333332891,
+          "kills": 10
+        },
+        {
+          "wave": 6,
+          "hp": 5,
+          "seconds": 10.899999999999384,
+          "kills": 10
+        },
+        {
+          "wave": 7,
+          "hp": 4,
+          "seconds": 16.54999999999906,
+          "kills": 12
+        },
+        {
+          "wave": 8,
+          "hp": 4,
+          "seconds": 13.099999999999262,
+          "kills": 13
+        },
+        {
+          "wave": 9,
+          "hp": 3,
+          "seconds": 16.683333333332385,
+          "kills": 14
+        },
+        {
+          "wave": 11,
+          "hp": 3,
+          "seconds": 12.983333333332595,
+          "kills": 14
+        },
+        {
+          "wave": 12,
+          "hp": 3,
+          "seconds": 17.116666666665694,
+          "kills": 16
+        },
+        {
+          "wave": 13,
+          "hp": 3,
+          "seconds": 19.50000000000405,
+          "kills": 17
+        },
+        {
+          "wave": 14,
+          "hp": 2,
+          "seconds": 30.91666666669127,
+          "kills": 18
+        }
+      ],
+      "rewards": {
+        "coal": 45,
+        "iron": 0,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.0051337079731030725,
+      "p95Ms": 0.011200000000371801
+    },
+    {
+      "galleries": true,
+      "rank": 2,
+      "seed": 5,
+      "weaponId": "smg",
+      "done": false,
+      "status": "lost",
+      "wave": 19,
+      "hp": 0,
+      "kills": 221,
+      "seconds": 205.18333333338876,
+      "damage": 5.5,
+      "movementFraction": 0.15871984404191375,
+      "enemyShots": 91,
+      "maxAlive": 12,
+      "maxBolts": 6,
+      "maxDrops": 7,
+      "badShots": 0,
+      "spawnUnsafe": 0,
+      "overlapSeconds": 16.716666666666665,
+      "choices": [
+        {
+          "wave": 1,
+          "epic": false
+        },
+        {
+          "wave": 4,
+          "epic": false
+        },
+        {
+          "wave": 9,
+          "epic": false
+        },
+        {
+          "wave": 14,
+          "epic": false
+        },
+        {
+          "wave": 18,
+          "epic": false
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "hp": 5.5,
+          "seconds": 4.29999999999999,
+          "kills": 6
+        },
+        {
+          "wave": 2,
+          "hp": 5.5,
+          "seconds": 5.766666666666757,
+          "kills": 8
+        },
+        {
+          "wave": 3,
+          "hp": 5.5,
+          "seconds": 6.8000000000002405,
+          "kills": 9
+        },
+        {
+          "wave": 4,
+          "hp": 5.5,
+          "seconds": 6.666666666666288,
+          "kills": 10
+        },
+        {
+          "wave": 6,
+          "hp": 5.5,
+          "seconds": 8.466666666666189,
+          "kills": 10
+        },
+        {
+          "wave": 7,
+          "hp": 5.5,
+          "seconds": 10.233333333332752,
+          "kills": 12
+        },
+        {
+          "wave": 8,
+          "hp": 5.5,
+          "seconds": 11.59999999999934,
+          "kills": 13
+        },
+        {
+          "wave": 9,
+          "hp": 5.5,
+          "seconds": 11.566666666666016,
+          "kills": 14
+        },
+        {
+          "wave": 11,
+          "hp": 5.5,
+          "seconds": 10.833333333332718,
+          "kills": 14
+        },
+        {
+          "wave": 12,
+          "hp": 5.5,
+          "seconds": 13.016666666665927,
+          "kills": 16
+        },
+        {
+          "wave": 13,
+          "hp": 5.5,
+          "seconds": 14.83333333333249,
+          "kills": 17
+        },
+        {
+          "wave": 14,
+          "hp": 5.5,
+          "seconds": 14.59999999999917,
+          "kills": 18
+        },
+        {
+          "wave": 16,
+          "hp": 5.5,
+          "seconds": 17.766666666672975,
+          "kills": 18
+        },
+        {
+          "wave": 17,
+          "hp": 4,
+          "seconds": 22.216666666684347,
+          "kills": 20
+        },
+        {
+          "wave": 18,
+          "hp": 2,
+          "seconds": 23.76666666668558,
+          "kills": 22
+        }
+      ],
+      "rewards": {
+        "coal": 66,
+        "iron": 3,
+        "diamond": 0,
+        "token": 0
+      },
+      "meanMs": 0.0075867273170315925,
+      "p95Ms": 0.020500000000083674
+    }
+  ]
+}

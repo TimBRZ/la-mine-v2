@@ -1,0 +1,96 @@
+[
+  {
+    "seed": 2,
+    "weaponId": "shotgun",
+    "boss": 0,
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "hp": 2,
+    "seconds": 633.9666666664187,
+    "bossTimes": [
+      {
+        "wave": 5,
+        "seconds": 26.116666666665182,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 32.86666666669282,
+        "hp": 4.5
+      },
+      {
+        "wave": 15,
+        "seconds": 36.93333333329974,
+        "hp": 3
+      },
+      {
+        "wave": 20,
+        "seconds": 46.09999999995807,
+        "hp": 2
+      }
+    ],
+    "maxAlive": 11,
+    "maxBolts": 6,
+    "maxHazards": 2,
+    "maxSummons": 1,
+    "maxDrops": 7,
+    "kills": 278,
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanMs": 0.015001685156948654,
+    "p95Ms": 0.0385999999998603
+  },
+  {
+    "seed": 1,
+    "weaponId": "smg",
+    "boss": 0,
+    "rank": 2,
+    "status": "won",
+    "wave": 20,
+    "hp": 1,
+    "seconds": 588.1333333331271,
+    "bossTimes": [
+      {
+        "wave": 5,
+        "seconds": 32.49999999999816,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 34.733333333360974,
+        "hp": 5
+      },
+      {
+        "wave": 15,
+        "seconds": 23.699999999978445,
+        "hp": 4
+      },
+      {
+        "wave": 20,
+        "seconds": 47.29999999995698,
+        "hp": 1
+      }
+    ],
+    "maxAlive": 11,
+    "maxBolts": 7,
+    "maxHazards": 2,
+    "maxSummons": 1,
+    "maxDrops": 8,
+    "kills": 277,
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanMs": 0.010196454885514558,
+    "p95Ms": 0.024899999999888678
+  }
+]

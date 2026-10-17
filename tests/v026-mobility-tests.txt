@@ -1,0 +1,37 @@
+✔ V026 haveuse resumes movement within 0.45 s without consuming its attack clock (3.9062ms)
+✔ V026 crachefer resumes movement within 0.45 s without consuming its attack clock (0.8815ms)
+✔ V026 effondreur resumes movement within 0.45 s without consuming its attack clock (0.3817ms)
+✔ V026 stationmaster resumes movement within 0.45 s without consuming its attack clock (0.9616ms)
+✔ V026 locomotive resumes movement within 0.45 s without consuming its attack clock (0.4392ms)
+✔ V026 switchman resumes movement within 0.45 s without consuming its attack clock (0.4391ms)
+✔ V026 cager resumes movement within 0.45 s without consuming its attack clock (0.7761ms)
+✔ V026 compressor resumes movement within 0.45 s without consuming its attack clock (0.3698ms)
+✔ V026 firedamp resumes movement within 0.45 s without consuming its attack clock (0.4574ms)
+✔ V026 haveuse repositions at ideal range and along room edges, but holds its warning (0.7244ms)
+✔ V026 crachefer repositions at ideal range and along room edges, but holds its warning (0.3776ms)
+✔ V026 effondreur repositions at ideal range and along room edges, but holds its warning (0.3089ms)
+✔ V026 stationmaster repositions at ideal range and along room edges, but holds its warning (0.364ms)
+✔ V026 locomotive repositions at ideal range and along room edges, but holds its warning (0.3144ms)
+✔ V026 switchman repositions at ideal range and along room edges, but holds its warning (0.4059ms)
+✔ V026 cager repositions at ideal range and along room edges, but holds its warning (1.4177ms)
+✔ V026 compressor repositions at ideal range and along room edges, but holds its warning (0.3084ms)
+✔ V026 firedamp repositions at ideal range and along room edges, but holds its warning (0.2695ms)
+✔ V026 waiting third major boss moves while the validated concurrency gate holds its attack (2.8337ms)
+✔ V026 Foreur charges over 350 px on its locked line, stops at walls and recovers quickly (0.8134ms)
+✔ V026 Sondeur flees, stays catchable, approaches far targets and only starts probes at range (0.5248ms)
+✔ V026 Grisouteux is 25 percent faster with bounded proximity acceleration and unchanged blast warning (0.2785ms)
+✔ V026 drill moves after a short recovery, retains warning and emits its original volley (0.7775ms)
+✔ V026 draisine moves after a short recovery, retains warning and emits its original volley (0.5323ms)
+✔ V026 firedamp has the fastest inter-pattern movement of its trio (0.1285ms)
+✔ V026 galleries triple remains simultaneous and bounded after mobility (169.6258ms)
+✔ V026 tracks triple remains simultaneous and bounded after mobility (188.5629ms)
+✔ V026 shaft59 triple remains simultaneous and bounded after mobility (131.6013ms)
+✔ V026 preserves all unrelated source bytes including attack concurrency, weapons, visual orientation, economy and saves (113.929ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 877.7145

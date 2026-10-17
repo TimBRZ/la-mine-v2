@@ -1,0 +1,19 @@
+{
+  "changedExistingSourceFiles": [
+    "arena-view.js",
+    "depths/actors.js",
+    "depths/art.js",
+    "depths/combat.js",
+    "depths/waves.js"
+  ],
+  "newSourceFiles": [
+    "depths/pressure.js"
+  ],
+  "existingTests": 715,
+  "totalTests": 739,
+  "failures": 0,
+  "fullSimulatedRuns": 9,
+  "allVictories": true,
+  "scope": "Zone 5 only; common arena view label dependency",
+  "noCommitsOrPush": true
+}

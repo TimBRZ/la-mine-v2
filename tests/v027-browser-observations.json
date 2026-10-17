@@ -1,0 +1,2789 @@
+[
+  {
+    "kind": "crawler",
+    "mode": "V0.27 crawler",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "crawler"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 225.94863358611923,
+        "y": 251.4705761861551,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 227.8219556730444,
+        "y": 300.3624815602068,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 213.97841083078362,
+        "y": 348.69018644384164,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 235.96563389202868,
+        "y": 395.72807296764,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 215.32022056127607,
+        "y": 443.2775703772141,
+        "phase": "positioning"
+      },
+      {
+        "time": 2.5,
+        "x": 229.92924398483686,
+        "y": 491.6743100705831,
+        "phase": "positioning"
+      },
+      {
+        "time": 3,
+        "x": 225.9066303199686,
+        "y": 509.5762630682962,
+        "phase": "positioning"
+      },
+      {
+        "time": 3.5,
+        "x": 225.30527705631945,
+        "y": 510.84698333097896,
+        "phase": "positioning"
+      },
+      {
+        "time": 4,
+        "x": 225.6438530183241,
+        "y": 509.3905458562494,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 224.0298083968726,
+        "y": 510.15995709891,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 226.02752572023516,
+        "y": 510.18353831077917,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 225.33438399701603,
+        "y": 509.0683604660324,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 224.99624147620827,
+        "y": 510.8926435539049,
+        "phase": "positioning"
+      },
+      {
+        "time": 6.5,
+        "x": 225.7984038318939,
+        "y": 509.59942725768013,
+        "phase": "positioning"
+      },
+      {
+        "time": 7,
+        "x": 224.4093531634784,
+        "y": 510.7992594440294,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 225.47820645552005,
+        "y": 510.9273665355998,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 840.0000000000002,
+    "mobility": [
+      {
+        "id": "crawler",
+        "x": 225.93527673343743,
+        "y": 510.24130811255645,
+        "phase": "positioning",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 52
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "spitter",
+    "mode": "V0.27 spitter",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "spitter"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 224.32,
+        "y": 250.90666666666667,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 203.51653522223774,
+        "y": 276.3377515570513,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 177.7359287025636,
+        "y": 280.0973349591513,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 177.7359287025636,
+        "y": 280.0973349591513,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 177.7359287025636,
+        "y": 280.0973349591513,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 178.84604561637764,
+        "y": 279.8691138336864,
+        "phase": "recovery"
+      },
+      {
+        "time": 3,
+        "x": 212.53879789328792,
+        "y": 275.53536716952976,
+        "phase": "recovery"
+      },
+      {
+        "time": 3.5,
+        "x": 246.50430065870202,
+        "y": 276.10890570014215,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 280.03184516022463,
+        "y": 281.5760338948664,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 305.3649155751894,
+        "y": 290.10869759203064,
+        "phase": "warning"
+      },
+      {
+        "time": 5,
+        "x": 305.3649155751894,
+        "y": 290.10869759203064,
+        "phase": "warning"
+      },
+      {
+        "time": 5.5,
+        "x": 305.3649155751894,
+        "y": 290.10869759203064,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 305.3649155751894,
+        "y": 290.10869759203064,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 272.7196673373829,
+        "y": 280.71399691079426,
+        "phase": "recovery"
+      },
+      {
+        "time": 7,
+        "x": 239.05871135917857,
+        "y": 276.1408034058393,
+        "phase": "recovery"
+      },
+      {
+        "time": 7.5,
+        "x": 205.09022652117574,
+        "y": 276.483607748616,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 321.8666666666663,
+    "mobility": [
+      {
+        "id": "spitter",
+        "x": 177.06345534190362,
+        "y": 280.5212355632143,
+        "phase": "warning",
+        "recoveryElapsed": 1.6166666666666658
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 0,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 225,
+        "y": 510,
+        "width": 10,
+        "radius": 38,
+        "warning": 1.216666666666667,
+        "remaining": 2,
+        "active": false,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "gas"
+      }
+    ],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 82
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "burster",
+    "mode": "V0.27 burster",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "burster"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 1,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 224.80597149997092,
+        "y": 250.77611400011625,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 219.26396927958262,
+        "y": 274.1269101746413,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 214.30064123191573,
+        "y": 297.6073923932491,
+        "phase": "positioning"
+      },
+      {
+        "time": 1.5,
+        "x": 209.98311092919562,
+        "y": 321.21499008022386,
+        "phase": "positioning"
+      },
+      {
+        "time": 2,
+        "x": 205.92202940827377,
+        "y": 348.5129507821066,
+        "phase": "positioning"
+      },
+      {
+        "time": 2.5,
+        "x": 201.78242979308175,
+        "y": 393.912718276398,
+        "phase": "positioning"
+      },
+      {
+        "time": 3,
+        "x": 201.23795467275295,
+        "y": 418.2235137546539,
+        "phase": "warning"
+      },
+      {
+        "time": 3.5,
+        "x": 201.23795467275295,
+        "y": 418.2235137546539,
+        "phase": "warning"
+      },
+      {
+        "time": 4,
+        "x": 201.23795467275295,
+        "y": 418.2235137546539,
+        "phase": "warning"
+      },
+      {
+        "time": 4.5,
+        "x": 208.921992604757,
+        "y": 433.07151751451346,
+        "phase": "recovery"
+      },
+      {
+        "time": 5,
+        "x": 225.13139792129272,
+        "y": 475.6093949004473,
+        "phase": "recovery"
+      },
+      {
+        "time": 5.5,
+        "x": 225.70825087000287,
+        "y": 509.60985349357816,
+        "phase": "recovery"
+      },
+      {
+        "time": 6,
+        "x": 224.31042701698968,
+        "y": 509.6270236740662,
+        "phase": "positioning"
+      },
+      {
+        "time": 6.5,
+        "x": 224.2190488888108,
+        "y": 510.0630491956164,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 224.2190488888108,
+        "y": 510.0630491956164,
+        "phase": "warning"
+      },
+      {
+        "time": 7.5,
+        "x": 224.2190488888108,
+        "y": 510.0630491956164,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 363.35999999999956,
+    "mobility": [
+      {
+        "id": "burster",
+        "x": 224.30665374265345,
+        "y": 510.3647006451326,
+        "phase": "recovery",
+        "recoveryElapsed": 0.49999999999999994
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 68
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "splitter",
+    "mode": "V0.27 splitter",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 6,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "splitter"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 224.68470368745275,
+        "y": 251.26118525018893,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 215.97920393574165,
+        "y": 289.2745613365679,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 210.40119700785527,
+        "y": 318.64808420992216,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 210.40119700785527,
+        "y": 318.64808420992216,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 210.40119700785527,
+        "y": 318.64808420992216,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 219.60589486194237,
+        "y": 439.297466874795,
+        "phase": "charge"
+      },
+      {
+        "time": 3,
+        "x": 232.15775557206115,
+        "y": 603.8193523268953,
+        "phase": "charge"
+      },
+      {
+        "time": 3.5,
+        "x": 233.05045049525611,
+        "y": 631.8271665488674,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 222.69826209280848,
+        "y": 594.2405789261279,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 216.8784210054401,
+        "y": 557.0241123842347,
+        "phase": "warning"
+      },
+      {
+        "time": 5,
+        "x": 216.8784210054401,
+        "y": 557.0241123842347,
+        "phase": "warning"
+      },
+      {
+        "time": 5.5,
+        "x": 216.8784210054401,
+        "y": 557.0241123842347,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 217.4037602006599,
+        "y": 555.83498718899,
+        "phase": "recovery"
+      },
+      {
+        "time": 6.5,
+        "x": 227.32657215355493,
+        "y": 518.3761205822706,
+        "phase": "recovery"
+      },
+      {
+        "time": 7,
+        "x": 225.2293129407255,
+        "y": 510.6482101872065,
+        "phase": "positioning"
+      },
+      {
+        "time": 7.5,
+        "x": 224.34713367723234,
+        "y": 509.8476127632912,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 309.3999999999998,
+    "mobility": [
+      {
+        "id": "splitter",
+        "x": 224.80132457179315,
+        "y": 510.6398591564837,
+        "phase": "positioning",
+        "recoveryElapsed": 1.100000000000001
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 3,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "splitter",
+        "pattern": "fan8",
+        "phase": "positioning",
+        "phaseTime": 0.16333333333333333
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1750
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "blower",
+    "mode": "V0.27 blower",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 8,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "blower"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 4,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 224.14,
+        "y": 251.14666666666668,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 194.17118089522907,
+        "y": 277.186592053872,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 161.88014900043012,
+        "y": 283.69128245050035,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 161.88014900043012,
+        "y": 283.69128245050035,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 161.88014900043012,
+        "y": 283.69128245050035,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 161.88014900043012,
+        "y": 283.69128245050035,
+        "phase": "recovery"
+      },
+      {
+        "time": 3,
+        "x": 200.89628857625894,
+        "y": 277.3256646797063,
+        "phase": "recovery"
+      },
+      {
+        "time": 3.5,
+        "x": 243.83142349313306,
+        "y": 276.7075954007608,
+        "phase": "positioning"
+      },
+      {
+        "time": 4,
+        "x": 286.15696764322416,
+        "y": 283.9437521401104,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 326.4498224180718,
+        "y": 298.7864380479291,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 363.35755239464663,
+        "y": 320.73284423906085,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 370.46106637878114,
+        "y": 332.5271413892665,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 370.46106637878114,
+        "y": 332.5271413892665,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 370.46106637878114,
+        "y": 332.5271413892665,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 370.46106637878114,
+        "y": 332.5271413892665,
+        "phase": "recovery"
+      },
+      {
+        "time": 7.5,
+        "x": 343.79999932176946,
+        "y": 343.0611473299962,
+        "phase": "recovery"
+      }
+    ],
+    "repositionDistance": 381.266666666667,
+    "mobility": [
+      {
+        "id": "blower",
+        "x": 306.73760742536166,
+        "y": 335.0154487480653,
+        "phase": "positioning",
+        "recoveryElapsed": 1.100000000000001
+      }
+    ],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "blower",
+        "pattern": "pockets",
+        "phase": "positioning",
+        "phaseTime": 0.23333333333333334
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2100
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "core",
+    "mode": "V0.27 core",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 16,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "core"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 4,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 224.06,
+        "y": 251.25333333333333,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 190.74687847625566,
+        "y": 278.7530328651226,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 155.62274544570624,
+        "y": 286.63553345276597,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 155.62274544570624,
+        "y": 286.63553345276597,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 155.62274544570624,
+        "y": 286.63553345276597,
+        "phase": "warning"
+      },
+      {
+        "time": 2.5,
+        "x": 155.62274544570624,
+        "y": 286.63553345276597,
+        "phase": "burst"
+      },
+      {
+        "time": 3,
+        "x": 155.62274544570624,
+        "y": 286.63553345276597,
+        "phase": "burst"
+      },
+      {
+        "time": 3.5,
+        "x": 169.19334879704772,
+        "y": 282.8159423574495,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 215.63024327180364,
+        "y": 276.09228452740285,
+        "phase": "recovery"
+      },
+      {
+        "time": 4.5,
+        "x": 262.4753263378676,
+        "y": 278.7645248930028,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 307.848198361008,
+        "y": 290.7192338718309,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 349.93121534921744,
+        "y": 311.471152901845,
+        "phase": "positioning"
+      },
+      {
+        "time": 6,
+        "x": 358.16803458208955,
+        "y": 335.34167470731904,
+        "phase": "positioning"
+      },
+      {
+        "time": 6.5,
+        "x": 352.3706978587783,
+        "y": 337.7211700377741,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 352.3706978587783,
+        "y": 337.7211700377741,
+        "phase": "warning"
+      },
+      {
+        "time": 7.5,
+        "x": 352.3706978587783,
+        "y": 337.7211700377741,
+        "phase": "warning"
+      }
+    ],
+    "repositionDistance": 339.9666666666663,
+    "mobility": [
+      {
+        "id": "core",
+        "x": 352.3706978587783,
+        "y": 337.7211700377741,
+        "phase": "recovery",
+        "recoveryElapsed": 0.24999999999999997
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 140,
+        "y": 425,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.2833333333333333,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 310,
+        "y": 425,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.2833333333333333,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 140,
+        "y": 595,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.2833333333333333,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 310,
+        "y": 595,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.2833333333333333,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      }
+    ],
+    "bossPatterns": [
+      {
+        "id": "core",
+        "pattern": "rain",
+        "phase": "recovery",
+        "phaseTime": 0.85
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2500
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "fan8",
+    "mode": "V0.27 fan8",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 8,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "splitter"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobility": [
+      {
+        "id": "splitter",
+        "x": 213.67414870853696,
+        "y": 300.7451655688103,
+        "phase": "recovery",
+        "recoveryElapsed": 0.966666666666668
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 8,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "splitter",
+        "pattern": "fan8",
+        "phase": "recovery",
+        "phaseTime": 0.13333333333333236
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1750
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "fissures",
+    "mode": "V0.27 fissures",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "splitter"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 3,
+    "mobility": [
+      {
+        "id": "splitter",
+        "x": 219.56661951510782,
+        "y": 272.7599353297932,
+        "phase": "recovery",
+        "recoveryElapsed": 0.6000000000000002
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 78,
+        "y": 230,
+        "x2": 380,
+        "y2": 230,
+        "width": 10,
+        "radius": 38,
+        "warning": -0.016666666666666118,
+        "remaining": 0.44999999999999873,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "fissure"
+      },
+      {
+        "owner": 99,
+        "x": 78,
+        "y": 380,
+        "x2": 380,
+        "y2": 380,
+        "width": 10,
+        "radius": 38,
+        "warning": -0.016666666666666118,
+        "remaining": 0.44999999999999873,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "fissure"
+      },
+      {
+        "owner": 99,
+        "x": 78,
+        "y": 530,
+        "x2": 380,
+        "y2": 530,
+        "width": 10,
+        "radius": 38,
+        "warning": -0.016666666666666118,
+        "remaining": 0.44999999999999873,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "fissure"
+      }
+    ],
+    "bossPatterns": [
+      {
+        "id": "splitter",
+        "pattern": "fissures",
+        "phase": "recovery",
+        "phaseTime": 0.49999999999999895
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 1750
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "circle8",
+    "mode": "V0.27 circle8",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 8,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "blower"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobility": [
+      {
+        "id": "blower",
+        "x": 194.17118089522907,
+        "y": 277.186592053872,
+        "phase": "recovery",
+        "recoveryElapsed": 0.8166666666666675
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 8,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "blower",
+        "pattern": "circle8",
+        "phase": "recovery",
+        "phaseTime": 0.2833333333333323
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2100
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "pockets",
+    "mode": "V0.27 pockets",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "blower"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 4,
+    "mobility": [
+      {
+        "id": "blower",
+        "x": 212.51287811228624,
+        "y": 267.4991650080423,
+        "phase": "recovery",
+        "recoveryElapsed": 0.55
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 140,
+        "y": 425,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 4.85722573273506e-17,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 310,
+        "y": 425,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 4.85722573273506e-17,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 140,
+        "y": 595,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 4.85722573273506e-17,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 310,
+        "y": 595,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 4.85722573273506e-17,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      }
+    ],
+    "bossPatterns": [
+      {
+        "id": "blower",
+        "pattern": "pockets",
+        "phase": "recovery",
+        "phaseTime": 0.549999999999999
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2100
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "double",
+    "mode": "V0.27 double",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 16,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "core"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobility": [
+      {
+        "id": "core",
+        "x": 225,
+        "y": 250,
+        "phase": "recovery",
+        "recoveryElapsed": 0
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 16,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "core",
+        "pattern": "double",
+        "phase": "recovery",
+        "phaseTime": 1.1
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2500
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "rain",
+    "mode": "V0.27 rain",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "core"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 4,
+    "mobility": [
+      {
+        "id": "core",
+        "x": 214.0287026476104,
+        "y": 265.2647383946595,
+        "phase": "recovery",
+        "recoveryElapsed": 0.49999999999999994
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 1,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [
+      {
+        "owner": 99,
+        "x": 140,
+        "y": 425,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.050000000000000044,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 310,
+        "y": 425,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.050000000000000044,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 140,
+        "y": 595,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.050000000000000044,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 99,
+        "x": 310,
+        "y": 595,
+        "width": 10,
+        "radius": 34,
+        "warning": -0.016666666666665896,
+        "remaining": 0.050000000000000044,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      }
+    ],
+    "bossPatterns": [
+      {
+        "id": "core",
+        "pattern": "rain",
+        "phase": "recovery",
+        "phaseTime": 0.5999999999999992
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2500
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "orb",
+    "mode": "V0.27 orb",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 1,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 1,
+    "bosses": [
+      "core"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 0,
+    "mobility": [
+      {
+        "id": "core",
+        "x": 172.2688649781163,
+        "y": 282.1901738821683,
+        "phase": "recovery",
+        "recoveryElapsed": 1.016666666666668
+      }
+    ],
+    "tripleEngaged": 1,
+    "tripleMajors": 0,
+    "riftBursts": [],
+    "hostileCount": 1,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "core",
+        "pattern": "orb",
+        "phase": "recovery",
+        "phaseTime": 0.08333333333333237
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 99,
+          "hp": 2500
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 3,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 2.17,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "gas",
+    "mode": "V0.27 gas",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "2:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 2,
+        "hp": 5,
+        "time": 0.026666666666666665,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 0,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxZones": 2,
+    "mobility": [],
+    "tripleEngaged": 0,
+    "tripleMajors": 0,
+    "riftBursts": [],
+    "hostileCount": 0,
+    "shaftHazards": [
+      {
+        "owner": 0,
+        "x": 105,
+        "y": 240,
+        "width": 10,
+        "radius": 40,
+        "warning": -0.016666666666665896,
+        "remaining": 0.050000000000000044,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      },
+      {
+        "owner": 0,
+        "x": 340,
+        "y": 490,
+        "width": 10,
+        "radius": 40,
+        "warning": -0.016666666666665896,
+        "remaining": 0.050000000000000044,
+        "active": true,
+        "damage": 0.5,
+        "label": "GRISOU !",
+        "kind": "explosion"
+      }
+    ],
+    "bossPatterns": [],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": []
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 2,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 2,
+    "arenaUnchanged": true,
+    "elapsed": 2.18,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  },
+  {
+    "kind": "triple",
+    "mode": "V0.27 triple",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 0,
+    "shieldHits": 0,
+    "shots": 0,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 18,
+    "seen": [
+      "boss"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 0,
+    "workMs": 0,
+    "magnetDurations": [],
+    "waveHistory": [
+      "20:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 20,
+        "hp": 5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 510
+      }
+    ],
+    "maxAlive": 3,
+    "bosses": [
+      "splitter",
+      "blower",
+      "core"
+    ],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "overlapFrames": 416,
+    "threeFrames": 0,
+    "maxMajors": 2,
+    "maxZones": 0,
+    "mobilityTrace": [
+      {
+        "time": 0,
+        "x": 110.15701691074167,
+        "y": 211.2904827351581,
+        "phase": "positioning"
+      },
+      {
+        "time": 0.5,
+        "x": 115.48184424499678,
+        "y": 249.92364271807557,
+        "phase": "positioning"
+      },
+      {
+        "time": 1,
+        "x": 117.96490116027005,
+        "y": 265.32463634001084,
+        "phase": "warning"
+      },
+      {
+        "time": 1.5,
+        "x": 117.96490116027005,
+        "y": 265.32463634001084,
+        "phase": "warning"
+      },
+      {
+        "time": 2,
+        "x": 124.57787401307314,
+        "y": 280.44146768947326,
+        "phase": "charge"
+      },
+      {
+        "time": 2.5,
+        "x": 190.7076025411041,
+        "y": 431.6097811840974,
+        "phase": "charge"
+      },
+      {
+        "time": 3,
+        "x": 256.8373310691351,
+        "y": 582.7780946787208,
+        "phase": "charge"
+      },
+      {
+        "time": 3.5,
+        "x": 256.42971028365685,
+        "y": 588.5359671742624,
+        "phase": "recovery"
+      },
+      {
+        "time": 4,
+        "x": 235.70863254644635,
+        "y": 555.5373754266244,
+        "phase": "positioning"
+      },
+      {
+        "time": 4.5,
+        "x": 223.24292470648882,
+        "y": 518.8383933628674,
+        "phase": "positioning"
+      },
+      {
+        "time": 5,
+        "x": 225.2791535016525,
+        "y": 510.62396216060256,
+        "phase": "positioning"
+      },
+      {
+        "time": 5.5,
+        "x": 225.2049179965931,
+        "y": 510.6365806224967,
+        "phase": "warning"
+      },
+      {
+        "time": 6,
+        "x": 225.2049179965931,
+        "y": 510.6365806224967,
+        "phase": "warning"
+      },
+      {
+        "time": 6.5,
+        "x": 225.2049179965931,
+        "y": 510.6365806224967,
+        "phase": "warning"
+      },
+      {
+        "time": 7,
+        "x": 224.37386851366298,
+        "y": 509.76064633285904,
+        "phase": "recovery"
+      },
+      {
+        "time": 7.5,
+        "x": 225.53581096894578,
+        "y": 509.5977279663626,
+        "phase": "positioning"
+      }
+    ],
+    "repositionDistance": 300.3000000000001,
+    "mobility": [
+      {
+        "id": "splitter",
+        "x": 224.63709315421892,
+        "y": 509.4367907956915,
+        "phase": "positioning",
+        "recoveryElapsed": 0.8666666666666677
+      },
+      {
+        "id": "blower",
+        "x": 366.8377873864619,
+        "y": 408.0759129306583,
+        "phase": "positioning",
+        "recoveryElapsed": 0.8666666666666677
+      },
+      {
+        "id": "core",
+        "x": 325.12309665550254,
+        "y": 318.41235122091234,
+        "phase": "positioning",
+        "recoveryElapsed": 0.8666666666666677
+      }
+    ],
+    "tripleEngaged": 2,
+    "tripleMajors": 2,
+    "riftBursts": [],
+    "hostileCount": 10,
+    "shaftHazards": [],
+    "bossPatterns": [
+      {
+        "id": "splitter",
+        "pattern": "fan8",
+        "phase": "positioning",
+        "phaseTime": 0.051794871794871786
+      },
+      {
+        "id": "blower",
+        "pattern": "circle8",
+        "phase": "positioning",
+        "phaseTime": 0.15863247863247862
+      },
+      {
+        "id": "core",
+        "pattern": "double",
+        "phase": "positioning",
+        "phaseTime": 0.11589743589743587
+      }
+    ],
+    "bossWagons": [],
+    "energyBuild": {
+      "targets": 1,
+      "piercing": false,
+      "boost": 0,
+      "plates": 0,
+      "enemies": [
+        {
+          "id": 1,
+          "hp": 1330
+        },
+        {
+          "id": 2,
+          "hp": 1596
+        },
+        {
+          "id": 3,
+          "hp": 1900
+        }
+      ]
+    },
+    "wagonTargeting": [],
+    "loadedAppearances": [
+      "hero",
+      "rat",
+      "miner",
+      "drill",
+      "wagon",
+      "draisine",
+      "haveuse",
+      "crachefer",
+      "effondreur",
+      "stationmaster",
+      "locomotive",
+      "switchman",
+      "shotgun",
+      "grisoux",
+      "smg"
+    ],
+    "entitySprites": 5,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 20,
+    "arenaUnchanged": true,
+    "elapsed": 8,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 5,
+    "kills": 0,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "zone": "rift",
+    "firstVictory": 0,
+    "meanUpdateRenderMs": 0
+  }
+]

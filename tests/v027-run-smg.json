@@ -1,0 +1,56 @@
+{
+  "weaponId": "smg",
+  "zoneId": "rift",
+  "seed": 1,
+  "rank": 2,
+  "talents": [],
+  "status": "won",
+  "wave": 20,
+  "hp": 5,
+  "seconds": 972.73,
+  "kills": 278,
+  "perks": {
+    "plates": 2,
+    "boots": 1,
+    "heat": 1,
+    "trigger": 1,
+    "critical-heat": 1
+  },
+  "choices": 6,
+  "rewards": {
+    "coal": 118,
+    "iron": 11,
+    "diamond": 0,
+    "token": 0
+  },
+  "maxBolts": 21,
+  "movingShots": 0,
+  "fans": 18,
+  "circles": 0,
+  "maxZones": 4,
+  "groundWarnings": 94,
+  "maxSummons": 0,
+  "maxEntities": 12,
+  "bosses": [
+    {
+      "wave": 5,
+      "seconds": 50.05,
+      "hp": 5.5
+    },
+    {
+      "wave": 10,
+      "seconds": 31.5,
+      "hp": 5.5
+    },
+    {
+      "wave": 15,
+      "seconds": 46.62,
+      "hp": 5.5
+    },
+    {
+      "wave": 20,
+      "seconds": 80.97,
+      "hp": 5
+    }
+  ]
+}

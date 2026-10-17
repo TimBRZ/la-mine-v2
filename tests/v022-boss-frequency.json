@@ -1,0 +1,44 @@
+[
+  {
+    "id": "haveuse",
+    "health": 1215,
+    "old": 76,
+    "current": 88,
+    "belowHalf": 99
+  },
+  {
+    "id": "crachefer",
+    "health": 1716,
+    "old": 98,
+    "current": 119,
+    "belowHalf": 135
+  },
+  {
+    "id": "effondreur",
+    "health": 1950,
+    "old": 70,
+    "current": 77,
+    "belowHalf": 83
+  },
+  {
+    "id": "stationmaster",
+    "health": 1495,
+    "old": 65,
+    "current": 77,
+    "belowHalf": 86
+  },
+  {
+    "id": "locomotive",
+    "health": 2063,
+    "old": 54,
+    "current": 62,
+    "belowHalf": 68
+  },
+  {
+    "id": "switchman",
+    "health": 2470,
+    "old": 61,
+    "current": 73,
+    "belowHalf": 81
+  }
+]

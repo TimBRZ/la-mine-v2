@@ -1,0 +1,207 @@
+{
+  "console": [],
+  "viewports": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "galleriesBosses": [
+    "haveuse",
+    "crachefer",
+    "effondreur"
+  ],
+  "railBosses": [
+    "stationmaster",
+    "locomotive",
+    "switchman"
+  ],
+  "drops": {
+    "mode": "drops",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 7,
+    "shieldHits": 0,
+    "shots": 21,
+    "movingShots": 0,
+    "enemyShots": 7,
+    "maxBolts": 1,
+    "seen": [
+      "rat",
+      "drill",
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 9,
+    "maxDrops": 4,
+    "frames": 1710,
+    "workMs": 932.49999833107,
+    "magnetDurations": [
+      0.498
+    ],
+    "waveHistory": [
+      "5:collecting",
+      "5:cleared",
+      "6:preparing",
+      "6:combat",
+      "6:collecting",
+      "6:cleared",
+      "7:preparing",
+      "7:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 5,
+        "hp": 5.5,
+        "time": 0.014259999999999128,
+        "x": 350,
+        "y": 565
+      },
+      {
+        "wave": 6,
+        "hp": 5.5,
+        "time": 0.8115199999999997,
+        "x": 350,
+        "y": 565
+      },
+      {
+        "wave": 7,
+        "hp": 2.5,
+        "time": 14.76382999999995,
+        "x": 350,
+        "y": 565
+      }
+    ],
+    "maxAlive": 7,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxEffects": 18,
+    "status": "lost",
+    "phase": "combat",
+    "wave": 7,
+    "arenaUnchanged": true,
+    "elapsed": 24.35,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {},
+    "hp": 0,
+    "kills": 17,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 34,
+      "iron": 5,
+      "diamond": 1,
+      "token": 1
+    },
+    "wallet": {
+      "coal": 236,
+      "iron": 22,
+      "diamond": 2,
+      "token": 1
+    },
+    "zone": "galleries",
+    "progress": {
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-06"
+    },
+    "meanUpdateRenderMs": 0.545
+  },
+  "grisou": {
+    "mode": "perks grisou",
+    "explosions": 1,
+    "maxHeat": 0,
+    "maxPellets": 7,
+    "shieldHits": 0,
+    "shots": 1,
+    "movingShots": 0,
+    "enemyShots": 0,
+    "maxBolts": 0,
+    "seen": [
+      "miner"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 0,
+    "maxDrops": 0,
+    "frames": 8,
+    "workMs": 6.700000286102295,
+    "magnetDurations": [],
+    "waveHistory": [
+      "1:combat"
+    ],
+    "checkpoints": [
+      {
+        "wave": 1,
+        "hp": 5.5,
+        "time": 0.014209999999999126,
+        "x": 110,
+        "y": 390
+      }
+    ],
+    "maxAlive": 3,
+    "bosses": [],
+    "bossTimes": [],
+    "movingFrames": 0,
+    "maxFocus": 0,
+    "maxEffects": 21,
+    "status": "playing",
+    "phase": "combat",
+    "wave": 1,
+    "arenaUnchanged": true,
+    "elapsed": 0.11,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {
+      "grisou": 1
+    },
+    "hp": 5.5,
+    "kills": 2,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 0,
+      "iron": 0,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 236,
+      "iron": 22,
+      "diamond": 2,
+      "token": 1
+    },
+    "zone": "galleries",
+    "progress": {
+      "galleriesCompleted": true,
+      "tracksUnlocked": true,
+      "tracksCompleted": true,
+      "tracksFirstVictoryClaimed": true
+    },
+    "firstVictory": 0,
+    "crates": {
+      "count": 1,
+      "lastDaily": "2026-10-06"
+    },
+    "meanUpdateRenderMs": 0.838
+  },
+  "normalChoice": true,
+  "epicChoice": true,
+  "physicalAndroid": false
+}

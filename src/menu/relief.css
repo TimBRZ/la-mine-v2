@@ -1,0 +1,27 @@
+/* V0.10: use the existing kit, with no new bitmap or animation loop. */
+.future-nav .relief-nav { position:relative; display:grid; grid-template-columns:7cqw 1fr; align-items:center; align-content:center; gap:0 .6cqw; min-height:44px; padding:1.6cqw; border:0; border-radius:0; color:#f8d68a; background:url('../assets/kit-da/nav-idle.svg') center/100% 100% no-repeat; }
+.future-nav .relief-nav>.ui-icon { grid-row:span 2; width:7cqw; height:7cqw; }
+.future-nav .relief-nav small { color:#d6deda; }
+.relief-nav.has-stock::after { content:''; position:absolute; right:1cqw; top:0; width:2cqw; height:2cqw; border-radius:50%; background:#ffd46d; border:1px solid #3b2c18; }
+.relief-nav[aria-current] { outline:1px solid #f4c468; outline-offset:-2px; }
+.relief-view { min-height:100%; padding:3cqw 5cqw 4cqw; display:flex; flex-direction:column; gap:1.5cqw; background:linear-gradient(#293f4c,#182d3b); }
+.relief-view header>p:last-child { font-size:max(11px,3cqw); line-height:1.4; color:#c7d5d7; margin-top:1.2cqw; }
+.relief-scene { height:8cqw; flex:none; background:url('../assets/kit-da/galeries.svg') center/contain no-repeat; }
+.relief-clock { display:flex; flex-direction:column; align-items:center; gap:.5cqw; }
+.relief-clock>span { color:#c9d6d6; font-size:3cqw; }
+.relief-clock strong { font-size:8cqw; color:#ffdd88; line-height:1.1; font-variant-numeric:tabular-nums; }
+.relief-clock small { font-size:2.6cqw; color:#b0c4cc; }
+.relief-rates { text-align:center; font-size:3cqw; color:#dfceb0; }
+.relief-rates span { margin:0 2cqw; }
+.relief-stock { display:grid; grid-template-columns:1fr 1fr; gap:1cqw 3cqw; padding:2cqw 3cqw; border-top:1px solid #6d7b75; border-bottom:1px solid #6d7b75; }
+.relief-stock h3 { grid-column:1/-1; text-align:center; font-size:2.5cqw; letter-spacing:.08em; color:#c8d1ce; }
+.relief-stock>div { display:grid; grid-template-columns:11cqw 1fr; align-items:center; }
+.relief-stock img { width:11cqw; height:11cqw; grid-row:span 2; }
+.relief-stock strong { font-size:6cqw; line-height:1.1; font-variant-numeric:tabular-nums; }
+.relief-stock span { font-size:3cqw; color:#c7d5d7; }
+.relief-claim:disabled { opacity:.55; cursor:default; }
+.relief-notice { min-height:8cqw; font-size:max(10px,2.8cqw); line-height:1.35; text-align:center; color:#ecd69f; }
+.relief-ravens { font-size:max(10px,2.8cqw); text-align:center; color:#c3d0d0; }
+.relief-ravens b { display:block; font-size:2.1cqw; color:#d6b36e; margin-bottom:.5cqw; }
+.relief-save { font-size:max(9px,2.5cqw); color:#9fb7bf; text-align:center; line-height:1.35; }
+@media(max-height:600px) { .relief-scene { display:none; } .relief-view { gap:1cqw; padding-top:2cqw; padding-bottom:3cqw; } }

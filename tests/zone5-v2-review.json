@@ -1,0 +1,20 @@
+{
+  "changed": [
+    "depths/actors.js",
+    "depths/combat.js",
+    "depths/pressure.js",
+    "depths/waves.js"
+  ],
+  "otherSourceUnchanged": true,
+  "backup": "tests/zone5-v2-before-src",
+  "noCommitOrPush": true,
+  "baselineTests": 739,
+  "finalTests": 751,
+  "failures": 0,
+  "simulatedAttemptsV2": 9,
+  "simulatedVictoriesV2": 8,
+  "simulatedAttemptsBefore": 9,
+  "simulatedVictoriesBefore": 9,
+  "weaponNerfs": false,
+  "sourceFilesAdded": []
+}

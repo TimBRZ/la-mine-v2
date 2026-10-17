@@ -1,0 +1,113 @@
+{
+  "viewport390": {
+    "brokenImages": [],
+    "content": [
+      461,
+      461
+    ],
+    "height": 844,
+    "wallet": "96\nCharbon\n31\nFer\n1\nDiamant\n0\nJeton Grisou",
+    "width": 390
+  },
+  "viewport320": {
+    "content": [
+      376,
+      376
+    ],
+    "height": 568,
+    "images": [
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/coal.svg"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/iron.svg"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/diamond.svg"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/token.svg"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/miner.webp"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/smg.svg"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/porion-ravens.png"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/shotgun.svg"
+      },
+      {
+        "ok": true,
+        "src": "./src/assets/kit-da/smg.svg"
+      }
+    ],
+    "pageWidth": 320,
+    "selected": "smg",
+    "width": 320
+  },
+  "run": {
+    "mode": "V0.9 navigation",
+    "shots": 607,
+    "movingShots": 0,
+    "enemyShots": 18,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 12,
+    "frames": 1972,
+    "workMs": 1562.4000036716461,
+    "magnetDurations": [
+      0.683,
+      0.667,
+      0.617,
+      0.683,
+      0.517
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 1.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.792
+  },
+  "purchase": {
+    "ranks": 1,
+    "title": "Puissance · 1/5",
+    "wallet": "64\nCharbon\n8\nFer\n0\nDiamant\n0\nJeton Grisou"
+  },
+  "replay": "ARME ÉQUIPÉE · MITRAILLETTE",
+  "console": []
+}

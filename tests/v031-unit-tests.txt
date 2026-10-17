@@ -1,0 +1,20 @@
+✔ V031 preserves shotgun base stats, cadence, range, spread and all close pellet damage (2.1579ms)
+✔ V031 adds a bounded progressive far penalty with no damage increase or negative damage (0.9643ms)
+✔ V031 retains close burst and all legal stacked shotgun perks on mobs (8.6353ms)
+✔ V031 retains close burst and all legal stacked shotgun perks on bosses (3.4614ms)
+✔ V031 real distant impacts lose damage while cadence, volley count and spread remain stable (3.3328ms)
+✔ V031 falloff uses swept impact distance and is independent of simulation step (1.4142ms)
+✔ V031 preserves smg definition, damage and real zone replay byte-for-byte (242.273ms)
+✔ V031 preserves grisoux definition, damage and real zone replay byte-for-byte (118.766ms)
+✔ V031 Focus remains boss-only, caps at 25 percent, and resets after prolonged movement (0.3219ms)
+✔ V031 never fires while moving and preserves each original volley size (0.834ms)
+✔ V031 retains existing saves without migrating any profile or reward state (0.7765ms)
+✔ V031 keeps all source outside the two weapon modules and version label byte-identical (57.7315ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 649.804

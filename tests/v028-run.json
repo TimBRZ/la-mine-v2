@@ -1,0 +1,68 @@
+{
+  "status": "won",
+  "elapsed": 769.2333333329624,
+  "hp": 3,
+  "kills": 278,
+  "totals": {
+    "wave": 210,
+    "choices": 6,
+    "kills": 278,
+    "coal": 118,
+    "bosses": 6,
+    "iron": 11,
+    "epic": 1,
+    "wave20": 1,
+    "wins": 1,
+    "riftWin": 1
+  },
+  "contracts": {
+    "daily": {
+      "key": "2026-10-08",
+      "rows": [
+        {
+          "id": "d-k120",
+          "value": 120,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-win",
+          "value": 1,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "d-grisoux",
+          "value": 1,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    },
+    "weekly": {
+      "key": "2026-10-05",
+      "rows": [
+        {
+          "id": "w-k500",
+          "value": 278,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "w-wave20",
+          "value": 1,
+          "claimed": false,
+          "weapons": []
+        },
+        {
+          "id": "w-iron",
+          "value": 11,
+          "claimed": false,
+          "weapons": []
+        }
+      ],
+      "bonusClaimed": false
+    }
+  }
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "weaponId": "shotgun",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5,
+    "seconds": 456.65,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 74,
+    "circles": 3,
+    "maxZones": 0,
+    "groundWarnings": 0,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 25.05,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 34.58,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 35.77,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 33.45,
+        "hp": 5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 470.23,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 91,
+    "circles": 1,
+    "maxZones": 0,
+    "groundWarnings": 0,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 30.13,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 30.55,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 36.83,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 56.35,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "galleries",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 2.5,
+    "seconds": 487.28,
+    "kills": 235,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 71,
+    "circles": 0,
+    "maxZones": 0,
+    "groundWarnings": 0,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 32.22,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 46.03,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 48.35,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 36.8,
+        "hp": 2.5
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "tracks",
+    "seed": 2,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 679.08,
+    "kills": 277,
+    "perks": {
+      "boots": 1,
+      "plates": 2,
+      "buckshot": 1,
+      "trigger": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 152,
+    "circles": 3,
+    "maxZones": 0,
+    "groundWarnings": 0,
+    "maxSummons": 1,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 35.45,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 38.08,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 60.53,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 46.93,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 4,
+    "seconds": 721.33,
+    "kills": 278,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 188,
+    "circles": 3,
+    "maxZones": 0,
+    "groundWarnings": 0,
+    "maxSummons": 1,
+    "maxEntities": 11,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 33.62,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 37.62,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 45.52,
+        "hp": 5
+      },
+      {
+        "wave": 20,
+        "seconds": 76.98,
+        "hp": 4
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "tracks",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 2,
+    "seconds": 723.33,
+    "kills": 278,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 108,
+      "iron": 9,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 153,
+    "circles": 4,
+    "maxZones": 0,
+    "groundWarnings": 0,
+    "maxSummons": 1,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 39.93,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 50.15,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 60.82,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 56.35,
+        "hp": 2
+      }
+    ]
+  },
+  {
+    "weaponId": "shotgun",
+    "zoneId": "shaft59",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 679.83,
+    "kills": 284,
+    "perks": {
+      "plates": 2,
+      "trigger": 1,
+      "boots": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 23,
+    "circles": 3,
+    "maxZones": 3,
+    "groundWarnings": 49,
+    "maxSummons": 0,
+    "maxEntities": 11,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 22.82,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 31.52,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 35.95,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 37.58,
+        "hp": 5.5
+      }
+    ]
+  },
+  {
+    "weaponId": "smg",
+    "zoneId": "shaft59",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 4.5,
+    "seconds": 822.88,
+    "kills": 284,
+    "perks": {
+      "plates": 2,
+      "boots": 1,
+      "heat": 1,
+      "trigger": 1,
+      "critical-heat": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 19,
+    "circles": 4,
+    "maxZones": 3,
+    "groundWarnings": 59,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 30.15,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 30.42,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 34.6,
+        "hp": 4.5
+      },
+      {
+        "wave": 20,
+        "seconds": 48.02,
+        "hp": 4.5
+      }
+    ]
+  },
+  {
+    "weaponId": "grisoux",
+    "zoneId": "shaft59",
+    "seed": 1,
+    "rank": 2,
+    "talents": [],
+    "status": "won",
+    "wave": 20,
+    "hp": 5.5,
+    "seconds": 830.47,
+    "kills": 284,
+    "perks": {
+      "plates": 2,
+      "conduit": 1,
+      "energy-overload": 1,
+      "rapid-coil": 1,
+      "double-cannon": 1
+    },
+    "choices": 6,
+    "rewards": {
+      "coal": 113,
+      "iron": 10,
+      "diamond": 0,
+      "token": 0
+    },
+    "maxBolts": 8,
+    "movingShots": 0,
+    "fans": 19,
+    "circles": 5,
+    "maxZones": 3,
+    "groundWarnings": 55,
+    "maxSummons": 0,
+    "maxEntities": 12,
+    "bosses": [
+      {
+        "wave": 5,
+        "seconds": 35.28,
+        "hp": 5.5
+      },
+      {
+        "wave": 10,
+        "seconds": 45.47,
+        "hp": 5.5
+      },
+      {
+        "wave": 15,
+        "seconds": 61.18,
+        "hp": 5.5
+      },
+      {
+        "wave": 20,
+        "seconds": 40.78,
+        "hp": 5.5
+      }
+    ]
+  }
+]

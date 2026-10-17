@@ -1,0 +1,981 @@
+
+> la-mine-v2-v01@0.24.0 test
+> node --test tests/*.test.js
+
+✔ V0.15 preserves every V0.14 wave, enemy, boss, reward, perk, shop and storage rule (254.0837ms)
+✔ focus ramps on consecutive primary boss hits, never exceeds 25 percent (3.4569ms)
+✔ target switch or primary normal enemy resets focus; piercing followers cannot steal it (0.5666ms)
+✔ brief dodge retains focus, prolonged movement invalidates even already flying bullets (0.7225ms)
+✔ wave/stance reset and a new weapon cannot inherit focus; heat still resets immediately (3.9631ms)
+✔ ordinary enemy damage and the base shotgun volley have no boss-wide nerf (11.0767ms)
+✔ Double Canon keeps both volleys but its extra boss volley has the localized weight (2.7801ms)
+✔ Point blank alone stays at +100 percent; only stacked boss proximity reaches the cap (5.7752ms)
+✔ focus enhances only the primary boss and preserves ordinary piercing damage exactly (0.9285ms)
+✔ shotgun: every normal wave is identical to the frozen V0.14 simulation (5240.1594ms)
+✔ smg: every normal wave is identical to the frozen V0.14 simulation (2115.5313ms)
+✔ V0.15 shotgun beats boss 5 without Atelier (92.2983ms)
+✔ V0.15 shotgun beats boss 10 without Atelier (110.1629ms)
+✔ V0.15 shotgun beats boss 15 without Atelier (84.3869ms)
+✔ V0.15 shotgun beats boss 20 without Atelier (189.6361ms)
+✔ V0.15 smg beats boss 5 without Atelier (72.7004ms)
+✔ V0.15 smg beats boss 10 without Atelier (30.3502ms)
+✔ V0.15 smg beats boss 15 without Atelier (34.0915ms)
+✔ V0.15 smg beats boss 20 without Atelier (109.4113ms)
+✔ paired final encounters narrow the strong-build gap without changing boss stats (390.3409ms)
+✔ V023 reproduces old ghost invocation and permits two real boss Wagons with a strict cap (6.6845ms)
+✔ V023 live boss selects charge instead of empty summon when two Wagons exist (3.7887ms)
+✔ V023 live second invocation succeeds during first Wagon presence (4.2802ms)
+✔ V023 unavailable endpoint at release becomes a fresh fully warned charge (1.3422ms)
+✔ V023 summoned Wagons retire only after reaching edge; ordinary Wagons persist and rewards do not grow (5.1369ms)
+✔ V023 boss death cancels summons, reserved shots and hazards without posthumous damage (2.5993ms)
+✔ V023 circle 6 is evenly distributed, bounded, slow, fixed in flight and released atomically (3.3412ms)
+✔ V023 circle 8 is evenly distributed, bounded, slow, fixed in flight and released atomically (1.3302ms)
+✔ V023 reservation prevents competing warnings/volleys consuming a visible circle budget (1.2308ms)
+✔ V023 circles rotate on successive attacks, warn 1.5 seconds, and final never uses eight (0.8583ms)
+✔ V023 circles are preceded by actual warning and fire no earlier; fan/simple patterns remain (1.7457ms)
+✔ V023 horizontal rails warn, lock, damage only after activation and expire (1.6618ms)
+✔ V023 vertical rails warn, lock, damage only after activation and expire (0.8972ms)
+✔ V023 rails alternate; low HP cross occurs once per four rail attacks, never in final (0.7623ms)
+✔ V023 rail/cross geometry leaves broad safe areas even when aimed at room edges (2.7648ms)
+✔ V023 live rail damage respects invulnerability and a warning-time escape avoids both cross lines (7.023ms)
+✔ V023 eight-shot circle has geometric gaps a player can occupy without damage (1.2178ms)
+✖ V023 preserves V022 weapons/perks/Plaques visuals, boss stats, normal enemies, economy and saves byte-for-byte (36.3656ms)
+✔ V023 simultaneous circle attempts grant one major reservation and keep the other boss on a small pattern (2.6718ms)
+✔ V023 an active circle prevents cross selection without delaying the ordinary rail warning (0.9389ms)
+✔ V023 live full galleries with shotgun remains winnable and strictly bounded (7865.8754ms)
+✔ V023 live full galleries with smg remains winnable and strictly bounded (3840.6409ms)
+✔ V023 live full galleries with grisoux remains winnable and strictly bounded (3543.9637ms)
+✔ V023 live full tracks with shotgun remains winnable and strictly bounded (3885.6735ms)
+✔ V023 live full tracks with smg remains winnable and strictly bounded (4217.715ms)
+✔ V023 live full tracks with grisoux remains winnable and strictly bounded (4075.9087ms)
+✔ V022 base energy volley: three shots, 0.85 seconds, 350 range, first target only even after kill (6.192ms)
+✔ V022 conduit I/II/III reaches 2/3/4 targets with 100/70/50/35 damage and no fifth hit (3.2289ms)
+✔ V022 capacitor trades damage for a wider 4/5 impulse volley; coil remains slower than SMG (1.0396ms)
+✔ V022 overload halves only penetration penalty following a direct kill (1.5224ms)
+✔ V022 arc hits one nearest secondary target, grants its kill, and never recurses (1.2241ms)
+✔ V022 arc moderate damage and range; no arc from nonlethal hit (1.6747ms)
+✔ V022 boots activate only on actual shot, refresh without stacking, expire and preserve permanent speed (2.3869ms)
+✔ V022 plates block whole first hit, no expiration, next hit hurts, recharge each wave (11.1473ms)
+✔ V022 perk draws enforce prerequisites, 3 roles, caps, uniqueness and avoid consecutive identical trios (30.7359ms)
+✔ V022 penetration is visible in HUD only after purchase; no unknown labels (1.4819ms)
+✔ V022 haveuse health +25–35%, activity increased, warnings/damage unchanged, stronger below half (36.4399ms)
+✔ V022 crachefer health +25–35%, activity increased, warnings/damage unchanged, stronger below half (115.2436ms)
+✔ V022 effondreur health +25–35%, activity increased, warnings/damage unchanged, stronger below half (65.6908ms)
+✔ V022 stationmaster health +25–35%, activity increased, warnings/damage unchanged, stronger below half (68.6441ms)
+✔ V022 locomotive health +25–35%, activity increased, warnings/damage unchanged, stronger below half (79.0863ms)
+✔ V022 switchman health +25–35%, activity increased, warnings/damage unchanged, stronger below half (126.3389ms)
+✔ V022 final preserves staggered opening, fixed telegraphs and eight-shot cap; low HP fans/circles retain simple patterns (2.1579ms)
+✖ V022 leaves normal enemies, waves, meta systems, persistence and validated art byte-identical (66.4001ms)
+✔ V022 historical full galleries shotgun with Atelier 2, legal perks, boss timings and unchanged economy (8278.8453ms)
+✔ V022 historical full galleries smg with Atelier 2, legal perks, boss timings and unchanged economy (3537.4425ms)
+✔ V022 historical full galleries grisoux with Atelier 2, legal perks, boss timings and unchanged economy (3427.7189ms)
+✔ V022 historical full tracks shotgun with Atelier 2, legal perks, boss timings and unchanged economy (3905.6822ms)
+✔ V022 historical full tracks smg with Atelier 2, legal perks, boss timings and unchanged economy (4085.6211ms)
+✔ V022 historical full tracks grisoux with Atelier 2, legal perks, boss timings and unchanged economy (3804.063ms)
+✔ V022 historical energy run without Atelier completes Galeries with earned penetration and no HP override (4365.6121ms)
+✔ V022 historical advanced energy run with five Talents completes Zone 2 and preserves boss challenge (2464.0169ms)
+✖ V0.20 preserves every V0.19 module outside the two entity renderers the version label and authorized wagon targeting (23.2085ms)
+✔ the catalogue covers exactly the hero, both weapons, five enemies and six bosses (2.5525ms)
+✔ all entity assets are distinct local SVGs with bounded download and decoded texture budgets (299.2453ms)
+✔ preloading rasterizes each local asset once at a small fixed size (1.1098ms)
+✔ a failed asset keeps the existing fallback intact and loaded assets use catalogue anchors (0.6146ms)
+✔ human silhouettes stay upright and mechanical aiming follows the exact gameplay angle (1.3732ms)
+✔ movement, idle and hit poses stay below one pixel of displacement and never mutate combat or consume its RNG (44.0036ms)
+✔ reduced motion removes bob, squash, hit and spawn scale but preserves aiming (0.9748ms)
+✔ movement settles smoothly, long frames are bounded and each run can reset animation state (0.7329ms)
+✔ boss arrival grows only its sprite from a bounded scale without altering warmup or position (0.5406ms)
+✔ animation applies only image transforms and leaves sprite creation to the existing pool lifecycle (0.5429ms)
+✖ V0.18 modules remain byte-identical outside authorized wagon targeting, including runs, bosses, rewards, upgrades and saved progression (68.4814ms)
+✔ the two arenas have distinct deterministic artwork and bounded one-time drawing work (40.8741ms)
+✔ lane borders follow the exact threat radius and direction, including diagonal and reverse lanes (4.5776ms)
+✔ ground warning and active attack share the same radius but visibly change color (0.8219ms)
+✔ wagon warning renderer neither changes its locked trajectory nor draws after its run ends (0.5438ms)
+✔ rail boss warnings render finite geometry without mutating attacks: stationmaster (1.3766ms)
+✔ rail boss warnings render finite geometry without mutating attacks: locomotive (1.1938ms)
+✔ rail boss warnings render finite geometry without mutating attacks: switchman (2.8471ms)
+✔ six boss silhouettes generate distinct small sprites (5.6375ms)
+✖ all combat textures fit within 88 pixels with no external image or shader (15.7087ms)
+✔ effects stay inside a 48-sprite pool, reuse objects and expire without touching the global random generator (3.1806ms)
+✔ loot attraction trails are short, pooled, visual-only, and omitted for reduced motion (2.6489ms)
+✔ Crates page is a destination and returning keeps selected weapon (3.3671ms)
+✔ central table totals 100%, contains only existing resource rewards, no crate loop (1.8198ms)
+✔ reward interval coal 100 (0.6091ms)
+✔ reward interval coal 200 (3.5524ms)
+✔ reward interval iron 10 (0.6482ms)
+✔ reward interval iron 20 (0.2977ms)
+✔ reward interval diamond 1 (0.272ms)
+✔ reward interval diamond 2 (0.6002ms)
+✔ reward interval token 1 (0.2888ms)
+✔ unknown or invalid random values cannot create rewards (10.9482ms)
+✔ local calendar boundary, valid dates and leap years are respected (0.7577ms)
+✔ old profile remains exact; optional crate extension sanitizes corrupt counts and dates (0.9581ms)
+✔ empty stock prevents opening without drawing or mutating wallet (1.0831ms)
+✔ open atomically consumes one crate and saves coal (1.0758ms)
+✔ open atomically consumes one crate and saves iron (0.649ms)
+✔ open atomically consumes one crate and saves diamond (0.7076ms)
+✔ open atomically consumes one crate and saves token (0.9098ms)
+✔ failed opening write leaves stock and resources unchanged; retry once works (0.8202ms)
+✔ resource safety ceiling is checked before drawing, no paid rerolls or silent truncation (0.4094ms)
+✔ sequential stale instances cannot open the same last crate twice (0.455ms)
+✔ multiple successive openings are bounded and credit exactly once each (1.984ms)
+✔ first daily victory, repeated claim and second victory same day (1.2873ms)
+✔ daily date survives reload and next local day awards again; backwards clock does not (0.8589ms)
+✔ bonus victory chance boundary and daily+random can stack (0.6516ms)
+✔ defeat and incomplete synthetic victory never award or draw crates; resources unchanged (0.5531ms)
+✔ daily grant at stock ceiling cannot overflow count or consume unavailable daily reward (0.4125ms)
+✔ exchange spends exactly three tokens, persists crate and refuses insufficient balance (0.5931ms)
+✔ exchange write failure and stock cap never spend tokens (0.6516ms)
+✔ Atelier, talents and Relève transactions preserve crate count/date after reload (1.824ms)
+✔ V0.17 leaves all V0.16 combat/talent/Atelier/Relève/drop code byte-identical (1734.4693ms)
+✔ protected V0.14 weapons, perks, economy, drops, menus and storage are byte-identical (132.5764ms)
+✔ immobility only influences enemy decisions: no enemy means no damage or hazard (32.4847ms)
+✔ camping shortens drill reposition cooldown without shortening its visible locked warning (6.4244ms)
+✔ rat flanks take opposite approach angles and still close on the player (1.0675ms)
+✔ stage one is unchanged while later groups, live caps and miner presence increase (24.4015ms)
+✔ camping rats use widely separated safe anchors and still telegraph their spawn (6.5483ms)
+✔ all boss warnings stay unchanged below half HP; only downtime intensifies (3.1351ms)
+✔ final machines have staggered openings and moderate recovery without extra damage (12.9329ms)
+✔ Effondreur limits its warnings to two bounded, locked and expiring ground zones (1.7488ms)
+✔ shotgun: wave 16 can be dodged with a legal build but defeats stationary camping (549.5371ms)
+✔ shotgun: wave 17 can be dodged with a legal build but defeats stationary camping (307.964ms)
+✔ shotgun: wave 18 can be dodged with a legal build but defeats stationary camping (314.0919ms)
+✔ shotgun: wave 19 can be dodged with a legal build but defeats stationary camping (348.6466ms)
+✔ smg: wave 16 can be dodged with a legal build but defeats stationary camping (206.8666ms)
+✔ smg: wave 17 can be dodged with a legal build but defeats stationary camping (184.8748ms)
+✔ smg: wave 18 can be dodged with a legal build but defeats stationary camping (104.1298ms)
+✔ smg: wave 19 can be dodged with a legal build but defeats stationary camping (240.5668ms)
+✔ shotgun: boss 5 shows several complete patterns and stays beatable (215.3903ms)
+✔ shotgun: boss 10 shows several complete patterns and stays beatable (180.9306ms)
+✔ shotgun: boss 15 shows several complete patterns and stays beatable (139.1725ms)
+✔ shotgun: boss 20 shows several complete patterns and stays beatable (281.1633ms)
+✔ smg: boss 5 shows several complete patterns and stays beatable (83.9702ms)
+✔ smg: boss 10 shows several complete patterns and stays beatable (27.7693ms)
+✔ smg: boss 15 shows several complete patterns and stays beatable (86.9493ms)
+✔ smg: boss 20 shows several complete patterns and stays beatable (165.1579ms)
+✔ a late miner survives a real base shotgun volley, then dies to sustained fire (5.8928ms)
+✔ twelve simultaneous enemies remain finite under a minute of density stress (393.2102ms)
+✔ stationary firing is official even with obsolete A option; gameplay exposes no A/B UI (11.8794ms)
+✖ three original enemies remain registered: rat is smaller, faster and weaker than the miner (3.8837ms)
+✔ rat and miner pursue directly at their separate speeds, respecting spawn telegraph (0.9433ms)
+✔ drill approaches from far away, retreats nearby and holds its firing distance (1.0724ms)
+✔ drill stops, shows fan aim for 900 ms then emits one volley and rests; damage does not hide the warning (2.4642ms)
+✔ dead drill never fires; projectile pool enforces one live bolt per owner and eight total (3.6897ms)
+✔ slow drill bolt hits a stationary player but a mobile lateral dodge avoids it (2.5045ms)
+✔ hostile projectiles collide continuously, expire on walls/range and recycle slots (0.7476ms)
+✔ all three types take real shotgun damage, die once and produce the existing room drops (6.5849ms)
+✔ Grisou damages and chains through each enemy type without changing its perk rules (1.322ms)
+✔ Canon scie uses real player distance for every type, not distance travelled by the pellet (5.1925ms)
+✔ fixed wave distribution introduces rats, then miners, then drills and mixes all three in wave 4 (1.0491ms)
+✔ actual spawning uses each wave ordered roster and honors the live cap (4.9095ms)
+✔ contact damage distinguishes rat and miner and shares invulnerability with drill bolts (4.6507ms)
+✔ pause freezes a live drill warning and hostile projectile; resuming does not burst fire (1.7809ms)
+✔ same-frame shotgun kill cancels the drill attack and final collection clears hostile bolts (1.3955ms)
+✔ death, replay and wave changes cannot retain hostile projectiles (5.2711ms)
+✔ Haveuse retains its exact stats, solitary encounter and contact damage (5.7358ms)
+✔ Bottes widens the escape speed gap against rats and Plaques preserves fractional tank damage ratio (0.7727ms)
+✔ complete wave 4 and boss run uses all enemy types, bounded bolts, stationary shots and unchanged rewards (2735.058ms)
+✔ dense mixed combat remains finite and bounded with three simultaneous drill projectiles (171.7034ms)
+✔ rat nose follows actual movement in eight directions, including retreat under knockback (2.7001ms)
+✔ stationary and newly spawned rats retain their intended facing without displacement (0.7708ms)
+✔ both rail directions stay upright from telegraph through charge and stop, without changing collisions (38.8834ms)
+✔ wagon reads its locked charge heading even when a cosmetic angle differs (0.5987ms)
+✔ only rat and wagon artwork changes; all other V0.20 SVGs remain byte-identical (1096.6461ms)
+✔ mode A matches the V0.4 weapon events and pellets while moving (13.3447ms)
+✔ mode B blocks movement, braking and tiny input; resumes within 120 ms at base speed (16.3246ms)
+✔ mode B never releases a queued shot on movement onset, wall input or rapid stop/start (9.1692ms)
+✔ mode B preserves cooldown; switching A/B cannot reset cadence or create an extra volley (2.1404ms)
+✔ all seven perks retain their effects in both firing modes, including the double volley (4.709ms)
+✔ player accelerates promptly, brakes, and never exceeds speed diagonally (2.9509ms)
+✔ all four closed room boundaries contain the complete player body (5.4389ms)
+✔ joystick has a deadzone, proportional movement and a bounded diagonal magnitude (2.6552ms)
+✔ WASD, ZQSD and arrow key states all control the actual input module (1.7337ms)
+✔ touch joystick owns one pointer, handles release outside and touch cancellation (1.4062ms)
+✔ HUD touches do not move the player and focus loss can clear every held input (0.9658ms)
+✔ auto targeting selects the nearest alive, active enemy within short range (1.072ms)
+✔ one automatic shotgun discharge produces seven separate symmetric pellet angles (4.6999ms)
+✔ shotgun cooldown stays slow and never fires at a nonexistent target (1.9703ms)
+✔ swept collision hits crossed circles at low frame rates, not only end positions (4.6373ms)
+✔ one pellet stops at the first target even if the enemy list is reversed (1.0795ms)
+✔ close shots cause more damage, react with knockback, and can kill in one discharge (3.9446ms)
+✔ pellets expire at short range, cannot hit remote targets, and reuse a bounded pool (16.7629ms)
+✔ enemies telegraph before pursuing and remain inside the same fixed room (0.9076ms)
+✔ contact damages the player once per invulnerability interval, never once per pellet or enemy (5.1121ms)
+✔ spawn anchors are safely distant and simultaneous enemies are capped (108.3945ms)
+✔ warm-up wave clears before automatic progression (79.6731ms)
+✔ a finished run is inert and replay starts clean with no persistent progression (1.5156ms)
+✔ a long frame is bounded rather than simulating a whole second of contact damage (0.7029ms)
+✔ Grisou X is selectable, launches either unlocked zone and offers existing compatible perks/epics (15.436ms)
+✔ shotgun and SMG definitions remain identical to V0.20 (0.6899ms)
+✔ Grisou X emits exactly three symmetric energy projectiles only while stopped (2.3468ms)
+✔ energy penetration deals exactly 100/70/50/35 after conduit perks percent and vanishes before a fifth target (3.7628ms)
+✔ a kill never consumes the remaining penetration and the next target is hit in the same frame (1.3873ms)
+✔ energy projectiles expire at range/borders, reuse the pool and never duplicate a hit (1.0182ms)
+✔ drill telegraphs then fires three symmetric directions aimed at the player at release (3.163ms)
+✔ draisine telegraphs then fires three symmetric directions aimed at the player at release (1.2646ms)
+✔ fan allocation is atomic, capped at eight bolts, and prohibits simultaneous boss fans (1.1271ms)
+✔ slow fans can be dodged after release and overlapping hits respect player invulnerability (4.4166ms)
+✔ Crachefer mixes simple/fan/circle shots; Aiguilleur preserves rails between simple and fan patterns (2.3491ms)
+✖ V0.21 keeps all unrequested production files and validated Rat/Wagon visuals byte-identical (49.1674ms)
+✔ Grisou X art is lightweight local SVG and the three-card menu uses the existing selection mechanism (42.5237ms)
+✔ historical V0.21 full Zone 2 with shotgun has real fans, legal choices and unchanged reward budget (7750.6708ms)
+✔ historical V0.21 full Zone 2 with smg has real fans, legal choices and unchanged reward budget (4435.9808ms)
+✔ historical V0.21 full Zone 2 with grisoux has real fans, legal choices and unchanged reward budget (2394.5878ms)
+✔ historical V0.21 Grisou X completes all twenty Galeries waves with real enemy fans (1652.4582ms)
+✔ DA kit assets exist, remain local and fit the 100 KB payload budget (109.8519ms)
+✔ hero loadout describes and displays exactly the selected weapon (1.7099ms)
+✔ protected V0.9 resources, base stats and upgrade costs stay unchanged outside authorized reworks (118.3798ms)
+✔ both local servers serve the kit with explicit SVG and WebP MIME types (59.5875ms)
+✔ real enemy death spawns a drop, repeated death cannot mint resources (13.5441ms)
+✔ drops remain still throughout combat and passing over one collects exactly once (5.1899ms)
+✔ end-of-wave breath precedes accelerating magnetism and collection completes even while running away (1.6833ms)
+✔ collection blocks the next wave; completed rewards persist without doubling (2.1926ms)
+✔ pause freezes drops, magnet delay and totals; choices only start after collection (3.6742ms)
+✔ defeat keeps completed waves only; provisional pickups of the unfinished room are discarded (1.5358ms)
+✔ boss collection precedes victory; wallet and result consume the exact collected ledger without RNG or duplicate gains (21.5163ms)
+✔ drop plan preserves V0.4 rare thresholds and combat RNG is independent (6.6737ms)
+✔ 100000 physical boss drop budgets preserve diamond and token rarity (1218.1909ms)
+✔ all room drop pools are bounded and conserve every unit with or without early pickup (3.0832ms)
+✔ mode B complete twenty-wave combat with stop-and-dodge steering uses real shots, drops and six perks (3550.1364ms)
+✔ resource decoration replaces only decorative icons, preserving amounts and resource labels (4.3104ms)
+✖ menu icons and mining-place artwork remain small decorative vectors without external assets or filters (4.1205ms)
+✔ illustrated equipment stays distinct while portraits retain explicit accessible weapon names (0.8819ms)
+✖ menu starts at home with shotgun; only galleries can launch and future sections cannot navigate (3.853ms)
+✔ both weapons survive navigation and yield the existing five-wave run with unchanged base stats (7.8079ms)
+✔ launch latch prevents double-tap starts and selection cannot mutate an active run (0.6459ms)
+✔ victory or defeat returns to menu without unlocking future zones or losing selected weapon (1.7251ms)
+✔ menu navigation and weapon choices do not write, migrate or spend the existing profile (1.1802ms)
+✔ invalid weapon cannot replace a valid selection and each portrait identifies its equipped weapon (1.188ms)
+✔ exactly four resources and four permanent upgrades, capped at five (4.2748ms)
+✔ completed waves grant progressive rewards, defeat keeps cleared waves only (1.1816ms)
+✔ boss rewards require victory and completed wave five (0.6387ms)
+✔ seeded 100000 victories preserve rarity hierarchy, token near one percent (698.8847ms)
+✔ wave two iron is uncommon, wave three iron more frequent; exact probability boundaries (0.7189ms)
+✔ wallet credits a terminal run exactly once, does not consume combat RNG (2.0895ms)
+✔ wallet totals accumulate across distinct runs and persist in a single isolated key (1.0975ms)
+✔ costs are exact, first ranks coal only, never tokens (0.6405ms)
+✔ purchases deduct every cost and preserve token; maximum cannot overspend (3.4314ms)
+✔ insufficient resources and unknown upgrades never mutate profile (0.8422ms)
+✔ purchased levels and balances survive a new storage/service instance (1.1516ms)
+✔ profile rejects foreign resources, invalid values, old schemas and clamps caps (0.6154ms)
+✔ corrupt or unavailable storage degrades to memory without breaking rewards/purchases (0.8802ms)
+✔ permanent bonuses apply once at next run start, no live mutation (3.8343ms)
+✔ power increases real pellet damage while existing close-range perk still stacks (3.4303ms)
+✔ perks remain stronger and apply normally on the permanent base (1.4365ms)
+✔ all permanent bonuses are modest and bounded at maximum rank (18.4579ms)
+✔ full combat victory feeds wallet, purchase and next run with reset perks (3359.2744ms)
+✔ V0.13 pressure rises across four stages and readable spaced drills (13.0952ms)
+✔ heavy buckshot adds four visible pellets, wider spread and exactly 20 percent lower cadence (2.3193ms)
+✔ sawn-off snapshots shorter projectile range and rejects targets past the new limit (1.2496ms)
+✔ Grisou counts unique deaths, explodes at six and retains progress between waves (2.4694ms)
+✔ Grisou chains through six nearby victims without duplicate deaths or unbounded recursion (1.2764ms)
+✔ shield absorbs damage, grants normal invulnerability, persists and refreshes without healing (59.2541ms)
+✔ shield and SMG timers freeze during a Porion selection (8.4326ms)
+✔ boots and trigger provide the declared speed and interval and their ranked HUD stays accurate (1.2397ms)
+✔ extended magazine accelerates exactly the first two seconds after settling, never resets cooldown (3.3381ms)
+✔ heat grows by ten percent per second to forty, affects real damage and resets even on tiny input (6.9235ms)
+✔ piercing traverses exactly one enemy in geometric order with 60 percent second damage (1.3737ms)
+✔ piercing kills feed the physical drop ledger once per target (2.1184ms)
+✔ each weapon has seven compatible perks, three dedicated and four shared (0.7631ms)
+✔ consecutive choices avoid identical triples, use diverse categories and weight owned ranks lower (130.119ms)
+✔ all ten perks obey caps through selection and every card advertises its next rank and maximum (2.3785ms)
+✔ a distinct SMG build with piercing and magazine at Atelier 5 completes real combat without healing (1568.3085ms)
+✔ V0.12 leaves physical drops, economy, storage, Relève, Atelier, terrain and enemies unchanged (268.787ms)
+✔ three distinct rail bosses populate 5/10/15/20, menu still refuses tracks (15.4572ms)
+✔ stationmaster locks a visible warning before charge and recovers without teleportation (2.3717ms)
+✔ locomotive locks a visible warning before charge and recovers without teleportation (0.9841ms)
+✔ stationmaster wagon passage is periodic, safe, bounded and uses the ordinary telegraph (14.6395ms)
+✔ summons neither mint drops nor survive their owner, even on the death frame (29.4659ms)
+✔ locomotive steam is warned, bounded, damages only when active and expires (2.9733ms)
+✔ switchman has two locked avoidable solo rails and only one in the final (3.6781ms)
+✔ mechanical burst is exactly two slow shots, with lateral dodge available (24.6418ms)
+✔ boss charge and rail/steam damage use live Run collisions and ordinary invulnerability (15.2517ms)
+✔ stationmaster hits a stationary target but a warning-time lateral dodge avoids the charge (11.683ms)
+✔ shooting an invoked wagon credits no additional wave death or resource (4.0339ms)
+✔ triple openings are staggered and hazards/bolts/summons remain bounded (82.1136ms)
+✔ shotgun defeats boss 5 with legal perk prefix, no damage/HP overrides (211.8516ms)
+✔ shotgun defeats boss 10 with legal perk prefix, no damage/HP overrides (241.3881ms)
+✔ shotgun defeats boss 15 with legal perk prefix, no damage/HP overrides (304.4469ms)
+✔ shotgun defeats boss 20 with legal perk prefix, no damage/HP overrides (662.9168ms)
+✔ smg defeats boss 5 with legal perk prefix, no damage/HP overrides (166.7892ms)
+✔ smg defeats boss 10 with legal perk prefix, no damage/HP overrides (68.1008ms)
+✔ smg defeats boss 15 with legal perk prefix, no damage/HP overrides (60.835ms)
+✔ smg defeats boss 20 with legal perk prefix, no damage/HP overrides (286.9088ms)
+✔ full tracks run completes with shotgun and activated Zone 2 reward budget (4259.6212ms)
+✔ full tracks run completes with smg and activated Zone 2 reward budget (1538.9109ms)
+✖ old boss behavior body, normal tracks waves and all economy stay unchanged (22.7384ms)
+✖ rail enemies register distinct stats and textures without changing the original roster (6.3794ms)
+✔ wagon warns 1.1 seconds after spawn, locks a straight rail and resists knockback (4.6854ms)
+✔ wagon spawn uses rail edges, never within 180 pixels of player, and defers blocked spawns (9.341ms)
+✔ wagon hits a stationary player and a lateral dodge during the warning avoids contact (14.3895ms)
+✔ wagon ends at the opposite rail edge, then is harmless, destructible and finite (1.4026ms)
+✔ draisine retreats nearby, approaches from far away and strafes at medium distance (1.5463ms)
+✔ draisine visibly aims, pauses, emits one three-way volley then rests without homing (1.5205ms)
+✔ draisine burst projectiles hit with bounded damage but can be dodged; pool stays at eight (15.6652ms)
+✔ dead draisine never emits a queued burst (1.2196ms)
+✔ shotgun kills wagon through live combat and collects its exact drops once (8.8873ms)
+✔ shotgun kills draisine through live combat and collects its exact drops once (1.9687ms)
+✔ smg kills wagon through live combat and collects its exact drops once (5.4478ms)
+✔ smg kills draisine through live combat and collects its exact drops once (3.1562ms)
+✔ Coup de Grisou damages both rail enemies and counts their deaths/drops only once (1.339ms)
+✔ a rail death from the SMG triggers Coup de Grisou through the real run pipeline (2.023ms)
+✔ a draisine killed on its firing frame cannot release its pending projectile (1.0518ms)
+✔ Zone1 enemies, bosses, waves, weapon balance, rewards remain byte-identical (84.7901ms)
+✔ full Zone1 shotgun run replays V0.17 exactly after rail integration (5448.1137ms)
+✔ full Zone1 smg run replays V0.17 exactly after rail integration (1985.3256ms)
+✔ Relève is a menu destination; Talents and Caisses accessible and weapons persist (4.7648ms)
+✔ Relève after 1h gives 12 coal and 1 iron only (1.001ms)
+✔ Relève after 8h gives 96 coal and 8 iron only (0.3825ms)
+✔ Relève after 24h gives 288 coal and 24 iron only (0.3591ms)
+✔ Relève after 48h gives 288 coal and 24 iron only (0.4153ms)
+✔ integer gains, badge threshold and displayed 8h32 example (6.6086ms)
+✔ first V0.10 opening extends the existing save without changing balances or levels (5.8275ms)
+✔ pending gains stay outside wallet across reloads until explicit claim (0.8459ms)
+✔ claim saves balance and timestamp together; repeated click and reload cannot double-credit (1.7507ms)
+✔ a second stale wallet sees an already saved claim (7.3285ms)
+✔ failed atomic write keeps stock and wallet, retry succeeds only once (2.4663ms)
+✔ negative elapsed time, invalid dates and nonfinite clocks never mint resources (28.4475ms)
+✔ corrupt or future persisted timestamp restarts safely without losing the old wallet (3.7454ms)
+✔ claims preserve rare resources, upgrade levels and exact workshop costs (1.273ms)
+✔ resource safety ceiling is respected and a full wallet does not destroy pending stock (2.8117ms)
+✔ a run reward write preserves the pending Relève timestamp and does not auto-credit it (1.8593ms)
+✔ a stale run or workshop writer cannot restore an already claimed period (1.0287ms)
+✔ twenty fixed waves, four escalating stages and a triple final (6.9747ms)
+✔ empty room does not clear before all planned enemies have spawned (6.1459ms)
+✔ automatic next wave needs no exit and keeps position during preparation (2.0876ms)
+✔ PV, player object, weapons and perks persist; obsolete combat state is cleared (1.7789ms)
+✔ choices happen initially and after waves 4, 9, 14, 18 and 19, never from a kill threshold (7.6154ms)
+✔ boss is created once on entering wave 5; no normal spawns or exit (6.0222ms)
+✔ boss warning locks a direction, does not move, then charges and recovers (1.0253ms)
+✔ telegraphed charge hurts a stationary player but can be dodged laterally (78.4767ms)
+✔ boss death wins globally and player death loses; terminal states are inert (9.3194ms)
+✔ pause freezes an in-flight transition and boss charge, no delayed room callbacks (2.2874ms)
+✔ real combat can finish a twenty-wave run with six choices and no healing/reset (3300.4604ms)
+✔ real server serves every kit asset with the correct MIME and exact bytes, including Android requests (1914.5795ms)
+✔ eight stable single-rank talents, centralized positive costs and no Grisou token (7.5117ms)
+✔ old profiles migrate without losing wallet, Atelier or Relève; corrupt talent entries are ignored (1.4652ms)
+✔ atomic purchase and reload: good-start (2.2514ms)
+✔ atomic purchase and reload: porion-eye (0.8625ms)
+✔ atomic purchase and reload: first-aid (0.8344ms)
+✔ atomic purchase and reload: prospector (0.7851ms)
+✔ atomic purchase and reload: magnet (0.8217ms)
+✔ atomic purchase and reload: cold-blood (0.8111ms)
+✔ atomic purchase and reload: last-breath (0.7575ms)
+✔ atomic purchase and reload: lucky-hand (0.9624ms)
+✔ insufficient funds, unknown ID and write failure do not debit or unlock (1.0424ms)
+✔ stale wallet cannot repurchase a talent or restore its spent resources (0.7925ms)
+✔ new run snapshots unlocks, existing run stays unchanged and charges reset (4.3891ms)
+✔ Good Start pauses for a second real choice, grants exactly one extra perk (3.196ms)
+✔ reroll consumes once, changes the set when alternatives exist, grants no perk (1.4685ms)
+✔ epic choice has all three epics: cannot consume a useless identical reroll (1.5533ms)
+✔ First Aid completion at wave 5 (3.4505ms)
+✔ First Aid completion at wave 10 (0.7388ms)
+✔ First Aid completion at wave 15 (0.7574ms)
+✔ First Aid completion at wave 20 (0.6735ms)
+✔ First Aid completion at wave 4 (0.4832ms)
+✔ healing respects Atelier max HP and never exceeds it (0.66ms)
+✔ Prospector is a once-per-completed-wave extra; physical budget and rares unchanged (3.7286ms)
+✔ magnet extends pickup and reduces collection time without minting value (3.1415ms)
+✔ Cold Blood changes settling only for shotgun (0.9381ms)
+✔ Cold Blood changes settling only for smg (0.9165ms)
+✔ Last Breath rescues one lethal hit, retains ordinary grace, second death loses (2.4819ms)
+✔ Lucky Hand reduces ranked appearance across many seeds, never violates caps (540.5423ms)
+✔ no talents replays complete V0.15 run exactly including boss timings and rewards (4807.2176ms)
+✔ V0.16 preserves combat balance, boss AI, waves, Atelier costs, Relève and resources byte for byte (58.3015ms)
+✔ all eight talents complete real shotgun combat without overrides (1511.5356ms)
+✔ all eight talents complete real smg combat without overrides (611.5154ms)
+✔ talent unlocks survive Atelier purchase, Relève claim and result credit (2.1803ms)
+✔ 20 central tracks slots; bosses enabled at 5/10/15/20, future reservations never auto-won (10.3798ms)
+✔ tier 1 has four readable compositions with safe caps and progressive timing (1.1372ms)
+✔ tier 2 has four readable compositions with safe caps and progressive timing (0.8041ms)
+✔ tier 3 has four readable compositions with safe caps and progressive timing (0.4772ms)
+✔ tier 4 has four readable compositions with safe caps and progressive timing (0.4516ms)
+✔ early teaching sequence and railway majority, with rats and drills secondary (1.0758ms)
+✔ normal entrant pressure rises 15–25% over galleries, without health inflation (0.7676ms)
+✔ per-kind caps defer spawns without consuming an entry; free slot resumes (7.3547ms)
+✔ all 16 normal waves survive with shotgun, legal perks/Atelier2, safe spawns and exact collected budget (3455.3275ms)
+✔ all 16 normal waves survive with smg, legal perks/Atelier2, safe spawns and exact collected budget (1095.2822ms)
+✖ step 3 leaves the staged reward function unchanged (53.7033ms)
+✔ choice freezes every combat timer, projectile, spawn and damage, then resumes (20.7562ms)
+✔ all sixteen perks are offered and selectable through the actual flow (28.4628ms)
+✔ 1000 seeded offers have three distinct cards and three categories when available (229.965ms)
+✔ unoffered/unknown cards cannot be selected; a double click applies once (1.3589ms)
+✔ original six perks still affect actual projectile count, speed and cooldown (2.1986ms)
+✔ Grisou explodes only on the sixth death and damages nearby active enemies only (0.9211ms)
+✔ chain explosions terminate, process each death once and do not touch player HP (2.2081ms)
+✔ an unselected Grisou never rolls or explodes (0.447ms)
+✔ Canon scie adds exactly 60% only at real player-target distance <=70 at impact (1.0152ms)
+✔ Double detente rolls once and fires two identical nonrecursive spread volleys (2.5347ms)
+✔ Plaques grants protection without changing HP, including fractional or zero health (1.2316ms)
+✔ every perk stops at its cap; capped cards disappear; exhausted pool cannot pause (7.4435ms)
+✔ fallback still offers distinct cards when only shotgun upgrades remain (1.4607ms)
+✔ double stacks display the total chance and reliable Grisou does not stack (1.4085ms)
+✔ wave choice fires once and never interrupts an ended run (1.3929ms)
+✔ replay resets all perks, HP limits and probabilities (1.8497ms)
+✔ maximum build remains bounded during a full simulated run (641.4879ms)
+✔ Ravens retains contexts, fallback and no immediate repeated phrase (0.8809ms)
+✔ Ravens appearance frequency remains unchanged (0.5465ms)
+✔ wagon selects the nearest authorized rail across the arena, including the exact center (57.896ms)
+✔ rail ranking keeps stable ties, accepts no unsafe fallback and never mutates its candidates (0.7632ms)
+✔ blocked nearest rail falls back to the nearest free rail; all blocked endpoints defer spawning (35.6394ms)
+✔ selection samples the current player position anew for each wagon, then locks before warning (2.0964ms)
+✔ a charging wagon never steers after the player changes rails and finishes harmlessly (34.3019ms)
+✔ targeted rail hits a stationary player but allows a delayed mobile dodge after the warning (25.6577ms)
+✔ boss-invoked wagons use the same threatening safe rail with the V0.23 two-Wagon limit (1.3783ms)
+✖ validated visuals, hitboxes, other enemies and economy are unchanged; edits are only wagon spawn selection (55.0633ms)
+✔ one arena persists across all twenty waves and replay uses the same arena definition (67.013ms)
+✔ tracker marks completed waves only after collection and identifies the final boss (32.7093ms)
+✔ wave 4 collection and choice must finish before a unique protected boss intro (3.7026ms)
+✔ next-wave preparation preserves safe position and delays all hostile engagement (3.5071ms)
+✔ boss spawn recentres only an unsafe player and cannot heal or change equipped stats (3.2675ms)
+✔ arena drawing is constructed once: updates never create scenery, doors or a fade (9.1196ms)
+✔ V0.11 protected systems stay unchanged apart from the V0.12 weapon rework (80.2168ms)
+✔ current UI and zone wording use waves and no mandatory exit instruction (98.6698ms)
+✔ two weapon definitions preserve every shotgun V0.6 parameter and reject unknown weapons (11.3737ms)
+✔ SMG produces one finite accurate weak projectile with longer range and lighter effects (2.1398ms)
+✔ SMG cannot fire during movement or braking and resumes promptly when settled (10.409ms)
+✔ SMG fires rapidly for 20 seconds without nonfinite bullets or pool growth (27.7307ms)
+✔ SMG real bullets kill rat with sustained damage (1.4109ms)
+✔ SMG real bullets kill miner with sustained damage (0.893ms)
+✔ SMG real bullets kill drill with sustained damage (2.4602ms)
+✔ SMG real bullets kill boss with sustained damage (9.2191ms)
+✔ compatible perks appear for both weapons and shotgun-only perks never enter SMG offers (46.3551ms)
+✔ all four permanent stats and generic perks apply to the SMG base (4.4469ms)
+✔ Grisou propagates an SMG kill through the existing explosion resolver (1.4884ms)
+✔ complete shotgun run preserves drops, collection and all twenty waves (2011.4421ms)
+✔ complete smg run preserves drops, collection and all twenty waves (1200.9533ms)
+✔ SMG hits beyond shotgun reach, expires at its own range, and snapshots permanent damage (0.9155ms)
+✔ maximum SMG cadence and damage build keeps fixed pools and finite combat state (52.0965ms)
+✔ world configuration contains twenty bounded encounters and four boss milestones (5.5691ms)
+✔ twenty-wave rewards preserve every original full-run budget and probability (9.1208ms)
+✔ boss factory preserves Haveuse and applies final health scaling explicitly (1.1717ms)
+✔ Crachefer locks aim before its slow ranged shot and never fires while dead (1.8825ms)
+✔ Effondreur locks two ground warnings then activates and expires its zone (1.166ms)
+✔ all twenty waves collect once, pause for six correct choices, and win only at twenty (45.7061ms)
+✔ epics never enter normal offers, are weapon-specific and cannot be double-selected (12.2985ms)
+✔ spawn groups overlap living enemies, stay distant, telegraph and respect every cap (38.974ms)
+✔ triple boss intro contains three distinct machines with reduced HP and safe entry positions (5.9752ms)
+✔ ground danger hits only after warning, can be escaped, freezes on pause and ends with its owner (28.0197ms)
+✔ Double Canon emits exactly two nonrecursive volleys while moving still blocks shots (2.012ms)
+✔ unstable Grisou explodes once per death and a three-boss chain remains finite (1.3878ms)
+✔ Point blank adds exactly 100 percent base close damage, without boosting far damage (1.5642ms)
+✔ total piercing hits at most three distinct targets with 100, 80, 64 percent damage (0.8128ms)
+✔ critical heat grants its final damage only at maximum and motion clears heat (2.1727ms)
+✔ iron rain increases cadence by 50 percent with 15 percent less damage per bullet (0.8354ms)
+✔ V0.13 protected systems remain intact outside the authorized V0.14 enemy changes (62.8244ms)
+✔ Crachefer fires a real bounded slow bolt; lateral motion can dodge its locked aim (11.1518ms)
+✔ menu unlock comes from a saved full galleries win, preserving selected weapon and launch latch (7.4699ms)
+✔ menu options launch complete tracks content and existing meta stats: shotgun (8.1737ms)
+✔ menu options launch complete tracks content and existing meta stats: smg (1.5707ms)
+✖ completion, unique diamond and normal gains commit together and survive stale wallets and reload (6.5424ms)
+✔ old completed tracks saves migrate without a second first-win diamond (0.7208ms)
+✔ defeat and incomplete victory cannot unlock or claim the unique award (3.3268ms)
+✔ one daily crate shared across zones: galleries then tracks (1.7858ms)
+✔ one daily crate shared across zones: tracks then galleries (0.9924ms)
+✔ legacy meta survives zone progression, Atelier, talents, Relève and crate actions (10.3204ms)
+✔ unavailable storage keeps completion and gains together in memory without a repeat award (1.376ms)
+✖ validated step 4 rules remain byte-identical outside authorized wagon targeting (51.41ms)
+✖ package, server, document and visible UI identify current V0.23 consistently (7.1236ms)
+✖ V0.18 legacy saves stay intact and tracks/zone3 remain locked (7.9657ms)
+✔ full galleries victory permanently unlocks tracks; loss/incomplete win do not (5.8641ms)
+✔ first tracks victory grants one diamond exactly once across instances and reload (1.6151ms)
+✔ tracks has 20 bounded waves, bosses at 5/10/15 and triple20, unchanged choice schedule (1.0393ms)
+✔ tracks reward budget is 108 coal, 9 guaranteed iron, unchanged tokens and small diamond bonus (2.083ms)
+ℹ tests 478
+ℹ suites 0
+ℹ pass 461
+ℹ fail 17
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 34864.2445
+
+✖ failing tests:
+
+test at tests\boss-polish-v023.test.js:22:1
+✖ V023 preserves V022 weapons/perks/Plaques visuals, boss stats, normal enemies, economy and saves byte-for-byte (36.3656ms)
+  AssertionError [ERR_ASSERTION]: arena-view.js
+  + actual - expected
+  
+  + '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750'
+  - '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/boss-polish-v023.test.js:22:306)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750',
+    expected: '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\builds-v022.test.js:31:1
+✖ V022 leaves normal enemies, waves, meta systems, persistence and validated art byte-identical (66.4001ms)
+  AssertionError [ERR_ASSERTION]: arena-view.js
+  + actual - expected
+  
+  + '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750'
+  - '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/builds-v022.test.js:31:289)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750',
+    expected: '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\combat-appearances-v020.test.js:8:1
+✖ V0.20 preserves every V0.19 module outside the two entity renderers the version label and authorized wagon targeting (23.2085ms)
+  AssertionError [ERR_ASSERTION]: arena-view.js
+  + actual - expected
+  ... Skipped lines
+  
+  + "import {drawShaftHazards} from './shaft-art.js';\n" +
+  +   "import { dangerLane, dangerCircle } from './combat-art.js';\n" +
+  - "import { dangerLane, dangerCircle } from './combat-art.js';\n" +
+      "import { drawRoom } from './textures.js';\n" +
+      "import { HAVEUSE } from './boss.js';\n" +
+      "import { BOSS_SPECS } from './boss-catalog.js';\n" +
+      "import { drawRailBoss } from './rail-boss-view.js';\n" +
+      '\n' +
+  ...
+      '  update(run) {\n' +
+  +   "    const texture=run.world.id==='shaft59'?'arena-shaft59':(run.world.id==='tracks'||run.world.theme==='rust-steel-copper')?'arena-tracks':'arena-galleries';\n" +
+  -   "    const texture=(run.world.id==='tracks'||run.world.theme==='rust-steel-copper')?'arena-tracks':'arena-galleries';\n" +
+      '    if(this.base.background.texture.key!==texture)this.base.background.setTexture(texture);\n' +
+      "    const hint = run.wavePhase === 'preparing' ? 'PRÉPARE-TOI · VAGUE ' + run.waveNumber :\n" +
+      "      run.wavePhase === 'collecting' ? 'VAGUE NETTOYÉE · RÉCUPÉRATION…' : 'ARRÊTE-TOI POUR TIRER · BOUGE POUR ESQUIVER';\n" +
+      '    if (this.base.hint.text !== hint) this.base.hint.setText(hint);\n' +
+      "    const bosses = run.enemies.filter(enemy => enemy.kind === 'boss' && enemy.alive);\n" +
+  +   '    this.warning.clear(); this.bossHealth.clear();drawShaftHazards(this.warning,run);\n' +
+  -   '    this.warning.clear(); this.bossHealth.clear();\n' +
+      '    for (const [index,boss] of bosses.entries()) {\n' +
+      '      drawRailBoss(this.warning,boss);\n' +
+      '      const width=300/bosses.length-8,x=75+index*300/bosses.length;\n' +
+      "      const color=BOSS_SPECS[boss.bossId||'haveuse'].color;\n" +
+      '      this.bossHealth.fillStyle(0x121b20, .9).fillRect(x, 126, width, 5);\n' +
+  
+      at walk (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-appearances-v020.test.js:16:12)
+      at async TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-appearances-v020.test.js:17:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: "import {drawShaftHazards} from './shaft-art.js';\nimport { dangerLane, dangerCircle } from './combat-art.js';\nimport { drawRoom } from './textures.js';\nimport { HAVEUSE } from './boss.js';\nimport { BOSS_SPECS } from './boss-catalog.js';\nimport { drawRailBoss } from './rail-boss-view.js';\n\n// Constructed once by the scene. Wave changes never rebuild the terrain.\nexport class ArenaView {\n  constructor(scene) {\n    this.base = drawRoom(scene);\n    this.base.label.setVisible(false);\n    this.warning = scene.add.graphics().setDepth(8);\n    this.bossHealth = scene.add.graphics().setDepth(60);\n  }\n  update(run) {\n    const texture=run.world.id==='shaft59'?'arena-shaft59':(run.world.id==='tracks'||run.world.theme==='rust-steel-copper')?'arena-tracks':'arena-galleries';\n    if(this.base.background.texture.key!==texture)this.base.background.setTexture(texture);\n    const hint = run.wavePhase === 'preparing' ? 'PRÉPARE-TOI · VAGUE ' + run.waveNumber :\n      run.wavePhase === 'collecting' ? 'VAGUE NETTOYÉE · RÉCUPÉRATION…' : 'ARRÊTE-TOI POUR TIRER · BOUGE POUR ESQUIVER';\n    if (this.base.hint.text !== hint) this.base.hint.setText(hint);\n    const bosses = run.enemies.filter(enemy => enemy.kind === 'boss' && enemy.alive);\n    this.warning.clear(); this.bossHealth.clear();drawShaftHazards(this.warning,run);\n    for (const [index,boss] of bosses.entries()) {\n      drawRailBoss(this.warning,boss);\n      const width=300/bosses.length-8,x=75+index*300/bosses.length;\n      const color=BOSS_SPECS[boss.bossId||'haveuse'].color;\n      this.bossHealth.fillStyle(0x121b20, .9).fillRect(x, 126, width, 5);\n      this.bossHealth.fillStyle(color).fillRect(x, 126, width * boss.hp / boss.maxHealth, 5);\n      for(const zone of boss.zones||[]) {\n        const active=boss.phase==='recovery';\n        dangerCircle(this.warning,zone.x,zone.y,zone.radius,active);\n      }\n      if ((!boss.bossId || boss.bossId==='haveuse') && (boss.phase === 'warning' || boss.phase === 'charge')) {\n        const dx = Math.cos(boss.chargeAngle) * HAVEUSE.chargeSpeed * HAVEUSE.chargeSeconds;\n        const dy = Math.sin(boss.chargeAngle) * HAVEUSE.chargeSpeed * HAVEUSE.chargeSeconds;\n        // Clip the warning to the same arena boundaries as the machine.\n        const tx = dx > 0 ? (392 - boss.x) / dx : dx < 0 ? (58 - boss.x) / dx : Infinity;\n        const ty = dy > 0 ? (636 - boss.y) / dy : dy < 0 ? (146 - boss.y) / dy : Infinity;\n        const t = Math.max(0, Math.min(1, tx, ty));\n        const x = boss.x + dx * t, y = boss.y + dy * t;\n        dangerLane(this.warning,boss.x,boss.y,x,y,HAVEUSE.radius,boss.phase==='charge');\n      }\n    }\n  }\n}\n",
+    expected: "import { dangerLane, dangerCircle } from './combat-art.js';\nimport { drawRoom } from './textures.js';\nimport { HAVEUSE } from './boss.js';\nimport { BOSS_SPECS } from './boss-catalog.js';\nimport { drawRailBoss } from './rail-boss-view.js';\n\n// Constructed once by the scene. Wave changes never rebuild the terrain.\nexport class ArenaView {\n  constructor(scene) {\n    this.base = drawRoom(scene);\n    this.base.label.setVisible(false);\n    this.warning = scene.add.graphics().setDepth(8);\n    this.bossHealth = scene.add.graphics().setDepth(60);\n  }\n  update(run) {\n    const texture=(run.world.id==='tracks'||run.world.theme==='rust-steel-copper')?'arena-tracks':'arena-galleries';\n    if(this.base.background.texture.key!==texture)this.base.background.setTexture(texture);\n    const hint = run.wavePhase === 'preparing' ? 'PRÉPARE-TOI · VAGUE ' + run.waveNumber :\n      run.wavePhase === 'collecting' ? 'VAGUE NETTOYÉE · RÉCUPÉRATION…' : 'ARRÊTE-TOI POUR TIRER · BOUGE POUR ESQUIVER';\n    if (this.base.hint.text !== hint) this.base.hint.setText(hint);\n    const bosses = run.enemies.filter(enemy => enemy.kind === 'boss' && enemy.alive);\n    this.warning.clear(); this.bossHealth.clear();\n    for (const [index,boss] of bosses.entries()) {\n      drawRailBoss(this.warning,boss);\n      const width=300/bosses.length-8,x=75+index*300/bosses.length;\n      const color=BOSS_SPECS[boss.bossId||'haveuse'].color;\n      this.bossHealth.fillStyle(0x121b20, .9).fillRect(x, 126, width, 5);\n      this.bossHealth.fillStyle(color).fillRect(x, 126, width * boss.hp / boss.maxHealth, 5);\n      for(const zone of boss.zones||[]) {\n        const active=boss.phase==='recovery';\n        dangerCircle(this.warning,zone.x,zone.y,zone.radius,active);\n      }\n      if ((!boss.bossId || boss.bossId==='haveuse') && (boss.phase === 'warning' || boss.phase === 'charge')) {\n        const dx = Math.cos(boss.chargeAngle) * HAVEUSE.chargeSpeed * HAVEUSE.chargeSeconds;\n        const dy = Math.sin(boss.chargeAngle) * HAVEUSE.chargeSpeed * HAVEUSE.chargeSeconds;\n        // Clip the warning to the same arena boundaries as the machine.\n        const tx = dx > 0 ? (392 - boss.x) / dx : dx < 0 ? (58 - boss.x) / dx : Infinity;\n        const ty = dy > 0 ? (636 - boss.y) / dy : dy < 0 ? (146 - boss.y) / dy : Infinity;\n        const t = Math.max(0, Math.min(1, tx, ty));\n        const x = boss.x + dx * t, y = boss.y + dy * t;\n        dangerLane(this.warning,boss.x,boss.y,x,y,HAVEUSE.radius,boss.phase==='charge');\n      }\n    }\n  }\n}\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\combat-art-v019.test.js:22:1
+✖ V0.18 modules remain byte-identical outside authorized wagon targeting, including runs, bosses, rewards, upgrades and saved progression (68.4814ms)
+  AssertionError [ERR_ASSERTION]: boss-catalog.js
+  + actual - expected
+  
+  + "import {SHAFT_BOSSES} from './shaft-actors.js';\n" +
+  +   "import { BOSS_SPECS as GALLERY_BOSSES } from './difficulty.js';\n" +
+  - "import { BOSS_SPECS as GALLERY_BOSSES } from './difficulty.js';\n" +
+      "import { RAIL_BOSS_SPECS } from './rail-bosses.js';\n" +
+  +   'export const BOSS_SPECS=Object.freeze({...GALLERY_BOSSES,...RAIL_BOSS_SPECS,...SHAFT_BOSSES});\n'
+  -   'export const BOSS_SPECS=Object.freeze({...GALLERY_BOSSES,...RAIL_BOSS_SPECS});\n'
+  
+      at walk (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-art-v019.test.js:29:12)
+      at async TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-art-v019.test.js:30:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: "import {SHAFT_BOSSES} from './shaft-actors.js';\nimport { BOSS_SPECS as GALLERY_BOSSES } from './difficulty.js';\nimport { RAIL_BOSS_SPECS } from './rail-bosses.js';\nexport const BOSS_SPECS=Object.freeze({...GALLERY_BOSSES,...RAIL_BOSS_SPECS,...SHAFT_BOSSES});\n",
+    expected: "import { BOSS_SPECS as GALLERY_BOSSES } from './difficulty.js';\nimport { RAIL_BOSS_SPECS } from './rail-bosses.js';\nexport const BOSS_SPECS=Object.freeze({...GALLERY_BOSSES,...RAIL_BOSS_SPECS});\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\combat-art-v019.test.js:72:1
+✖ all combat textures fit within 88 pixels with no external image or shader (15.7087ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(c[2]<=88&&c[3]<=88)
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/combat-art-v019.test.js:76:34)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\enemies.test.js:30:1
+✖ three original enemies remain registered: rat is smaller, faster and weaker than the miner (3.8837ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'deepdriller',
+  +   'surveyor',
+  +   'gasminer',
+      'rat',
+      'miner',
+      'drill'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/enemies.test.js:31:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'deepdriller', 'surveyor', 'gasminer', 'rat', 'miner', 'drill' ],
+    expected: [ 'rat', 'miner', 'drill' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\grisou-x-v021.test.js:104:1
+✖ V0.21 keeps all unrequested production files and validated Rat/Wagon visuals byte-identical (49.1674ms)
+  AssertionError [ERR_ASSERTION]: arena-view.js
+  + actual - expected
+  
+  + '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750'
+  - '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/grisou-x-v021.test.js:106:88)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750',
+    expected: '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\menu-art.test.js:18:1
+✖ menu icons and mining-place artwork remain small decorative vectors without external assets or filters (4.1205ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  3 !== 2
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/menu-art.test.js:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\menu.test.js:9:1
+✖ menu starts at home with shotgun; only galleries can launch and future sections cannot navigate (3.853ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  3 !== 2
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/menu.test.js:12:41)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-bosses-v018.test.js:81:1
+✖ old boss behavior body, normal tracks waves and all economy stay unchanged (22.7384ms)
+  AssertionError [ERR_ASSERTION]: wallet.js
+  + actual - expected
+  ... Skipped lines
+  
+    "import { CRATE_RULES, CRATE_REWARDS, sanitizeCrates, drawCrateReward, victoryCrates } from './crates.js';\n" +
+      "import { TALENTS } from './talents.js';\n" +
+      "import { completeZone } from './zone-progress.js';\n" +
+      "import { RESOURCES } from './resources.js';\n" +
+      "import { PERMANENT_UPGRADES, upgradeCost } from './permanent-upgrades.js';\n" +
+  ...
+      '    const gains = runRewards(run, random);\n' +
+  +   "    if(run.status==='won'&&run.completedWaves===20&&['galleries','tracks','shaft59'].includes(run.world?.id)) {\n" +
+  -   "    if(run.status==='won'&&run.completedWaves===20&&['galleries','tracks'].includes(run.world?.id)) {\n" +
+      '      const award=completeZone(run.world.id,this.profile.progress);\n' +
+      '      this.profile.progress=award.progress;\n' +
+      '      gains.diamond+=award.firstDiamond;\n' +
+      '      this.zoneClaims.set(run,award);\n' +
+      '    }\n' +
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-bosses-v018.test.js:85:215)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: "import { CRATE_RULES, CRATE_REWARDS, sanitizeCrates, drawCrateReward, victoryCrates } from './crates.js';\nimport { TALENTS } from './talents.js';\nimport { completeZone } from './zone-progress.js';\nimport { RESOURCES } from './resources.js';\nimport { PERMANENT_UPGRADES, upgradeCost } from './permanent-upgrades.js';\nimport { LocalProfileStorage, MAX_RESOURCE } from './local-profile-storage.js';\nimport { runRewards } from './rewards.js';\nimport { reliefStock, validTimestamp } from './relief.js';\n\nexport class Wallet {\n  constructor(storage = new LocalProfileStorage()) {\n    this.storage = storage;\n    this.profile = storage.read();\n    this.claims = new WeakMap();\n    this.crateClaims = new WeakMap();\n    this.zoneClaims = new WeakMap();\n  }\n  get snapshot() { return structuredClone(this.profile); }\n  get saved() { return this.storage.available; }\n  refreshSavedProfile() {\n    if (!this.storage.available) return;\n    const stored = this.storage.read();\n    if (this.storage.available && (stored.relief || stored.talents || stored.crates || stored.progress)) this.profile = stored;\n  }\n  reliefState(now = Date.now()) {\n    if (!validTimestamp(now)) return reliefStock(null, now);\n    const start = this.profile.relief?.startedAt;\n    if (!validTimestamp(start) || start > now) {\n      // Invalid/future dates start a fresh period; no retroactive free stock.\n      this.profile.relief = { startedAt: now };\n      this.storage.write(this.profile);\n    }\n    return reliefStock(this.profile.relief.startedAt, now);\n  }\n  claimRelief(now = Date.now()) {\n    if (!validTimestamp(now)) return { ok:false, reason:'clock' };\n    // Re-read before crediting so a previous claim from another instance is seen.\n    const stored = this.storage.read();\n    if (!this.storage.available) return { ok:false, reason:'storage' };\n    if (stored.relief) this.profile = stored;\n    const stock = this.reliefState(now);\n    if (!stock.available) return { ok:false, reason:'empty' };\n    const next = this.snapshot;\n    const gains = { ...stock.gains };\n    for (const id of ['coal','iron']) {\n      gains[id] = Math.min(gains[id], MAX_RESOURCE - next.wallet[id]);\n      next.wallet[id] += gains[id];\n    }\n    if (!gains.coal && !gains.iron) return { ok:false, reason:'full' };\n    next.relief = { startedAt: now };\n    // Wallet + timestamp are committed in ONE localStorage write. On failure,\n    // keep both stock and balance unchanged, so reload cannot duplicate a claim.\n    if (!this.storage.write(next)) return { ok:false, reason:'storage' };\n    this.profile = next;\n    return { ok:true, gains };\n  }\n  claim(run, random = Math.random, {now=Date.now(),crateRandom=Math.random} = {}) {\n    if (!['won', 'lost'].includes(run.status)) return null;\n    if (this.claims.has(run)) return { ...this.claims.get(run) };\n    this.refreshSavedProfile();\n    const gains = runRewards(run, random);\n    if(run.status==='won'&&run.completedWaves===20&&['galleries','tracks','shaft59'].includes(run.world?.id)) {\n      const award=completeZone(run.world.id,this.profile.progress);\n      this.profile.progress=award.progress;\n      gains.diamond+=award.firstDiamond;\n      this.zoneClaims.set(run,award);\n    }\n    for (const { id } of RESOURCES) this.profile.wallet[id] = Math.min(MAX_RESOURCE, this.profile.wallet[id] + gains[id]);\n    if(run.status==='won'&&run.completedWaves===20) {\n      const award=victoryCrates(run,this.profile.crates,now,crateRandom);\n      this.profile.crates=award.state;this.crateClaims.set(run,{daily:award.daily,bonus:award.bonus});\n    }\n    this.claims.set(run, Object.freeze({ ...gains }));\n    this.storage.write(this.profile);\n    return gains;\n  }\n  get crateCount() { return this.profile.crates?.count||0; }\n  readCrateProfile() {\n    const stored=this.storage.read();\n    if(!this.storage.available)return false;\n    this.profile=stored;return true;\n  }\n  exchangeTokens() {\n    if(!this.readCrateProfile())return {ok:false,reason:'storage'};\n    if(this.profile.wallet.token<CRATE_RULES.tokenCost)return {ok:false,reason:'tokens'};\n    if(this.crateCount>=CRATE_RULES.maxCount)return {ok:false,reason:'full'};\n    const next=this.snapshot;next.crates=sanitizeCrates(next.crates);next.crates.count++;\n    next.wallet.token-=CRATE_RULES.tokenCost;\n    if(!this.storage.write(next))return {ok:false,reason:'storage'};\n    this.profile=next;return {ok:true};\n  }\n  openCrate(random=Math.random) {\n    if(!this.readCrateProfile())return {ok:false,reason:'storage'};\n    if(!this.crateCount)return {ok:false,reason:'empty'};\n    // Check before drawing, so a full wallet cannot turn retries into rerolls.\n    if(CRATE_REWARDS.some(r=>this.profile.wallet[r.resource]>MAX_RESOURCE-r.amount))return {ok:false,reason:'capacity'};\n    const reward=drawCrateReward(random),next=this.snapshot;\n    next.crates.count--;next.wallet[reward.resource]+=reward.amount;\n    // Credit before animation: navigation/reload cannot lose or duplicate loot.\n    if(!this.storage.write(next))return {ok:false,reason:'storage'};\n    this.profile=next;return {ok:true,reward:{resource:reward.resource,amount:reward.amount}};\n  }\n  canBuyTalent(id) {\n    this.refreshSavedProfile();\n    const talent=TALENTS.find(t=>t.id===id);\n    return Boolean(talent&&!this.profile.talents?.includes(id)&&Object.entries(talent.cost).every(([r,n])=>this.profile.wallet[r]>=n));\n  }\n  buyTalent(id) {\n    // Atomic debit + unlock; failures leave both unchanged and can be retried.\n    if(!this.canBuyTalent(id))return false;\n    const next=this.snapshot,talent=TALENTS.find(t=>t.id===id);\n    for(const [r,n] of Object.entries(talent.cost))next.wallet[r]-=n;\n    next.talents=[...(next.talents||[]),id];\n    if(!this.storage.write(next))return false;\n    this.profile=next;return true;\n  }\n  canBuy(id) {\n    this.refreshSavedProfile();\n    if (!PERMANENT_UPGRADES.some(item => item.id === id)) return false;\n    const cost = upgradeCost(this.profile.levels[id]);\n    return Boolean(cost && RESOURCES.every(({ id: resource }) => this.profile.wallet[resource] >= cost[resource]));\n  }\n  buy(id) {\n    if (!this.canBuy(id)) return false;\n    const cost = upgradeCost(this.profile.levels[id]);\n    for (const { id: resource } of RESOURCES) this.profile.wallet[resource] -= cost[resource];\n    this.profile.levels[id]++;\n    this.storage.write(this.profile);\n    return true;\n  }\n}\n",
+    expected: "import { CRATE_RULES, CRATE_REWARDS, sanitizeCrates, drawCrateReward, victoryCrates } from './crates.js';\nimport { TALENTS } from './talents.js';\nimport { completeZone } from './zone-progress.js';\nimport { RESOURCES } from './resources.js';\nimport { PERMANENT_UPGRADES, upgradeCost } from './permanent-upgrades.js';\nimport { LocalProfileStorage, MAX_RESOURCE } from './local-profile-storage.js';\nimport { runRewards } from './rewards.js';\nimport { reliefStock, validTimestamp } from './relief.js';\n\nexport class Wallet {\n  constructor(storage = new LocalProfileStorage()) {\n    this.storage = storage;\n    this.profile = storage.read();\n    this.claims = new WeakMap();\n    this.crateClaims = new WeakMap();\n    this.zoneClaims = new WeakMap();\n  }\n  get snapshot() { return structuredClone(this.profile); }\n  get saved() { return this.storage.available; }\n  refreshSavedProfile() {\n    if (!this.storage.available) return;\n    const stored = this.storage.read();\n    if (this.storage.available && (stored.relief || stored.talents || stored.crates || stored.progress)) this.profile = stored;\n  }\n  reliefState(now = Date.now()) {\n    if (!validTimestamp(now)) return reliefStock(null, now);\n    const start = this.profile.relief?.startedAt;\n    if (!validTimestamp(start) || start > now) {\n      // Invalid/future dates start a fresh period; no retroactive free stock.\n      this.profile.relief = { startedAt: now };\n      this.storage.write(this.profile);\n    }\n    return reliefStock(this.profile.relief.startedAt, now);\n  }\n  claimRelief(now = Date.now()) {\n    if (!validTimestamp(now)) return { ok:false, reason:'clock' };\n    // Re-read before crediting so a previous claim from another instance is seen.\n    const stored = this.storage.read();\n    if (!this.storage.available) return { ok:false, reason:'storage' };\n    if (stored.relief) this.profile = stored;\n    const stock = this.reliefState(now);\n    if (!stock.available) return { ok:false, reason:'empty' };\n    const next = this.snapshot;\n    const gains = { ...stock.gains };\n    for (const id of ['coal','iron']) {\n      gains[id] = Math.min(gains[id], MAX_RESOURCE - next.wallet[id]);\n      next.wallet[id] += gains[id];\n    }\n    if (!gains.coal && !gains.iron) return { ok:false, reason:'full' };\n    next.relief = { startedAt: now };\n    // Wallet + timestamp are committed in ONE localStorage write. On failure,\n    // keep both stock and balance unchanged, so reload cannot duplicate a claim.\n    if (!this.storage.write(next)) return { ok:false, reason:'storage' };\n    this.profile = next;\n    return { ok:true, gains };\n  }\n  claim(run, random = Math.random, {now=Date.now(),crateRandom=Math.random} = {}) {\n    if (!['won', 'lost'].includes(run.status)) return null;\n    if (this.claims.has(run)) return { ...this.claims.get(run) };\n    this.refreshSavedProfile();\n    const gains = runRewards(run, random);\n    if(run.status==='won'&&run.completedWaves===20&&['galleries','tracks'].includes(run.world?.id)) {\n      const award=completeZone(run.world.id,this.profile.progress);\n      this.profile.progress=award.progress;\n      gains.diamond+=award.firstDiamond;\n      this.zoneClaims.set(run,award);\n    }\n    for (const { id } of RESOURCES) this.profile.wallet[id] = Math.min(MAX_RESOURCE, this.profile.wallet[id] + gains[id]);\n    if(run.status==='won'&&run.completedWaves===20) {\n      const award=victoryCrates(run,this.profile.crates,now,crateRandom);\n      this.profile.crates=award.state;this.crateClaims.set(run,{daily:award.daily,bonus:award.bonus});\n    }\n    this.claims.set(run, Object.freeze({ ...gains }));\n    this.storage.write(this.profile);\n    return gains;\n  }\n  get crateCount() { return this.profile.crates?.count||0; }\n  readCrateProfile() {\n    const stored=this.storage.read();\n    if(!this.storage.available)return false;\n    this.profile=stored;return true;\n  }\n  exchangeTokens() {\n    if(!this.readCrateProfile())return {ok:false,reason:'storage'};\n    if(this.profile.wallet.token<CRATE_RULES.tokenCost)return {ok:false,reason:'tokens'};\n    if(this.crateCount>=CRATE_RULES.maxCount)return {ok:false,reason:'full'};\n    const next=this.snapshot;next.crates=sanitizeCrates(next.crates);next.crates.count++;\n    next.wallet.token-=CRATE_RULES.tokenCost;\n    if(!this.storage.write(next))return {ok:false,reason:'storage'};\n    this.profile=next;return {ok:true};\n  }\n  openCrate(random=Math.random) {\n    if(!this.readCrateProfile())return {ok:false,reason:'storage'};\n    if(!this.crateCount)return {ok:false,reason:'empty'};\n    // Check before drawing, so a full wallet cannot turn retries into rerolls.\n    if(CRATE_REWARDS.some(r=>this.profile.wallet[r.resource]>MAX_RESOURCE-r.amount))return {ok:false,reason:'capacity'};\n    const reward=drawCrateReward(random),next=this.snapshot;\n    next.crates.count--;next.wallet[reward.resource]+=reward.amount;\n    // Credit before animation: navigation/reload cannot lose or duplicate loot.\n    if(!this.storage.write(next))return {ok:false,reason:'storage'};\n    this.profile=next;return {ok:true,reward:{resource:reward.resource,amount:reward.amount}};\n  }\n  canBuyTalent(id) {\n    this.refreshSavedProfile();\n    const talent=TALENTS.find(t=>t.id===id);\n    return Boolean(talent&&!this.profile.talents?.includes(id)&&Object.entries(talent.cost).every(([r,n])=>this.profile.wallet[r]>=n));\n  }\n  buyTalent(id) {\n    // Atomic debit + unlock; failures leave both unchanged and can be retried.\n    if(!this.canBuyTalent(id))return false;\n    const next=this.snapshot,talent=TALENTS.find(t=>t.id===id);\n    for(const [r,n] of Object.entries(talent.cost))next.wallet[r]-=n;\n    next.talents=[...(next.talents||[]),id];\n    if(!this.storage.write(next))return false;\n    this.profile=next;return true;\n  }\n  canBuy(id) {\n    this.refreshSavedProfile();\n    if (!PERMANENT_UPGRADES.some(item => item.id === id)) return false;\n    const cost = upgradeCost(this.profile.levels[id]);\n    return Boolean(cost && RESOURCES.every(({ id: resource }) => this.profile.wallet[resource] >= cost[resource]));\n  }\n  buy(id) {\n    if (!this.canBuy(id)) return false;\n    const cost = upgradeCost(this.profile.levels[id]);\n    for (const { id: resource } of RESOURCES) this.profile.wallet[resource] -= cost[resource];\n    this.profile.levels[id]++;\n    this.storage.write(this.profile);\n    return true;\n  }\n}\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\rail-enemies-v018.test.js:23:1
+✖ rail enemies register distinct stats and textures without changing the original roster (6.3794ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  8 !== 5
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/rail-enemies-v018.test.js:25:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 8,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\tracks-waves-v018.test.js:45:1
+✖ step 3 leaves the staged reward function unchanged (53.7033ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+    'export function zoneRewards(world,random=Math.random) {\n' +
+      '  const plans=worldRewards(random,world.waves.length);\n' +
+  +   "  if(!['tracks','shaft59'].includes(world.id))return plans;\n" +
+  +   '  const rewards=world.rewards;\n' +
+  -   "  if(world.id!=='tracks')return plans;\n" +
+      '  let source=0,credited=0;\n' +
+      '  for(const plan of plans) {\n' +
+      '    source+=plan.coal;\n' +
+  +   '    const target=Math.floor(source*rewards.coal/94);\n' +
+  -   '    const target=Math.floor(source*TRACKS.rewards.coal/94);\n' +
+      '    plan.coal=target-credited;credited=target;\n' +
+      '  }\n' +
+  +   '  plans[14].iron+=rewards.extraIron;\n' +
+  +   '  if(random()<rewards.extraDiamondChance)plans[19].diamond+=1;\n' +
+  -   '  plans[14].iron+=1;\n' +
+  -   '  if(random()<TRACKS.rewards.extraDiamondChance)plans[19].diamond+=1;\n' +
+      '  return plans;\n' +
+      '}\n'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/tracks-waves-v018.test.js:48:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "export function zoneRewards(world,random=Math.random) {\n  const plans=worldRewards(random,world.waves.length);\n  if(!['tracks','shaft59'].includes(world.id))return plans;\n  const rewards=world.rewards;\n  let source=0,credited=0;\n  for(const plan of plans) {\n    source+=plan.coal;\n    const target=Math.floor(source*rewards.coal/94);\n    plan.coal=target-credited;credited=target;\n  }\n  plans[14].iron+=rewards.extraIron;\n  if(random()<rewards.extraDiamondChance)plans[19].diamond+=1;\n  return plans;\n}\n",
+    expected: "export function zoneRewards(world,random=Math.random) {\n  const plans=worldRewards(random,world.waves.length);\n  if(world.id!=='tracks')return plans;\n  let source=0,credited=0;\n  for(const plan of plans) {\n    source+=plan.coal;\n    const target=Math.floor(source*TRACKS.rewards.coal/94);\n    plan.coal=target-credited;credited=target;\n  }\n  plans[14].iron+=1;\n  if(random()<TRACKS.rewards.extraDiamondChance)plans[19].diamond+=1;\n  return plans;\n}\n",
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\wagon-targeting-v020.test.js:72:1
+✖ validated visuals, hitboxes, other enemies and economy are unchanged; edits are only wagon spawn selection (55.0633ms)
+  AssertionError [ERR_ASSERTION]: arena-view.js
+  + actual - expected
+  
+  + '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750'
+  - '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/wagon-targeting-v020.test.js:78:17)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '969141661301dec8253c07fd941e93f60f9c5f40ae6cd2964454ac7609773750',
+    expected: '0adc695ce550c5149a543b17809341b2cc5d5875df3a066cc0e9318b7cbdecb5',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone-access-v018.test.js:45:1
+✖ completion, unique diamond and normal gains commit together and survive stale wallets and reload (6.5424ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      galleriesCompleted: true,
+  +   shaftCompleted: false,
+  +   shaftFirstVictoryClaimed: false,
+  +   shaftUnlocked: true,
+      tracksCompleted: true,
+      tracksFirstVictoryClaimed: true,
+      tracksUnlocked: true
+    }
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone-access-v018.test.js:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { shaftUnlocked: true, shaftCompleted: false, shaftFirstVictoryClaimed: false, galleriesCompleted: true, tracksUnlocked: true, tracksCompleted: true, tracksFirstVictoryClaimed: true },
+    expected: { galleriesCompleted: true, tracksUnlocked: true, tracksCompleted: true, tracksFirstVictoryClaimed: true },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone-access-v018.test.js:83:1
+✖ validated step 4 rules remain byte-identical outside authorized wagon targeting (51.41ms)
+  AssertionError [ERR_ASSERTION]: boss-catalog.js
+  + actual - expected
+  ... Skipped lines
+  
+  + Buffer(259) [Uint8Array] [
+  - Buffer(195) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      123,
+  +   83,
+  +   72,
+  +   65,
+  +   70,
+  +   84,
+  +   95,
+  +   66,
+  +   79,
+  +   83,
+  +   83,
+  +   69,
+  +   83,
+  +   125,
+      32,
+  +   102,
+  +   114,
+  +   111,
+  +   109,
+  +   32,
+  +   39,
+  +   46,
+  +   47,
+  +   115,
+  +   104,
+  +   97,
+  +   102,
+  +   116,
+  +   45,
+  +   97,
+  +   99,
+  +   116,
+  +   111,
+  +   114,
+  +   115,
+  +   46,
+  +   106,
+  +   115,
+  +   39,
+  +   59,
+  +   10,
+  +   105,
+  +   109,
+  +   112,
+  +   111,
+  +   114,
+  +   116,
+  +   32,
+  +   123,
+  +   32,
+      66,
+      79,
+      83,
+      83,
+      95,
+  ...
+      83,
+  +   44,
+  +   46,
+  +   46,
+  +   46,
+  +   83,
+  +   72,
+  +   65,
+  +   70,
+  +   84,
+  +   95,
+  +   66,
+  +   79,
+  +   83,
+  +   83,
+  +   69,
+  +   83,
+      125,
+      41,
+      59,
+      10
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone-access-v018.test.js:85:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 53 48 41 46 54 5f 42 4f 53 53 45 53 7d 20 66 72 6f 6d 20 27 2e 2f 73 68 61 66 74 2d 61 63 74 6f 72 73 2e 6a 73 27 3b 0a 69 6d ... 209 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 20 42 4f 53 53 5f 53 50 45 43 53 20 61 73 20 47 41 4c 4c 45 52 59 5f 42 4f 53 53 45 53 20 7d 20 66 72 6f 6d 20 27 2e 2f 64 69 ... 145 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zone-access-v018.test.js:88:1
+✖ package, server, document and visible UI identify current V0.23 consistently (7.1236ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '0.24.0' !== '0.23.0'
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zone-access-v018.test.js:89:74)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '0.24.0',
+    expected: '0.23.0',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\zones-v018.test.js:10:1
+✖ V0.18 legacy saves stay intact and tracks/zone3 remain locked (7.9657ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/LaMineV2/la-mine-v2-v01/tests/zones-v018.test.js:11:118)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

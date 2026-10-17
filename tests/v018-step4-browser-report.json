@@ -1,0 +1,190 @@
+{
+  "shotgun": {
+    "mode": "V0.18 étape 4 boss 20 shotgun",
+    "explosions": 0,
+    "maxHeat": 0,
+    "maxPellets": 22,
+    "shieldHits": 0,
+    "shots": 100,
+    "movingShots": 0,
+    "enemyShots": 6,
+    "maxBolts": 2,
+    "seen": [
+      "boss",
+      "wagon"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 4,
+    "maxDrops": 3,
+    "frames": 2657,
+    "workMs": 2939.200003862381,
+    "magnetDurations": [
+      0.617
+    ],
+    "waveHistory": [
+      "20:preparing",
+      "20:combat",
+      "20:collecting",
+      "20:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 20,
+        "hp": 5.5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 414
+      }
+    ],
+    "maxAlive": 4,
+    "bosses": [
+      "stationmaster",
+      "locomotive",
+      "switchman"
+    ],
+    "bossTimes": [
+      {
+        "wave": 20,
+        "seconds": 41.44999999999881
+      }
+    ],
+    "movingFrames": 1853,
+    "maxFocus": 0,
+    "status": "won",
+    "phase": "cleared",
+    "wave": 20,
+    "arenaUnchanged": true,
+    "elapsed": 44.28,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {
+      "trigger": 1,
+      "buckshot": 1,
+      "boots": 1,
+      "plates": 1,
+      "double": 1,
+      "double-cannon": 1
+    },
+    "hp": 5.5,
+    "kills": 3,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 8,
+      "iron": 5,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 153,
+      "iron": 43,
+      "diamond": 5,
+      "token": 2
+    },
+    "meanUpdateRenderMs": 1.106
+  },
+  "smg": {
+    "mode": "V0.18 étape 4 boss 20 smg",
+    "explosions": 0,
+    "maxHeat": 0.4,
+    "maxPellets": 4,
+    "shieldHits": 0,
+    "shots": 581,
+    "movingShots": 0,
+    "enemyShots": 6,
+    "maxBolts": 2,
+    "seen": [
+      "boss",
+      "wagon"
+    ],
+    "room4Kills": 0,
+    "room4Mixed": false,
+    "pickups": 4,
+    "maxDrops": 4,
+    "frames": 3282,
+    "workMs": 3984.5000052452087,
+    "magnetDurations": [
+      0.633
+    ],
+    "waveHistory": [
+      "20:preparing",
+      "20:combat",
+      "20:collecting",
+      "20:cleared"
+    ],
+    "checkpoints": [
+      {
+        "wave": 20,
+        "hp": 5.5,
+        "time": 0.016666666666666666,
+        "x": 225,
+        "y": 414
+      }
+    ],
+    "maxAlive": 4,
+    "bosses": [
+      "stationmaster",
+      "locomotive",
+      "switchman"
+    ],
+    "bossTimes": [
+      {
+        "wave": 20,
+        "seconds": 51.84999999999822
+      }
+    ],
+    "movingFrames": 488,
+    "maxFocus": 0.25,
+    "status": "won",
+    "phase": "cleared",
+    "wave": 20,
+    "arenaUnchanged": true,
+    "elapsed": 54.7,
+    "talents": [],
+    "revived": false,
+    "heat": 0,
+    "perks": {
+      "trigger": 2,
+      "heat": 1,
+      "boots": 1,
+      "plates": 1,
+      "critical-heat": 1
+    },
+    "hp": 5.5,
+    "kills": 3,
+    "choices": 0,
+    "drops": 0,
+    "collected": {
+      "coal": 8,
+      "iron": 5,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 161,
+      "iron": 48,
+      "diamond": 5,
+      "token": 2
+    },
+    "meanUpdateRenderMs": 1.214
+  },
+  "console": [],
+  "consoleAfterLabelFix": [],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "screenshot": "v018-step4-triple-preview-320.jpg"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "screenshot": "v018-step4-triple-preview-390.jpg"
+    }
+  ],
+  "note": "Preview deliberately displays all warnings together for legibility. Live triple fights retain staggered cycles; Atelier 2 and legal perk prefixes, no HP/damage overrides. CPU timings exclude GPU presentation; physical Android untested. QA profile only, no Zone2 first-win award."
+}

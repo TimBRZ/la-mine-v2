@@ -1,0 +1,1 @@
+export const VISUAL_FILES=['textures.js','arena-view.js','combat-art.js','boss-art.js','enemies/textures.js','enemies/rail-textures.js','enemies/rail-view.js','enemies/view.js','rail-boss-view.js','effects.js','loot-view.js','room-scene.js'];

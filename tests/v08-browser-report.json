@@ -1,0 +1,109 @@
+{
+  "smg": {
+    "mode": "V0.8 navigation",
+    "shots": 607,
+    "movingShots": 0,
+    "enemyShots": 18,
+    "maxBolts": 2,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 12,
+    "frames": 1972,
+    "workMs": 1472.9999928474426,
+    "magnetDurations": [
+      0.683,
+      0.667,
+      0.617,
+      0.683,
+      0.517
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 1.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.747
+  },
+  "shotgun": {
+    "mode": "V0.8 navigation",
+    "shots": 89,
+    "movingShots": 0,
+    "enemyShots": 9,
+    "maxBolts": 1,
+    "seen": [
+      "rat",
+      "miner",
+      "drill",
+      "boss"
+    ],
+    "room4Kills": 16,
+    "room4Mixed": true,
+    "pickups": 47,
+    "maxDrops": 11,
+    "frames": 1468,
+    "workMs": 1050.1000001430511,
+    "magnetDurations": [
+      0.583,
+      0.6,
+      0.667,
+      0.633,
+      0.433
+    ],
+    "status": "won",
+    "phase": "cleared",
+    "room": 5,
+    "hp": 4.5,
+    "kills": 45,
+    "choices": 3,
+    "drops": 0,
+    "collected": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "wallet": {
+      "coal": 94,
+      "iron": 8,
+      "diamond": 0,
+      "token": 0
+    },
+    "meanUpdateRenderMs": 0.715
+  },
+  "checks": {
+    "launchedThroughMenu": true,
+    "defeatReturnHome": true,
+    "victoryReplayZones": true,
+    "weaponRetained": true,
+    "workshopPurchase": {
+      "resource": "coal",
+      "before": 94,
+      "after": 64,
+      "powerLevel": 1
+    },
+    "futureZonesLocked": true,
+    "consoleErrors": []
+  },
+  "note": "QA seeded steering and memory-only wallet; actual mobile hardware not tested."
+}

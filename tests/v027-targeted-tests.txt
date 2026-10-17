@@ -1,0 +1,17 @@
+✔ V027 crawler spawns safely, takes weapon damage, dies and credits physical drops/Grisou (9.5442ms)
+✔ V027 spitter spawns safely, takes weapon damage, dies and credits physical drops/Grisou (2.2559ms)
+✔ V027 burster spawns safely, takes weapon damage, dies and credits physical drops/Grisou (2.4116ms)
+✔ V027 atomic budgets delay whole patterns instead of silently dropping them (1.6331ms)
+✔ V027 preserves actual normal/solo/triple combat of galleries (70.5558ms)
+✔ V027 preserves actual normal/solo/triple combat of tracks (51.6706ms)
+✔ V027 preserves actual normal/solo/triple combat of shaft59 (65.1391ms)
+✔ V027 retains all unrelated source bytes, including weapons, perks and debug tool (59.3477ms)
+✔ V027 triple overlaps real attacks, all bosses move, late phase increases overlap without budget overflow (113.6393ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 583.1695
