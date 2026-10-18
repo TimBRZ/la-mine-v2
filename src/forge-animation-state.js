@@ -1,6 +1,7 @@
 import {projectileAnimationReleased,isPureProjectile} from './projectile-attacks.js';
 // Read-only view of the authoritative combat. Animation never starts a danger.
 import {mobileFacing} from './enemy-facing.js';
+import {faceRiveterShot} from './riveter-muzzle.js';
 const clamp=n=>Math.max(0,Math.min(.9999,Number.isFinite(n)?n:0));
 export function forgePose(e,context,moving,a){
  const plan=e.plan;
@@ -49,7 +50,9 @@ export function advanceForgeAnimation(s,a,e,dt=0,reduced=false,context){
  a.angle=angle;a.x=e.x;a.y=e.y;a.walkClock=(a.walkClock||0)+(moving?delta:0);
  if(e.phase==='warning'&&a.phase!=='warning')a.warning=Math.max(.001,e.phaseTime||1);
  if(e.plan){a.ultimate=e.plan.ultimate;a.recoveryDuration=e.plan.recovery;}
- a.release=projectileAnimationReleased(a,e)||a.phase==='warning'&&e.phase==='recovery'&&!e.dungeonRecovery?.26:Math.max(0,(a.release||0)-delta);
+ const released=projectileAnimationReleased(a,e);
+ if(s.id==='riveter')faceRiveterShot(a,e,released);
+ a.release=released||a.phase==='warning'&&e.phase==='recovery'&&!e.dungeonRecovery?.26:Math.max(0,(a.release||0)-delta);
  a.strikeAge=(a.strikeAge??99)+delta;
  const selected=forgePose(e,context,moving,a);let next=selected.state;
  if(next==='impact')a.strikeAge=0;

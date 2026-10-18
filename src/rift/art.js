@@ -21,9 +21,9 @@ export function riftTextures(texture){
  }
 }
 export const riftLabel=e=>({charge:'CHARGE',fan8:'ÉVENTAIL ×8',fissures:'FISSURES',circle8:'CERCLE ×8',pockets:'4 POCHES',cone:'SOUFFLE',double:'DOUBLE ×8',rain:'PLUIE !',orb:'ORBE',spit:'GAZ !',blast:'EXPLOSION !'})[e.pattern]||'';
-export function drawRift(g,run){
+export function drawRift(g,run,drawGas=null){
  if(!run.rift)return;
- for(const h of run.rift.ground.items){if(h.kind==='fissure')dangerLane(g,h.x,h.y,h.x2,h.y2,h.width,h.active);else {dangerCircle(g,h.x,h.y,h.radius,h.active);g.lineStyle(2,0x92e8b0,h.active?.9:.5).strokeCircle(h.x,h.y,h.radius*.65);}}
+ for(const h of run.rift.ground.items){if(drawGas?.(g,h))continue;if(h.kind==='fissure')dangerLane(g,h.x,h.y,h.x2,h.y2,h.width,h.active);else {dangerCircle(g,h.x,h.y,h.radius,h.active);g.lineStyle(2,0x92e8b0,h.active?.9:.5).strokeCircle(h.x,h.y,h.radius*.65);}}
  for(const e of run.enemies)if(!isPureProjectile(e)&&e.riftType&&e.active&&['warning','charge','burst'].includes(e.phase)){
   if(e.pattern==='charge'){const dx=Math.cos(e.chargeAngle),dy=Math.sin(e.chargeAngle),tx=dx>0?(ROOM.right-e.x)/dx:dx<0?(ROOM.left-e.x)/dx:Infinity,ty=dy>0?(ROOM.bottom-e.y)/dy:dy<0?(ROOM.top-e.y)/dy:Infinity,l=Math.min(363,tx,ty);dangerLane(g,e.x,e.y,e.x+dx*l,e.y+dy*l,e.radius,e.phase==='charge');}
   else for(const angle of e.shotAngles||[]){const a=e.phase==='burst'?angle+Math.PI/8:angle;const l=['double','circle8'].includes(e.pattern)?85:110;dangerLane(g,e.x,e.y,e.x+Math.cos(a)*l,e.y+Math.sin(a)*l,3);}

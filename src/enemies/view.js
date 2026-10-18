@@ -1,3 +1,4 @@
+import {RivetImpactView} from '../rivet-impact-vfx.js';
 import {isPureProjectile} from '../projectile-attacks.js';
 import {LampistShotView} from '../lampist-projectile-vfx.js';
 import {EnemyRivetView} from '../enemy-rivet-vfx.js';
@@ -90,6 +91,7 @@ export class EnemyAttacksView {
     this.warning = scene.add.graphics().setDepth(8);
     this.bolts = scene.add.graphics().setDepth(24);
     this.rivets = new EnemyRivetView(scene);
+    this.rivetImpacts = new RivetImpactView(scene);
     this.lampistShots = new LampistShotView(scene);
   }
   update(run) {
@@ -113,6 +115,7 @@ export class EnemyAttacksView {
     }
     const b = this.bolts;
     b.clear();
+    this.rivetImpacts.update(run,this.rivets.owners);
     this.rivets.begin(run);
     this.lampistShots.begin(run);
     for (const bolt of run.hostileProjectiles.pool) {

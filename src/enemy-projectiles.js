@@ -1,3 +1,4 @@
+import {advanceProjectileEndings,recordProjectileEnding,clearProjectileEndings} from './projectile-endings.js';
 import {noteProjectileEmission} from './projectile-attacks.js';
 import { ROOM } from './config.js';
 import { segmentCircle } from './math.js';
@@ -45,6 +46,7 @@ export class EnemyProjectiles {
     return true;
   }
   update(dt, player, previous, onHit) {
+    advanceProjectileEndings(this,dt);
     for (const bolt of this.pool) {
       if (!bolt.active) continue;
       const spec=bolt.spec;
@@ -52,10 +54,11 @@ export class EnemyProjectiles {
       const x = bolt.x + Math.cos(bolt.angle) * step, y = bolt.y + Math.sin(bolt.angle) * step;
       // Relative swept collision includes player motion and prevents tunnelling.
       const hit = segmentCircle(bolt.x - previous.x, bolt.y - previous.y, x - player.x, y - player.y, 0, 0, player.radius + spec.radius);
+      recordProjectileEnding(this,bolt,x,y,hit,step);
       bolt.x = x; bolt.y = y; bolt.distance += step;
       if (hit !== null) { bolt.active = false; onHit(spec.damage); }
       if (bolt.distance >= spec.range || x < ROOM.left || x > ROOM.right || y < ROOM.top || y > ROOM.bottom) bolt.active = false;
     }
   }
-  clear() { for (const bolt of this.pool) bolt.active = false;this.reservations.clear(); }
+  clear() { clearProjectileEndings(this); for (const bolt of this.pool) bolt.active = false;this.reservations.clear(); }
 }

@@ -1,3 +1,7 @@
+import {preloadRivetImpact} from './rivet-impact-vfx.js';
+import {preloadScorifierTrail} from './scorifier-thermal-trail-vfx.js';
+import {preloadChauffeurPlate} from './chauffeur-heat-plate-vfx.js';
+import {preloadCracheurGas} from './cracheur-gas-vfx.js';
 import {preloadLampistShot} from './lampist-projectile-vfx.js';
 import {preloadEnemyRivet} from './enemy-rivet-vfx.js';
 import {ForgeSpriteVfx} from './forge-sprite-vfx.js';
@@ -31,7 +35,7 @@ import {ensureForgeSheets,releaseForgeSheets,ensureDepthsSheets,releaseDepthsShe
 
 export class RoomScene extends Phaser.Scene {
   constructor() { super('Room'); }
-  preload() { preloadLampistShot(this); preloadEnemyRivet(this); preloadForgeMasters(this); preloadDepthsBossMasters(this); preloadCombatAppearances(this); preloadHeroAnimation(this); preloadWeaponVisuals(this); preloadShotgunVfx(this); preloadSmgVfx(this); preloadGrisouxVfx(this); preloadEnemyAnimations(this); }
+  preload() { preloadRivetImpact(this); preloadScorifierTrail(this); preloadChauffeurPlate(this); preloadCracheurGas(this); preloadLampistShot(this); preloadEnemyRivet(this); preloadForgeMasters(this); preloadDepthsBossMasters(this); preloadCombatAppearances(this); preloadHeroAnimation(this); preloadWeaponVisuals(this); preloadShotgunVfx(this); preloadSmgVfx(this); preloadGrisouxVfx(this); preloadEnemyAnimations(this); }
   create() {
     makeTextures(this);
     this.heroSheetReady=registerHeroFrames(this.textures);

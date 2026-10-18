@@ -1,6 +1,7 @@
 // Only reverse the five integration additions for historical source contracts.
 // The C2 baseline test verifies the result byte-for-byte; no hashes are renewed.
 export function beforeLampistVisual(file,bytes){
+ bytes=beforeCracheurVisual(file,bytes);
  if(!['room-scene.js','enemies/view.js'].includes(file))return bytes;
  let s=bytes.toString();
  if(file==='room-scene.js')s=s.replace("import {preloadLampistShot} from './lampist-projectile-vfx.js';\n",'').replace('preload() { preloadLampistShot(this);','preload() {');
@@ -10,3 +11,4 @@ export function beforeLampistVisual(file,bytes){
 export function beforeLampistTestAdapter(bytes){
  return Buffer.from(bytes.toString().replace("import {beforeLampistVisual} from './lampist-visual-delta.js';\n",'').replace("beforeLampistVisual(f.path.replace(/^src\\//,''),fs.readFileSync(f.path))",'fs.readFileSync(f.path)'));
 }
+import {beforeCracheurVisual} from './cracheur-visual-delta.js';

@@ -1,14 +1,20 @@
+import {getRiveterMuzzle} from './riveter-muzzle.js';
 // Small pooled decoration, below telegraphs (depth 8), hazards and actors.
 // Reads committed combat only; no emitters, random calls, timers or gameplay writes.
 export class ForgeSpriteVfx {
- constructor(scene){this.g=scene.add.graphics().setDepth(7);this.primitives=0;}
+ constructor(scene){this.scene=scene;this.muzzle={};this.g=scene.add.graphics().setDepth(7);this.primitives=0;}
  update(run,reduced=false){const g=this.g;g.clear();this.primitives=0;if(!run.forge||reduced)return;
   const dot=(x,y,r,c,a)=>{if(this.primitives>=48)return;g.fillStyle(c,a).fillCircle(x,y,r);this.primitives++;};
   const spark=(x,y,dx,dy,c,a)=>{if(this.primitives>=48)return;g.lineStyle(1.5,c,a).lineBetween(x,y,x+dx,y+dy);this.primitives++;};
   for(const e of run.enemies){if(!e.forgeType||!e.active||!e.alive)continue;const facing=Math.cos(e.chargeAngle??e.attackAngle??e.angle??0)<0?-1:1;
    const active=run.forge.ground.items.filter(h=>h.owner===e.id&&h.active&&!h.cooling),fresh=active.find(h=>h.elapsed<.18);
    if(e.forgeType==='riveter'&&e.phase==='recovery'&&e.recoveryElapsed<.12&&run.forge.shots.pool.some(b=>b.active&&b.owner===e.id)){
-    spark(e.x+22*facing,e.y+5,5*facing,-3,0xffd6a0,.6);spark(e.x+22*facing,e.y+5,5*facing,3,0xffd6a0,.6);
+    if(getRiveterMuzzle(this.muzzle,e,this.scene.enemyViews?.get(e.id)?.body)){
+     const m=this.muzzle,c=Math.cos(m.angle),s=Math.sin(m.angle);
+     for(const side of [-3,3])spark(m.x,m.y,5*c-side*s,5*s+side*c,0xffd6a0,.6);
+    }else{
+     spark(e.x+22*facing,e.y+5,5*facing,-3,0xffd6a0,.6);spark(e.x+22*facing,e.y+5,5*facing,3,0xffd6a0,.6);
+    }
    }
    if(e.forgeType==='scorifier'&&e.phase==='charge')for(const j of [-1,1])spark(e.x-12*facing,e.y+17+j*2,-5*facing,j*2,0xd8864d,.45);
    if(fresh){const t=fresh.elapsed/.18,a=(1-t)*.4;
