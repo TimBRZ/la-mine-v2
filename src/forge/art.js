@@ -17,8 +17,8 @@ export function forgeTextures(texture){
   g.fillStyle(0xf0f3e3).fillRect(c-8,14,5,3).fillRect(c+3,14,5,3);g.fillStyle(0x182126).fillRect(8,size-8,10,6).fillRect(size-18,size-8,10,6);
  });}
 }
-export function drawForge(g,run,drawPlate=null,trail=null){if(!run.forge)return;drawDungeonSafeZones(g,run);
- for(const h of run.forge.ground.items){if(h.dungeon){drawDungeonHazard(g,h);continue;}if(drawPlate?.(g,h))continue;if(trail?.drawHazard(h))continue;const color=h.cooling?0x8eb5b9:h.active?0xff8050:0xffd58c,alpha=h.cooling?.12:h.active?.35:.08+.17*(1-h.warning/h.warningTotal);
+export function drawForge(g,run,drawPlate=null,trail=null,furnaceArm=null,whitehot=null,cone=null,sectors=null,whiteMarch=null){if(!run.forge)return;if(!whitehot?.drawSafeZones())drawDungeonSafeZones(g,run);
+ for(const h of run.forge.ground.items){if(h.dungeon){if(whiteMarch?.drawHazard(h))continue;if(sectors?.drawHazard(h))continue;if(cone?.drawHazard(h))continue;if(whitehot?.drawHazard(h))continue;if(furnaceArm?.drawHazard(h))continue;drawDungeonHazard(g,h);continue;}if(drawPlate?.(g,h))continue;if(trail?.drawHazard(h))continue;const color=h.cooling?0x8eb5b9:h.active?0xff8050:0xffd58c,alpha=h.cooling?.12:h.active?.35:.08+.17*(1-h.warning/h.warningTotal);
   if(h.shape==='plate'){g.fillStyle(color,alpha).fillRoundedRect(h.x-h.w/2,h.y-h.h/2,h.w,h.h,4);g.lineStyle(h.active?4:2,color).strokeRoundedRect(h.x-h.w/2,h.y-h.h/2,h.w,h.h,4);for(let j=-1;j<=1;j++)g.lineStyle(2,color,h.cooling?.3:.9).lineBetween(h.x-21,h.y+j*18+8,h.x+21,h.y+j*18-8);}
   else if(h.shape==='line'){if(h.cooling)g.lineStyle(h.width*2,0x8eb5b9,.15).lineBetween(h.x,h.y,h.x2,h.y2);else dangerLane(g,h.x,h.y,h.x2,h.y2,h.width,h.active);if(h.order)for(let i=0;i<h.order;i++)g.fillStyle(0xfff5cf).fillCircle(h.x+(h.x2-h.x)*.65+(i-(h.order-1)/2)*6,h.y+(h.y2-h.y)*.65,2);}
   else if(h.shape==='cone'){const a=h.angle-h.spread,b=h.angle+h.spread;g.fillStyle(color,alpha).slice(h.x,h.y,h.radius,a,b,false).fillPath();g.lineStyle(3,color).beginPath().moveTo(h.x,h.y).lineTo(h.x+Math.cos(a)*h.radius,h.y+Math.sin(a)*h.radius).arc(h.x,h.y,h.radius,a,b,false).closePath().strokePath();}

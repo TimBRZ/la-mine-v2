@@ -1,3 +1,4 @@
+import {beforeFurnaceTurnVisual} from './furnace-turn-visual-delta.js';
 import assert from 'node:assert/strict';
 export const RIVET_IMPACT_EDITS={
   "enemy-projectiles.js": [
@@ -43,4 +44,4 @@ export const RIVET_IMPACT_EDITS={
     ]
   ]
 };
-export function beforeRivetImpactVisual(file,bytes){const edits=RIVET_IMPACT_EDITS[file.replaceAll('\\','/')];if(!edits)return bytes;let s=bytes.toString();for(const [after,before]of edits){assert.equal(s.split(after).length,2,'Exact C6B presentation delta: '+file);s=s.replace(after,before);}return Buffer.from(s);}
+export function beforeRivetImpactVisual(file,bytes){bytes=beforeFurnaceTurnVisual(file,bytes);const edits=RIVET_IMPACT_EDITS[file.replaceAll('\\','/')];if(!edits)return bytes;let s=bytes.toString();for(const [after,before]of edits){assert.equal(s.split(after).length,2,'Exact C6B presentation delta: '+file);s=s.replace(after,before);}return Buffer.from(s);}

@@ -1,3 +1,9 @@
+import {preloadWhiteMarch} from './furnace-white-march-vfx.js';
+import {applyCombatRenderLayers} from './combat-render-layers.js';
+import {preloadHeatingSectors} from './furnace-heating-sectors-vfx.js';
+import {preloadFurnaceCone} from './furnace-cone-vfx.js';
+import {preloadWhitehotPlates} from './furnace-whitehot-plates-vfx.js';
+import {preloadFurnaceArm} from './furnace-rotating-arm-vfx.js';
 import {preloadRivetImpact} from './rivet-impact-vfx.js';
 import {preloadScorifierTrail} from './scorifier-thermal-trail-vfx.js';
 import {preloadChauffeurPlate} from './chauffeur-heat-plate-vfx.js';
@@ -35,7 +41,7 @@ import {ensureForgeSheets,releaseForgeSheets,ensureDepthsSheets,releaseDepthsShe
 
 export class RoomScene extends Phaser.Scene {
   constructor() { super('Room'); }
-  preload() { preloadRivetImpact(this); preloadScorifierTrail(this); preloadChauffeurPlate(this); preloadCracheurGas(this); preloadLampistShot(this); preloadEnemyRivet(this); preloadForgeMasters(this); preloadDepthsBossMasters(this); preloadCombatAppearances(this); preloadHeroAnimation(this); preloadWeaponVisuals(this); preloadShotgunVfx(this); preloadSmgVfx(this); preloadGrisouxVfx(this); preloadEnemyAnimations(this); }
+  preload() { preloadWhiteMarch(this); preloadHeatingSectors(this); preloadFurnaceCone(this); preloadWhitehotPlates(this); preloadFurnaceArm(this); preloadRivetImpact(this); preloadScorifierTrail(this); preloadChauffeurPlate(this); preloadCracheurGas(this); preloadLampistShot(this); preloadEnemyRivet(this); preloadForgeMasters(this); preloadDepthsBossMasters(this); preloadCombatAppearances(this); preloadHeroAnimation(this); preloadWeaponVisuals(this); preloadShotgunVfx(this); preloadSmgVfx(this); preloadGrisouxVfx(this); preloadEnemyAnimations(this); }
   create() {
     makeTextures(this);
     this.heroSheetReady=registerHeroFrames(this.textures);
@@ -248,6 +254,7 @@ export class RoomScene extends Phaser.Scene {
     this.ui?.updateRun(run);
     this.arenaView.update(run);
     this.lootView.update(run.loot, this.reducedMotion);
+    applyCombatRenderLayers(this);
   }
   update(_time, milliseconds) {
     if (!this.run) return;

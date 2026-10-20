@@ -1,3 +1,8 @@
+import {WhiteMarchView} from './furnace-white-march-vfx.js';
+import {HeatingSectorsView} from './furnace-heating-sectors-vfx.js';
+import {FurnaceConeView} from './furnace-cone-vfx.js';
+import {WhitehotPlatesView} from './furnace-whitehot-plates-vfx.js';
+import {FurnaceArmView} from './furnace-rotating-arm-vfx.js';
 import {ScorifierTrailView} from './scorifier-thermal-trail-vfx.js';
 import {ChauffeurPlateView} from './chauffeur-heat-plate-vfx.js';
 import {CracheurGasView} from './cracheur-gas-vfx.js';
@@ -14,6 +19,11 @@ import { drawRailBoss } from './rail-boss-view.js';
 // Constructed once by the scene. Wave changes never rebuild the terrain.
 export class ArenaView {
   constructor(scene) {
+    this.whiteMarch=new WhiteMarchView(scene);
+    this.heatingSectors=new HeatingSectorsView(scene);
+    this.furnaceCone=new FurnaceConeView(scene);
+    this.whitehotPlates=new WhitehotPlatesView(scene);
+    this.furnaceArm=new FurnaceArmView(scene);
     this.scorifierTrail=new ScorifierTrailView(scene);
     this.chauffeurPlate=new ChauffeurPlateView(scene);
     this.cracheurGas=new CracheurGasView(scene);
@@ -24,6 +34,11 @@ export class ArenaView {
     this.bossHealth = scene.add.graphics().setDepth(60);
   }
   update(run) {
+    this.whiteMarch.begin(run);
+    this.heatingSectors.begin(run);
+    this.furnaceCone.begin(run);
+    this.whitehotPlates.begin(run);
+    this.furnaceArm.begin(run);
     this.scorifierTrail.begin(run);
     this.chauffeurPlate.begin(run);
     this.cracheurGas.begin(run);
@@ -34,7 +49,7 @@ export class ArenaView {
       run.wavePhase === 'collecting' ? 'VAGUE NETTOYÉE · RÉCUPÉRATION…' : 'ARRÊTE-TOI POUR TIRER · BOUGE POUR ESQUIVER';
     if (this.base.hint.text !== hint) this.base.hint.setText(hint);
     const bosses = run.enemies.filter(enemy => enemy.kind === 'boss' && enemy.alive);
-    this.warning.clear(); this.bossHealth.clear();if(run.forge)drawForge(this.warning,run,this.chauffeurPlate.draw,this.scorifierTrail);else if(run.depths)drawDepths(this.warning,run);else if(run.rift)drawRift(this.warning,run,this.cracheurGas.draw);else drawShaftHazards(this.warning,run);
+    this.warning.clear(); this.bossHealth.clear();if(run.forge)drawForge(this.warning,run,this.chauffeurPlate.draw,this.scorifierTrail,this.furnaceArm,this.whitehotPlates,this.furnaceCone,this.heatingSectors,this.whiteMarch);else if(run.depths)drawDepths(this.warning,run);else if(run.rift)drawRift(this.warning,run,this.cracheurGas.draw);else drawShaftHazards(this.warning,run);
     for (const [index,boss] of bosses.entries()) {
       drawRailBoss(this.warning,boss);
       const width=300/bosses.length-8,x=75+index*300/bosses.length;
